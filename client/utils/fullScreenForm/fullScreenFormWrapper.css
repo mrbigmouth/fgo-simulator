@@ -1,0 +1,29 @@
+#fullScreenFormWrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: white;
+  z-index: 1051;
+}
+
+#fullScreenFormWrapper .container {
+  height: 100%;
+}
+
+#fullScreenFormWrapper .fullscreenform {
+  height: 100%;
+}
+
+#fullScreenFormWrapper .fullscreenform-body {
+  overflow-y: auto;
+}
+
+#fullScreenFormWrapper .fullscreenform-footer {
+  text-align: center;
+}
+
+#fullScreenFormWrapper .fullscreenform-footer .btn {
+  min-width: 25%;
+}

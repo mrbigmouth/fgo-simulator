@@ -1,0 +1,9 @@
+<template name="fullScreenFormWrapper">
+  {{#if formContent}}
+    <div id="fullScreenFormWrapper">
+      <div class="container px-0">
+        {{> Template.dynamic template=formContent data=formData}}
+      </div>
+    </div>
+  {{/if}}
+</template>

@@ -1,0 +1,82 @@
+.arts, .arts input, .arts .input-group-addon {
+  border-color: #0066DD;
+  color: #0066DD;
+}
+.buster, .buster input, .buster .input-group-addon {
+  border-color: #DD0000;
+  color: #DD0000;
+}
+.quick, .quick input, .quick .input-group-addon {
+  border-color: #009900;
+  color: #009900;
+}
+.extra, .extra input, .extra .input-group-addon {
+  border-color: #666666;
+  color: #666666;
+}
+
+.clickable {
+  cursor: pointer;
+}
+.moveable {
+  cursor: move;
+}
+
+.main-contrainer .form-control {
+  border-radius: 0;
+  text-align: right;
+  max-height: 1.75rem;
+  font-size: 80%;
+}
+
+.main-contrainer select.form-control {
+  padding: 0.25rem;
+}
+
+.main-contrainer .input-group .input-group-addon {
+  border-radius: 0;
+  padding: 0.3rem;
+  font-size: 80%;
+}
+
+.main-contrainer .input-group-btn .btn {
+  border-radius: 0;
+}
+
+.main-contrainer .cardList {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.main-contrainer .card-main {
+  display: block;
+  flex: 0 0 33.333333%;
+  text-align: center;
+  max-width: 33%;
+}
+
+.main-contrainer .card-main.selected a {
+  border-color: #d9534f;
+}
+
+.main-contrainer .card-main a {
+  display: block;
+  padding: 1rem;
+  border: 1px solid #cccccc;
+  font-size: 1.25rem;
+}
+
+.main-contrainer .card-main .form-control {
+  border-radius: 0;
+  text-align: right;
+}
+
+.main-contrainer .eachCard .input-group-addon {
+  border-radius: 0;
+  padding: 0.3rem;
+  font-size: 80%;
+}
+
+.main-contrainer .eachCard .btn {
+  border-radius: 0;
+}

@@ -1,0 +1,16 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>FGO戰鬥模擬器</title>
+</head>
+
+<body>
+  {{> layout}}
+  {{> fullScreenFormWrapper}}
+</body>
+
+<template name="layout">
+  <div class="container main-contrainer px-0 mh-100">
+    {{> Template.dynamic template=currentPage}}
+  </div>
+</template>
