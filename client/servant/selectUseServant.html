@@ -1,0 +1,49 @@
+<template name="selectUseServant">
+  <div class="card fullscreenform">
+    <div class="card-header fullscreenform-header">
+      可選擇英靈列表
+    </div>
+    <div class="fullscreenform-body">
+      <div class="card-block px-0 py-0">
+        <div class="form-group mb-0">
+          <div class="input-group">
+            <span class="input-group-addon">篩選職階</span>
+            <select class="form-control">
+              <option value="">顯示全部職階英靈</option>
+              {{#each classKey in servantClassKeyList}}
+                <option value="{{classKey}}">{{getServantClassDescription classKey}}</option>
+              {{/each}}
+            </select>
+          </div>
+        </div>
+      </div>
+      <ul class="list-group list-group-flush">     
+        {{#if servantList}}
+          {{#each servantData in servantList}}
+            <li class="list-group-item">
+              <a
+                class="col d-block text-truncate"
+                href="#"
+                data-servant-id="{{servantData.id}}"
+              >
+                {{servantData.fullname}}
+              </a>
+            </li>
+          {{/each}}
+        {{else}}
+          <div class="list-group-item">
+            沒有任何符合的英靈資料！
+          </div>
+        {{/if}}
+      </ul>
+    </div>
+    <div class="card-footer fullscreenform-footer text-right">
+      <a
+        class="btn btn-secondary"
+        href="/editUseServant/{{model.id}}"
+      >
+        取消
+      </a>
+    </div>
+  </div>
+</template>

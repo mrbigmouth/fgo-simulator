@@ -1,0 +1,30 @@
+<template name="useServantList">
+  <h5>我方隊列：</h5>
+  <div class="cardList">
+    {{> useServantInfo '0'}}
+    {{> useServantInfo '1'}}
+    {{> useServantInfo '2'}}
+  </div>
+</template>
+
+<template name="useServantInfo">
+  <div class="card-main">
+    {{#with useServantData this}}
+      <a class="servantLink text-muted text-truncate" href="/editUseServant/{{id}}">
+        {{name}}
+      </a>
+      <div class="input-group">
+        <span class="input-group-addon">NP</span>
+        <input
+          class="form-control"
+          type="number"
+          name="currentNp"
+          min="0"
+          max="{{maximumNp}}"
+          value="{{currentNp}}"
+        />
+        <span class="input-group-addon">％</span>
+      </div>
+    {{/with}}
+  </div>
+</template>
