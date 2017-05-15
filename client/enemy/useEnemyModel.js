@@ -24,8 +24,7 @@ export class UseEnemyModel extends BasicModel {
   }
   get defaults() {
     return {
-      id: '',
-      nickname: String,
+      nickname: '',
       currentHp: 0,
       classType: allowServantClassKeyList[0],
       alignmentType: allowServantAlignmentKeyList[0],
