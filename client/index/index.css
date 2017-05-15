@@ -71,12 +71,12 @@
   text-align: right;
 }
 
-.main-contrainer .eachCard .input-group-addon {
+.main-contrainer .card-main .input-group-addon {
   border-radius: 0;
   padding: 0.3rem;
   font-size: 80%;
 }
 
-.main-contrainer .eachCard .btn {
+.main-contrainer .card-main .btn {
   border-radius: 0;
 }
