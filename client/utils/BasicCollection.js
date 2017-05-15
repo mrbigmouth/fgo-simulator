@@ -14,13 +14,22 @@ export class BasicCollection {
       writable: false,
       value: new ReactiveVar(initialDataList)
     });
+    this.buildIdHash();
+
+    return this;
+  }
+  buildIdHash() {
+    const dataList = this.__reactiveVar.get();
+    const idHash = {};
+    _.each(dataList, (data) => {
+      idHash[data.id] = data;
+    });
+    this.idHash = idHash;
 
     return this;
   }
   get(id) {
-    const dataList = this.__reactiveVar.get();
-
-    return _.findWhere(dataList, {id});
+    return this.idHash[id];
   }
   at(index) {
     const dataList = this.__reactiveVar.get();
@@ -28,9 +37,9 @@ export class BasicCollection {
     return dataList[index];
   }
   getNewId() {
-    const dataList = this.__reactiveVar.get();
-    const maxId = _.reduce(dataList, (maxId, data) => {
-      const intId = parseInt(data.id, 10);
+    const idList = _.keys(this.idHash);
+    const maxId = _.reduce(idList, (maxId, id) => {
+      const intId = parseInt(id, 10);
 
       return (intId > maxId ? intId : maxId);
     }, 0);
@@ -39,16 +48,24 @@ export class BasicCollection {
   }
   upsert(data) {
     const dataList = _.clone(this.__reactiveVar.get());
+    const idHash = this.idHash;
     const id = data.id;
     if (id) {
-      const existData = _.findWhere(dataList, {id});
-      _.each(existData.schema, (pattern, fieldName) => {
-        existData[fieldName] = data[fieldName];
-      });
+      const existData = idHash[id];
+      if (existData) {
+        _.each(existData.schema, (pattern, fieldName) => {
+          existData[fieldName] = data[fieldName];
+        });
+      }
+      else {
+        dataList.push(data);
+        idHash[id] = data;
+      }
     }
     else {
       data.id = this.getNewId();
       dataList.push(data);
+      idHash[data.id] = data;
     }
     this.__reactiveVar.set(dataList);
 
@@ -56,6 +73,7 @@ export class BasicCollection {
   }
   reset(dataList = []) {
     this.__reactiveVar.set(dataList);
+    this.buildIdHash();
 
     return this;
   }
