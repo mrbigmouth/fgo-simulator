@@ -1,10 +1,10 @@
 export const servantConfigList = [
   {
-    'id': '2',
-    'fullname': '阿爾托莉亞・潘德拉剛',
-    'classType': 'saber',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '2',
+    fullname: '阿爾托莉亞・潘德拉剛',
+    classType: 'saber',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '秩序',
@@ -19,49 +19,49 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '亞瑟'
     ],
-    'starDrop': 10,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 10,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.86,
-      'buster': 0.86,
-      'quick': 0.86,
-      'extra': 0.86,
-      'weapon': 0.86
+    npGain: {
+      arts: 0.86,
+      buster: 0.86,
+      quick: 0.86,
+      extra: 0.86,
+      weapon: 0.86
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '約束された勝利の剣(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '約束された勝利の剣(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -70,8 +70,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addSelfNp',
-            'number': [
+            effectType: 'addSelfNp',
+            number: [
               20,
               27.5,
               35,
@@ -82,16 +82,16 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'buster',
-        'name': '約束された勝利の剣(聖剣覚醒)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '約束された勝利の剣(聖剣覚醒)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               400,
               500,
               550,
@@ -100,8 +100,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addSelfNp',
-            'number': [
+            effectType: 'addSelfNp',
+            number: [
               20,
               27.5,
               35,
@@ -112,21 +112,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 8,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 8,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '3',
-    'fullname': '阿爾托莉亞・潘德拉剛〔Alter〕',
-    'classType': 'saber',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '3',
+    fullname: '阿爾托莉亞・潘德拉剛〔Alter〕',
+    classType: 'saber',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '秩序',
@@ -138,51 +138,51 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '亞瑟'
     ],
-    'starDrop': 9.9,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 9.9,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.86,
-      'buster': 0.86,
-      'quick': 0.86,
-      'extra': 0.86,
-      'weapon': 0.86
+    npGain: {
+      arts: 0.86,
+      buster: 0.86,
+      quick: 0.86,
+      extra: 0.86,
+      weapon: 0.86
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '約束された勝利の剣(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '約束された勝利の剣(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               450,
               550,
               600,
@@ -191,8 +191,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addSelfNp',
-            'number': [
+            effectType: 'addSelfNp',
+            number: [
               10,
               15,
               20,
@@ -203,21 +203,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '4',
-    'fullname': '阿爾托莉亞・潘德拉剛〔Lily〕',
-    'classType': 'saber',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '4',
+    fullname: '阿爾托莉亞・潘德拉剛〔Lily〕',
+    classType: 'saber',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '秩序',
@@ -232,46 +232,46 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '亞瑟'
     ],
-    'starDrop': 10,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 10,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.86,
-      'buster': 0.86,
-      'quick': 0.86,
-      'extra': 0.86,
-      'weapon': 0.86
+    npGain: {
+      arts: 0.86,
+      buster: 0.86,
+      quick: 0.86,
+      extra: 0.86,
+      weapon: 0.86
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '勝利すべき黄金の剣(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '勝利すべき黄金の剣(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               2,
               5,
               8,
@@ -281,7 +281,7 @@ export const servantConfigList = [
               19,
               26
             ],
-            'number': [
+            number: [
               300,
               450,
               525,
@@ -292,21 +292,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 6,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 6,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '5',
-    'fullname': '尼祿・克勞狄烏斯',
-    'classType': 'saber',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '5',
+    fullname: '尼祿・克勞狄烏斯',
+    classType: 'saber',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '混沌',
@@ -318,25 +318,25 @@ export const servantConfigList = [
       '阿爾托莉亞臉',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 10.1,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 10.1,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         6,
         13,
         33,
@@ -344,29 +344,29 @@ export const servantConfigList = [
         28
       ]
     },
-    'npGain': {
-      'arts': 0.84,
-      'buster': 0.84,
-      'quick': 0.84,
-      'extra': 0.84,
-      'weapon': 0.84
+    npGain: {
+      arts: 0.84,
+      buster: 0.84,
+      quick: 0.84,
+      extra: 0.84,
+      weapon: 0.84
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '童女謳う華の帝政(初期)',
-        'specialBoost': [
+        cardType: 'arts',
+        name: '童女謳う華の帝政(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               450,
               600,
               675,
@@ -375,8 +375,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               20,
               25,
               30,
@@ -387,20 +387,20 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'arts',
-        'name': '童女謳う華の帝政(黄金の大事業)',
-        'specialBoost': [
+        cardType: 'arts',
+        name: '童女謳う華の帝政(黄金の大事業)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               600,
               750,
               825,
@@ -409,8 +409,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               20,
               25,
               30,
@@ -421,21 +421,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 8,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 8,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '90',
-    'fullname': '尼祿・克勞狄烏斯〔Bride〕',
-    'classType': 'saber',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '90',
+    fullname: '尼祿・克勞狄烏斯〔Bride〕',
+    classType: 'saber',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '混沌',
@@ -447,27 +447,27 @@ export const servantConfigList = [
       '阿爾托莉亞臉',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 10.1,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 10.1,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         9,
         18,
         27,
@@ -475,26 +475,26 @@ export const servantConfigList = [
         0
       ]
     },
-    'npGain': {
-      'arts': 0.7,
-      'buster': 0.7,
-      'quick': 0.7,
-      'extra': 0.7,
-      'weapon': 0.7
+    npGain: {
+      arts: 0.7,
+      buster: 0.7,
+      quick: 0.7,
+      extra: 0.7,
+      weapon: 0.7
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '星馳せる終幕の薔薇(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '星馳せる終幕の薔薇(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               25,
               75
             ],
-            'number': [
+            number: [
               900,
               1200,
               1350,
@@ -503,8 +503,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseOneDefense',
-            'number': [
+            effectType: 'decreaseOneDefense',
+            number: [
               20,
               25,
               30,
@@ -515,17 +515,17 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'arts',
-        'name': '星馳せる終幕の薔薇(決意の花束)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '星馳せる終幕の薔薇(決意の花束)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               25,
               75
             ],
-            'number': [
+            number: [
               1200,
               1500,
               1650,
@@ -534,8 +534,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseOneDefense',
-            'number': [
+            effectType: 'decreaseOneDefense',
+            number: [
               20,
               25,
               30,
@@ -546,21 +546,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 8,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 8,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '123',
-    'fullname': '高文',
-    'classType': 'saber',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '123',
+    fullname: '高文',
+    classType: 'saber',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '秩序',
@@ -573,25 +573,25 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '愛人'
     ],
-    'starDrop': 10,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 10,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -599,28 +599,28 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 1.14,
-      'buster': 1.14,
-      'quick': 1.14,
-      'extra': 1.14,
-      'weapon': 1.14
+    npGain: {
+      arts: 1.14,
+      buster: 1.14,
+      quick: 1.14,
+      extra: 1.14,
+      weapon: 1.14
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '転輪する勝利の剣(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '転輪する勝利の剣(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               10,
               20,
               30,
               40
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -631,21 +631,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 8,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 8,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '6',
-    'fullname': '齊格飛',
-    'classType': 'saber',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '6',
+    fullname: '齊格飛',
+    classType: 'saber',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '混沌',
@@ -659,45 +659,45 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '愛人'
     ],
-    'starDrop': 10,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 10,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.83,
-      'buster': 0.83,
-      'quick': 0.83,
-      'extra': 0.83,
-      'weapon': 0.83
+    npGain: {
+      arts: 0.83,
+      buster: 0.83,
+      quick: 0.83,
+      extra: 0.83,
+      weapon: 0.83
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '幻想大剣・天魔失墜(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '幻想大剣・天魔失墜(初期)',
+        specialBoost: [
           {
             'limitTarget': '龍',
-            'number': [
+            number: [
               150,
               162.5,
               175,
@@ -706,13 +706,13 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -723,21 +723,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 8,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 8,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '76',
-    'fullname': '莫德雷德',
-    'classType': 'saber',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '76',
+    fullname: '莫德雷德',
+    classType: 'saber',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '混沌',
@@ -751,47 +751,47 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 10,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 10,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         10,
         20,
         30,
         40
       ]
     },
-    'npGain': {
-      'arts': 0.56,
-      'buster': 0.56,
-      'quick': 0.56,
-      'extra': 0.56,
-      'weapon': 0.56
+    npGain: {
+      arts: 0.56,
+      buster: 0.56,
+      quick: 0.56,
+      extra: 0.56,
+      weapon: 0.56
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '我が麗しき父への叛逆(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '我が麗しき父への叛逆(初期)',
+        specialBoost: [
           {
             'limitTarget': '亞瑟',
-            'number': [
+            number: [
               180,
               190,
               200,
@@ -800,17 +800,17 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -819,8 +819,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addSelfNp',
-            'number': [
+            effectType: 'addSelfNp',
+            number: [
               10,
               15,
               20,
@@ -831,12 +831,12 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'buster',
-        'name': '我が麗しき父への叛逆(キング・オブ・キングス)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '我が麗しき父への叛逆(キング・オブ・キングス)',
+        specialBoost: [
           {
             'limitTarget': '亞瑟',
-            'number': [
+            number: [
               180,
               190,
               200,
@@ -845,17 +845,17 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               400,
               500,
               550,
@@ -864,8 +864,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addSelfNp',
-            'number': [
+            effectType: 'addSelfNp',
+            number: [
               20,
               25,
               30,
@@ -876,21 +876,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 8,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 8,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '138',
-    'fullname': '伊莉莎白・巴托里〔Brave〕',
-    'classType': 'saber',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '138',
+    fullname: '伊莉莎白・巴托里〔Brave〕',
+    classType: 'saber',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '混沌',
@@ -902,28 +902,28 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 9.9,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 9.9,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         10,
         20,
         30,
         40
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -931,26 +931,26 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.55,
-      'buster': 0.55,
-      'quick': 0.55,
-      'extra': 0.55,
-      'weapon': 0.55
+    npGain: {
+      arts: 0.55,
+      buster: 0.55,
+      quick: 0.55,
+      extra: 0.55,
+      weapon: 0.55
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '鮮血竜巻魔嬢(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '鮮血竜巻魔嬢(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               3,
               7,
               10,
@@ -959,7 +959,7 @@ export const servantConfigList = [
               21,
               28
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -970,21 +970,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 6,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 6,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '126',
-    'fullname': '貝德維爾',
-    'classType': 'saber',
-    'alignmentType': 'star',
-    'specialAttributeList': [
+    id: '126',
+    fullname: '貝德維爾',
+    classType: 'saber',
+    alignmentType: 'star',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '秩序',
@@ -995,25 +995,25 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '愛人'
     ],
-    'starDrop': 10.2,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 10.2,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -1021,22 +1021,22 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 1.11,
-      'buster': 1.11,
-      'quick': 1.11,
-      'extra': 1.11,
-      'weapon': 1.11
+    npGain: {
+      arts: 1.11,
+      buster: 1.11,
+      quick: 1.11,
+      extra: 1.11,
+      weapon: 1.11
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '剣を摂れ、銀色の腕(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '剣を摂れ、銀色の腕(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addSelfBuster',
-            'number': [
+            effectType: 'addSelfBuster',
+            number: [
               30,
               40,
               50,
@@ -1045,12 +1045,12 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               33,
               67
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -1061,21 +1061,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 10,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 10,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '7',
-    'fullname': '蓋烏斯・尤利烏斯・凱撒',
-    'classType': 'saber',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '7',
+    fullname: '蓋烏斯・尤利烏斯・凱撒',
+    classType: 'saber',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '中立',
@@ -1088,46 +1088,46 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '愛人'
     ],
-    'starDrop': 10,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 10,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.1,
-      'buster': 1.1,
-      'quick': 1.1,
-      'extra': 1.1,
-      'weapon': 1.1
+    npGain: {
+      arts: 1.1,
+      buster: 1.1,
+      quick: 1.1,
+      extra: 1.1,
+      weapon: 1.1
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '黄の死(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '黄の死(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               1,
               3,
               5,
@@ -1139,7 +1139,7 @@ export const servantConfigList = [
               16,
               23
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -1148,8 +1148,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addStar',
-            'number': [
+            effectType: 'addStar',
+            number: [
               5,
               10,
               15,
@@ -1160,21 +1160,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 8,
-      'damage': 125,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 8,
+      damage: 125,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '72',
-    'fullname': '弗格斯・馬克・羅伊',
-    'classType': 'saber',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '72',
+    fullname: '弗格斯・馬克・羅伊',
+    classType: 'saber',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '秩序',
@@ -1187,53 +1187,53 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '愛人'
     ],
-    'starDrop': 10,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 10,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         25,
         75
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.09,
-      'buster': 1.09,
-      'quick': 1.09,
-      'extra': 1.09,
-      'weapon': 1.09
+    npGain: {
+      arts: 1.09,
+      buster: 1.09,
+      quick: 1.09,
+      extra: 1.09,
+      weapon: 1.09
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '虹霓剣(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '虹霓剣(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               30,
               10,
               15,
               20,
               25
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -1242,8 +1242,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               20,
               30,
               40,
@@ -1254,20 +1254,20 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'buster',
-        'name': '虹霓剣(プリティ・イリュージョン)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '虹霓剣(プリティ・イリュージョン)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               30,
               10,
               15,
               20,
               25
             ],
-            'number': [
+            number: [
               400,
               500,
               550,
@@ -1276,8 +1276,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               20,
               30,
               40,
@@ -1288,21 +1288,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 8,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 8,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '8',
-    'fullname': '阿提拉',
-    'classType': 'saber',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '8',
+    fullname: '阿提拉',
+    classType: 'saber',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '混沌',
@@ -1313,49 +1313,49 @@ export const servantConfigList = [
       '神性',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 10.1,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 10.1,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         25,
         75
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.84,
-      'buster': 0.84,
-      'quick': 0.84,
-      'extra': 0.84,
-      'weapon': 0.84
+    npGain: {
+      arts: 0.84,
+      buster: 0.84,
+      quick: 0.84,
+      extra: 0.84,
+      weapon: 0.84
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '軍神の剣(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '軍神の剣(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -1364,8 +1364,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               10,
               15,
               20,
@@ -1376,16 +1376,16 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'buster',
-        'name': '軍神の剣(私の記憶)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '軍神の剣(私の記憶)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               400,
               500,
               550,
@@ -1394,8 +1394,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               20,
               25,
               30,
@@ -1406,21 +1406,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 10,
-      'damage': 175,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 10,
+      damage: 175,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '101',
-    'fullname': '羅摩',
-    'classType': 'saber',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '101',
+    fullname: '羅摩',
+    classType: 'saber',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '秩序',
@@ -1434,46 +1434,46 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '愛人'
     ],
-    'starDrop': 10.2,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 10.2,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         25,
         75
       ],
-      'extra': [
+      extra: [
         9,
         18,
         27,
         46
       ]
     },
-    'npGain': {
-      'arts': 0.84,
-      'buster': 0.84,
-      'quick': 0.84,
-      'extra': 0.84,
-      'weapon': 0.84
+    npGain: {
+      arts: 0.84,
+      buster: 0.84,
+      quick: 0.84,
+      extra: 0.84,
+      weapon: 0.84
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '羅刹を穿つ不滅(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '羅刹を穿つ不滅(初期)',
+        specialBoost: [
           {
             'limitTarget': '魔性',
-            'number': [
+            number: [
               150,
               162.5,
               175,
@@ -1482,17 +1482,17 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -1503,21 +1503,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 11,
-      'damage': 200,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 11,
+      damage: 200,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '121',
-    'fullname': '蘭斯洛特',
-    'classType': 'saber',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '121',
+    fullname: '蘭斯洛特',
+    classType: 'saber',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '秩序',
@@ -1530,29 +1530,29 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '愛人'
     ],
-    'starDrop': 10,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 10,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         10,
         20,
         30,
         40
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -1560,22 +1560,22 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.83,
-      'buster': 0.83,
-      'quick': 0.83,
-      'extra': 0.83,
-      'weapon': 0.83
+    npGain: {
+      arts: 0.83,
+      buster: 0.83,
+      quick: 0.83,
+      extra: 0.83,
+      weapon: 0.83
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '縛鎖全断・過重湖光(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '縛鎖全断・過重湖光(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addSelfArt',
-            'number': [
+            effectType: 'addSelfArt',
+            number: [
               30,
               30,
               30,
@@ -1584,11 +1584,11 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               900,
               1200,
               1350,
@@ -1599,21 +1599,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 8,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 8,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '9',
-    'fullname': '吉爾・德・雷',
-    'classType': 'saber',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '9',
+    fullname: '吉爾・德・雷',
+    classType: 'saber',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '秩序',
@@ -1624,46 +1624,46 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '愛人'
     ],
-    'starDrop': 9.9,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 9.9,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.82,
-      'buster': 0.82,
-      'quick': 0.82,
-      'extra': 0.82,
-      'weapon': 0.82
+    npGain: {
+      arts: 0.82,
+      buster: 0.82,
+      quick: 0.82,
+      extra: 0.82,
+      weapon: 0.82
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '神聖たる旗に集いて吼えよ(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '神聖たる旗に集いて吼えよ(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addSelfAttack',
-            'number': [
+            effectType: 'addSelfAttack',
+            number: [
               50,
               75,
               87.5,
@@ -1672,8 +1672,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addStar',
-            'number': [
+            effectType: 'addStar',
+            number: [
               5,
               10,
               15,
@@ -1684,21 +1684,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 12,
-      'quick': 8,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 12,
+      quick: 8,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '10',
-    'fullname': '夏爾・德翁',
-    'classType': 'saber',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '10',
+    fullname: '夏爾・德翁',
+    classType: 'saber',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '中立',
@@ -1708,46 +1708,46 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 10,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 10,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.83,
-      'buster': 0.83,
-      'quick': 0.83,
-      'extra': 0.83,
-      'weapon': 0.83
+    npGain: {
+      arts: 0.83,
+      buster: 0.83,
+      quick: 0.83,
+      extra: 0.83,
+      weapon: 0.83
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '百合の花咲く豪華絢爛(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '百合の花咲く豪華絢爛(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               10,
               20,
               25,
@@ -1758,21 +1758,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 8,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 8,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '68',
-    'fullname': '沖田總司',
-    'classType': 'saber',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '68',
+    fullname: '沖田總司',
+    classType: 'saber',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '中立',
@@ -1783,58 +1783,58 @@ export const servantConfigList = [
       '阿爾托莉亞臉',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 10.2,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 10.2,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         7,
         15,
         23,
         15,
         40
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.09,
-      'buster': 1.09,
-      'quick': 1.09,
-      'extra': 1.09,
-      'weapon': 1.09
+    npGain: {
+      arts: 1.09,
+      buster: 1.09,
+      quick: 1.09,
+      extra: 1.09,
+      weapon: 1.09
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '無明三段突き(初期)',
-        'specialBoost': [
+        cardType: 'quick',
+        name: '無明三段突き(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -1843,8 +1843,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseOneDefense',
-            'number': [
+            effectType: 'decreaseOneDefense',
+            number: [
               30,
               40,
               45,
@@ -1855,21 +1855,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 2,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 2,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '91',
-    'fullname': '兩儀式',
-    'classType': 'saber',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '91',
+    fullname: '兩儀式',
+    classType: 'saber',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '中立',
@@ -1878,56 +1878,56 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 9.9,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 9.9,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         10,
         20,
         30,
         40
       ],
-      'extra': [
+      extra: [
         9,
         18,
         27,
         46
       ]
     },
-    'npGain': {
-      'arts': 0.84,
-      'buster': 0.84,
-      'quick': 0.84,
-      'extra': 0.84,
-      'weapon': 0.84
+    npGain: {
+      arts: 0.84,
+      buster: 0.84,
+      quick: 0.84,
+      extra: 0.84,
+      weapon: 0.84
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '無垢識・空の境界(初期)',
-        'specialBoost': [
+        cardType: 'arts',
+        name: '無垢識・空の境界(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               450,
               600,
               675,
@@ -1938,21 +1938,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 6,
-      'buster': 6,
-      'quick': 6,
-      'damage': 0,
-      'critical': 6,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 6,
+      buster: 6,
+      quick: 6,
+      damage: 0,
+      critical: 6,
+      starDrop: 0
     }
   },
   {
-    'id': '11',
-    'fullname': 'Emiya',
-    'classType': 'archer',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '11',
+    fullname: 'Emiya',
+    classType: 'archer',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '中立',
       '中庸',
@@ -1961,26 +1961,26 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '愛人'
     ],
-    'starDrop': 7.9,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 7.9,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -1988,26 +1988,26 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.51,
-      'buster': 0.51,
-      'quick': 0.51,
-      'extra': 0.51,
-      'weapon': 0.51
+    npGain: {
+      arts: 0.51,
+      buster: 0.51,
+      quick: 0.51,
+      extra: 0.51,
+      weapon: 0.51
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '無限の剣製(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '無限の剣製(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               3,
               3,
               5,
@@ -2019,7 +2019,7 @@ export const servantConfigList = [
               16,
               22
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -2030,17 +2030,17 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'buster',
-        'name': '無限の剣製(無限の剣製)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '無限の剣製(無限の剣製)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               3,
               3,
               5,
@@ -2052,7 +2052,7 @@ export const servantConfigList = [
               16,
               22
             ],
-            'number': [
+            number: [
               400,
               500,
               550,
@@ -2063,21 +2063,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 8,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 8,
+      starDrop: 0
     }
   },
   {
-    'id': '12',
-    'fullname': '吉爾伽美什',
-    'classType': 'archer',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '12',
+    fullname: '吉爾伽美什',
+    classType: 'archer',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -2088,35 +2088,35 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 7.9,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 7.9,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         6,
         13,
         20,
         26,
         35
       ],
-      'buster': [
+      buster: [
         27,
         22,
         13,
         4,
         34
       ],
-      'quick': [
+      quick: [
         7,
         15,
         23,
         15,
         40
       ],
-      'extra': [
+      extra: [
         10,
         14,
         17,
@@ -2127,21 +2127,21 @@ export const servantConfigList = [
         25
       ]
     },
-    'npGain': {
-      'arts': 0.34,
-      'buster': 0.34,
-      'quick': 0.34,
-      'extra': 0.34,
-      'weapon': 0.34
+    npGain: {
+      arts: 0.34,
+      buster: 0.34,
+      quick: 0.34,
+      extra: 0.34,
+      weapon: 0.34
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '天地乖離す開闢の星(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '天地乖離す開闢の星(初期)',
+        specialBoost: [
           {
             'limitTarget': '被「天地乖離開辟之星」所剋',
-            'number': [
+            number: [
               150,
               162.5,
               175,
@@ -2150,13 +2150,13 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -2167,12 +2167,12 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'buster',
-        'name': '天地乖離す開闢の星(開闢の理)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '天地乖離す開闢の星(開闢の理)',
+        specialBoost: [
           {
             'limitTarget': '被「天地乖離開辟之星」所剋',
-            'number': [
+            number: [
               150,
               162.5,
               175,
@@ -2181,10 +2181,10 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'addSelfWeapon',
-            'number': [
+            effectType: 'addSelfWeapon',
+            number: [
               30,
               30,
               30,
@@ -2193,11 +2193,11 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               400,
               500,
               550,
@@ -2208,21 +2208,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 175,
-      'critical': 11,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 175,
+      critical: 11,
+      starDrop: 0
     }
   },
   {
-    'id': '13',
-    'fullname': '羅賓漢',
-    'classType': 'archer',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '13',
+    fullname: '羅賓漢',
+    classType: 'archer',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '中立',
       '善',
@@ -2231,45 +2231,45 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '愛人'
     ],
-    'starDrop': 8,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 8,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.87,
-      'buster': 0.87,
-      'quick': 0.87,
-      'extra': 0.87,
-      'weapon': 0.87
+    npGain: {
+      arts: 0.87,
+      buster: 0.87,
+      quick: 0.87,
+      extra: 0.87,
+      weapon: 0.87
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '祈りの弓(初期)',
-        'specialBoost': [
+        cardType: 'arts',
+        name: '祈りの弓(初期)',
+        specialBoost: [
           {
-            'number': [
+            number: [
               200,
               212.5,
               225,
@@ -2278,13 +2278,13 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               900,
               1200,
               1350,
@@ -2295,21 +2295,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 10,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 10,
+      starDrop: 0
     }
   },
   {
-    'id': '14',
-    'fullname': '阿塔蘭塔',
-    'classType': 'archer',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '14',
+    fullname: '阿塔蘭塔',
+    classType: 'archer',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '中立',
       '惡',
@@ -2319,47 +2319,47 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 8,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 8,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.5,
-      'buster': 0.5,
-      'quick': 0.5,
-      'extra': 0.5,
-      'weapon': 0.5
+    npGain: {
+      arts: 0.5,
+      buster: 0.5,
+      quick: 0.5,
+      extra: 0.5,
+      weapon: 0.5
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '訴状の矢文(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '訴状の矢文(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               3,
               5,
               3,
@@ -2371,7 +2371,7 @@ export const servantConfigList = [
               16,
               22
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -2380,8 +2380,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addStar',
-            'number': [
+            effectType: 'addStar',
+            number: [
               10,
               15,
               20,
@@ -2392,13 +2392,13 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'quick',
-        'name': '訴状の矢文(ロンドン・チャイルド)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '訴状の矢文(ロンドン・チャイルド)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               3,
               5,
               3,
@@ -2410,7 +2410,7 @@ export const servantConfigList = [
               16,
               22
             ],
-            'number': [
+            number: [
               800,
               1000,
               1100,
@@ -2419,8 +2419,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addStar',
-            'number': [
+            effectType: 'addStar',
+            number: [
               15,
               20,
               25,
@@ -2431,21 +2431,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 10,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 10,
+      starDrop: 0
     }
   },
   {
-    'id': '63',
-    'fullname': '大衛',
-    'classType': 'archer',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '63',
+    fullname: '大衛',
+    classType: 'archer',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '中庸',
@@ -2455,49 +2455,49 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 8,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 8,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.76,
-      'buster': 0.76,
-      'quick': 0.76,
-      'extra': 0.76,
-      'weapon': 0.76
+    npGain: {
+      arts: 0.76,
+      buster: 0.76,
+      quick: 0.76,
+      extra: 0.76,
+      weapon: 0.76
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '五つの石(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '五つの石(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -2508,21 +2508,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 10,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 10,
+      starDrop: 0
     }
   },
   {
-    'id': '122',
-    'fullname': '崔斯坦',
-    'classType': 'archer',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '122',
+    fullname: '崔斯坦',
+    classType: 'archer',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -2532,32 +2532,32 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 8.1,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 8.1,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         6,
         13,
         20,
         26,
         35
       ],
-      'quick': [
+      quick: [
         10,
         20,
         30,
         40
       ],
-      'extra': [
+      extra: [
         4,
         9,
         14,
@@ -2566,22 +2566,22 @@ export const servantConfigList = [
         31
       ]
     },
-    'npGain': {
-      'arts': 0.58,
-      'buster': 0.58,
-      'quick': 0.58,
-      'extra': 0.58,
-      'weapon': 0.58
+    npGain: {
+      arts: 0.58,
+      buster: 0.58,
+      quick: 0.58,
+      extra: 0.58,
+      weapon: 0.58
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '痛哭の幻奏(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '痛哭の幻奏(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               5,
               11,
               16,
@@ -2590,7 +2590,7 @@ export const servantConfigList = [
               16,
               36
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -2601,21 +2601,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 8,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 8,
+      starDrop: 0
     }
   },
   {
-    'id': '60',
-    'fullname': '俄里翁',
-    'classType': 'archer',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '60',
+    fullname: '俄里翁',
+    classType: 'archer',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '中庸',
@@ -2625,54 +2625,54 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 8,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 8,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         100
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         9,
         18,
         27,
         46
       ]
     },
-    'npGain': {
-      'arts': 1,
-      'buster': 1,
-      'quick': 1,
-      'extra': 1,
-      'weapon': 1
+    npGain: {
+      arts: 1,
+      buster: 1,
+      quick: 1,
+      extra: 1,
+      weapon: 1
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '月女神の愛矢恋矢(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '月女神の愛矢恋矢(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               900,
               1200,
               1350,
@@ -2683,20 +2683,20 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'arts',
-        'name': '月女神の愛矢恋矢(或る愛のうた)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '月女神の愛矢恋矢(或る愛のうた)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               1200,
               1500,
               1650,
@@ -2707,21 +2707,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 11,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 11,
+      starDrop: 0
     }
   },
   {
-    'id': '105',
-    'fullname': '比利小子',
-    'classType': 'archer',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '105',
+    fullname: '比利小子',
+    classType: 'archer',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '中庸',
@@ -2730,56 +2730,56 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 8,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 8,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         10,
         20,
         30,
         40
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         9,
         18,
         27,
         46
       ]
     },
-    'npGain': {
-      'arts': 0.56,
-      'buster': 0.56,
-      'quick': 0.56,
-      'extra': 0.56,
-      'weapon': 0.56
+    npGain: {
+      arts: 0.56,
+      buster: 0.56,
+      quick: 0.56,
+      extra: 0.56,
+      weapon: 0.56
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '壊音の霹靂(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '壊音の霹靂(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -2790,21 +2790,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 7,
-      'damage': 0,
-      'critical': 10,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 7,
+      damage: 0,
+      critical: 10,
+      starDrop: 0
     }
   },
   {
-    'id': '77',
-    'fullname': '尼古拉・特斯拉',
-    'classType': 'archer',
-    'alignmentType': 'star',
-    'specialAttributeList': [
+    id: '77',
+    fullname: '尼古拉・特斯拉',
+    classType: 'archer',
+    alignmentType: 'star',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -2812,46 +2812,46 @@ export const servantConfigList = [
       '人型',
       '愛人'
     ],
-    'starDrop': 7.9,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 7.9,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.87,
-      'buster': 0.87,
-      'quick': 0.87,
-      'extra': 0.87,
-      'weapon': 0.87
+    npGain: {
+      arts: 0.87,
+      buster: 0.87,
+      quick: 0.87,
+      extra: 0.87,
+      weapon: 0.87
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '人類神話・雷電降臨(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '人類神話・雷電降臨(初期)',
+        specialBoost: [
           {
             'limitTarget': '被「人類神話・雷電降臨」所剋',
-            'number': [
+            number: [
               150,
               162.5,
               175,
@@ -2860,15 +2860,15 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -2879,12 +2879,12 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'buster',
-        'name': '人類神話・雷電降臨(ライトニング)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '人類神話・雷電降臨(ライトニング)',
+        specialBoost: [
           {
             'limitTarget': '被「人類神話・雷電降臨」所剋',
-            'number': [
+            number: [
               150,
               162.5,
               175,
@@ -2893,15 +2893,15 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               400,
               500,
               550,
@@ -2912,21 +2912,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 8,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 8,
+      starDrop: 0
     }
   },
   {
-    'id': '15',
-    'fullname': '尤瑞艾莉',
-    'classType': 'archer',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '15',
+    fullname: '尤瑞艾莉',
+    classType: 'archer',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -2937,46 +2937,46 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 7.9,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 7.9,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.9,
-      'buster': 0.9,
-      'quick': 0.9,
-      'extra': 0.9,
-      'weapon': 0.9
+    npGain: {
+      arts: 0.9,
+      buster: 0.9,
+      quick: 0.9,
+      extra: 0.9,
+      weapon: 0.9
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '女神の視線(初期)',
-        'specialBoost': [
+        cardType: 'arts',
+        name: '女神の視線(初期)',
+        specialBoost: [
           {
             'limitTarget': '男性',
-            'number': [
+            number: [
               150,
               200,
               225,
@@ -2985,25 +2985,25 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               900
             ]
           }
         ]
       },
       {
-        'cardType': 'arts',
-        'name': '女神の視線(私から姉妹へ)',
-        'specialBoost': [
+        cardType: 'arts',
+        name: '女神の視線(私から姉妹へ)',
+        specialBoost: [
           {
             'limitTarget': '男性',
-            'number': [
+            number: [
               150,
               200,
               225,
@@ -3012,34 +3012,34 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               1200
             ]
           }
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 300,
-      'critical': 11,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 300,
+      critical: 11,
+      starDrop: 0
     }
   },
   {
-    'id': '16',
-    'fullname': '阿拉什',
-    'classType': 'archer',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '16',
+    fullname: '阿拉什',
+    classType: 'archer',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '中庸',
@@ -3050,50 +3050,50 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '愛人'
     ],
-    'starDrop': 8,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 8,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.84,
-      'buster': 0.84,
-      'quick': 0.84,
-      'extra': 0.84,
-      'weapon': 0.84
+    npGain: {
+      arts: 0.84,
+      buster: 0.84,
+      quick: 0.84,
+      extra: 0.84,
+      weapon: 0.84
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '流星一条(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '流星一条(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -3104,16 +3104,16 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'buster',
-        'name': '流星一条(孤独な戦士、獅子の如く勇敢な彼)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '流星一条(孤独な戦士、獅子の如く勇敢な彼)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               800,
               1000,
               1100,
@@ -3124,21 +3124,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 6,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 6,
+      starDrop: 0
     }
   },
   {
-    'id': '125',
-    'fullname': '俵藤太',
-    'classType': 'archer',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '125',
+    fullname: '俵藤太',
+    classType: 'archer',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '中立',
       '善',
@@ -3147,26 +3147,26 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '愛人'
     ],
-    'starDrop': 7.8,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 7.8,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -3174,21 +3174,21 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.57,
-      'buster': 0.57,
-      'quick': 0.57,
-      'extra': 0.57,
-      'weapon': 0.57
+    npGain: {
+      arts: 0.57,
+      buster: 0.57,
+      quick: 0.57,
+      extra: 0.57,
+      weapon: 0.57
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '八幡祈願・大妖射貫(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '八幡祈願・大妖射貫(初期)',
+        specialBoost: [
           {
             'limitTarget': '魔性',
-            'number': [
+            number: [
               50,
               62.5,
               75,
@@ -3197,15 +3197,15 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -3216,21 +3216,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 8,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 8,
+      starDrop: 0
     }
   },
   {
-    'id': '84',
-    'fullname': '阿周那',
-    'classType': 'archer',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '84',
+    fullname: '阿周那',
+    classType: 'archer',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '中庸',
@@ -3241,28 +3241,28 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 8,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 8,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         16,
         33,
         51
       ],
-      'quick': [
+      quick: [
         25,
         75
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -3270,25 +3270,25 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.51,
-      'buster': 0.51,
-      'quick': 0.51,
-      'extra': 0.51,
-      'weapon': 0.51
+    npGain: {
+      arts: 0.51,
+      buster: 0.51,
+      quick: 0.51,
+      extra: 0.51,
+      weapon: 0.51
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '破壊神の手翳(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '破壊神の手翳(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -3297,8 +3297,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               20,
               25,
               30,
@@ -3309,14 +3309,14 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'buster',
-        'name': '破壊神の手翳(神弓の真価)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '破壊神の手翳(神弓の真価)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [],
-            'number': [
+            effectType: 'attackAll',
+            hits: [],
+            number: [
               400,
               500,
               550,
@@ -3325,8 +3325,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               20,
               25,
               30,
@@ -3337,21 +3337,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 175,
-      'critical': 10,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 175,
+      critical: 10,
+      starDrop: 0
     }
   },
   {
-    'id': '95',
-    'fullname': '子吉爾',
-    'classType': 'archer',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '95',
+    fullname: '子吉爾',
+    classType: 'archer',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -3362,50 +3362,50 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 7.9,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 7.9,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         16,
         33,
         51
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         16,
         33,
         51
       ]
     },
-    'npGain': {
-      'arts': 0.62,
-      'buster': 0.62,
-      'quick': 0.62,
-      'extra': 0.62,
-      'weapon': 0.62
+    npGain: {
+      arts: 0.62,
+      buster: 0.62,
+      quick: 0.62,
+      extra: 0.62,
+      weapon: 0.62
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '王の財宝(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '王の財宝(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               4,
               8,
               13,
@@ -3417,7 +3417,7 @@ export const servantConfigList = [
               13,
               25
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -3428,13 +3428,13 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'buster',
-        'name': '王の財宝(野に咲く花の愛でかた)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '王の財宝(野に咲く花の愛でかた)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               4,
               8,
               13,
@@ -3446,7 +3446,7 @@ export const servantConfigList = [
               13,
               25
             ],
-            'number': [
+            number: [
               400,
               500,
               550,
@@ -3457,21 +3457,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 175,
-      'critical': 10,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 175,
+      critical: 10,
+      starDrop: 0
     }
   },
   {
-    'id': '69',
-    'fullname': '織田信長',
-    'classType': 'archer',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '69',
+    fullname: '織田信長',
+    classType: 'archer',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '中庸',
@@ -3479,30 +3479,30 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 7.9,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 7.9,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         10,
         20,
         30,
         40
       ],
-      'buster': [
+      buster: [
         10,
         20,
         30,
         40
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -3510,21 +3510,21 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.43,
-      'buster': 0.43,
-      'quick': 0.43,
-      'extra': 0.43,
-      'weapon': 0.43
+    npGain: {
+      arts: 0.43,
+      buster: 0.43,
+      quick: 0.43,
+      extra: 0.43,
+      weapon: 0.43
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '三千世界(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '三千世界(初期)',
+        specialBoost: [
           {
             'limitTarget': '騎乘',
-            'number': [
+            number: [
               150,
               162.5,
               175,
@@ -3533,10 +3533,10 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               3,
               5,
               3,
@@ -3548,7 +3548,7 @@ export const servantConfigList = [
               16,
               22
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -3559,21 +3559,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 8,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 8,
+      starDrop: 0
     }
   },
   {
-    'id': '131',
-    'fullname': '安妮・伯妮＆瑪莉・瑞德',
-    'classType': 'archer',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '131',
+    fullname: '安妮・伯妮＆瑪莉・瑞德',
+    classType: 'archer',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '中庸',
@@ -3581,26 +3581,26 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 8.1,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 8.1,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -3608,26 +3608,26 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.85,
-      'buster': 0.85,
-      'quick': 0.85,
-      'extra': 0.85,
-      'weapon': 0.85
+    npGain: {
+      arts: 0.85,
+      buster: 0.85,
+      quick: 0.85,
+      extra: 0.85,
+      weapon: 0.85
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '比翼にして連理(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '比翼にして連理(初期)',
+        specialBoost: [
           {
-            'number': 'hpPercentage'
+            number: 'hpPercentage'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               3,
               16,
               10,
@@ -3638,7 +3638,7 @@ export const servantConfigList = [
               6,
               23
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -3647,8 +3647,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseOneDefense',
-            'number': [
+            effectType: 'decreaseOneDefense',
+            number: [
               10,
               15,
               20,
@@ -3659,21 +3659,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 10,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 10,
+      starDrop: 0
     }
   },
   {
-    'id': '129',
-    'fullname': '阿爾托莉亞・潘德拉剛',
-    'classType': 'archer',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '129',
+    fullname: '阿爾托莉亞・潘德拉剛',
+    classType: 'archer',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -3686,30 +3686,30 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '亞瑟'
     ],
-    'starDrop': 8,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 8,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         16,
         33,
         51
       ],
-      'quick': [
+      quick: [
         10,
         20,
         30,
         40
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -3717,22 +3717,22 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.59,
-      'buster': 0.59,
-      'quick': 0.59,
-      'extra': 0.59,
-      'weapon': 0.59
+    npGain: {
+      arts: 0.59,
+      buster: 0.59,
+      quick: 0.59,
+      extra: 0.59,
+      weapon: 0.59
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '陽光煌めく勝利の剣(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '陽光煌めく勝利の剣(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               2,
               5,
               8,
@@ -3744,7 +3744,7 @@ export const servantConfigList = [
               11,
               29
             ],
-            'number': [
+            number: [
               900,
               1200,
               1350,
@@ -3753,8 +3753,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addSelfNp',
-            'number': [
+            effectType: 'addSelfNp',
+            number: [
               20,
               25,
               30,
@@ -3765,21 +3765,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 10,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 10,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 10,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 10,
+      starDrop: 0
     }
   },
   {
-    'id': '137',
-    'fullname': '克洛伊・馮・愛因茲貝倫',
-    'classType': 'archer',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '137',
+    fullname: '克洛伊・馮・愛因茲貝倫',
+    classType: 'archer',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -3789,14 +3789,14 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 8,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 8,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         4,
         9,
         14,
@@ -3804,38 +3804,38 @@ export const servantConfigList = [
         23,
         31
       ],
-      'buster': [
+      buster: [
         33,
         67
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         10,
         20,
         30,
         40
       ]
     },
-    'npGain': {
-      'arts': 0.38,
-      'buster': 0.38,
-      'quick': 0.38,
-      'extra': 0.38,
-      'weapon': 0.38
+    npGain: {
+      arts: 0.38,
+      buster: 0.38,
+      quick: 0.38,
+      extra: 0.38,
+      weapon: 0.38
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '鶴翼三連(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '鶴翼三連(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               4,
               9,
               14,
@@ -3843,7 +3843,7 @@ export const servantConfigList = [
               23,
               31
             ],
-            'number': [
+            number: [
               900,
               1200,
               1350,
@@ -3854,21 +3854,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 8,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 8,
+      starDrop: 0
     }
   },
   {
-    'id': '17',
-    'fullname': '庫・夫林',
-    'classType': 'lancer',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '17',
+    fullname: '庫・夫林',
+    classType: 'lancer',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '中庸',
@@ -3880,49 +3880,49 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '愛人'
     ],
-    'starDrop': 12.1,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 12.1,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.07,
-      'buster': 1.07,
-      'quick': 1.07,
-      'extra': 1.07,
-      'weapon': 1.07
+    npGain: {
+      arts: 1.07,
+      buster: 1.07,
+      quick: 1.07,
+      extra: 1.07,
+      weapon: 1.07
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '刺し穿つ死棘の槍(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '刺し穿つ死棘の槍(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -3931,8 +3931,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseOneDefense',
-            'number': [
+            effectType: 'decreaseOneDefense',
+            number: [
               10,
               15,
               20,
@@ -3943,21 +3943,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 175,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 175,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '71',
-    'fullname': '迪爾姆德・奧德利暗',
-    'classType': 'lancer',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '71',
+    fullname: '迪爾姆德・奧德利暗',
+    classType: 'lancer',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '中庸',
@@ -3968,52 +3968,52 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '愛人'
     ],
-    'starDrop': 12.3,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 12.3,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         33,
         67
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         10,
         20,
         30,
         40
       ]
     },
-    'npGain': {
-      'arts': 0.79,
-      'buster': 0.79,
-      'quick': 0.79,
-      'extra': 0.79,
-      'weapon': 0.79
+    npGain: {
+      arts: 0.79,
+      buster: 0.79,
+      quick: 0.79,
+      extra: 0.79,
+      weapon: 0.79
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '破魔の紅薔薇、必滅の黄薔薇(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '破魔の紅薔薇、必滅の黄薔薇(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               60,
               40
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -4022,22 +4022,22 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'dispelOneBuff',
+            effectType: 'dispelOneBuff',
           }
         ]
       },
       {
-        'cardType': 'quick',
-        'name': '破魔の紅薔薇、必滅の黄薔薇(薔薇の双槍)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '破魔の紅薔薇、必滅の黄薔薇(薔薇の双槍)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               60,
               40
             ],
-            'number': [
+            number: [
               1600,
               2000,
               2200,
@@ -4046,26 +4046,26 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'dispelOneBuff',
+            effectType: 'dispelOneBuff',
           }
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '140',
-    'fullname': '弗拉德三世〔EXTRA〕',
-    'classType': 'lancer',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '140',
+    fullname: '弗拉德三世〔EXTRA〕',
+    classType: 'lancer',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -4075,28 +4075,28 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 11.6,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 11.6,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         16,
         33,
         51
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -4104,21 +4104,21 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 1.1,
-      'buster': 1.1,
-      'quick': 1.1,
-      'extra': 1.1,
-      'weapon': 1.1
+    npGain: {
+      arts: 1.1,
+      buster: 1.1,
+      quick: 1.1,
+      extra: 1.1,
+      weapon: 1.1
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '串刺城塞(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '串刺城塞(初期)',
+        specialBoost: [
           {
             'limitTarget': '惡',
-            'number': [
+            number: [
               150,
               162.5,
               175,
@@ -4127,10 +4127,10 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               4,
               9,
               14,
@@ -4138,7 +4138,7 @@ export const servantConfigList = [
               23,
               31
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -4149,21 +4149,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '85',
-    'fullname': '迦爾納',
-    'classType': 'lancer',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '85',
+    fullname: '迦爾納',
+    classType: 'lancer',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -4176,48 +4176,48 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '愛人'
     ],
-    'starDrop': 12.2,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 12.2,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         9,
         18,
         27,
         46
       ]
     },
-    'npGain': {
-      'arts': 0.72,
-      'buster': 0.72,
-      'quick': 0.72,
-      'extra': 0.72,
-      'weapon': 0.72
+    npGain: {
+      arts: 0.72,
+      buster: 0.72,
+      quick: 0.72,
+      extra: 0.72,
+      weapon: 0.72
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '日輪よ、死に随え(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '日輪よ、死に随え(初期)',
+        specialBoost: [
           {
             'limitTarget': '神性',
-            'number': [
+            number: [
               150,
               162.5,
               175,
@@ -4226,17 +4226,17 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -4247,21 +4247,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 10,
-      'damage': 200,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 10,
+      damage: 200,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '18',
-    'fullname': '伊莉莎白・巴托里',
-    'classType': 'lancer',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '18',
+    fullname: '伊莉莎白・巴托里',
+    classType: 'lancer',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -4270,57 +4270,57 @@ export const servantConfigList = [
       '龍',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 11.8,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 11.8,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.1,
-      'buster': 1.1,
-      'quick': 1.1,
-      'extra': 1.1,
-      'weapon': 1.1
+    npGain: {
+      arts: 1.1,
+      buster: 1.1,
+      quick: 1.1,
+      extra: 1.1,
+      weapon: 1.1
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '鮮血魔嬢(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '鮮血魔嬢(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -4331,21 +4331,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 8,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 8,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '19',
-    'fullname': '武藏坊弁慶',
-    'classType': 'lancer',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '19',
+    fullname: '武藏坊弁慶',
+    classType: 'lancer',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -4354,60 +4354,60 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '愛人'
     ],
-    'starDrop': 11.9,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 11.9,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.79,
-      'buster': 0.79,
-      'quick': 0.79,
-      'extra': 0.79,
-      'weapon': 0.79
+    npGain: {
+      arts: 0.79,
+      buster: 0.79,
+      quick: 0.79,
+      extra: 0.79,
+      weapon: 0.79
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '五百羅漢補陀落渡海(初期)',
-        'specialBoost': [],
-        'effectList': []
+        cardType: 'arts',
+        name: '五百羅漢補陀落渡海(初期)',
+        specialBoost: [],
+        effectList: []
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '20',
-    'fullname': '庫・夫林〔Prototype〕',
-    'classType': 'lancer',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '20',
+    fullname: '庫・夫林〔Prototype〕',
+    classType: 'lancer',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '中庸',
@@ -4418,49 +4418,49 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 12.1,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 12.1,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.08,
-      'buster': 1.08,
-      'quick': 1.08,
-      'extra': 1.08,
-      'weapon': 1.08
+    npGain: {
+      arts: 1.08,
+      buster: 1.08,
+      quick: 1.08,
+      extra: 1.08,
+      weapon: 1.08
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '穿ちの朱槍(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '穿ちの朱槍(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -4469,8 +4469,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseOneDefense',
-            'number': [
+            effectType: 'decreaseOneDefense',
+            number: [
               10,
               15,
               20,
@@ -4481,21 +4481,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 175,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 175,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '21',
-    'fullname': '雷奧尼達一世',
-    'classType': 'lancer',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '21',
+    fullname: '雷奧尼達一世',
+    classType: 'lancer',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '中庸',
@@ -4503,46 +4503,46 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 11.8,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 11.8,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.07,
-      'buster': 1.07,
-      'quick': 1.07,
-      'extra': 1.07,
-      'weapon': 1.07
+    npGain: {
+      arts: 1.07,
+      buster: 1.07,
+      quick: 1.07,
+      extra: 1.07,
+      weapon: 1.07
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '炎門の守護者(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '炎門の守護者(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addStar',
-            'number': [
+            effectType: 'addStar',
+            number: [
               5,
               10,
               15,
@@ -4553,21 +4553,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '22',
-    'fullname': '羅慕路斯',
-    'classType': 'lancer',
-    'alignmentType': 'star',
-    'specialAttributeList': [
+    id: '22',
+    fullname: '羅慕路斯',
+    classType: 'lancer',
+    alignmentType: 'star',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '中庸',
@@ -4575,46 +4575,46 @@ export const servantConfigList = [
       '人型',
       '羅馬'
     ],
-    'starDrop': 12.1,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 12.1,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.07,
-      'buster': 1.07,
-      'quick': 1.07,
-      'extra': 1.07,
-      'weapon': 1.07
+    npGain: {
+      arts: 1.07,
+      buster: 1.07,
+      quick: 1.07,
+      extra: 1.07,
+      weapon: 1.07
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': 'すべては我が槍に通ずる(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: 'すべては我が槍に通ずる(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               3,
               7,
               10,
@@ -4623,7 +4623,7 @@ export const servantConfigList = [
               21,
               28
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -4632,8 +4632,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addAllAttack',
-            'number': [
+            effectType: 'addAllAttack',
+            number: [
               10,
               15,
               20,
@@ -4644,21 +4644,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '87',
-    'fullname': '芬恩・麥克庫爾',
-    'classType': 'lancer',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '87',
+    fullname: '芬恩・麥克庫爾',
+    classType: 'lancer',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '中立',
       '中庸',
@@ -4669,52 +4669,52 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 12.3,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 12.3,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         27,
         18,
         9,
         46
       ]
     },
-    'npGain': {
-      'arts': 0.55,
-      'buster': 0.55,
-      'quick': 0.55,
-      'extra': 0.55,
-      'weapon': 0.55
+    npGain: {
+      arts: 0.55,
+      buster: 0.55,
+      quick: 0.55,
+      extra: 0.55,
+      weapon: 0.55
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '無敗の紫靫草(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '無敗の紫靫草(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               450,
               600,
               675,
@@ -4725,18 +4725,18 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'arts',
-        'name': '無敗の紫靫草(フィン・マックール、神を斃した英雄)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '無敗の紫靫草(フィン・マックール、神を斃した英雄)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               600,
               750,
               825,
@@ -4747,21 +4747,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 125,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 125,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '88',
-    'fullname': '布倫希爾德',
-    'classType': 'lancer',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '88',
+    fullname: '布倫希爾德',
+    classType: 'lancer',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '中立',
       '善',
@@ -4773,26 +4773,26 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 12.2,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 12.2,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -4800,21 +4800,21 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 1.07,
-      'buster': 1.07,
-      'quick': 1.07,
-      'extra': 1.07,
-      'weapon': 1.07
+    npGain: {
+      arts: 1.07,
+      buster: 1.07,
+      quick: 1.07,
+      extra: 1.07,
+      weapon: 1.07
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '死がふたりを分断つまで(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '死がふたりを分断つまで(初期)',
+        specialBoost: [
           {
             'limitTarget': '愛人',
-            'number': [
+            number: [
               150,
               162.5,
               175,
@@ -4823,17 +4823,17 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -4842,8 +4842,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addAllStarDrop',
-            'number': [
+            effectType: 'addAllStarDrop',
+            number: [
               30,
               30,
               30,
@@ -4854,21 +4854,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 10,
-      'damage': 100,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 10,
+      damage: 100,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '70',
-    'fullname': '斯卡哈',
-    'classType': 'lancer',
-    'alignmentType': 'star',
-    'specialAttributeList': [
+    id: '70',
+    fullname: '斯卡哈',
+    classType: 'lancer',
+    alignmentType: 'star',
+    specialAttributeList: [
       'Servant',
       '中立',
       '善',
@@ -4876,19 +4876,19 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 12.2,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 12.2,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         13,
         20,
         13,
@@ -4896,11 +4896,11 @@ export const servantConfigList = [
         13,
         21
       ],
-      'quick': [
+      quick: [
         25,
         75
       ],
-      'extra': [
+      extra: [
         6,
         12,
         18,
@@ -4910,25 +4910,25 @@ export const servantConfigList = [
         22
       ]
     },
-    'npGain': {
-      'arts': 0.71,
-      'buster': 0.71,
-      'quick': 0.71,
-      'extra': 0.71,
-      'weapon': 0.71
+    npGain: {
+      arts: 0.71,
+      buster: 0.71,
+      quick: 0.71,
+      extra: 0.71,
+      weapon: 0.71
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '貫き穿つ死翔の槍(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '貫き穿つ死翔の槍(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -4939,16 +4939,16 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'quick',
-        'name': '貫き穿つ死翔の槍(キル・ミー・イフ・ユー・キャン)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '貫き穿つ死翔の槍(キル・ミー・イフ・ユー・キャン)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               1600,
               2000,
               2200,
@@ -4959,21 +4959,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '64',
-    'fullname': '赫克特',
-    'classType': 'lancer',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '64',
+    fullname: '赫克特',
+    classType: 'lancer',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '中庸',
@@ -4982,53 +4982,53 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 12.2,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 12.2,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.08,
-      'buster': 1.08,
-      'quick': 1.08,
-      'extra': 1.08,
-      'weapon': 1.08
+    npGain: {
+      arts: 1.08,
+      buster: 1.08,
+      quick: 1.08,
+      extra: 1.08,
+      weapon: 1.08
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '不毀の極槍(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '不毀の極槍(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -5037,8 +5037,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               20,
               25,
               30,
@@ -5049,20 +5049,20 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'buster',
-        'name': '不毀の極槍(トロージャン・ガーディアン)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '不毀の極槍(トロージャン・ガーディアン)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               400,
               500,
               550,
@@ -5071,8 +5071,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               20,
               25,
               30,
@@ -5083,21 +5083,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 8,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 8,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '102',
-    'fullname': '李書文',
-    'classType': 'lancer',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '102',
+    fullname: '李書文',
+    classType: 'lancer',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '中立',
       '惡',
@@ -5105,27 +5105,27 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 12.2,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 12.2,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -5133,31 +5133,31 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.52,
-      'buster': 0.52,
-      'quick': 0.52,
-      'extra': 0.52,
-      'weapon': 0.52
+    npGain: {
+      arts: 0.52,
+      buster: 0.52,
+      quick: 0.52,
+      extra: 0.52,
+      weapon: 0.52
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '神槍无二打(初期)',
-        'specialBoost': [
+        cardType: 'arts',
+        name: '神槍无二打(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               12,
               25,
               63
             ],
-            'number': [
+            number: [
               900,
               1200,
               1350,
@@ -5166,8 +5166,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseOneDefense',
-            'number': [
+            effectType: 'decreaseOneDefense',
+            number: [
               20,
               20,
               20,
@@ -5178,21 +5178,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '78',
-    'fullname': '阿爾托莉亞・潘德拉剛〔Alter〕',
-    'classType': 'lancer',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '78',
+    fullname: '阿爾托莉亞・潘德拉剛〔Alter〕',
+    classType: 'lancer',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -5206,58 +5206,58 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '亞瑟'
     ],
-    'starDrop': 11.8,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 11.8,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         16,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         9,
         18,
         27,
         46
       ]
     },
-    'npGain': {
-      'arts': 0.74,
-      'buster': 0.74,
-      'quick': 0.74,
-      'extra': 0.74,
-      'weapon': 0.74
+    npGain: {
+      arts: 0.74,
+      buster: 0.74,
+      quick: 0.74,
+      extra: 0.74,
+      weapon: 0.74
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '最果てにて輝ける槍(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '最果てにて輝ける槍(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               10,
               20,
               30,
               40
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -5268,23 +5268,23 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'buster',
-        'name': '最果てにて輝ける槍(醒めぬ夢、終わらぬ戦)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '最果てにて輝ける槍(醒めぬ夢、終わらぬ戦)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               10,
               20,
               30,
               40
             ],
-            'number': [
+            number: [
               400,
               500,
               550,
@@ -5295,21 +5295,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 10,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 10,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '119',
-    'fullname': '阿爾托莉亞・潘德拉剛',
-    'classType': 'lancer',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '119',
+    fullname: '阿爾托莉亞・潘德拉剛',
+    classType: 'lancer',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -5323,26 +5323,26 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '亞瑟'
     ],
-    'starDrop': 12.2,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 12.2,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -5350,26 +5350,26 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 1.1,
-      'buster': 1.1,
-      'quick': 1.1,
-      'extra': 1.1,
-      'weapon': 1.1
+    npGain: {
+      arts: 1.1,
+      buster: 1.1,
+      quick: 1.1,
+      extra: 1.1,
+      weapon: 1.1
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '最果てにて輝ける槍(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '最果てにて輝ける槍(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               33,
               67
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -5378,8 +5378,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addSelfNp',
-            'number': [
+            effectType: 'addSelfNp',
+            number: [
               20,
               30,
               40,
@@ -5390,21 +5390,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 10,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 10,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '128',
-    'fullname': '玉藻前',
-    'classType': 'lancer',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '128',
+    fullname: '玉藻前',
+    classType: 'lancer',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '中立',
       '夏',
@@ -5416,50 +5416,50 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 12.2,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 12.2,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         16,
         33,
         51
       ],
-      'quick': [
+      quick: [
         10,
         20,
         30,
         40
       ],
-      'extra': [
+      extra: [
         10,
         20,
         30,
         40
       ]
     },
-    'npGain': {
-      'arts': 1.05,
-      'buster': 1.05,
-      'quick': 1.05,
-      'extra': 1.05,
-      'weapon': 1.05
+    npGain: {
+      arts: 1.05,
+      buster: 1.05,
+      quick: 1.05,
+      extra: 1.05,
+      weapon: 1.05
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '常夏日光・日除傘寵愛一神(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '常夏日光・日除傘寵愛一神(初期)',
+        specialBoost: [
           {
             'limitTarget': '男性',
-            'number': [
+            number: [
               150,
               162.5,
               175,
@@ -5468,16 +5468,16 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               10,
               20,
               30,
               40
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -5488,21 +5488,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 10,
-      'buster': 0,
-      'quick': 10,
-      'damage': 230,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 10,
+      buster: 0,
+      quick: 10,
+      damage: 230,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '134',
-    'fullname': '清姬',
-    'classType': 'lancer',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '134',
+    fullname: '清姬',
+    classType: 'lancer',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -5513,18 +5513,18 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 12,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 12,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         4,
         9,
         14,
@@ -5532,11 +5532,11 @@ export const servantConfigList = [
         23,
         31
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -5544,22 +5544,22 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 1.05,
-      'buster': 1.05,
-      'quick': 1.05,
-      'extra': 1.05,
-      'weapon': 1.05
+    npGain: {
+      arts: 1.05,
+      buster: 1.05,
+      quick: 1.05,
+      extra: 1.05,
+      weapon: 1.05
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '道成寺鐘百八式火竜薙(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '道成寺鐘百八式火竜薙(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               4,
               9,
               14,
@@ -5567,7 +5567,7 @@ export const servantConfigList = [
               23,
               31
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -5578,21 +5578,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 12,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 12,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '23',
-    'fullname': '美杜莎',
-    'classType': 'rider',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '23',
+    fullname: '美杜莎',
+    classType: 'rider',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -5604,50 +5604,50 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 9,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 9,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.58,
-      'buster': 0.58,
-      'quick': 0.58,
-      'extra': 0.58,
-      'weapon': 0.58
+    npGain: {
+      arts: 0.58,
+      buster: 0.58,
+      quick: 0.58,
+      extra: 0.58,
+      weapon: 0.58
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '騎英の手綱(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '騎英の手綱(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -5656,8 +5656,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addAllStarDrop',
-            'number': [
+            effectType: 'addAllStarDrop',
+            number: [
               20,
               30,
               40,
@@ -5668,21 +5668,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 11,
-      'damage': 95,
-      'critical': 6,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 11,
+      damage: 95,
+      critical: 6,
+      starDrop: 0
     }
   },
   {
-    'id': '108',
-    'fullname': '伊斯坎達爾',
-    'classType': 'rider',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '108',
+    fullname: '伊斯坎達爾',
+    classType: 'rider',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '中立',
       '善',
@@ -5693,26 +5693,26 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '愛人'
     ],
-    'starDrop': 8.8,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 8.8,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         4,
         9,
         14,
@@ -5721,22 +5721,22 @@ export const servantConfigList = [
         31
       ]
     },
-    'npGain': {
-      'arts': 0.66,
-      'buster': 0.66,
-      'quick': 0.66,
-      'extra': 0.66,
-      'weapon': 0.66
+    npGain: {
+      arts: 0.66,
+      buster: 0.66,
+      quick: 0.66,
+      extra: 0.66,
+      weapon: 0.66
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '王の軍勢(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '王の軍勢(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               33,
               12,
               8,
@@ -5746,7 +5746,7 @@ export const servantConfigList = [
               4,
               19
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -5755,8 +5755,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               10,
               15,
               20,
@@ -5767,13 +5767,13 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'buster',
-        'name': '王の軍勢(遠征は終わらず)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '王の軍勢(遠征は終わらず)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               33,
               12,
               8,
@@ -5783,7 +5783,7 @@ export const servantConfigList = [
               4,
               19
             ],
-            'number': [
+            number: [
               400,
               500,
               550,
@@ -5792,8 +5792,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               10,
               15,
               20,
@@ -5804,21 +5804,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 11,
-      'damage': 150,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 11,
+      damage: 150,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '65',
-    'fullname': '弗朗西斯・德雷克',
-    'classType': 'rider',
-    'alignmentType': 'star',
-    'specialAttributeList': [
+    id: '65',
+    fullname: '弗朗西斯・德雷克',
+    classType: 'rider',
+    alignmentType: 'star',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -5826,24 +5826,24 @@ export const servantConfigList = [
       '騎乘',
       '人型'
     ],
-    'starDrop': 9,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 9,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         20,
         30,
         20,
         30
       ],
-      'buster': [
+      buster: [
         54,
         46
       ],
-      'quick': [
+      quick: [
         23,
         17,
         11,
@@ -5851,36 +5851,36 @@ export const servantConfigList = [
         11,
         21
       ],
-      'extra': [
+      extra: [
         30,
         20,
         30,
         20
       ]
     },
-    'npGain': {
-      'arts': 0.42,
-      'buster': 0.42,
-      'quick': 0.42,
-      'extra': 0.42,
-      'weapon': 0.42
+    npGain: {
+      arts: 0.42,
+      buster: 0.42,
+      quick: 0.42,
+      extra: 0.42,
+      weapon: 0.42
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '黄金鹿と嵐の夜(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '黄金鹿と嵐の夜(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               33,
               13,
               20,
               6,
               28
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -5889,8 +5889,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addStar',
-            'number': [
+            effectType: 'addStar',
+            number: [
               20,
               25,
               30,
@@ -5901,20 +5901,20 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'buster',
-        'name': '黄金鹿と嵐の夜(財宝の島)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '黄金鹿と嵐の夜(財宝の島)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               33,
               13,
               20,
               6,
               28
             ],
-            'number': [
+            number: [
               400,
               500,
               550,
@@ -5923,8 +5923,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addStar',
-            'number': [
+            effectType: 'addStar',
+            number: [
               20,
               25,
               30,
@@ -5935,21 +5935,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 8,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 8,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '94',
-    'fullname': '阿斯托爾福',
-    'classType': 'rider',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '94',
+    fullname: '阿斯托爾福',
+    classType: 'rider',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -5960,54 +5960,54 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 9,
-    'cards': {
-      'arts': 1,
-      'buster': 1,
-      'quick': 3
+    starDrop: 9,
+    cards: {
+      arts: 1,
+      buster: 1,
+      quick: 3
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         9,
         18,
         27,
         46
       ]
     },
-    'npGain': {
-      'arts': 0.66,
-      'buster': 0.66,
-      'quick': 0.66,
-      'extra': 0.66,
-      'weapon': 0.66
+    npGain: {
+      arts: 0.66,
+      buster: 0.66,
+      quick: 0.66,
+      extra: 0.66,
+      weapon: 0.66
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': 'この世ならざる幻馬(初期)',
-        'specialBoost': [
+        cardType: 'quick',
+        name: 'この世ならざる幻馬(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -6016,8 +6016,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addStar',
-            'number': [
+            effectType: 'addStar',
+            number: [
               5,
               10,
               15,
@@ -6028,21 +6028,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 11,
-      'damage': 0,
-      'critical': 8,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 11,
+      damage: 0,
+      critical: 8,
+      starDrop: 0
     }
   },
   {
-    'id': '24',
-    'fullname': '聖喬治',
-    'classType': 'rider',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '24',
+    fullname: '聖喬治',
+    classType: 'rider',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -6052,56 +6052,56 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '愛人'
     ],
-    'starDrop': 8.9,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 8.9,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.85,
-      'buster': 0.85,
-      'quick': 0.85,
-      'extra': 0.85,
-      'weapon': 0.85
+    npGain: {
+      arts: 0.85,
+      buster: 0.85,
+      quick: 0.85,
+      extra: 0.85,
+      weapon: 0.85
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '力屠る祝福の剣(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '力屠る祝福の剣(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addSpecialAttribute',
-            'number': '龍'
+            effectType: 'addSpecialAttribute',
+            number: '龍'
           },
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               10,
               20,
               30,
               40
             ],
-            'number': [
+            number: [
               900,
               1200,
               1350,
@@ -6112,21 +6112,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 8,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 8,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '25',
-    'fullname': '愛德華・蒂奇',
-    'classType': 'rider',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '25',
+    fullname: '愛德華・蒂奇',
+    classType: 'rider',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -6134,54 +6134,54 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 8.8,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 8.8,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         25,
         75
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.56,
-      'buster': 0.56,
-      'quick': 0.56,
-      'extra': 0.56,
-      'weapon': 0.56
+    npGain: {
+      arts: 0.56,
+      buster: 0.56,
+      quick: 0.56,
+      extra: 0.56,
+      weapon: 0.56
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': 'アン女王の復讐(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: 'アン女王の復讐(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -6190,8 +6190,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addStar',
-            'number': [
+            effectType: 'addStar',
+            number: [
               5,
               5,
               5,
@@ -6202,21 +6202,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '66',
-    'fullname': '安妮・伯妮＆瑪莉・瑞德',
-    'classType': 'rider',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '66',
+    fullname: '安妮・伯妮＆瑪莉・瑞德',
+    classType: 'rider',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -6224,50 +6224,50 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 9.1,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 9.1,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.84,
-      'buster': 0.84,
-      'quick': 0.84,
-      'extra': 0.84,
-      'weapon': 0.84
+    npGain: {
+      arts: 0.84,
+      buster: 0.84,
+      quick: 0.84,
+      extra: 0.84,
+      weapon: 0.84
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '比翼にして連理(初期)',
-        'specialBoost': [
+        cardType: 'quick',
+        name: '比翼にして連理(初期)',
+        specialBoost: [
           {
-            'number': 'hpPercentage'
+            number: 'hpPercentage'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               5,
               11,
               17,
@@ -6275,7 +6275,7 @@ export const servantConfigList = [
               23,
               33
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -6286,17 +6286,17 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'quick',
-        'name': '比翼にして連理(キャプテン・キッドの財宝を奪取せよ)',
-        'specialBoost': [
+        cardType: 'quick',
+        name: '比翼にして連理(キャプテン・キッドの財宝を奪取せよ)',
+        specialBoost: [
           {
-            'number': 'hpPercentage'
+            number: 'hpPercentage'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               5,
               11,
               17,
@@ -6304,7 +6304,7 @@ export const servantConfigList = [
               23,
               33
             ],
-            'number': [
+            number: [
               1600,
               2000,
               2200,
@@ -6315,21 +6315,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '26',
-    'fullname': '布狄卡',
-    'classType': 'rider',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '26',
+    fullname: '布狄卡',
+    classType: 'rider',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '中立',
       '善',
@@ -6338,60 +6338,60 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 8.9,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 8.9,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.85,
-      'buster': 0.85,
-      'quick': 0.85,
-      'extra': 0.85,
-      'weapon': 0.85
+    npGain: {
+      arts: 0.85,
+      buster: 0.85,
+      quick: 0.85,
+      extra: 0.85,
+      weapon: 0.85
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '約束されざる守護の車輪(初期)',
-        'specialBoost': [],
-        'effectList': []
+        cardType: 'arts',
+        name: '約束されざる守護の車輪(初期)',
+        specialBoost: [],
+        effectList: []
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 10,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 10,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '118',
-    'fullname': '奧茲曼迪亞斯',
-    'classType': 'rider',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '118',
+    fullname: '奧茲曼迪亞斯',
+    classType: 'rider',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '中庸',
@@ -6404,29 +6404,29 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '愛人'
     ],
-    'starDrop': 9,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 9,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         6,
         13,
         20,
         26,
         35
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -6434,29 +6434,29 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.59,
-      'buster': 0.59,
-      'quick': 0.59,
-      'extra': 0.59,
-      'weapon': 0.59
+    npGain: {
+      arts: 0.59,
+      buster: 0.59,
+      quick: 0.59,
+      extra: 0.59,
+      weapon: 0.59
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '光輝の大複合神殿(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '光輝の大複合神殿(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -6465,8 +6465,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseOneDefense',
-            'number': [
+            effectType: 'decreaseOneDefense',
+            number: [
               20,
               30,
               40,
@@ -6477,21 +6477,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 11,
-      'damage': 175,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 11,
+      damage: 175,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '99',
-    'fullname': '女王梅芙',
-    'classType': 'rider',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '99',
+    fullname: '女王梅芙',
+    classType: 'rider',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -6502,26 +6502,26 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 9,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 9,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         19,
         9,
         14,
@@ -6531,21 +6531,21 @@ export const servantConfigList = [
         26
       ]
     },
-    'npGain': {
-      'arts': 0.86,
-      'buster': 0.86,
-      'quick': 0.86,
-      'extra': 0.86,
-      'weapon': 0.86
+    npGain: {
+      arts: 0.86,
+      buster: 0.86,
+      quick: 0.86,
+      extra: 0.86,
+      weapon: 0.86
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '愛しき私の鉄戦車(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '愛しき私の鉄戦車(初期)',
+        specialBoost: [
           {
             'limitTarget': '男性',
-            'number': [
+            number: [
               150,
               162.5,
               175,
@@ -6554,17 +6554,17 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -6575,21 +6575,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 10,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 10,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '27',
-    'fullname': '牛若丸',
-    'classType': 'rider',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '27',
+    fullname: '牛若丸',
+    classType: 'rider',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '中庸',
@@ -6599,49 +6599,49 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '愛人'
     ],
-    'starDrop': 9.1,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 9.1,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.87,
-      'buster': 0.87,
-      'quick': 0.87,
-      'extra': 0.87,
-      'weapon': 0.87
+    npGain: {
+      arts: 0.87,
+      buster: 0.87,
+      quick: 0.87,
+      extra: 0.87,
+      weapon: 0.87
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '壇ノ浦・八艘跳(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '壇ノ浦・八艘跳(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -6650,8 +6650,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addSelfStarDrop',
-            'number': [
+            effectType: 'addSelfStarDrop',
+            number: [
               50,
               60,
               70,
@@ -6662,16 +6662,16 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'quick',
-        'name': '壇ノ浦・八艘跳(無償の愛などなく)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '壇ノ浦・八艘跳(無償の愛などなく)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               1600,
               2000,
               2200,
@@ -6680,8 +6680,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addSelfStarDrop',
-            'number': [
+            effectType: 'addSelfStarDrop',
+            number: [
               50,
               60,
               70,
@@ -6692,21 +6692,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 11,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 11,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '28',
-    'fullname': '亞歷山大',
-    'classType': 'rider',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '28',
+    fullname: '亞歷山大',
+    classType: 'rider',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '中立',
       '善',
@@ -6716,49 +6716,49 @@ export const servantConfigList = [
       '神性',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 9,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 9,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.86,
-      'buster': 0.86,
-      'quick': 0.86,
-      'extra': 0.86,
-      'weapon': 0.86
+    npGain: {
+      arts: 0.86,
+      buster: 0.86,
+      quick: 0.86,
+      extra: 0.86,
+      weapon: 0.86
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '始まりの蹂躙制覇(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '始まりの蹂躙制覇(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -6767,8 +6767,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addStar',
-            'number': [
+            effectType: 'addStar',
+            number: [
               5,
               10,
               15,
@@ -6779,16 +6779,16 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'quick',
-        'name': '始まりの蹂躙制覇(駆け抜ける、始まりの蹂躙制覇)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '始まりの蹂躙制覇(駆け抜ける、始まりの蹂躙制覇)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               800,
               1000,
               1100,
@@ -6797,8 +6797,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addStar',
-            'number': [
+            effectType: 'addStar',
+            number: [
               15,
               20,
               25,
@@ -6809,21 +6809,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 11,
-      'damage': 100,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 11,
+      damage: 100,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '29',
-    'fullname': '瑪莉・安東尼',
-    'classType': 'rider',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '29',
+    fullname: '瑪莉・安東尼',
+    classType: 'rider',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -6832,52 +6832,52 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 9,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 9,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         100
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1,
-      'buster': 1,
-      'quick': 1,
-      'extra': 1,
-      'weapon': 1
+    npGain: {
+      arts: 1,
+      buster: 1,
+      quick: 1,
+      extra: 1,
+      weapon: 1
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '百合の王冠に栄光あれ(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '百合の王冠に栄光あれ(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -6888,21 +6888,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 11,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 11,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '30',
-    'fullname': '瑪爾大',
-    'classType': 'rider',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '30',
+    fullname: '瑪爾大',
+    classType: 'rider',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -6912,48 +6912,48 @@ export const servantConfigList = [
       '神性',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 9,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 9,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         100
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.58,
-      'buster': 1.58,
-      'quick': 1.58,
-      'extra': 1.58,
-      'weapon': 1.58
+    npGain: {
+      arts: 1.58,
+      buster: 1.58,
+      quick: 1.58,
+      extra: 1.58,
+      weapon: 1.58
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '愛知らぬ哀しき竜よ(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '愛知らぬ哀しき竜よ(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -6962,8 +6962,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               20,
               25,
               30,
@@ -6974,21 +6974,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 11.5,
-      'damage': 150,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 11.5,
+      damage: 150,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '73',
-    'fullname': '阿爾托莉亞・潘德拉剛〔聖誕Alter〕',
-    'classType': 'rider',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '73',
+    fullname: '阿爾托莉亞・潘德拉剛〔聖誕Alter〕',
+    classType: 'rider',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -7000,51 +7000,51 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '亞瑟'
     ],
-    'starDrop': 8.9,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 8.9,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.87,
-      'buster': 0.87,
-      'quick': 0.87,
-      'extra': 0.87,
-      'weapon': 0.87
+    npGain: {
+      arts: 0.87,
+      buster: 0.87,
+      quick: 0.87,
+      extra: 0.87,
+      weapon: 0.87
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '約束された勝利の剣(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '約束された勝利の剣(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               450,
               550,
               600,
@@ -7053,8 +7053,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addSelfNp',
-            'number': [
+            effectType: 'addSelfNp',
+            number: [
               10,
               15,
               20,
@@ -7065,21 +7065,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 10,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 10,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '115',
-    'fullname': '坂田金時',
-    'classType': 'rider',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '115',
+    fullname: '坂田金時',
+    classType: 'rider',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -7091,27 +7091,27 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '愛人'
     ],
-    'starDrop': 9,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 9,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         10,
         20,
         30,
         40
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -7119,22 +7119,22 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 1.15,
-      'buster': 1.15,
-      'quick': 1.15,
-      'extra': 1.15,
-      'weapon': 1.15
+    npGain: {
+      arts: 1.15,
+      buster: 1.15,
+      quick: 1.15,
+      extra: 1.15,
+      weapon: 1.15
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '夜狼死九・黄金疾走(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '夜狼死九・黄金疾走(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addSelfQuick',
-            'number': [
+            effectType: 'addSelfQuick',
+            number: [
               10,
               30,
               50,
@@ -7143,14 +7143,14 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               35,
               21,
               14,
               30
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -7161,21 +7161,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 150,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 150,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '132',
-    'fullname': '莫德雷德',
-    'classType': 'rider',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '132',
+    fullname: '莫德雷德',
+    classType: 'rider',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -7187,55 +7187,55 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 9.2,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 9.2,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         10,
         20,
         30,
         40
       ]
     },
-    'npGain': {
-      'arts': 0.71,
-      'buster': 0.71,
-      'quick': 0.71,
-      'extra': 0.71,
-      'weapon': 0.71
+    npGain: {
+      arts: 0.71,
+      buster: 0.71,
+      quick: 0.71,
+      extra: 0.71,
+      weapon: 0.71
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '逆巻く波濤を制する王様気分！(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '逆巻く波濤を制する王様気分！(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               450,
               600,
               675,
@@ -7246,21 +7246,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 5,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 5
+    passiveBuff: {
+      arts: 5,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 5
     }
   },
   {
-    'id': '31',
-    'fullname': '美狄亞',
-    'classType': 'caster',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '31',
+    fullname: '美狄亞',
+    classType: 'caster',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '中立',
       '惡',
@@ -7270,48 +7270,48 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 10.9,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 10.9,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         100
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.64,
-      'buster': 1.64,
-      'quick': 1.64,
-      'extra': 1.64,
-      'weapon': 1.64
+    npGain: {
+      arts: 1.64,
+      buster: 1.64,
+      quick: 1.64,
+      extra: 1.64,
+      weapon: 1.64
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '破戒すべき全ての符(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '破戒すべき全ての符(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               450,
               600,
               675,
@@ -7320,11 +7320,11 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'dispelOneBuff',
+            effectType: 'dispelOneBuff',
           },
           {
-            'effectType': 'addSelfNp',
-            'number': [
+            effectType: 'addSelfNp',
+            number: [
               20,
               40,
               60,
@@ -7335,16 +7335,16 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'arts',
-        'name': '破戒すべき全ての符(魔女の箱庭)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '破戒すべき全ての符(魔女の箱庭)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               600,
               750,
               825,
@@ -7353,11 +7353,11 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'dispelOneBuff',
+            effectType: 'dispelOneBuff',
           },
           {
-            'effectType': 'addSelfNp',
-            'number': [
+            effectType: 'addSelfNp',
+            number: [
               20,
               40,
               60,
@@ -7368,21 +7368,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 10,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 10,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '32',
-    'fullname': '吉爾・德・雷',
-    'classType': 'caster',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '32',
+    fullname: '吉爾・德・雷',
+    classType: 'caster',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -7390,50 +7390,50 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 10.8,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 10.8,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         100
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.58,
-      'buster': 1.58,
-      'quick': 1.58,
-      'extra': 1.58,
-      'weapon': 1.58
+    npGain: {
+      arts: 1.58,
+      buster: 1.58,
+      quick: 1.58,
+      extra: 1.58,
+      weapon: 1.58
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '螺湮城教本(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '螺湮城教本(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -7444,21 +7444,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 8,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 8,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '62',
-    'fullname': '玉藻前',
-    'classType': 'caster',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '62',
+    fullname: '玉藻前',
+    classType: 'caster',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '中立',
       '惡',
@@ -7469,51 +7469,51 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 11,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 11,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         6,
         13,
         20,
         26,
         35
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         9,
         18,
         27,
         46
       ]
     },
-    'npGain': {
-      'arts': 0.32,
-      'buster': 0.32,
-      'quick': 0.32,
-      'extra': 0.32,
-      'weapon': 0.32
+    npGain: {
+      arts: 0.32,
+      buster: 0.32,
+      quick: 0.32,
+      extra: 0.32,
+      weapon: 0.32
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '水天日光天照八野鎮石(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '水天日光天照八野鎮石(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addAllNp',
-            'number': [
+            effectType: 'addAllNp',
+            number: [
               25,
               31.25,
               37.5,
@@ -7524,13 +7524,13 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'arts',
-        'name': '水天日光天照八野鎮石(メル友戦争)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '水天日光天照八野鎮石(メル友戦争)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addAllNp',
-            'number': [
+            effectType: 'addAllNp',
+            number: [
               25,
               31.25,
               37.5,
@@ -7541,21 +7541,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 6,
-      'buster': 0,
-      'quick': 0,
-      'damage': 200,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 6,
+      buster: 0,
+      quick: 0,
+      damage: 200,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '74',
-    'fullname': '童謠',
-    'classType': 'caster',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '74',
+    fullname: '童謠',
+    classType: 'caster',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '中立',
       '中庸',
@@ -7563,53 +7563,53 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 10.8,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 10.8,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.54,
-      'buster': 0.54,
-      'quick': 0.54,
-      'extra': 0.54,
-      'weapon': 0.54
+    npGain: {
+      arts: 0.54,
+      buster: 0.54,
+      quick: 0.54,
+      extra: 0.54,
+      weapon: 0.54
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '誰かの為の物語(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '誰かの為の物語(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               450,
               600,
               675,
@@ -7618,8 +7618,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               20,
               20,
               20,
@@ -7630,18 +7630,18 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'arts',
-        'name': '誰かの為の物語(本の群れ、わたしたちの群れ)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '誰かの為の物語(本の群れ、わたしたちの群れ)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               600,
               750,
               825,
@@ -7650,8 +7650,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               20,
               20,
               20,
@@ -7662,21 +7662,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 10,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 10,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '33',
-    'fullname': '漢斯・克里斯蒂安・安徒生',
-    'classType': 'caster',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '33',
+    fullname: '漢斯・克里斯蒂安・安徒生',
+    classType: 'caster',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '中庸',
@@ -7684,44 +7684,44 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 10.8,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 10.8,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         100
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.66,
-      'buster': 1.66,
-      'quick': 1.66,
-      'extra': 1.66,
-      'weapon': 1.66
+    npGain: {
+      arts: 1.66,
+      buster: 1.66,
+      quick: 1.66,
+      extra: 1.66,
+      weapon: 1.66
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '貴方のための物語(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '貴方のための物語(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addAllAttack',
+            effectType: 'addAllAttack',
             'chance': [
               60,
               70,
@@ -7729,7 +7729,7 @@ export const servantConfigList = [
               77.5,
               80
             ],
-            'number': [
+            number: [
               20,
               25,
               30,
@@ -7740,12 +7740,12 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'arts',
-        'name': '貴方のための物語(人間観察)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '貴方のための物語(人間観察)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addAllAttack',
+            effectType: 'addAllAttack',
             'chance': [
               60,
               70,
@@ -7753,7 +7753,7 @@ export const servantConfigList = [
               77.5,
               80
             ],
-            'number': [
+            number: [
               20,
               25,
               30,
@@ -7762,7 +7762,7 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addAllStarDrop',
+            effectType: 'addAllStarDrop',
             'chance': [
               60,
               70,
@@ -7770,7 +7770,7 @@ export const servantConfigList = [
               77.5,
               80
             ],
-            'number': [
+            number: [
               20,
               25,
               30,
@@ -7781,21 +7781,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 4,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 4,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '34',
-    'fullname': '威廉・莎士比亞',
-    'classType': 'caster',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '34',
+    fullname: '威廉・莎士比亞',
+    classType: 'caster',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '中立',
       '中庸',
@@ -7803,51 +7803,51 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 10.8,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 10.8,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         100
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.59,
-      'buster': 1.59,
-      'quick': 1.59,
-      'extra': 1.59,
-      'weapon': 1.59
+    npGain: {
+      arts: 1.59,
+      buster: 1.59,
+      quick: 1.59,
+      extra: 1.59,
+      weapon: 1.59
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '開演の刻は来たれり、此処に万雷の喝采を(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '開演の刻は来たれり、此処に万雷の喝采を(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               10,
               20,
               30,
               40
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -7858,21 +7858,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 6,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 6,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '127',
-    'fullname': '李奧納多・達文西',
-    'classType': 'caster',
-    'alignmentType': 'star',
-    'specialAttributeList': [
+    id: '127',
+    fullname: '李奧納多・達文西',
+    classType: 'caster',
+    alignmentType: 'star',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -7880,54 +7880,54 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 10.8,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 10.8,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         9,
         27,
         27,
         37
       ],
-      'extra': [
+      extra: [
         9,
         18,
         27,
         46
       ]
     },
-    'npGain': {
-      'arts': 0.54,
-      'buster': 0.54,
-      'quick': 0.54,
-      'extra': 0.54,
-      'weapon': 0.54
+    npGain: {
+      arts: 0.54,
+      buster: 0.54,
+      quick: 0.54,
+      extra: 0.54,
+      weapon: 0.54
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '万能の人(初期)',
-        'specialBoost': [
+        cardType: 'arts',
+        name: '万能の人(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'addSelfWeapon',
-            'number': [
+            effectType: 'addSelfWeapon',
+            number: [
               30,
               40,
               50,
@@ -7936,11 +7936,11 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               450,
               600,
               675,
@@ -7951,21 +7951,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 10,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 10,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '79',
-    'fullname': '馮・霍恩海姆・帕拉塞爾斯',
-    'classType': 'caster',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '79',
+    fullname: '馮・霍恩海姆・帕拉塞爾斯',
+    classType: 'caster',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -7974,51 +7974,51 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '愛人'
     ],
-    'starDrop': 10.8,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 10.8,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.55,
-      'buster': 0.55,
-      'quick': 0.55,
-      'extra': 0.55,
-      'weapon': 0.55
+    npGain: {
+      arts: 0.55,
+      buster: 0.55,
+      quick: 0.55,
+      extra: 0.55,
+      weapon: 0.55
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '元素使いの魔剣(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '元素使いの魔剣(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -8029,18 +8029,18 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'arts',
-        'name': '元素使いの魔剣(デビルズ・クエスト)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '元素使いの魔剣(デビルズ・クエスト)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               400,
               500,
               550,
@@ -8051,21 +8051,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 10,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 10,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '80',
-    'fullname': '查爾斯・巴貝奇',
-    'classType': 'caster',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '80',
+    fullname: '查爾斯・巴貝奇',
+    classType: 'caster',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '中庸',
@@ -8073,52 +8073,52 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 10.8,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 10.8,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         16,
         33,
         51
       ]
     },
-    'npGain': {
-      'arts': 0.91,
-      'buster': 0.91,
-      'quick': 0.91,
-      'extra': 0.91,
-      'weapon': 0.91
+    npGain: {
+      arts: 0.91,
+      buster: 0.91,
+      quick: 0.91,
+      extra: 0.91,
+      weapon: 0.91
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '絢爛なりし灰燼世界(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '絢爛なりし灰燼世界(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               10,
               20,
               30,
               40
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -8127,8 +8127,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               10,
               12.5,
               15,
@@ -8139,19 +8139,19 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'buster',
-        'name': '絢爛なりし灰燼世界(鋼鐵機動戦記Ｃ・バベッジ)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '絢爛なりし灰燼世界(鋼鐵機動戦記Ｃ・バベッジ)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               10,
               20,
               30,
               40
             ],
-            'number': [
+            number: [
               400,
               500,
               550,
@@ -8160,8 +8160,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               10,
               12.5,
               15,
@@ -8172,21 +8172,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '120',
-    'fullname': '尼托克里絲',
-    'classType': 'caster',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '120',
+    fullname: '尼托克里絲',
+    classType: 'caster',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -8197,30 +8197,30 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 10.8,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 10.8,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         16,
         33,
         51
       ],
-      'quick': [
+      quick: [
         10,
         20,
         30,
         40
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -8228,27 +8228,27 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.54,
-      'buster': 0.54,
-      'quick': 0.54,
-      'extra': 0.54,
-      'weapon': 0.54
+    npGain: {
+      arts: 0.54,
+      buster: 0.54,
+      quick: 0.54,
+      extra: 0.54,
+      weapon: 0.54
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '冥鏡宝典(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '冥鏡宝典(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               450,
               600,
               675,
@@ -8259,18 +8259,18 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'arts',
-        'name': '冥鏡宝典(ファラオ・ニトクリス)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '冥鏡宝典(ファラオ・ニトクリス)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               600,
               750,
               825,
@@ -8281,21 +8281,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 10,
-      'buster': 0,
-      'quick': 0,
-      'damage': 175,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 10,
+      buster: 0,
+      quick: 0,
+      damage: 175,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '35',
-    'fullname': '梅菲斯托費勒斯',
-    'classType': 'caster',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '35',
+    fullname: '梅菲斯托費勒斯',
+    classType: 'caster',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -8305,53 +8305,53 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 11,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 11,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.81,
-      'buster': 0.81,
-      'quick': 0.81,
-      'extra': 0.81,
-      'weapon': 0.81
+    npGain: {
+      arts: 0.81,
+      buster: 0.81,
+      quick: 0.81,
+      extra: 0.81,
+      weapon: 0.81
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '微睡む爆弾(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '微睡む爆弾(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -8362,20 +8362,20 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'buster',
-        'name': '微睡む爆弾(チクタク・バン！)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '微睡む爆弾(チクタク・バン！)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               400,
               500,
               550,
@@ -8386,21 +8386,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 7,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 7,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '36',
-    'fullname': '沃夫岡・阿瑪迪斯・莫札特',
-    'classType': 'caster',
-    'alignmentType': 'star',
-    'specialAttributeList': [
+    id: '36',
+    fullname: '沃夫岡・阿瑪迪斯・莫札特',
+    classType: 'caster',
+    alignmentType: 'star',
+    specialAttributeList: [
       'Servant',
       '中立',
       '善',
@@ -8408,44 +8408,44 @@ export const servantConfigList = [
       '人型',
       '愛人'
     ],
-    'starDrop': 11,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 11,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         100
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.6,
-      'buster': 1.6,
-      'quick': 1.6,
-      'extra': 1.6,
-      'weapon': 1.6
+    npGain: {
+      arts: 1.6,
+      buster: 1.6,
+      quick: 1.6,
+      extra: 1.6,
+      weapon: 1.6
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '死神のための葬送曲(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '死神のための葬送曲(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'decreaseAllDefense',
+            effectType: 'decreaseAllDefense',
             'chance': [
               60,
               70,
@@ -8453,7 +8453,7 @@ export const servantConfigList = [
               77.5,
               80
             ],
-            'number': [
+            number: [
               20,
               25,
               30,
@@ -8464,21 +8464,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 8,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 8,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '104',
-    'fullname': '傑羅尼莫',
-    'classType': 'caster',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '104',
+    fullname: '傑羅尼莫',
+    classType: 'caster',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '中立',
       '善',
@@ -8487,50 +8487,50 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '愛人'
     ],
-    'starDrop': 11,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 11,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         25,
         75
       ],
-      'extra': [
+      extra: [
         9,
         18,
         27,
         46
       ]
     },
-    'npGain': {
-      'arts': 0.9,
-      'buster': 0.9,
-      'quick': 0.9,
-      'extra': 0.9,
-      'weapon': 0.9
+    npGain: {
+      arts: 0.9,
+      buster: 0.9,
+      quick: 0.9,
+      extra: 0.9,
+      weapon: 0.9
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '大地を創りし者(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '大地を創りし者(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               400,
               550,
               625,
@@ -8541,21 +8541,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 8,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 8,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '67',
-    'fullname': '美狄亞〔Lily〕',
-    'classType': 'caster',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '67',
+    fullname: '美狄亞〔Lily〕',
+    classType: 'caster',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -8565,31 +8565,31 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 10.7,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 10.7,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         10,
         20,
         30,
         40
       ],
-      'buster': [
+      buster: [
         16,
         33,
         51
       ],
-      'quick': [
+      quick: [
         10,
         20,
         30,
         40
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -8597,42 +8597,42 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.4,
-      'buster': 0.4,
-      'quick': 0.4,
-      'extra': 0.4,
-      'weapon': 0.4
+    npGain: {
+      arts: 0.4,
+      buster: 0.4,
+      quick: 0.4,
+      extra: 0.4,
+      weapon: 0.4
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '修補すべき全ての疵(初期)',
-        'specialBoost': [],
-        'effectList': []
+        cardType: 'arts',
+        name: '修補すべき全ての疵(初期)',
+        specialBoost: [],
+        effectList: []
       },
       {
-        'cardType': 'arts',
-        'name': '修補すべき全ての疵(仲良しの魔女)',
-        'specialBoost': [],
-        'effectList': []
+        cardType: 'arts',
+        name: '修補すべき全ての疵(仲良しの魔女)',
+        specialBoost: [],
+        effectList: []
       }
     ],
-    'passiveBuff': {
-      'arts': 8,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 8,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '37',
-    'fullname': '諸葛孔明〔埃爾梅羅II世〕',
-    'classType': 'caster',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '37',
+    fullname: '諸葛孔明〔埃爾梅羅II世〕',
+    classType: 'caster',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '中立',
       '善',
@@ -8641,45 +8641,45 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '愛人'
     ],
-    'starDrop': 10.8,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 10.8,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         100
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.64,
-      'buster': 1.64,
-      'quick': 1.64,
-      'extra': 1.64,
-      'weapon': 1.64
+    npGain: {
+      arts: 1.64,
+      buster: 1.64,
+      quick: 1.64,
+      extra: 1.64,
+      weapon: 1.64
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '石兵八陣(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '石兵八陣(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               10,
               15,
               20,
@@ -8690,13 +8690,13 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'arts',
-        'name': '石兵八陣(再臨の真実)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '石兵八陣(再臨の真実)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               30,
               40,
               45,
@@ -8707,21 +8707,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 10,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 10,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '111',
-    'fullname': '愛麗絲菲爾〔天之衣〕',
-    'classType': 'caster',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '111',
+    fullname: '愛麗絲菲爾〔天之衣〕',
+    classType: 'caster',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -8732,65 +8732,65 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 10.8,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 10.8,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         16,
         33,
         51
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         9,
         18,
         27,
         46
       ]
     },
-    'npGain': {
-      'arts': 0.42,
-      'buster': 0.42,
-      'quick': 0.42,
-      'extra': 0.42,
-      'weapon': 0.42
+    npGain: {
+      arts: 0.42,
+      buster: 0.42,
+      quick: 0.42,
+      extra: 0.42,
+      weapon: 0.42
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '白き聖杯よ、謳え(初期)',
-        'specialBoost': [],
-        'effectList': []
+        cardType: 'arts',
+        name: '白き聖杯よ、謳え(初期)',
+        specialBoost: [],
+        effectList: []
       }
     ],
-    'passiveBuff': {
-      'arts': 8,
-      'buster': 0,
-      'quick': 0,
-      'damage': 200,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 8,
+      buster: 0,
+      quick: 0,
+      damage: 200,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '38',
-    'fullname': '庫・夫林',
-    'classType': 'caster',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '38',
+    fullname: '庫・夫林',
+    classType: 'caster',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '中庸',
@@ -8802,48 +8802,48 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '愛人'
     ],
-    'starDrop': 10.9,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 10.9,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         100
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.6,
-      'buster': 1.6,
-      'quick': 1.6,
-      'extra': 1.6,
-      'weapon': 1.6
+    npGain: {
+      arts: 1.6,
+      buster: 1.6,
+      quick: 1.6,
+      extra: 1.6,
+      weapon: 1.6
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '灼き尽くす炎の檻(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '灼き尽くす炎の檻(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -8852,8 +8852,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               10,
               15,
               20,
@@ -8864,21 +8864,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 8,
-      'buster': 0,
-      'quick': 0,
-      'damage': 175,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 8,
+      buster: 0,
+      quick: 0,
+      damage: 175,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '113',
-    'fullname': '玄奘三藏',
-    'classType': 'caster',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '113',
+    fullname: '玄奘三藏',
+    classType: 'caster',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -8887,26 +8887,26 @@ export const servantConfigList = [
       '神性',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 11,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 11,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         4,
         9,
         14,
@@ -8915,22 +8915,22 @@ export const servantConfigList = [
         31
       ]
     },
-    'npGain': {
-      'arts': 0.82,
-      'buster': 0.82,
-      'quick': 0.82,
-      'extra': 0.82,
-      'weapon': 0.82
+    npGain: {
+      arts: 0.82,
+      buster: 0.82,
+      quick: 0.82,
+      extra: 0.82,
+      weapon: 0.82
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '五行山・釈迦如来掌(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '五行山・釈迦如来掌(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               15,
               3,
               6,
@@ -8944,7 +8944,7 @@ export const servantConfigList = [
               3,
               28
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -8955,21 +8955,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 11,
-      'buster': 0,
-      'quick': 0,
-      'damage': 125,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 11,
+      buster: 0,
+      quick: 0,
+      damage: 125,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '100',
-    'fullname': '海倫娜・布拉瓦茨基',
-    'classType': 'caster',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '100',
+    fullname: '海倫娜・布拉瓦茨基',
+    classType: 'caster',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -8977,22 +8977,22 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 10.7,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 10.7,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         4,
         9,
         14,
@@ -9000,33 +9000,33 @@ export const servantConfigList = [
         23,
         31
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.45,
-      'buster': 0.45,
-      'quick': 0.45,
-      'extra': 0.45,
-      'weapon': 0.45
+    npGain: {
+      arts: 0.45,
+      buster: 0.45,
+      quick: 0.45,
+      extra: 0.45,
+      weapon: 0.45
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '金星神・火炎天主(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '金星神・火炎天主(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               450,
               600,
               675,
@@ -9035,8 +9035,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               10,
               20,
               30,
@@ -9047,21 +9047,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 10,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 10,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '103',
-    'fullname': '湯瑪斯・愛迪生',
-    'classType': 'caster',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '103',
+    fullname: '湯瑪斯・愛迪生',
+    classType: 'caster',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '中庸',
@@ -9069,29 +9069,29 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 10.6,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 10.6,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         16,
         33,
         51
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -9099,25 +9099,25 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.51,
-      'buster': 0.51,
-      'quick': 0.51,
-      'extra': 0.51,
-      'weapon': 0.51
+    npGain: {
+      arts: 0.51,
+      buster: 0.51,
+      quick: 0.51,
+      extra: 0.51,
+      weapon: 0.51
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': 'Ｗ・Ｆ・Ｄ(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: 'Ｗ・Ｆ・Ｄ(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               450,
               600,
               675,
@@ -9128,21 +9128,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 4,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 4,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '61',
-    'fullname': '伊莉莎白・巴托里〔萬聖節〕',
-    'classType': 'caster',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '61',
+    fullname: '伊莉莎白・巴托里〔萬聖節〕',
+    classType: 'caster',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -9151,57 +9151,57 @@ export const servantConfigList = [
       '龍',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 10.8,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 10.8,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         100
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         9,
         18,
         27,
         46
       ]
     },
-    'npGain': {
-      'arts': 1.6,
-      'buster': 1.6,
-      'quick': 1.6,
-      'extra': 1.6,
-      'weapon': 1.6
+    npGain: {
+      arts: 1.6,
+      buster: 1.6,
+      quick: 1.6,
+      extra: 1.6,
+      weapon: 1.6
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '鮮血特上魔嬢(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '鮮血特上魔嬢(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -9212,21 +9212,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 8,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 8,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '130',
-    'fullname': '瑪莉・安東尼',
-    'classType': 'caster',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '130',
+    fullname: '瑪莉・安東尼',
+    classType: 'caster',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -9234,56 +9234,56 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 10.9,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 10.9,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         6,
         13,
         20,
         26,
         35
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         10,
         20,
         30,
         40
       ]
     },
-    'npGain': {
-      'arts': 0.32,
-      'buster': 0.32,
-      'quick': 0.32,
-      'extra': 0.32,
-      'weapon': 0.32
+    npGain: {
+      arts: 0.32,
+      buster: 0.32,
+      quick: 0.32,
+      extra: 0.32,
+      weapon: 0.32
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '愛すべき輝きは永遠に(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '愛すべき輝きは永遠に(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               450,
               600,
               675,
@@ -9292,8 +9292,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addAllCritical',
-            'number': [
+            effectType: 'addAllCritical',
+            number: [
               20,
               25,
               30,
@@ -9304,21 +9304,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 10,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 10,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '136',
-    'fullname': '伊莉雅絲菲爾',
-    'classType': 'caster',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '136',
+    fullname: '伊莉雅絲菲爾',
+    classType: 'caster',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '中立',
       '善',
@@ -9326,29 +9326,29 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 10.7,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 10.7,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         6,
         13,
         20,
         26,
         35
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -9356,22 +9356,22 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.32,
-      'buster': 0.32,
-      'quick': 0.32,
-      'extra': 0.32,
-      'weapon': 0.32
+    npGain: {
+      arts: 0.32,
+      buster: 0.32,
+      quick: 0.32,
+      extra: 0.32,
+      weapon: 0.32
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '多元重奏飽和砲撃(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '多元重奏飽和砲撃(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addSelfBuster',
-            'number': [
+            effectType: 'addSelfBuster',
+            number: [
               20,
               35,
               50,
@@ -9380,8 +9380,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseSelfAttack',
-            'number': [
+            effectType: 'decreaseSelfAttack',
+            number: [
               10,
               10,
               10,
@@ -9392,21 +9392,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '39',
-    'fullname': '佐佐木小次郎',
-    'classType': 'assassin',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '39',
+    fullname: '佐佐木小次郎',
+    classType: 'assassin',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '中立',
       '惡',
@@ -9414,51 +9414,51 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 25.3,
-    'cards': {
-      'arts': 1,
-      'buster': 1,
-      'quick': 3
+    starDrop: 25.3,
+    cards: {
+      arts: 1,
+      buster: 1,
+      quick: 3
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.05,
-      'buster': 1.05,
-      'quick': 1.05,
-      'extra': 1.05,
-      'weapon': 1.05
+    npGain: {
+      arts: 1.05,
+      buster: 1.05,
+      quick: 1.05,
+      extra: 1.05,
+      weapon: 1.05
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '燕返し(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '燕返し(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -9467,8 +9467,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addStar',
-            'number': [
+            effectType: 'addStar',
+            number: [
               15,
               20,
               25,
@@ -9479,21 +9479,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 4
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 4
     }
   },
   {
-    'id': '40',
-    'fullname': '咒腕的哈桑',
-    'classType': 'assassin',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '40',
+    fullname: '咒腕的哈桑',
+    classType: 'assassin',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '惡',
@@ -9501,50 +9501,50 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 25.2,
-    'cards': {
-      'arts': 1,
-      'buster': 1,
-      'quick': 3
+    starDrop: 25.2,
+    cards: {
+      arts: 1,
+      buster: 1,
+      quick: 3
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.07,
-      'buster': 1.07,
-      'quick': 1.07,
-      'extra': 1.07,
-      'weapon': 1.07
+    npGain: {
+      arts: 1.07,
+      buster: 1.07,
+      quick: 1.07,
+      extra: 1.07,
+      weapon: 1.07
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '妄想心音(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '妄想心音(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -9555,21 +9555,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 10.5
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 10.5
     }
   },
   {
-    'id': '110',
-    'fullname': '百貌的哈桑',
-    'classType': 'assassin',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '110',
+    fullname: '百貌的哈桑',
+    classType: 'assassin',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '惡',
@@ -9577,27 +9577,27 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 25.5,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 25.5,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         4,
         9,
         14,
@@ -9606,22 +9606,22 @@ export const servantConfigList = [
         31
       ]
     },
-    'npGain': {
-      'arts': 0.48,
-      'buster': 0.48,
-      'quick': 0.48,
-      'extra': 0.48,
-      'weapon': 0.38
+    npGain: {
+      arts: 0.48,
+      buster: 0.48,
+      quick: 0.48,
+      extra: 0.48,
+      weapon: 0.38
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '妄想幻像(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '妄想幻像(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               16,
               5,
               11,
@@ -9636,7 +9636,7 @@ export const servantConfigList = [
               11,
               8
             ],
-            'number': [
+            number: [
               900,
               1200,
               1350,
@@ -9647,21 +9647,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 10
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 10
     }
   },
   {
-    'id': '75',
-    'fullname': '開膛手傑克',
-    'classType': 'assassin',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '75',
+    fullname: '開膛手傑克',
+    classType: 'assassin',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -9671,50 +9671,50 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 25.5,
-    'cards': {
-      'arts': 1,
-      'buster': 1,
-      'quick': 3
+    starDrop: 25.5,
+    cards: {
+      arts: 1,
+      buster: 1,
+      quick: 3
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         66,
         34
       ],
-      'quick': [
+      quick: [
         7,
         15,
         23,
         15,
         40
       ],
-      'extra': [
+      extra: [
         10,
         20,
         30,
         40
       ]
     },
-    'npGain': {
-      'arts': 1.07,
-      'buster': 1.07,
-      'quick': 1.07,
-      'extra': 1.07,
-      'weapon': 1.07
+    npGain: {
+      arts: 1.07,
+      buster: 1.07,
+      quick: 1.07,
+      extra: 1.07,
+      weapon: 1.07
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '解体聖母(初期)',
-        'specialBoost': [
+        cardType: 'quick',
+        name: '解体聖母(初期)',
+        specialBoost: [
           {
             'limitTarget': '女性',
-            'number': [
+            number: [
               50,
               62.5,
               75,
@@ -9723,19 +9723,19 @@ export const servantConfigList = [
             ]
           },
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               10,
               20,
               30,
               40
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -9746,12 +9746,12 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'quick',
-        'name': '解体聖母(ジャック・キルズ・ジャック)',
-        'specialBoost': [
+        cardType: 'quick',
+        name: '解体聖母(ジャック・キルズ・ジャック)',
+        specialBoost: [
           {
             'limitTarget': '女性',
-            'number': [
+            number: [
               50,
               62.5,
               75,
@@ -9760,19 +9760,19 @@ export const servantConfigList = [
             ]
           },
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               10,
               20,
               30,
               40
             ],
-            'number': [
+            number: [
               1400,
               1800,
               2000,
@@ -9783,21 +9783,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 10.5
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 10.5
     }
   },
   {
-    'id': '81',
-    'fullname': '亨利・傑基爾＆海德',
-    'classType': 'assassin',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '81',
+    fullname: '亨利・傑基爾＆海德',
+    classType: 'assassin',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -9808,66 +9808,66 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '愛人'
     ],
-    'starDrop': 25.6,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 25.6,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.05,
-      'buster': 1.05,
-      'quick': 1.05,
-      'extra': 1.05,
-      'weapon': 1.05
+    npGain: {
+      arts: 1.05,
+      buster: 1.05,
+      quick: 1.05,
+      extra: 1.05,
+      weapon: 1.05
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '密やかなる罪の遊戯(初期)',
-        'specialBoost': [],
-        'effectList': []
+        cardType: 'buster',
+        name: '密やかなる罪の遊戯(初期)',
+        specialBoost: [],
+        effectList: []
       },
       {
-        'cardType': 'buster',
-        'name': '密やかなる罪の遊戯(ハイド氏とジキル博士)',
-        'specialBoost': [],
-        'effectList': []
+        cardType: 'buster',
+        name: '密やかなる罪の遊戯(ハイド氏とジキル博士)',
+        specialBoost: [],
+        effectList: []
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 10
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 10
     }
   },
   {
-    'id': '139',
-    'fullname': '克麗奧佩脫拉',
-    'classType': 'assassin',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '139',
+    fullname: '克麗奧佩脫拉',
+    classType: 'assassin',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '中庸',
@@ -9876,29 +9876,29 @@ export const servantConfigList = [
       '神性',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 25.5,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 25.5,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         16,
         33,
         51
       ],
-      'quick': [
+      quick: [
         10,
         20,
         30,
         40
       ],
-      'extra': [
+      extra: [
         4,
         9,
         14,
@@ -9907,22 +9907,22 @@ export const servantConfigList = [
         31
       ]
     },
-    'npGain': {
-      'arts': 1.06,
-      'buster': 1.06,
-      'quick': 1.06,
-      'extra': 1.06,
-      'weapon': 1.06
+    npGain: {
+      arts: 1.06,
+      buster: 1.06,
+      quick: 1.06,
+      extra: 1.06,
+      weapon: 1.06
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '暁の時を終える蛇よ、此処に(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '暁の時を終える蛇よ、此処に(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addSelfBuster',
-            'number': [
+            effectType: 'addSelfBuster',
+            number: [
               30,
               40,
               50,
@@ -9931,15 +9931,15 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -9950,21 +9950,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 125,
-      'critical': 0,
-      'starDrop': 8
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 125,
+      critical: 0,
+      starDrop: 8
     }
   },
   {
-    'id': '124',
-    'fullname': '靜謐的哈桑',
-    'classType': 'assassin',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '124',
+    fullname: '靜謐的哈桑',
+    classType: 'assassin',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '惡',
@@ -9972,30 +9972,30 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 25.6,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 25.6,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         10,
         20,
         30,
         40
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -10003,25 +10003,25 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.53,
-      'buster': 0.53,
-      'quick': 0.53,
-      'extra': 0.53,
-      'weapon': 0.53
+    npGain: {
+      arts: 0.53,
+      buster: 0.53,
+      quick: 0.53,
+      extra: 0.53,
+      weapon: 0.53
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '妄想毒身(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '妄想毒身(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               900,
               1200,
               1350,
@@ -10032,21 +10032,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 10,
-      'starDrop': 10.5
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 10,
+      starDrop: 10.5
     }
   },
   {
-    'id': '41',
-    'fullname': '絲西娜',
-    'classType': 'assassin',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '41',
+    fullname: '絲西娜',
+    classType: 'assassin',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -10057,45 +10057,45 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 25,
-    'cards': {
-      'arts': 1,
-      'buster': 1,
-      'quick': 3
+    starDrop: 25,
+    cards: {
+      arts: 1,
+      buster: 1,
+      quick: 3
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         100
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 2.26,
-      'buster': 2.26,
-      'quick': 2.26,
-      'extra': 2.26,
-      'weapon': 2.26
+    npGain: {
+      arts: 2.26,
+      buster: 2.26,
+      quick: 2.26,
+      extra: 2.26,
+      weapon: 2.26
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '女神の微笑(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '女神の微笑(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               20,
               20,
               20,
@@ -10106,21 +10106,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 300,
-      'critical': 0,
-      'starDrop': 10.5
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 300,
+      critical: 0,
+      starDrop: 10.5
     }
   },
   {
-    'id': '42',
-    'fullname': '荊軻',
-    'classType': 'assassin',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '42',
+    fullname: '荊軻',
+    classType: 'assassin',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -10128,49 +10128,49 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 25.2,
-    'cards': {
-      'arts': 1,
-      'buster': 1,
-      'quick': 3
+    starDrop: 25.2,
+    cards: {
+      arts: 1,
+      buster: 1,
+      quick: 3
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.05,
-      'buster': 1.05,
-      'quick': 1.05,
-      'extra': 1.05,
-      'weapon': 1.05
+    npGain: {
+      arts: 1.05,
+      buster: 1.05,
+      quick: 1.05,
+      extra: 1.05,
+      weapon: 1.05
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '不還匕首(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '不還匕首(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -10179,8 +10179,8 @@ export const servantConfigList = [
             ]
           },
                     {
-            'effectType': 'addStar',
-            'number': [
+            effectType: 'addStar',
+            number: [
               15,
               20,
               25,
@@ -10191,21 +10191,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 8
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 8
     }
   },
   {
-    'id': '43',
-    'fullname': '夏爾＝亨利・桑松',
-    'classType': 'assassin',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '43',
+    fullname: '夏爾＝亨利・桑松',
+    classType: 'assassin',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '惡',
@@ -10213,49 +10213,49 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 24.8,
-    'cards': {
-      'arts': 1,
-      'buster': 1,
-      'quick': 3
+    starDrop: 24.8,
+    cards: {
+      arts: 1,
+      buster: 1,
+      quick: 3
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.06,
-      'buster': 1.06,
-      'quick': 1.06,
-      'extra': 1.06,
-      'weapon': 1.06
+    npGain: {
+      arts: 1.06,
+      buster: 1.06,
+      quick: 1.06,
+      extra: 1.06,
+      weapon: 1.06
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '死は明日への希望なり(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '死は明日への希望なり(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -10264,8 +10264,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseOneDefense',
-            'number': [
+            effectType: 'decreaseOneDefense',
+            number: [
               20,
               25,
               30,
@@ -10276,21 +10276,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 4
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 4
     }
   },
   {
-    'id': '44',
-    'fullname': '歌劇魅影',
-    'classType': 'assassin',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '44',
+    fullname: '歌劇魅影',
+    classType: 'assassin',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -10300,55 +10300,55 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 25.2,
-    'cards': {
-      'arts': 1,
-      'buster': 1,
-      'quick': 3
+    starDrop: 25.2,
+    cards: {
+      arts: 1,
+      buster: 1,
+      quick: 3
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         66,
         34
       ],
-      'quick': [
+      quick: [
         25,
         75
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.71,
-      'buster': 0.71,
-      'quick': 0.71,
-      'extra': 0.71,
-      'weapon': 0.71
+    npGain: {
+      arts: 0.71,
+      buster: 0.71,
+      quick: 0.71,
+      extra: 0.71,
+      weapon: 0.71
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '地獄にこそ響け我が愛の唄(初期)',
-        'specialBoost': [
+        cardType: 'arts',
+        name: '地獄にこそ響け我が愛の唄(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               450,
               600,
               675,
@@ -10359,20 +10359,20 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'arts',
-        'name': '地獄にこそ響け我が愛の唄(クリスティーヌの呼び声)',
-        'specialBoost': [
+        cardType: 'arts',
+        name: '地獄にこそ響け我が愛の唄(クリスティーヌの呼び声)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               600,
               750,
               825,
@@ -10383,21 +10383,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 10
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 10
     }
   },
   {
-    'id': '45',
-    'fullname': '瑪塔・哈里',
-    'classType': 'assassin',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '45',
+    fullname: '瑪塔・哈里',
+    classType: 'assassin',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '中庸',
@@ -10405,45 +10405,45 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 24.6,
-    'cards': {
-      'arts': 1,
-      'buster': 1,
-      'quick': 3
+    starDrop: 24.6,
+    cards: {
+      arts: 1,
+      buster: 1,
+      quick: 3
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         100
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 2.1,
-      'buster': 2.1,
-      'quick': 2.1,
-      'extra': 2.1,
-      'weapon': 2.1
+    npGain: {
+      arts: 2.1,
+      buster: 2.1,
+      quick: 2.1,
+      extra: 2.1,
+      weapon: 2.1
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '陽の眼を持つ女(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '陽の眼を持つ女(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               20,
               25,
               30,
@@ -10454,21 +10454,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '109',
-    'fullname': 'Emiya〔Assassin〕',
-    'classType': 'assassin',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '109',
+    fullname: 'Emiya〔Assassin〕',
+    classType: 'assassin',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -10477,18 +10477,18 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '愛人'
     ],
-    'starDrop': 25.6,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 25.6,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         8,
         16,
         25,
@@ -10496,13 +10496,13 @@ export const servantConfigList = [
         16,
         27
       ],
-      'quick': [
+      quick: [
         9,
         27,
         27,
         37
       ],
-      'extra': [
+      extra: [
         15,
         21,
         5,
@@ -10513,22 +10513,22 @@ export const servantConfigList = [
         19
       ]
     },
-    'npGain': {
-      'arts': 0.46,
-      'buster': 0.46,
-      'quick': 0.46,
-      'extra': 0.46,
-      'weapon': 0.28
+    npGain: {
+      arts: 0.46,
+      buster: 0.46,
+      quick: 0.46,
+      extra: 0.46,
+      weapon: 0.28
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '時のある間に薔薇を摘め(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '時のある間に薔薇を摘め(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               6,
               4,
               8,
@@ -10545,7 +10545,7 @@ export const servantConfigList = [
               6,
               28
             ],
-            'number': [
+            number: [
               900,
               1200,
               1350,
@@ -10556,21 +10556,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 10,
-      'starDrop': 10.5
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 10,
+      starDrop: 10.5
     }
   },
   {
-    'id': '46',
-    'fullname': '卡米拉',
-    'classType': 'assassin',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '46',
+    fullname: '卡米拉',
+    classType: 'assassin',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -10580,44 +10580,44 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 25.2,
-    'cards': {
-      'arts': 1,
-      'buster': 1,
-      'quick': 3
+    starDrop: 25.2,
+    cards: {
+      arts: 1,
+      buster: 1,
+      quick: 3
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         100
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 2.15,
-      'buster': 2.15,
-      'quick': 2.15,
-      'extra': 2.15,
-      'weapon': 2.15
+    npGain: {
+      arts: 2.15,
+      buster: 2.15,
+      quick: 2.15,
+      extra: 2.15,
+      weapon: 2.15
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '幻想の鉄処女(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '幻想の鉄処女(初期)',
+        specialBoost: [
           {
             'limitTarget': '女性',
-            'number': [
+            number: [
               120,
               132.5,
               145,
@@ -10626,13 +10626,13 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -10641,8 +10641,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addSelfAttack',
-            'number': [
+            effectType: 'addSelfAttack',
+            number: [
               20,
               20,
               20,
@@ -10653,21 +10653,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 4
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 4
     }
   },
   {
-    'id': '86',
-    'fullname': '謎之女主角X',
-    'classType': 'assassin',
-    'alignmentType': 'star',
-    'specialAttributeList': [
+    id: '86',
+    fullname: '謎之女主角X',
+    classType: 'assassin',
+    alignmentType: 'star',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -10678,48 +10678,48 @@ export const servantConfigList = [
       '阿爾托莉亞臉',
       '亞瑟'
     ],
-    'starDrop': 25.6,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 25.6,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         10,
         20,
         30,
         40
       ],
-      'extra': [
+      extra: [
         9,
         18,
         27,
         46
       ]
     },
-    'npGain': {
-      'arts': 0.81,
-      'buster': 0.81,
-      'quick': 0.81,
-      'extra': 0.81,
-      'weapon': 0.81
+    npGain: {
+      arts: 0.81,
+      buster: 0.81,
+      quick: 0.81,
+      extra: 0.81,
+      weapon: 0.81
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '無銘勝利剣(初期)',
-        'specialBoost': [
+        cardType: 'quick',
+        name: '無銘勝利剣(初期)',
+        specialBoost: [
           {
             'limitTarget': '阿爾托莉亞臉',
-            'number': [
+            number: [
               150,
               162.5,
               175,
@@ -10728,10 +10728,10 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               5,
               7,
               5,
@@ -10745,7 +10745,7 @@ export const servantConfigList = [
               5,
               35
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -10756,12 +10756,12 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'quick',
-        'name': '無銘勝利剣(セイバースレイヤー　覚醒編)',
-        'specialBoost': [
+        cardType: 'quick',
+        name: '無銘勝利剣(セイバースレイヤー　覚醒編)',
+        specialBoost: [
           {
             'limitTarget': '阿爾托莉亞臉',
-            'number': [
+            number: [
               150,
               162.5,
               175,
@@ -10770,10 +10770,10 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               5,
               7,
               5,
@@ -10787,7 +10787,7 @@ export const servantConfigList = [
               5,
               35
             ],
-            'number': [
+            number: [
               1600,
               2000,
               2200,
@@ -10798,21 +10798,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 12,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 10
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 12,
+      damage: 0,
+      critical: 0,
+      starDrop: 10
     }
   },
   {
-    'id': '117',
-    'fullname': '風魔小太郎',
-    'classType': 'assassin',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '117',
+    fullname: '風魔小太郎',
+    classType: 'assassin',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -10820,58 +10820,58 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 25.6,
-    'cards': {
-      'arts': 1,
-      'buster': 1,
-      'quick': 3
+    starDrop: 25.6,
+    cards: {
+      arts: 1,
+      buster: 1,
+      quick: 3
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         10,
         20,
         30,
         40
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         10,
         20,
         30,
         40
       ],
-      'extra': [
+      extra: [
         9,
         18,
         27,
         46
       ]
     },
-    'npGain': {
-      'arts': 0.54,
-      'buster': 0.54,
-      'quick': 0.54,
-      'extra': 0.54,
-      'weapon': 0.54
+    npGain: {
+      arts: 0.54,
+      buster: 0.54,
+      quick: 0.54,
+      extra: 0.54,
+      weapon: 0.54
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '不滅の混沌旅団(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '不滅の混沌旅団(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -10882,21 +10882,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 10.5
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 10.5
     }
   },
   {
-    'id': '112',
-    'fullname': '酒呑童子',
-    'classType': 'assassin',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '112',
+    fullname: '酒呑童子',
+    classType: 'assassin',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -10909,28 +10909,28 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '龍'
     ],
-    'starDrop': 25,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 25,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         9,
         27,
         27,
         37
       ],
-      'extra': [
+      extra: [
         4,
         9,
         14,
@@ -10939,25 +10939,25 @@ export const servantConfigList = [
         31
       ]
     },
-    'npGain': {
-      'arts': 0.55,
-      'buster': 0.55,
-      'quick': 0.55,
-      'extra': 0.55,
-      'weapon': 0.55
+    npGain: {
+      arts: 0.55,
+      buster: 0.55,
+      quick: 0.55,
+      extra: 0.55,
+      weapon: 0.55
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '千紫万紅・神便鬼毒(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '千紫万紅・神便鬼毒(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               450,
               600,
               675,
@@ -10968,21 +10968,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 150,
-      'critical': 0,
-      'starDrop': 6
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 150,
+      critical: 0,
+      starDrop: 6
     }
   },
   {
-    'id': '92',
-    'fullname': '兩儀式',
-    'classType': 'assassin',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '92',
+    fullname: '兩儀式',
+    classType: 'assassin',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -10990,27 +10990,27 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 25.6,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 25.6,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         30,
         20,
         10,
         40
       ],
-      'extra': [
+      extra: [
         26,
         13,
         20,
@@ -11018,31 +11018,31 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.8,
-      'buster': 0.8,
-      'quick': 0.8,
-      'extra': 0.8,
-      'weapon': 0.8
+    npGain: {
+      arts: 0.8,
+      buster: 0.8,
+      quick: 0.8,
+      extra: 0.8,
+      weapon: 0.8
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '唯識・直死の魔眼(初期)',
-        'specialBoost': [
+        cardType: 'arts',
+        name: '唯識・直死の魔眼(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               900,
               1200,
               1350,
@@ -11053,21 +11053,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 10,
-      'starDrop': 6
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 10,
+      starDrop: 6
     }
   },
   {
-    'id': '133',
-    'fullname': '斯卡哈',
-    'classType': 'assassin',
-    'alignmentType': 'star',
-    'specialAttributeList': [
+    id: '133',
+    fullname: '斯卡哈',
+    classType: 'assassin',
+    alignmentType: 'star',
+    specialAttributeList: [
       'Servant',
       '中立',
       '善',
@@ -11075,29 +11075,29 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 25.6,
-    'cards': {
-      'arts': 1,
-      'buster': 1,
-      'quick': 3
+    starDrop: 25.6,
+    cards: {
+      arts: 1,
+      buster: 1,
+      quick: 3
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         16,
         33,
         51
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -11105,29 +11105,29 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.71,
-      'buster': 0.71,
-      'quick': 0.71,
-      'extra': 0.71,
-      'weapon': 0.71
+    npGain: {
+      arts: 0.71,
+      buster: 0.71,
+      quick: 0.71,
+      extra: 0.71,
+      weapon: 0.71
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '蹴り穿つ死翔の槍(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '蹴り穿つ死翔の槍(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -11138,21 +11138,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 2
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 2
     }
   },
   {
-    'id': '47',
-    'fullname': '海克力斯',
-    'classType': 'berserker',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '47',
+    fullname: '海克力斯',
+    classType: 'berserker',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '狂',
@@ -11163,46 +11163,46 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 5,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 5,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         25,
         75
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.07,
-      'buster': 1.07,
-      'quick': 1.07,
-      'extra': 1.07,
-      'weapon': 1.07
+    npGain: {
+      arts: 1.07,
+      buster: 1.07,
+      quick: 1.07,
+      extra: 1.07,
+      weapon: 1.07
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '射殺す百頭(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '射殺す百頭(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               1,
               2,
               1,
@@ -11219,7 +11219,7 @@ export const servantConfigList = [
               11,
               20
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -11228,8 +11228,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseOneDefense',
-            'number': [
+            effectType: 'decreaseOneDefense',
+            number: [
               10,
               15,
               20,
@@ -11240,21 +11240,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 8,
-      'quick': 0,
-      'damage': 200,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 8,
+      quick: 0,
+      damage: 200,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '48',
-    'fullname': '蘭斯洛特',
-    'classType': 'berserker',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '48',
+    fullname: '蘭斯洛特',
+    classType: 'berserker',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '狂',
@@ -11264,46 +11264,46 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 5,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 5,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.5,
-      'buster': 0.5,
-      'quick': 0.5,
-      'extra': 0.5,
-      'weapon': 0.5
+    npGain: {
+      arts: 0.5,
+      buster: 0.5,
+      quick: 0.5,
+      extra: 0.5,
+      weapon: 0.5
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '騎士は徒手にて死せず(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '騎士は徒手にて死せず(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addSelfAttack',
-            'number': [
+            effectType: 'addSelfAttack',
+            number: [
               10,
               15,
               20,
@@ -11312,8 +11312,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               3,
               5,
               3,
@@ -11325,7 +11325,7 @@ export const servantConfigList = [
               16,
               22
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -11336,13 +11336,13 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'quick',
-        'name': '騎士は徒手にて死せず(NPC限定)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '騎士は徒手にて死せず(NPC限定)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addSelfAttack',
-            'number': [
+            effectType: 'addSelfAttack',
+            number: [
               10,
               15,
               20,
@@ -11351,8 +11351,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               3,
               5,
               3,
@@ -11364,7 +11364,7 @@ export const servantConfigList = [
               16,
               22
             ],
-            'number': [
+            number: [
               200,
               275,
               312.5,
@@ -11375,21 +11375,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 6,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 6,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '49',
-    'fullname': '呂布奉先',
-    'classType': 'berserker',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '49',
+    fullname: '呂布奉先',
+    classType: 'berserker',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -11397,53 +11397,53 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 5,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 5,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.04,
-      'buster': 1.04,
-      'quick': 1.04,
-      'extra': 1.04,
-      'weapon': 1.04
+    npGain: {
+      arts: 1.04,
+      buster: 1.04,
+      quick: 1.04,
+      extra: 1.04,
+      weapon: 1.04
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '軍神五兵(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '軍神五兵(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -11454,21 +11454,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 10,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 10,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '82',
-    'fullname': '弗蘭肯斯坦',
-    'classType': 'berserker',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '82',
+    fullname: '弗蘭肯斯坦',
+    classType: 'berserker',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '中庸',
@@ -11478,46 +11478,46 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 4.9,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 4.9,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         25,
         75
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.83,
-      'buster': 0.83,
-      'quick': 0.83,
-      'extra': 0.83,
-      'weapon': 0.83
+    npGain: {
+      arts: 0.83,
+      buster: 0.83,
+      quick: 0.83,
+      extra: 0.83,
+      weapon: 0.83
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '磔刑の雷樹(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '磔刑の雷樹(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               4,
               9,
               14,
@@ -11525,7 +11525,7 @@ export const servantConfigList = [
               23,
               31
             ],
-            'number': [
+            number: [
               700,
               900,
               1000,
@@ -11536,13 +11536,13 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'quick',
-        'name': '磔刑の雷樹(１１月の物寂しい夜の出来事　Ⅰ)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '磔刑の雷樹(１１月の物寂しい夜の出来事　Ⅰ)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               4,
               9,
               14,
@@ -11550,7 +11550,7 @@ export const servantConfigList = [
               23,
               31
             ],
-            'number': [
+            number: [
               900,
               1100,
               1200,
@@ -11561,21 +11561,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 4,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 4,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '50',
-    'fullname': '斯巴達克斯',
-    'classType': 'berserker',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '50',
+    fullname: '斯巴達克斯',
+    classType: 'berserker',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '中立',
       '中庸',
@@ -11584,53 +11584,53 @@ export const servantConfigList = [
       '羅馬',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 4.9,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 4.9,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.01,
-      'buster': 1.01,
-      'quick': 1.01,
-      'extra': 1.01,
-      'weapon': 1.01
+    npGain: {
+      arts: 1.01,
+      buster: 1.01,
+      quick: 1.01,
+      extra: 1.01,
+      weapon: 1.01
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '疵獣の咆吼(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '疵獣の咆吼(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -11641,41 +11641,41 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'buster',
-        'name': '愛は爆発する(NPC限定)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '愛は爆発する(NPC限定)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               10
             ]
           }
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 12,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 12,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '51',
-    'fullname': '坂田金時',
-    'classType': 'berserker',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '51',
+    fullname: '坂田金時',
+    classType: 'berserker',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -11685,53 +11685,53 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '愛人'
     ],
-    'starDrop': 5,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 5,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         25,
         75
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.03,
-      'buster': 1.03,
-      'quick': 1.03,
-      'extra': 1.03,
-      'weapon': 1.03
+    npGain: {
+      arts: 1.03,
+      buster: 1.03,
+      quick: 1.03,
+      extra: 1.03,
+      weapon: 1.03
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '黄金衝撃(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '黄金衝撃(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -11742,21 +11742,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 2,
-      'quick': 0,
-      'damage': 125,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 2,
+      quick: 0,
+      damage: 125,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '52',
-    'fullname': '弗拉德三世',
-    'classType': 'berserker',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '52',
+    fullname: '弗拉德三世',
+    classType: 'berserker',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -11767,46 +11767,46 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '愛人'
     ],
-    'starDrop': 4.9,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 4.9,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.5,
-      'buster': 0.5,
-      'quick': 0.5,
-      'extra': 0.5,
-      'weapon': 0.5
+    npGain: {
+      arts: 0.5,
+      buster: 0.5,
+      quick: 0.5,
+      extra: 0.5,
+      weapon: 0.5
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '血塗れ王鬼(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '血塗れ王鬼(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               1,
               3,
               5,
@@ -11818,7 +11818,7 @@ export const servantConfigList = [
               16,
               23
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -11827,8 +11827,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addStar',
-            'number': [
+            effectType: 'addStar',
+            number: [
               15,
               20,
               25,
@@ -11839,13 +11839,13 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'arts',
-        'name': '血塗れ王鬼(レジェンド・オブ・ドラキュリア　Ⅰ)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '血塗れ王鬼(レジェンド・オブ・ドラキュリア　Ⅰ)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               1,
               3,
               5,
@@ -11857,7 +11857,7 @@ export const servantConfigList = [
               16,
               23
             ],
-            'number': [
+            number: [
               900,
               1200,
               1350,
@@ -11866,8 +11866,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addStar',
-            'number': [
+            effectType: 'addStar',
+            number: [
               20,
               25,
               30,
@@ -11878,21 +11878,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 12,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 12,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '89',
-    'fullname': '貝奧武夫',
-    'classType': 'berserker',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '89',
+    fullname: '貝奧武夫',
+    classType: 'berserker',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -11903,49 +11903,49 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '愛人'
     ],
-    'starDrop': 4.9,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 4.9,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         9,
         18,
         27,
         46
       ]
     },
-    'npGain': {
-      'arts': 0.68,
-      'buster': 0.68,
-      'quick': 0.68,
-      'extra': 0.68,
-      'weapon': 0.68
+    npGain: {
+      arts: 0.68,
+      buster: 0.68,
+      quick: 0.68,
+      extra: 0.68,
+      weapon: 0.68
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '源流闘争(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '源流闘争(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               13,
               7,
               10,
@@ -11959,7 +11959,7 @@ export const servantConfigList = [
               7,
               22
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -11970,13 +11970,13 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'buster',
-        'name': '源流闘争(グレンデルの再臨)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '源流闘争(グレンデルの再臨)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               13,
               7,
               10,
@@ -11990,7 +11990,7 @@ export const servantConfigList = [
               7,
               22
             ],
-            'number': [
+            number: [
               700,
               900,
               1000,
@@ -12001,21 +12001,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 1,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 1,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '53',
-    'fullname': '阿斯忒里歐',
-    'classType': 'berserker',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '53',
+    fullname: '阿斯忒里歐',
+    classType: 'berserker',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -12025,47 +12025,47 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 4.9,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 4.9,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.68,
-      'buster': 0.68,
-      'quick': 0.68,
-      'extra': 0.68,
-      'weapon': 0.68
+    npGain: {
+      arts: 0.68,
+      buster: 0.68,
+      quick: 0.68,
+      extra: 0.68,
+      weapon: 0.68
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '万古不易の迷宮(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '万古不易の迷宮(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               10,
               15,
               20,
@@ -12076,13 +12076,13 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'arts',
-        'name': '万古不易の迷宮(その手を、君に)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '万古不易の迷宮(その手を、君に)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               10,
               15,
               20,
@@ -12091,8 +12091,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               40,
               40,
               40,
@@ -12103,21 +12103,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 8,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 8,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '54',
-    'fullname': '卡利古拉',
-    'classType': 'berserker',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '54',
+    fullname: '卡利古拉',
+    classType: 'berserker',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -12126,61 +12126,61 @@ export const servantConfigList = [
       '羅馬',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 5,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 5,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         25,
         75
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.68,
-      'buster': 0.68,
-      'quick': 0.68,
-      'extra': 0.68,
-      'weapon': 0.68
+    npGain: {
+      arts: 0.68,
+      buster: 0.68,
+      quick: 0.68,
+      extra: 0.68,
+      weapon: 0.68
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '我が心を喰らえ、月の光(初期)',
-        'specialBoost': [],
-        'effectList': []
+        cardType: 'arts',
+        name: '我が心を喰らえ、月の光(初期)',
+        specialBoost: [],
+        effectList: []
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 11,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 11,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '55',
-    'fullname': '大流士三世',
-    'classType': 'berserker',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '55',
+    fullname: '大流士三世',
+    classType: 'berserker',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '中庸',
@@ -12188,47 +12188,47 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 5,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 5,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.67,
-      'buster': 0.67,
-      'quick': 0.67,
-      'extra': 0.67,
-      'weapon': 0.67
+    npGain: {
+      arts: 0.67,
+      buster: 0.67,
+      quick: 0.67,
+      extra: 0.67,
+      weapon: 0.67
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '不死の一万騎兵(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '不死の一万騎兵(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               1,
               3,
               5,
@@ -12240,7 +12240,7 @@ export const servantConfigList = [
               16,
               23
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -12249,8 +12249,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               10,
               15,
               20,
@@ -12261,13 +12261,13 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'buster',
-        'name': '不死の一万騎兵(両雄、荒野の果てに)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '不死の一万騎兵(両雄、荒野の果てに)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               1,
               3,
               5,
@@ -12279,7 +12279,7 @@ export const servantConfigList = [
               16,
               23
             ],
-            'number': [
+            number: [
               400,
               500,
               550,
@@ -12288,8 +12288,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               10,
               15,
               20,
@@ -12300,21 +12300,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 8,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 8,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '56',
-    'fullname': '清姬',
-    'classType': 'berserker',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '56',
+    fullname: '清姬',
+    classType: 'berserker',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -12325,50 +12325,50 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 4.9,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 4.9,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         100
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 2.03,
-      'buster': 2.03,
-      'quick': 2.03,
-      'extra': 2.03,
-      'weapon': 2.03
+    npGain: {
+      arts: 2.03,
+      buster: 2.03,
+      quick: 2.03,
+      extra: 2.03,
+      weapon: 2.03
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '転身火生三昧(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '転身火生三昧(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -12379,21 +12379,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 12,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 12,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '97',
-    'fullname': '南丁格爾',
-    'classType': 'berserker',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '97',
+    fullname: '南丁格爾',
+    classType: 'berserker',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -12401,21 +12401,21 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 5,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 5,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         66,
         34
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         6,
         13,
         20,
@@ -12423,7 +12423,7 @@ export const servantConfigList = [
         20,
         28
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -12431,36 +12431,36 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.77,
-      'buster': 0.77,
-      'quick': 0.5,
-      'extra': 0.77,
-      'weapon': 0.77
+    npGain: {
+      arts: 0.77,
+      buster: 0.77,
+      quick: 0.5,
+      extra: 0.77,
+      weapon: 0.77
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '我はすべて毒あるもの、害あるものを絶つ(初期)',
-        'specialBoost': [],
-        'effectList': []
+        cardType: 'arts',
+        name: '我はすべて毒あるもの、害あるものを絶つ(初期)',
+        specialBoost: [],
+        effectList: []
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 12,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 12,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '57',
-    'fullname': '血斧・埃里克',
-    'classType': 'berserker',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '57',
+    fullname: '血斧・埃里克',
+    classType: 'berserker',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '中庸',
@@ -12468,46 +12468,46 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 4.9,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 4.9,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         25,
         75
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.02,
-      'buster': 1.02,
-      'quick': 1.02,
-      'extra': 1.02,
-      'weapon': 1.02
+    npGain: {
+      arts: 1.02,
+      buster: 1.02,
+      quick: 1.02,
+      extra: 1.02,
+      weapon: 1.02
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '血塗れの戴冠式(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '血塗れの戴冠式(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addSelfAttack',
-            'number': [
+            effectType: 'addSelfAttack',
+            number: [
               30,
               35,
               40,
@@ -12516,15 +12516,15 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -12535,21 +12535,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 8,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 8,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '58',
-    'fullname': '玉藻貓',
-    'classType': 'berserker',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '58',
+    fullname: '玉藻貓',
+    classType: 'berserker',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -12560,55 +12560,55 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 5,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 5,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         66,
         34
       ],
-      'quick': [
+      quick: [
         25,
         75
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.71,
-      'buster': 0.71,
-      'quick': 0.71,
-      'extra': 0.71,
-      'weapon': 0.71
+    npGain: {
+      arts: 0.71,
+      buster: 0.71,
+      quick: 0.71,
+      extra: 0.71,
+      weapon: 0.71
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '燦々日光午睡宮酒池肉林(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '燦々日光午睡宮酒池肉林(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -12619,20 +12619,20 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'quick',
-        'name': '燦々日光午睡宮酒池肉林(修羅肉輪)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '燦々日光午睡宮酒池肉林(修羅肉輪)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               800,
               1000,
               1100,
@@ -12643,21 +12643,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 6,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 6,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '98',
-    'fullname': '庫・夫林〔Alter〕',
-    'classType': 'berserker',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '98',
+    fullname: '庫・夫林〔Alter〕',
+    classType: 'berserker',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -12669,30 +12669,30 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '愛人'
     ],
-    'starDrop': 5.1,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 5.1,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         16,
         33,
         51
       ],
-      'quick': [
+      quick: [
         10,
         20,
         30,
         40
       ],
-      'extra': [
+      extra: [
         5,
         10,
         15,
@@ -12700,22 +12700,22 @@ export const servantConfigList = [
         50
       ]
     },
-    'npGain': {
-      'arts': 0.69,
-      'buster': 0.69,
-      'quick': 0.69,
-      'extra': 0.69,
-      'weapon': 0.69
+    npGain: {
+      arts: 0.69,
+      buster: 0.69,
+      quick: 0.69,
+      extra: 0.69,
+      weapon: 0.69
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '噛み砕く死牙の獣(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '噛み砕く死牙の獣(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addSelfAttack',
-            'number': [
+            effectType: 'addSelfAttack',
+            number: [
               30,
               40,
               50,
@@ -12724,8 +12724,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               2,
               5,
               7,
@@ -12739,7 +12739,7 @@ export const servantConfigList = [
               5,
               27
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -12750,21 +12750,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 6,
-      'quick': 0,
-      'damage': 150,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 6,
+      quick: 0,
+      damage: 150,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '116',
-    'fullname': '茨木童子',
-    'classType': 'berserker',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '116',
+    fullname: '茨木童子',
+    classType: 'berserker',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -12775,27 +12775,27 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 4.9,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 4.9,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         9,
         27,
         27,
         37
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -12803,25 +12803,25 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 1.03,
-      'buster': 1.03,
-      'quick': 1.03,
-      'extra': 1.03,
-      'weapon': 1.03
+    npGain: {
+      arts: 1.03,
+      buster: 1.03,
+      quick: 1.03,
+      extra: 1.03,
+      weapon: 1.03
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '羅生門大怨起(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '羅生門大怨起(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -12830,11 +12830,11 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'dispelOneBuff',
+            effectType: 'dispelOneBuff',
           },
           {
-            'effectType': 'decreaseOneDefense',
-            'number': [
+            effectType: 'decreaseOneDefense',
+            number: [
               10,
               15,
               20,
@@ -12845,21 +12845,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 8,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 8,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '114',
-    'fullname': '源頼光',
-    'classType': 'berserker',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '114',
+    fullname: '源頼光',
+    classType: 'berserker',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -12871,28 +12871,28 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 4.9,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 4.9,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         10,
         20,
         30,
         40
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         20,
         13,
         6,
@@ -12900,22 +12900,22 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.46,
-      'buster': 0.46,
-      'quick': 0.46,
-      'extra': 0.46,
-      'weapon': 0.46
+    npGain: {
+      arts: 0.46,
+      buster: 0.46,
+      quick: 0.46,
+      extra: 0.46,
+      weapon: 0.46
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '牛王招雷・天網恢々(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '牛王招雷・天網恢々(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addSelfStarDrop',
-            'number': [
+            effectType: 'addSelfStarDrop',
+            number: [
               100,
               150,
               200,
@@ -12924,8 +12924,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               12,
               12,
@@ -12934,7 +12934,7 @@ export const servantConfigList = [
               12,
               24
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -12945,21 +12945,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 12,
-      'quick': 11,
-      'damage': 150,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 12,
+      quick: 11,
+      damage: 150,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '1',
-    'fullname': '瑪琇・基利艾拉特',
-    'classType': 'shielder',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '1',
+    fullname: '瑪琇・基利艾拉特',
+    classType: 'shielder',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -12969,52 +12969,52 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋'
     ],
-    'starDrop': 9.9,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 9.9,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         25,
         75
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.84,
-      'buster': 0.84,
-      'quick': 0.84,
-      'extra': 0.84,
-      'weapon': 0.84
+    npGain: {
+      arts: 0.84,
+      buster: 0.84,
+      quick: 0.84,
+      extra: 0.84,
+      weapon: 0.84
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '仮想宝具 疑似展開／人理の礎',
-        'specialBoost': [],
-        'effectList': []
+        cardType: 'arts',
+        name: '仮想宝具 疑似展開／人理の礎',
+        specialBoost: [],
+        effectList: []
       },
       {
-        'cardType': 'arts',
-        'name': 'いまは遙か理想の城(レプリカ(4/5))',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: 'いまは遙か理想の城(レプリカ(4/5))',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addOtherAttack',
-            'number': [
+            effectType: 'addOtherAttack',
+            number: [
               30,
               30,
               30,
@@ -13025,21 +13025,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 6,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 6,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '59',
-    'fullname': '貞德',
-    'classType': 'ruler',
-    'alignmentType': 'star',
-    'specialAttributeList': [
+    id: '59',
+    fullname: '貞德',
+    classType: 'ruler',
+    alignmentType: 'star',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -13048,60 +13048,60 @@ export const servantConfigList = [
       '阿爾托莉亞臉',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 10.1,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 10.1,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 0.76,
-      'buster': 0.76,
-      'quick': 0.76,
-      'extra': 0.76,
-      'weapon': 0.76
+    npGain: {
+      arts: 0.76,
+      buster: 0.76,
+      quick: 0.76,
+      extra: 0.76,
+      weapon: 0.76
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '我が神はここにありて(初期)',
-        'specialBoost': [],
-        'effectList': []
+        cardType: 'arts',
+        name: '我が神はここにありて(初期)',
+        specialBoost: [],
+        effectList: []
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '93',
-    'fullname': '天草四郎',
-    'classType': 'ruler',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '93',
+    fullname: '天草四郎',
+    classType: 'ruler',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -13109,26 +13109,26 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 10,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 10,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         9,
         18,
         27,
@@ -13138,28 +13138,28 @@ export const servantConfigList = [
         46
       ]
     },
-    'npGain': {
-      'arts': 0.86,
-      'buster': 0.86,
-      'quick': 0.86,
-      'extra': 0.86,
-      'weapon': 0.86
+    npGain: {
+      arts: 0.86,
+      buster: 0.86,
+      quick: 0.86,
+      extra: 0.86,
+      weapon: 0.86
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '双腕・零次集束(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '双腕・零次集束(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'dispelAllBuff',
+            effectType: 'dispelAllBuff',
           },
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -13170,19 +13170,19 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'buster',
-        'name': '双腕・零次集束(世界の救済について話をしよう)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '双腕・零次集束(世界の救済について話をしよう)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'dispelAllBuff',
+            effectType: 'dispelAllBuff',
           },
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               400,
               500,
               550,
@@ -13193,21 +13193,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '135',
-    'fullname': '瑪爾大',
-    'classType': 'ruler',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '135',
+    fullname: '瑪爾大',
+    classType: 'ruler',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -13215,28 +13215,28 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 10,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 10,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         10,
         20,
         30,
         40
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -13244,22 +13244,22 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.76,
-      'buster': 0.76,
-      'quick': 0.76,
-      'extra': 0.76,
-      'weapon': 0.76
+    npGain: {
+      arts: 0.76,
+      buster: 0.76,
+      quick: 0.76,
+      extra: 0.76,
+      weapon: 0.76
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '荒れ狂う哀しき竜よ(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '荒れ狂う哀しき竜よ(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'decreaseOneDefense',
-            'number': [
+            effectType: 'decreaseOneDefense',
+            number: [
               10,
               20,
               30,
@@ -13268,8 +13268,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               2,
               5,
               8,
@@ -13281,7 +13281,7 @@ export const servantConfigList = [
               8,
               23
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -13292,21 +13292,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '107',
-    'fullname': '安格拉曼紐',
-    'classType': 'avenger',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '107',
+    fullname: '安格拉曼紐',
+    classType: 'avenger',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -13314,62 +13314,62 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 6,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 6,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         9,
         18,
         27,
         46
       ]
     },
-    'npGain': {
-      'arts': 0.79,
-      'buster': 0.79,
-      'quick': 0.79,
-      'extra': 0.79,
-      'weapon': 0.79
+    npGain: {
+      arts: 0.79,
+      buster: 0.79,
+      quick: 0.79,
+      extra: 0.79,
+      weapon: 0.79
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '偽り写し記す万象(初期)',
-        'specialBoost': [],
-        'effectList': []
+        cardType: 'arts',
+        name: '偽り写し記す万象(初期)',
+        specialBoost: [],
+        effectList: []
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 10,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 10,
+      starDrop: 0
     }
   },
   {
-    'id': '96',
-    'fullname': '巖窟王',
-    'classType': 'avenger',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '96',
+    fullname: '巖窟王',
+    classType: 'avenger',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -13377,29 +13377,29 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 5.9,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 5.9,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         16,
         33,
         51
       ],
-      'quick': [
+      quick: [
         10,
         20,
         30,
         40
       ],
-      'extra': [
+      extra: [
         5,
         11,
         5,
@@ -13407,22 +13407,22 @@ export const servantConfigList = [
         62
       ]
     },
-    'npGain': {
-      'arts': 0.62,
-      'buster': 0.62,
-      'quick': 0.62,
-      'extra': 0.62,
-      'weapon': 0.62
+    npGain: {
+      arts: 0.62,
+      buster: 0.62,
+      quick: 0.62,
+      extra: 0.62,
+      weapon: 0.62
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '虎よ、煌々と燃え盛れ(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '虎よ、煌々と燃え盛れ(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               3,
               6,
               10,
@@ -13432,7 +13432,7 @@ export const servantConfigList = [
               10,
               29
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -13441,8 +13441,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               20,
               25,
               30,
@@ -13453,21 +13453,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 8,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 8,
+      starDrop: 0
     }
   },
   {
-    'id': '106',
-    'fullname': '貞德〔Alter〕',
-    'classType': 'avenger',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '106',
+    fullname: '貞德〔Alter〕',
+    classType: 'avenger',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -13476,29 +13476,29 @@ export const servantConfigList = [
       '阿爾托莉亞臉',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 6,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 6,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         10,
         20,
         30,
         40
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         3,
         7,
         10,
@@ -13508,22 +13508,22 @@ export const servantConfigList = [
         28
       ]
     },
-    'npGain': {
-      'arts': 0.83,
-      'buster': 0.83,
-      'quick': 0.83,
-      'extra': 0.83,
-      'weapon': 0.83
+    npGain: {
+      arts: 0.83,
+      buster: 0.83,
+      quick: 0.83,
+      extra: 0.83,
+      weapon: 0.83
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '吼え立てよ、我が憤怒(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '吼え立てよ、我が憤怒(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               3,
               5,
               3,
@@ -13535,7 +13535,7 @@ export const servantConfigList = [
               16,
               22
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -13546,20 +13546,20 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 10,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 10,
+      starDrop: 0
     }
   },
   {
-    'id': '83',
-    'fullname': '所羅門',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '83',
+    fullname: '所羅門',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -13569,59 +13569,59 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 11,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 11,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         100
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         12,
         25,
         63
       ]
     },
-    'npGain': {
-      'arts': 1.64,
-      'buster': 1.64,
-      'quick': 1.64,
-      'extra': 1.64,
-      'weapon': 1.64
+    npGain: {
+      arts: 1.64,
+      buster: 1.64,
+      quick: 1.64,
+      extra: 1.64,
+      weapon: 1.64
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '誕生の時きたれり、其は全てを修めるもの(初期)',
-        'specialBoost': [],
-        'effectList': []
+        cardType: 'arts',
+        name: '誕生の時きたれり、其は全てを修めるもの(初期)',
+        specialBoost: [],
+        effectList: []
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '142',
-    'fullname': '伊絲塔',
-    'classType': 'archer',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '142',
+    fullname: '伊絲塔',
+    classType: 'archer',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -13631,29 +13631,29 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋'
     ],
-    'starDrop': 8,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 8,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         10,
         20,
         30,
         40
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         10,
         20,
         30,
         40
       ],
-      'extra': [
+      extra: [
         3,
         7,
         10,
@@ -13663,22 +13663,22 @@ export const servantConfigList = [
         28
       ]
     },
-    'npGain': {
-      'arts': 0.45,
-      'buster': 0.45,
-      'quick': 0.45,
-      'extra': 0.45,
-      'weapon': 0.45
+    npGain: {
+      arts: 0.45,
+      buster: 0.45,
+      quick: 0.45,
+      extra: 0.45,
+      weapon: 0.45
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '山脈震撼す明星の薪(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '山脈震撼す明星の薪(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addSelfBuster',
-            'number': [
+            effectType: 'addSelfBuster',
+            number: [
               20,
               30,
               40,
@@ -13687,13 +13687,13 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               13,
               33,
               51
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -13704,21 +13704,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 225,
-      'critical': 10,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 225,
+      critical: 10,
+      starDrop: 0
     }
   },
   {
-    'id': '141',
-    'fullname': '貞德・Alter・聖誕・Lily',
-    'classType': 'lancer',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '141',
+    fullname: '貞德・Alter・聖誕・Lily',
+    classType: 'lancer',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -13727,27 +13727,27 @@ export const servantConfigList = [
       '阿爾托莉亞臉',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 12.1,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 12.1,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -13755,29 +13755,29 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.72,
-      'buster': 0.72,
-      'quick': 0.72,
-      'extra': 0.72,
-      'weapon': 0.72
+    npGain: {
+      arts: 0.72,
+      buster: 0.72,
+      quick: 0.72,
+      extra: 0.72,
+      weapon: 0.72
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '優雅に歌え、かの聖誕を(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '優雅に歌え、かの聖誕を(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -13786,8 +13786,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addAllAttack',
-            'number': [
+            effectType: 'addAllAttack',
+            number: [
               10,
               15,
               20,
@@ -13798,21 +13798,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '143',
-    'fullname': '恩奇杜',
-    'classType': 'lancer',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '143',
+    fullname: '恩奇杜',
+    classType: 'lancer',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '中立',
       '中庸',
@@ -13822,30 +13822,30 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 12,
-    'cards': {
-      'arts': 1,
-      'buster': 1,
-      'quick': 3
+    starDrop: 12,
+    cards: {
+      arts: 1,
+      buster: 1,
+      quick: 3
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         6,
         13,
         20,
         26,
         35
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         10,
         20,
         30,
         40
       ],
-      'extra': [
+      extra: [
         4,
         9,
         14,
@@ -13854,22 +13854,22 @@ export const servantConfigList = [
         31
       ]
     },
-    'npGain': {
-      'arts': 0.53,
-      'buster': 0.53,
-      'quick': 0.53,
-      'extra': 0.53,
-      'weapon': 0.53
+    npGain: {
+      arts: 0.53,
+      buster: 0.53,
+      quick: 0.53,
+      extra: 0.53,
+      weapon: 0.53
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '人よ、神を繋ぎとめよう(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '人よ、神を繋ぎとめよう(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'decreaseOneDefense',
-            'number': [
+            effectType: 'decreaseOneDefense',
+            number: [
               20,
               25,
               30,
@@ -13878,15 +13878,15 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -13897,21 +13897,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '144',
-    'fullname': '魁札爾・科亞特爾',
-    'classType': 'rider',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '144',
+    fullname: '魁札爾・科亞特爾',
+    classType: 'rider',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -13923,28 +13923,28 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 9,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 9,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         16,
         33,
         51
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -13952,25 +13952,25 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.9,
-      'buster': 0.9,
-      'quick': 0.9,
-      'extra': 0.9,
-      'weapon': 0.9
+    npGain: {
+      arts: 0.9,
+      buster: 0.9,
+      quick: 0.9,
+      extra: 0.9,
+      weapon: 0.9
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '炎、神をも焼き尽くせ(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '炎、神をも焼き尽くせ(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -13981,21 +13981,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 12,
-      'damage': 300,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 12,
+      damage: 300,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '145',
-    'fullname': '吉爾伽美什',
-    'classType': 'caster',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '145',
+    fullname: '吉爾伽美什',
+    classType: 'caster',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -14005,21 +14005,21 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '愛人'
     ],
-    'starDrop': 10.9,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 10.9,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         6,
         13,
         20,
         26,
         35
       ],
-      'buster': [
+      buster: [
         4,
         9,
         14,
@@ -14027,11 +14027,11 @@ export const servantConfigList = [
         23,
         31
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -14039,22 +14039,22 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.32,
-      'buster': 0.32,
-      'quick': 0.32,
-      'extra': 0.32,
-      'weapon': 0.16
+    npGain: {
+      arts: 0.32,
+      buster: 0.32,
+      quick: 0.32,
+      extra: 0.32,
+      weapon: 0.16
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '王の号砲(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '王の号砲(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               1,
               3,
               5,
@@ -14066,7 +14066,7 @@ export const servantConfigList = [
               16,
               23
             ],
-            'number': [
+            number: [
               450,
               600,
               675,
@@ -14075,8 +14075,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'decreaseAllDefense',
-            'number': [
+            effectType: 'decreaseAllDefense',
+            number: [
               20,
               25,
               30,
@@ -14087,21 +14087,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 10,
-      'buster': 0,
-      'quick': 0,
-      'damage': 175,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 10,
+      buster: 0,
+      quick: 0,
+      damage: 175,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '146',
-    'fullname': '美杜莎',
-    'classType': 'lancer',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '146',
+    fullname: '美杜莎',
+    classType: 'lancer',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '中立',
       '善',
@@ -14112,28 +14112,28 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 12.2,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 12.2,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         10,
         20,
         30,
         40
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -14141,22 +14141,22 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.44,
-      'buster': 0.44,
-      'quick': 0.44,
-      'extra': 0.44,
-      'weapon': 0.44
+    npGain: {
+      arts: 0.44,
+      buster: 0.44,
+      quick: 0.44,
+      extra: 0.44,
+      weapon: 0.44
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '女神の抱擁(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '女神の抱擁(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               2,
               5,
               8,
@@ -14166,7 +14166,7 @@ export const servantConfigList = [
               19,
               26
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -14177,21 +14177,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 250,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 250,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '147',
-    'fullname': '戈爾貢',
-    'classType': 'avenger',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '147',
+    fullname: '戈爾貢',
+    classType: 'avenger',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -14201,31 +14201,31 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 6,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 6,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         6,
         13,
         20,
         26,
         35
       ],
-      'buster': [
+      buster: [
         16,
         33,
         51
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -14233,27 +14233,27 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.37,
-      'buster': 0.37,
-      'quick': 0.37,
-      'extra': 0.37,
-      'weapon': 0.37
+    npGain: {
+      arts: 0.37,
+      buster: 0.37,
+      quick: 0.37,
+      extra: 0.37,
+      weapon: 0.37
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '強制封印・万魔神殿(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '強制封印・万魔神殿(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -14262,8 +14262,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addAllNp',
-            'number': [
+            effectType: 'addAllNp',
+            number: [
               10,
               10,
               10,
@@ -14274,21 +14274,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 6,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 6,
+      starDrop: 0
     }
   },
   {
-    'id': '148',
-    'fullname': '豹人',
-    'classType': 'lancer',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '148',
+    fullname: '豹人',
+    classType: 'lancer',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '中庸',
@@ -14298,28 +14298,28 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '猛獸'
     ],
-    'starDrop': 12,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 12,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         10,
         20,
         30,
         40
       ],
-      'quick': [
+      quick: [
         33,
         67
       ],
-      'extra': [
+      extra: [
         4,
         9,
         14,
@@ -14328,26 +14328,26 @@ export const servantConfigList = [
         31
       ]
     },
-    'npGain': {
-      'arts': 1.05,
-      'buster': 1.05,
-      'quick': 1.05,
-      'extra': 1.05,
-      'weapon': 1.05
+    npGain: {
+      arts: 1.05,
+      buster: 1.05,
+      quick: 1.05,
+      extra: 1.05,
+      weapon: 1.05
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '逃れ得ぬ死の鉤爪(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '逃れ得ぬ死の鉤爪(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               33,
               67
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -14358,66 +14358,66 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 2,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 2,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '149',
-    'fullname': '迪亞馬特',
-    'classType': 'beastII',
-    'alignmentType': 'beast',
-    'specialAttributeList': [
+    id: '149',
+    fullname: '迪亞馬特',
+    classType: 'beastII',
+    alignmentType: 'beast',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
       '女性',
       '神性'
     ],
-    'starDrop': 9.9,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 9.9,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         100
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         100
       ],
-      'extra': [
+      extra: [
         100
       ]
     },
-    'npGain': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'extra': 0,
-      'weapon': 0
+    npGain: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      extra: 0,
+      weapon: 0
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '仔よ、創世の理に従え(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '仔よ、創世の理に従え(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               500,
               500,
               500,
@@ -14428,21 +14428,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '150',
-    'fullname': '梅林',
-    'classType': 'caster',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '150',
+    fullname: '梅林',
+    classType: 'caster',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -14452,30 +14452,30 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 10.8,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 10.8,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         6,
         13,
         20,
         26,
         35
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         4,
         9,
         14,
@@ -14484,42 +14484,42 @@ export const servantConfigList = [
         31
       ]
     },
-    'npGain': {
-      'arts': 0.81,
-      'buster': 0.81,
-      'quick': 0.81,
-      'extra': 0.81,
-      'weapon': 0.81
+    npGain: {
+      arts: 0.81,
+      buster: 0.81,
+      quick: 0.81,
+      extra: 0.81,
+      weapon: 0.81
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '永久に閉ざされた理想郷(初期)',
-        'specialBoost': [],
-        'effectList': []
+        cardType: 'arts',
+        name: '永久に閉ざされた理想郷(初期)',
+        specialBoost: [],
+        effectList: []
       },
       {
-        'cardType': 'arts',
-        'name': '永久に閉ざされた理想郷(NPC限定)',
-        'specialBoost': [],
-        'effectList': []
+        cardType: 'arts',
+        name: '永久に閉ざされた理想郷(NPC限定)',
+        specialBoost: [],
+        effectList: []
       }
     ],
-    'passiveBuff': {
-      'arts': 6,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 6,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '154',
-    'fullname': '“山之翁”',
-    'classType': 'assassin',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '154',
+    fullname: '“山之翁”',
+    classType: 'assassin',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '惡',
@@ -14528,29 +14528,29 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '愛人'
     ],
-    'starDrop': 25.5,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 25.5,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         6,
         13,
         20,
         26,
         35
       ],
-      'extra': [
+      extra: [
         4,
         9,
         14,
@@ -14559,25 +14559,25 @@ export const servantConfigList = [
         31
       ]
     },
-    'npGain': {
-      'arts': 1,
-      'buster': 1,
-      'quick': 1,
-      'extra': 1,
-      'weapon': 1
+    npGain: {
+      arts: 1,
+      buster: 1,
+      quick: 1,
+      extra: 1,
+      weapon: 1
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '死告天使(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '死告天使(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               100
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -14588,80 +14588,80 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 8,
-      'starDrop': 10
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 8,
+      starDrop: 10
     }
   },
   {
-    'id': '151',
-    'fullname': '哥耶堤亞',
-    'classType': 'beastI',
-    'alignmentType': 'beast',
-    'specialAttributeList': [
+    id: '151',
+    fullname: '哥耶堤亞',
+    classType: 'beastI',
+    alignmentType: 'beast',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
       '無性',
       '人型'
     ],
-    'starDrop': 0,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 0,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         6,
         13,
         20,
         26,
         35
       ],
-      'buster': [
+      buster: [
         6,
         13,
         20,
         26,
         35
       ],
-      'quick': [
+      quick: [
         6,
         13,
         20,
         26,
         35
       ],
-      'extra': [
+      extra: [
         100
       ]
     },
-    'npGain': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'extra': 0,
-      'weapon': 0
+    npGain: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      extra: 0,
+      weapon: 0
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '誕生の時きたれり、其は全てを修めるもの(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '誕生の時きたれり、其は全てを修めるもの(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               400,
               400,
               400,
@@ -14672,41 +14672,41 @@ export const servantConfigList = [
         ]
       },
       {
-        'cardType': 'arts',
-        'name': '焼却式 ベレト(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: '焼却式 ベレト(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               6,
               13,
               20,
               26,
               35
             ],
-            'number': [
+            number: [
               800
             ]
           }
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '152',
-    'fullname': '所羅門',
-    'classType': 'caster',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '152',
+    fullname: '所羅門',
+    classType: 'caster',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -14716,51 +14716,51 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 11,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 11,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         100
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         100
       ],
-      'extra': [
+      extra: [
         100
       ]
     },
-    'npGain': {
-      'arts': 1.85,
-      'buster': 1.85,
-      'quick': 1.85,
-      'extra': 1.85,
-      'weapon': 1.85
+    npGain: {
+      arts: 1.85,
+      buster: 1.85,
+      quick: 1.85,
+      extra: 1.85,
+      weapon: 1.85
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '訣別の時きたれり、其は、世界を手放すもの(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '訣別の時きたれり、其は、世界を手放すもの(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -14771,21 +14771,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 10,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 10,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '153',
-    'fullname': '宮本武藏',
-    'classType': 'saber',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '153',
+    fullname: '宮本武藏',
+    classType: 'saber',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '混沌',
@@ -14794,50 +14794,50 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 10,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 10,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         33,
         67
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         10,
         20,
         30,
         40
       ]
     },
-    'npGain': {
-      'arts': 0.87,
-      'buster': 0.87,
-      'quick': 0.87,
-      'extra': 0.87,
-      'weapon': 0.87
+    npGain: {
+      arts: 0.87,
+      buster: 0.87,
+      quick: 0.87,
+      extra: 0.87,
+      weapon: 0.87
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '六道五輪・倶利伽羅天象(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '六道五輪・倶利伽羅天象(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addSelfWeapon',
-            'number': [
+            effectType: 'addSelfWeapon',
+            number: [
               20,
               30,
               40,
@@ -14846,8 +14846,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               3,
               7,
               10,
@@ -14856,7 +14856,7 @@ export const servantConfigList = [
               21,
               28
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -14865,26 +14865,26 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'dispelOneBuff',
+            effectType: 'dispelOneBuff',
           }
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '155',
-    'fullname': '謎之女主角X〔Alter〕',
-    'classType': 'berserker',
-    'alignmentType': 'star',
-    'specialAttributeList': [
+    id: '155',
+    fullname: '謎之女主角X〔Alter〕',
+    classType: 'berserker',
+    alignmentType: 'star',
+    specialAttributeList: [
       'Servant',
       '中立',
       '惡',
@@ -14894,29 +14894,29 @@ export const servantConfigList = [
       '阿爾托莉亞臉',
       '亞瑟'
     ],
-    'starDrop': 5,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 5,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         10,
         20,
         30,
         40
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -14924,21 +14924,21 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 1.07,
-      'buster': 1.07,
-      'quick': 1.07,
-      'extra': 1.07,
-      'weapon': 1.07
+    npGain: {
+      arts: 1.07,
+      buster: 1.07,
+      quick: 1.07,
+      extra: 1.07,
+      weapon: 1.07
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '黒竜双剋勝利剣(初期)',
-        'specialBoost': [
+        cardType: 'quick',
+        name: '黒竜双剋勝利剣(初期)',
+        specialBoost: [
           {
             'limitTarget': 'Saber職階Servant',
-            'number': [
+            number: [
               150,
               162.5,
               175,
@@ -14947,10 +14947,10 @@ export const servantConfigList = [
             ]
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               2,
               4,
               6,
@@ -14961,7 +14961,7 @@ export const servantConfigList = [
               17,
               24
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -14972,21 +14972,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 6,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 6,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '157',
-    'fullname': 'Emiya〔Alter〕',
-    'classType': 'archer',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '157',
+    fullname: 'Emiya〔Alter〕',
+    classType: 'archer',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -14994,32 +14994,32 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 7.9,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 7.9,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         10,
         20,
         30,
         40
       ],
-      'buster': [
+      buster: [
         10,
         20,
         30,
         40
       ],
-      'quick': [
+      quick: [
         10,
         20,
         30,
         40
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -15027,26 +15027,26 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.43,
-      'buster': 0.43,
-      'quick': 0.43,
-      'extra': 0.43,
-      'weapon': 0.43
+    npGain: {
+      arts: 0.43,
+      buster: 0.43,
+      quick: 0.43,
+      extra: 0.43,
+      weapon: 0.43
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '無限の剣製(初期)',
-        'specialBoost': [
+        cardType: 'arts',
+        name: '無限の剣製(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               1,
               3,
               5,
@@ -15058,7 +15058,7 @@ export const servantConfigList = [
               16,
               23
             ],
-            'number': [
+            number: [
               900,
               1200,
               1350,
@@ -15069,21 +15069,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 10,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 10,
+      starDrop: 0
     }
   },
   {
-    'id': '156',
-    'fullname': '詹姆斯・莫里亞蒂',
-    'classType': 'archer',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '156',
+    fullname: '詹姆斯・莫里亞蒂',
+    classType: 'archer',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -15091,32 +15091,32 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 8,
-    'cards': {
-      'arts': 3,
-      'buster': 1,
-      'quick': 1
+    starDrop: 8,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         10,
         20,
         30,
         40
       ],
-      'buster': [
+      buster: [
         6,
         13,
         20,
         26,
         35
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         4,
         9,
         14,
@@ -15125,22 +15125,22 @@ export const servantConfigList = [
         31
       ]
     },
-    'npGain': {
-      'arts': 0.38,
-      'buster': 0.38,
-      'quick': 0.38,
-      'extra': 0.38,
-      'weapon': 0.38
+    npGain: {
+      arts: 0.38,
+      buster: 0.38,
+      quick: 0.38,
+      extra: 0.38,
+      weapon: 0.38
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '終局的犯罪(監獄グレートエスケープ)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '終局的犯罪(監獄グレートエスケープ)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'decreaseOneDefense',
-            'number': [
+            effectType: 'decreaseOneDefense',
+            number: [
               20,
               25,
               30,
@@ -15149,8 +15149,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               1,
               2,
               3,
@@ -15164,7 +15164,7 @@ export const servantConfigList = [
               14,
               21
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -15175,21 +15175,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 11,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 11,
+      starDrop: 0
     }
   },
   {
-    'id': '159',
-    'fullname': '燕青',
-    'classType': 'assassin',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '159',
+    fullname: '燕青',
+    classType: 'assassin',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -15198,27 +15198,27 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '愛人'
     ],
-    'starDrop': 25.6,
-    'cards': {
-      'arts': 1,
-      'buster': 1,
-      'quick': 3
+    starDrop: 25.6,
+    cards: {
+      arts: 1,
+      buster: 1,
+      quick: 3
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         16,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -15226,22 +15226,22 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.71,
-      'buster': 0.71,
-      'quick': 0.71,
-      'extra': 0.71,
-      'weapon': 0.71
+    npGain: {
+      arts: 0.71,
+      buster: 0.71,
+      quick: 0.71,
+      extra: 0.71,
+      weapon: 0.71
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '十面埋伏・無影の如く(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '十面埋伏・無影の如く(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               1,
               3,
               4,
@@ -15254,7 +15254,7 @@ export const servantConfigList = [
               15,
               20
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -15265,21 +15265,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 5,
-      'damage': 0,
-      'critical': 5,
-      'starDrop': 6
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 5,
+      damage: 0,
+      critical: 5,
+      starDrop: 6
     }
   },
   {
-    'id': '158',
-    'fullname': '海森・羅伯',
-    'classType': 'avenger',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '158',
+    fullname: '海森・羅伯',
+    classType: 'avenger',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
@@ -15290,27 +15290,27 @@ export const servantConfigList = [
       '被「神秘殺し」所剋',
       '猛獸'
     ],
-    'starDrop': 6,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 6,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         33,
         67
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -15318,22 +15318,22 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.79,
-      'buster': 0.79,
-      'quick': 0.79,
-      'extra': 0.79,
-      'weapon': 0.79
+    npGain: {
+      arts: 0.79,
+      buster: 0.79,
+      quick: 0.79,
+      extra: 0.79,
+      weapon: 0.79
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '遥かなる者への斬罪(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '遥かなる者への斬罪(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               2,
               5,
               8,
@@ -15343,7 +15343,7 @@ export const servantConfigList = [
               19,
               26
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -15354,21 +15354,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 8,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 8,
+      starDrop: 0
     }
   },
   {
-    'id': '160',
-    'fullname': '亞瑟・潘德拉剛〔Prototype〕',
-    'classType': 'saber',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '160',
+    fullname: '亞瑟・潘德拉剛〔Prototype〕',
+    classType: 'saber',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '秩序',
@@ -15383,26 +15383,26 @@ export const servantConfigList = [
       '亞瑟',
       '愛人'
     ],
-    'starDrop': 10,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 10,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         33,
         67
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -15410,22 +15410,22 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.84,
-      'buster': 0.84,
-      'quick': 0.84,
-      'extra': 0.84,
-      'weapon': 0.84
+    npGain: {
+      arts: 0.84,
+      buster: 0.84,
+      quick: 0.84,
+      extra: 0.84,
+      weapon: 0.84
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '約束された勝利の剣(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '約束された勝利の剣(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'addSelfWeapon',
-            'number': [
+            effectType: 'addSelfWeapon',
+            number: [
               10,
               20,
               30,
@@ -15434,13 +15434,13 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -15451,21 +15451,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 8,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 8,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '161',
-    'fullname': '土方歲三',
-    'classType': 'berserker',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '161',
+    fullname: '土方歲三',
+    classType: 'berserker',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '惡',
@@ -15473,59 +15473,59 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 4.9,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 4.9,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         0,
         0
       ],
-      'buster': [
+      buster: [
         0,
         0
       ],
-      'quick': [
+      quick: [
         0,
         0,
         0
       ],
-      'extra': [
+      extra: [
         0,
         0,
         0
       ]
     },
-    'npGain': {
-      'arts': 1.08,
-      'buster': 1.08,
-      'quick': 1.08,
-      'extra': 1.08,
-      'weapon': 1.08
+    npGain: {
+      arts: 1.08,
+      buster: 1.08,
+      quick: 1.08,
+      extra: 1.08,
+      weapon: 1.08
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '不滅の誠(初期)',
-        'specialBoost': [
+        cardType: 'buster',
+        name: '不滅の誠(初期)',
+        specialBoost: [
           {
-            'number': 'hpPercentage'
+            number: 'hpPercentage'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               0,
               0,
               0,
               0,
               0
             ],
-            'number': [
+            number: [
               600,
               800,
               900,
@@ -15536,21 +15536,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '162',
-    'fullname': '茶茶',
-    'classType': 'berserker',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '162',
+    fullname: '茶茶',
+    classType: 'berserker',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '中庸',
@@ -15558,52 +15558,52 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 4.9,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 4.9,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         0,
         0
       ],
-      'buster': [
+      buster: [
         0,
         0,
-        0,
-        0,
-        0
-      ],
-      'quick': [
         0,
         0,
         0
       ],
-      'extra': [
+      quick: [
+        0,
+        0,
+        0
+      ],
+      extra: [
         0,
         0,
         0,
         0
       ]
     },
-    'npGain': {
-      'arts': 1.03,
-      'buster': 1.03,
-      'quick': 1.03,
-      'extra': 1.03,
-      'weapon': 1.03
+    npGain: {
+      arts: 1.03,
+      buster: 1.03,
+      quick: 1.03,
+      extra: 1.03,
+      weapon: 1.03
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '絢爛魔界日輪城(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '絢爛魔界日輪城(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               0,
               0,
               0,
@@ -15613,7 +15613,7 @@ export const servantConfigList = [
               0,
               0
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -15624,21 +15624,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '163',
-    'fullname': 'Meltlilith',
-    'classType': 'alterEgo',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '163',
+    fullname: 'Meltlilith',
+    classType: 'alterEgo',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '善',
@@ -15650,27 +15650,27 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 10.2,
-    'cards': {
-      'arts': 1,
-      'buster': 2,
-      'quick': 2
+    starDrop: 10.2,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         0,
         0
       ],
-      'buster': [
+      buster: [
         0
       ],
-      'quick': [
+      quick: [
         0,
         0,
         0,
         0
       ],
-      'extra': [
+      extra: [
         0,
         0,
         0,
@@ -15679,22 +15679,22 @@ export const servantConfigList = [
         0
       ]
     },
-    'npGain': {
-      'arts': 0.92,
-      'buster': 0.92,
-      'quick': 0.92,
-      'extra': 0.92,
-      'weapon': 0.92
+    npGain: {
+      arts: 0.92,
+      buster: 0.92,
+      quick: 0.92,
+      extra: 0.92,
+      weapon: 0.92
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'quick',
-        'name': '弁財天五弦琵琶(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'quick',
+        name: '弁財天五弦琵琶(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               0,
               0,
               0,
@@ -15704,7 +15704,7 @@ export const servantConfigList = [
               0,
               0
             ],
-            'number': [
+            number: [
               1200,
               1600,
               1800,
@@ -15713,11 +15713,11 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'dispelOneBuff',
+            effectType: 'dispelOneBuff',
           },
           {
-            'effectType': 'addSelfQuick',
-            'number': [
+            effectType: 'addSelfQuick',
+            number: [
               10,
               15,
               20,
@@ -15728,21 +15728,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 8,
-      'damage': 225,
-      'critical': 10,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 8,
+      damage: 225,
+      critical: 10,
+      starDrop: 0
     }
   },
   {
-    'id': '164',
-    'fullname': 'Passionlip',
-    'classType': 'alterEgo',
-    'alignmentType': 'earth',
-    'specialAttributeList': [
+    id: '164',
+    fullname: 'Passionlip',
+    classType: 'alterEgo',
+    alignmentType: 'earth',
+    specialAttributeList: [
       'Servant',
       '秩序',
       '中庸',
@@ -15753,28 +15753,28 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 9.9,
-    'cards': {
-      'arts': 1,
-      'buster': 3,
-      'quick': 1
+    starDrop: 9.9,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         0,
         0,
         0
       ],
-      'buster': [
+      buster: [
         0
       ],
-      'quick': [
+      quick: [
         0,
         0,
         0,
         0
       ],
-      'extra': [
+      extra: [
         0,
         0,
         0,
@@ -15782,22 +15782,22 @@ export const servantConfigList = [
         0
       ]
     },
-    'npGain': {
-      'arts': 0.77,
-      'buster': 0.77,
-      'quick': 0.77,
-      'extra': 0.77,
-      'weapon': 0.77
+    npGain: {
+      arts: 0.77,
+      buster: 0.77,
+      quick: 0.77,
+      extra: 0.77,
+      weapon: 0.77
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '死が二人を別離つとも(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '死が二人を別離つとも(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               0,
               0,
               0,
@@ -15811,7 +15811,7 @@ export const servantConfigList = [
               0,
               0
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -15822,21 +15822,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 200,
-      'critical': 6,
-      'starDrop': 10.5
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 200,
+      critical: 6,
+      starDrop: 10.5
     }
   },
   {
-    'id': '165',
-    'fullname': '鈴鹿御前',
-    'classType': 'saber',
-    'alignmentType': 'sky',
-    'specialAttributeList': [
+    id: '165',
+    fullname: '鈴鹿御前',
+    classType: 'saber',
+    alignmentType: 'sky',
+    specialAttributeList: [
       'Servant',
       'Saber職階Servant',
       '中立',
@@ -15849,51 +15849,51 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋'
     ],
-    'starDrop': 10.2,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 10.2,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         0,
         0,
         0
       ],
-      'buster': [
+      buster: [
         0,
         0,
         0
       ],
-      'quick': [
+      quick: [
         0,
         0,
         0
       ],
-      'extra': [
+      extra: [
         0,
         0,
         0,
         0
       ]
     },
-    'npGain': {
-      'arts': 0.57,
-      'buster': 0.57,
-      'quick': 0.57,
-      'extra': 0.57,
-      'weapon': 0.57
+    npGain: {
+      arts: 0.57,
+      buster: 0.57,
+      quick: 0.57,
+      extra: 0.57,
+      weapon: 0.57
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'buster',
-        'name': '天鬼雨(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'buster',
+        name: '天鬼雨(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               0,
               0,
               0,
@@ -15905,7 +15905,7 @@ export const servantConfigList = [
               0,
               0
             ],
-            'number': [
+            number: [
               300,
               400,
               450,
@@ -15914,8 +15914,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addSelfCritical',
-            'number': [
+            effectType: 'addSelfCritical',
+            number: [
               40,
               50,
               60,
@@ -15926,21 +15926,21 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 8,
-      'damage': 200,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 8,
+      damage: 200,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '166',
-    'fullname': 'ＢＢ',
-    'classType': 'moonCancer',
-    'alignmentType': 'human',
-    'specialAttributeList': [
+    id: '166',
+    fullname: 'ＢＢ',
+    classType: 'moonCancer',
+    alignmentType: 'human',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '善',
@@ -15948,27 +15948,27 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋'
     ],
-    'starDrop': 14.7,
-    'cards': {
-      'arts': 2,
-      'buster': 1,
-      'quick': 2
+    starDrop: 14.7,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         6,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -15976,29 +15976,29 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.61,
-      'buster': 0.61,
-      'quick': 0.61,
-      'extra': 0.61,
-      'weapon': 0.61
+    npGain: {
+      arts: 0.61,
+      buster: 0.61,
+      quick: 0.61,
+      extra: 0.61,
+      weapon: 0.61
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': 'Ｃ.Ｃ.Ｃ.(初期)',
-        'specialBoost': [],
-        'effectList': [
+        cardType: 'arts',
+        name: 'Ｃ.Ｃ.Ｃ.(初期)',
+        specialBoost: [],
+        effectList: [
           {
-            'effectType': 'attackOne',
-            'hits': [
+            effectType: 'attackOne',
+            hits: [
               0,
               0,
               0,
               0,
               0
             ],
-            'number': [
+            number: [
               900,
               1200,
               1350,
@@ -16007,8 +16007,8 @@ export const servantConfigList = [
             ]
           },
           {
-            'effectType': 'addAllNp',
-            'number': [
+            effectType: 'addAllNp',
+            number: [
               20,
               20,
               20,
@@ -16019,48 +16019,48 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 10,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 0,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 10,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 0,
+      starDrop: 0
     }
   },
   {
-    'id': '167',
-    'fullname': '殺生院祈荒',
-    'classType': 'alterEgo',
-    'alignmentType': 'beast',
-    'specialAttributeList': [
+    id: '167',
+    fullname: '殺生院祈荒',
+    classType: 'alterEgo',
+    alignmentType: 'beast',
+    specialAttributeList: [
       'Servant',
       '混沌',
       '惡',
       '女性',
       '人型'
     ],
-    'starDrop': 10,
-    'cards': {
-      'arts': 2,
-      'buster': 2,
-      'quick': 1
+    starDrop: 10,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
     },
-    'hits': {
-      'arts': [
+    hits: {
+      arts: [
         6,
         33,
         51
       ],
-      'buster': [
+      buster: [
         100
       ],
-      'quick': [
+      quick: [
         16,
         33,
         51
       ],
-      'extra': [
+      extra: [
         6,
         13,
         20,
@@ -16068,31 +16068,31 @@ export const servantConfigList = [
         35
       ]
     },
-    'npGain': {
-      'arts': 0.55,
-      'buster': 0.55,
-      'quick': 0.55,
-      'extra': 0.55,
-      'weapon': 0.55
+    npGain: {
+      arts: 0.55,
+      buster: 0.55,
+      quick: 0.55,
+      extra: 0.55,
+      weapon: 0.55
     },
-    'weaponList': [
+    weaponList: [
       {
-        'cardType': 'arts',
-        'name': '快楽天・胎蔵曼荼羅(初期)',
-        'specialBoost': [
+        cardType: 'arts',
+        name: '快楽天・胎蔵曼荼羅(初期)',
+        specialBoost: [
           {
-            'number': 'ignoreDefense'
+            number: 'ignoreDefense'
           }
         ],
-        'effectList': [
+        effectList: [
           {
-            'effectType': 'attackAll',
-            'hits': [
+            effectType: 'attackAll',
+            hits: [
               16,
               33,
               51
             ],
-            'number': [
+            number: [
               450,
               600,
               675,
@@ -16103,19 +16103,19 @@ export const servantConfigList = [
         ]
       }
     ],
-    'passiveBuff': {
-      'arts': 0,
-      'buster': 0,
-      'quick': 0,
-      'damage': 0,
-      'critical': 10,
-      'starDrop': 0
+    passiveBuff: {
+      arts: 0,
+      buster: 0,
+      quick: 0,
+      damage: 0,
+      critical: 10,
+      starDrop: 0
     },
     'passiveSpecialBoost': [
       {
         'limitTarget': 'ruler',
-        'number': 150
+        number: 150
       }
     ]
   }
-]
+];
