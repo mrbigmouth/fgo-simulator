@@ -1,9 +1,11 @@
 import { _ } from 'meteor/underscore';
 import { $ } from 'meteor/jquery';
 import { Template } from 'meteor/templating';
+import { FlowRouter } from 'meteor/kadira:flow-router';
 import { changeHandler as inheritChangeHandler, inheritFullScreenForm } from '../utils/fullScreenForm/inheritFullScreenForm';
 import { servantClassNameHash, allowServantClassKeyList, servantAlignmentNameHash, allowServantAlignmentKeyList } from '../servant/servantModel';
 import { specialAttributeList } from '../config/specialAttributeList';
+import { useEnemyCollection } from './useEnemyModel';
 
 inheritFullScreenForm(Template.editUseEnemy);
 Template.editUseEnemy.helpers({
@@ -63,7 +65,15 @@ function changeHandler(event, templateInstance) {
 function saveDoneHandler() {
   FlowRouter.go('/');
 }
+//on reset
+function resetHandler(templateInstance) {
+  const useEnemyData = useEnemyCollection.get(templateInstance.data.model.id);
+  useEnemyData.nickname = '';
+  useEnemyData.currentHp = 0;
+  FlowRouter.go('/');
+}
 Template.editUseEnemy.onCreated(function() {
   this.changeHandler = changeHandler;
   this.saveDoneHandler = saveDoneHandler;
+  this.resetHandler = resetHandler;
 });

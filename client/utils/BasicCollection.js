@@ -110,5 +110,10 @@ export class BasicCollection {
 
     return _.pluck(dataList, propertyName);
   }
+  sortBy(iteratee, context) {
+    const dataList = this.__reactiveVar.get();
+
+    return _.sortBy(dataList, iteratee, context);
+  }
 }
 export default BasicCollection;

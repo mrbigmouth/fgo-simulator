@@ -40,6 +40,7 @@
         <div class="form-group">
           <label for="classType">敵方分類：</label>
           <select class="form-control" name="alignmentType">
+            <option value="unknown">未知</option>
             {{#each optionAlignmentType in alignmentTypeList}}
               <option
                 value="{{alignmentType}}"
@@ -49,6 +50,19 @@
               </option>
             {{/each}}
           </select>
+        </div>
+        <!-- defense -->
+        <div class="form-group">
+          <label for="temporaryBuff.defense">防禦Buff增減值：</label>
+          <div class="input-group">
+            <input
+              class="form-control"
+              type="number"
+              name="temporaryBuff.defense"
+              value="{{temporaryBuff.defense}}"
+            />
+            <span class="input-group-addon">％</span>
+          </div>
         </div>
         <!-- specialAttributeList -->
         <div class="form-group">

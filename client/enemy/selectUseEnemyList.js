@@ -6,7 +6,10 @@ import { enemyCollection } from './enemyModel';
 
 Template.selectUseEnemy.helpers({
   enemyList() {
-    return enemyCollection.toArray();
+    const enemyDataList = enemyCollection.sortBy('lastUseTime');
+    enemyDataList.reverse();
+
+    return enemyDataList;
   }
 });
 Template.selectUseEnemy.events({
