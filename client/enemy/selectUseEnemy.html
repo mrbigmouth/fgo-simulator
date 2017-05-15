@@ -1,0 +1,30 @@
+<template name="selectUseEnemy">
+  <div class="card fullscreenform">
+    <div class="card-header fullscreenform-header">
+      可選擇敵方模版
+    </div>
+    <div class="fullscreenform-body">
+      <ul class="list-group list-group-flush">     
+        {{#each enemyData in enemyList}}
+          <li class="list-group-item">
+            <a
+              class="col d-block text-truncate"
+              href="#"
+              data-enemy-id="{{enemyData.id}}"
+            >
+              {{enemyData.name}}
+            </a>
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+    <div class="card-footer fullscreenform-footer text-right">
+      <a
+        class="btn btn-secondary"
+        href="/editUseEnemy/{{model.id}}"
+      >
+        取消
+      </a>
+    </div>
+  </div>
+</template>

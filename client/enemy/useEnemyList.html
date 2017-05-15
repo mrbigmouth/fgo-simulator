@@ -1,0 +1,37 @@
+<template name="useEnemyList">
+  <h5 class="mb-0">敵方隊列：</h5>
+  <div class="cardList">
+    {{> useEnemyInfo '2'}}
+    {{> useEnemyInfo '1'}}
+    {{> useEnemyInfo '0'}}
+  </div>
+</template>
+
+<template name="useEnemyInfo">
+  <div class="card-main">
+    {{#with useEnemyData this}}
+      <a class="enemyLink text-muted text-truncate" href="/editUseEnemy/{{id}}">
+        {{name}}
+      </a>
+      <div class="form-group mb-0">
+        <div class="input-group">
+          <span class="input-group-addon">HP</span>
+          <input
+            class="form-control"
+            type="number"
+            name="currentHp"
+            min="0"
+            value="{{currentHp}}"
+          />
+        </div>
+      </div>
+      <button
+        class="btn btn-outline-warning btn-sm btn-block {{active}}"
+        type="button"
+        data-action="setTarget"
+      >
+        設為目標
+      </button>
+    {{/with}}
+  </div>
+</template>

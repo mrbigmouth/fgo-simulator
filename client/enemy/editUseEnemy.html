@@ -1,0 +1,106 @@
+<template name="editUseEnemy">
+  <form class="card fullscreenform">
+    <h2 class="card-header fullscreenform-header">
+      {{title}}
+    </h2>
+    <div class="card-block fullscreenform-body">
+      {{#with model}}
+        <!-- nickname -->
+        <div class="form-group">
+          <label for="nickname">敵方名稱：</label>
+          <div class="input-group">
+            <input
+              class="form-control"
+              type="text"
+              name="nickname"
+              value="{{nickname}}"
+            />
+            <span class="input-group-btn">
+              <a class="btn btn-info" href="/selectUseEnemy/{{id}}">
+                套用模版
+              </a>
+            </span>
+          </div>
+        </div>
+        <!-- classType -->
+        <div class="form-group">
+          <label for="classType">敵方職階：</label>
+          <select class="form-control" name="classType">
+            {{#each optionClassType in classTypeList}}
+              <option
+                value="{{optionClassType}}"
+                selected="{{isEqual classType optionClassType}}"
+              >
+                {{getClassTypeText optionClassType}}
+              </option>
+            {{/each}}
+          </select>
+        </div>
+        <!-- alignmentType -->
+        <div class="form-group">
+          <label for="classType">敵方分類：</label>
+          <select class="form-control" name="alignmentType">
+            {{#each optionAlignmentType in alignmentTypeList}}
+              <option
+                value="{{alignmentType}}"
+                selected="{{isEqual alignmentType optionAlignmentType}}"
+              >
+                {{getAlignmentTypeText optionAlignmentType}}
+              </option>
+            {{/each}}
+          </select>
+        </div>
+        <!-- specialAttributeList -->
+        <div class="form-group">
+          <label for="specialAttributeList">特性列表：</label>
+          {{#each specialAttribute in specialAttributeList}}
+            <div class="pl-3 mb-1">
+              具｛{{specialAttribute}}｝特性。
+              <button
+                class="btn btn-sm btn-danger float-right"
+                type="button"
+                data-remove-attribute="{{@index}}"
+              >
+                移除
+              </button>
+            </div>
+          {{/each}}
+          <div class="input-group">
+            <select class="form-control" name="specialAttributeList">
+              {{#each specialAttribute in fullSpecialAttributeList}}
+                <option value="{{specialAttribute}}">
+                  {{specialAttribute}}
+                </option>
+              {{/each}}
+            </select>
+            <span class="input-group-btn">
+              <button class="btn btn-info" type="button" data-action="addSpecialAttribute">
+                新增特性
+              </button>
+            </span>
+          </div>
+        </div>
+      {{/with}}
+    </div>
+    <div class="card-footer fullscreenform-footer">
+      <button
+        class="btn btn-primary"
+        type="submit"
+      >
+        確認設定
+      </button>
+      <button
+        class="btn btn-danger"
+        type="reset"
+      >
+        設為空缺
+      </button>
+      <a
+        class="btn btn-secondary"
+        href="/"
+      >
+        取消
+      </a>
+    </div>
+  </form>
+</template>
