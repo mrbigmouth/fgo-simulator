@@ -1,27 +1,7 @@
 import { _ } from 'meteor/underscore';
 import { $ } from 'meteor/jquery';
-import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 
-const helpres = {
-  getFieldValue(fieldName) {
-    return this.model.get(fieldName);
-  },
-  fieldIs(fieldName, value) {
-    return this.model.get(fieldName) === value;
-  },
-  fieldHas(fieldName, value) {
-    const model = this.model;
-
-    return _.contains(model.get(fieldName), value);
-  },
-  getErrorMessage(fieldName) {
-    const templateInstance = Template.instance();
-    const errorMessage = templateInstance.errorMessage.get();
-
-    return errorMessage && errorMessage[fieldName];
-  }
-};
 const events = {
   'click label[for]'(event, templateInstance) {
     const name = $(event.currentTarget).attr('for');
@@ -138,6 +118,5 @@ export function inheritFullScreenForm(template) {
   template.onRendered(function() {
     this.$input = this.$('[name],[data-name]');
   });
-  template.helpers(helpres);
   template.events(events);
 }
