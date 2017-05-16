@@ -6,8 +6,7 @@ FlowRouter.route('/editUseEnemy/:useEnemyId', {
   name: 'editUseEnemy',
   action(params) {
     const useEnemyId = params.useEnemyId;
-    const useEnemyNo = parseInt(useEnemyId, 10) + 1;
-    const title = '編輯敵方隊列(' + useEnemyNo + ')';
+    const title = '編輯敵方隊列(' + useEnemyId + ')';
     const formData = rFormData.get();
     const alreadyCloneUseEnemyData = formData && formData.model && formData.model.id === useEnemyId;
     if (alreadyCloneUseEnemyData) {

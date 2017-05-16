@@ -6,8 +6,7 @@ FlowRouter.route('/editUseServant/:useServantId', {
   name: 'editUseServant',
   action(params) {
     const useServantId = params.useServantId;
-    const useServantNo = parseInt(useServantId, 10) + 1;
-    const title = '編輯我方隊列(' + useServantNo + ')';
+    const title = '編輯我方隊列(' + useServantId + ')';
     const formData = rFormData.get();
     const alreadyCloneUseServantData = formData && formData.model && formData.model.id === useServantId;
     if (alreadyCloneUseServantData) {

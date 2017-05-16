@@ -51,13 +51,13 @@ export class UseEnemyModel extends BasicModel {
 const storageUseEnemyList = localStorage.getItem('useEnemyList');
 const useEnemyObjectList = storageUseEnemyList ? JSON.parse(storageUseEnemyList) : [
   {
-    id: '0'
-  },
-  {
     id: '1'
   },
   {
     id: '2'
+  },
+  {
+    id: '3'
   }
 ];
 const useEnemyDataList = _.map(useEnemyObjectList, (useEnemyObject) => {

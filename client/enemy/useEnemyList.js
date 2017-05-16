@@ -4,7 +4,7 @@ import { Tracker } from 'meteor/tracker';
 import { ReactiveVar } from 'meteor/reactive-var';
 import { useEnemyCollection } from '../enemy/useEnemyModel';
 
-export const rTargetUseEnemyId = new ReactiveVar('0');
+export const rTargetUseEnemyId = new ReactiveVar('1');
 Template.useEnemyInfo.helpers({
   useEnemyData(id) {
     return useEnemyCollection.get(id);
@@ -28,7 +28,7 @@ Template.useEnemyInfo.events({
 
 //auto load rTargetUseEnemyId
 const storageTargetUseEnemyId = localStorage.getItem('targetUseEnemyId');
-const targetUseEnemyId = storageTargetUseEnemyId || '0';
+const targetUseEnemyId = storageTargetUseEnemyId || '1';
 rTargetUseEnemyId.set(targetUseEnemyId);
 //auto save rTargetUseEnemyId
 Tracker.autorun(function() {

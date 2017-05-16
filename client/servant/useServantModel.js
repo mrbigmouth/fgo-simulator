@@ -45,9 +45,6 @@ export class UseServantModel extends BasicModel {
       }
     };
   }
-  get index() {
-    return parseInt(this.id, 10);
-  }
   //associate with servant data
   get servantData() {
     return servantCollection.get(this.servantId) || null;
@@ -149,13 +146,13 @@ export class UseServantModel extends BasicModel {
 const storageUseServantList = localStorage.getItem('useServantList');
 const useServantObjectList = storageUseServantList ? JSON.parse(storageUseServantList) : [
   {
-    id: '0'
-  },
-  {
     id: '1'
   },
   {
     id: '2'
+  },
+  {
+    id: '3'
   }
 ];
 const useServantDataList = _.map(useServantObjectList, (useServantObject) => {
