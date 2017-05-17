@@ -77,6 +77,11 @@ export class UseServantModel extends BasicModel {
 
     return servantData ? servantData.useWeaponIndex : null;
   }
+  get weapon() {
+    const servantData = this.servantData;
+
+    return servantData ? servantData.weapon : null;
+  }
   //allowed set servantData's field, but won't really change data
   set nickname(value) {
     return this;
@@ -108,11 +113,6 @@ export class UseServantModel extends BasicModel {
     const servantData = this.servantData;
 
     return servantData ? servantData.fullname : '空缺';
-  }
-  get weapon() {
-    const servantData = this.servantData;
-
-    return servantData ? servantData.weaponList[servantData.useWeaponIndex] : null;
   }
   get maximumNp() {
     const servantData = this.servantData;

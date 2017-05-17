@@ -1,0 +1,13 @@
+<template name="useCardSetting">
+  <div style="min-width: 50%;">
+    <h5>
+      牌組設定：
+    </h5>
+    {{#if inSortCardMode}}
+      {{> cardsSorter}}
+    {{else}}
+      {{> cardsSelector}}
+    {{/if}}
+  </div>
+</template>
+

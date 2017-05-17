@@ -130,6 +130,10 @@ export class ServantModel extends BasicModel {
       lastUseTime: this.lastUseTime
     };
   }
+  //compute data
+  get weapon() {
+    return this.weaponList[this.useWeaponIndex];
+  }
 }
 
 //create servant collection

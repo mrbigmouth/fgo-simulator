@@ -1,0 +1,46 @@
+<template name="cardsSorter">
+  <div class="d-flex">
+    {{> cardSorter 0}}
+    {{> cardSorter 1}}
+    {{> cardSorter 2}}
+    {{> cardSorter 3}}
+    {{> cardSorter 4}}
+  </div>
+  <div class="d-flex">
+    {{> cardSorter 5}}
+    {{> cardSorter 6}}
+    {{> cardSorter 7}}
+    {{> cardSorter 8}}
+    {{> cardSorter 9}}
+  </div>
+  <div class="d-flex">
+    {{> cardSorter 10}}
+    {{> cardSorter 11}}
+    {{> cardSorter 12}}
+    {{> cardSorter 13}}
+    {{> cardSorter 14}}
+  </div>
+  <div class="row">
+    <div class="col-6">
+      <button
+        class="btn btn-sm btn-primary"
+        type="button"
+        data-action="finishSortCardMode"
+      >
+        完成配牌
+      </button>
+    </div>
+  </div>
+</template>
+
+<template name="cardSorter">
+  {{#with cardSorterdata this}}
+    <div class="useCard" draggable="true">
+      <div class="moveable">
+        <div class="px-3 py-3 text-truncate {{cardData.type}} {{dragging}} {{inverse}}">
+          {{cardData.useServantData.name}}
+        </div>
+      </div>
+    </div>
+  {{/with}}
+</template>

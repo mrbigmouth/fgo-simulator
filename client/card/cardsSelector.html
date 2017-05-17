@@ -1,0 +1,96 @@
+<template name="cardsSelector">
+  {{> weaponCardSelectorList}}
+  <div class="d-flex">
+    {{#each cardData in shouldDisplayCardSelector}}
+      {{> cardSelector cardData}}
+    {{/each}}
+  </div>
+  <div class="row">
+    <div class="col-6">
+      <button
+        class="btn btn-sm btn-info"
+        type="button"
+        data-action="startSortCardMode"
+      >
+        手動配牌
+      </button>
+      <button
+        class="btn btn-sm btn-warning"
+        type="button"
+        data-action="washCards"
+      >
+        自動洗牌
+      </button>
+    </div>
+    <div class="col-6">
+      <div class="input-group justify-content-end">
+        <span class="input-group-btn">
+          <button
+            class="btn btn-sm btn-secondary btn-block"
+            type="button"
+            data-action="previousRound"
+          >
+            ⇦
+          </button>
+        </span>
+        <input
+          class="form-control text-center"
+          style="max-width: 100px;"
+          type="text"
+          disabled="true"
+          value="{{getSelectableCardOffsetDescription}}"
+        />
+        <span class="input-group-btn">
+          <button
+            class="btn btn-sm btn-secondary btn-block"
+            type="button"
+            data-action="nextRound"
+          >
+            ⇨
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</template>
+
+<template name="weaponCardSelectorList">
+  <div class="d-flex justify-content-around">
+    {{#each weaponCard in selectableWeaponList}}
+      {{> weaponCardSelector weaponCard}}
+    {{/each}}
+  </div>
+</template>
+
+<template name="weaponCardSelector">
+  <div class="useCard weapon">
+    <div class="{{cardType}} clickable">
+      <div class="text-truncate px-3 pt-3">{{this.useServantData.name}}</div>
+      <div class="pb-3">寶具</div>
+      {{#if cardSelectedNumber this.id}}
+        <div class="selectNumber">
+          {{cardSelectedNumber this.id}}
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</template>
+
+<template name="cardSelector">
+  <div class="useCard">
+    <div class="clickable">
+      <div class=" px-3 py-3 text-truncate {{cardType}}">
+        {{this.useServantData.name}}
+      </div>
+      {{#if cardSelectedNumber this.id}}
+        <div class="selectNumber">
+          {{cardSelectedNumber this.id}}
+        </div>
+      {{/if}}
+    </div>
+    <div class="input-group">
+      <span class="input-group-addon border-left-0 border-bottom-0">☆</span>
+      <input class="form-control border-right-0 border-bottom-0" type="number" value="{{this.star}}" />
+    </div>
+  </div>
+</template>
