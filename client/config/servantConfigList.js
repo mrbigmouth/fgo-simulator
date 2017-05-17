@@ -2276,6 +2276,10 @@ export const servantConfigList = [
         ],
         effectList: [
           {
+            effectType: 'addOneSpecialAttribute',
+            number: '中毒'
+          },
+          {
             effectType: 'attackOne',
             hits: [
               100
