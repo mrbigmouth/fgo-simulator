@@ -1,4 +1,5 @@
 import { _ } from 'meteor/underscore';
+import { Tracker } from 'meteor/tracker';
 import { ReactiveVar } from 'meteor/reactive-var';
 
 export class BasicCollection {
@@ -14,22 +15,23 @@ export class BasicCollection {
       writable: false,
       value: new ReactiveVar(initialDataList)
     });
-    this.buildIdHash();
-
-    return this;
-  }
-  buildIdHash() {
-    const dataList = this.__reactiveVar.get();
+    Object.defineProperty(this, '__idHash', {
+      enumerable: false,
+      configurable: false,
+      writable: true,
+      value: {}
+    });
+    //build id hash
     const idHash = {};
-    _.each(dataList, (data) => {
+    _.each(initialDataList, (data) => {
       idHash[data.id] = data;
     });
-    this.idHash = idHash;
+    this.__idHash = idHash;
 
     return this;
   }
   get(id) {
-    return this.idHash[id];
+    return this.__idHash[id];
   }
   at(index) {
     const dataList = this.__reactiveVar.get();
@@ -37,7 +39,7 @@ export class BasicCollection {
     return dataList[index];
   }
   getNewId() {
-    const idList = _.keys(this.idHash);
+    const idList = _.keys(this.__idHash);
     const maxId = _.reduce(idList, (maxId, id) => {
       const intId = parseInt(id, 10);
 
@@ -48,7 +50,7 @@ export class BasicCollection {
   }
   upsert(data) {
     const dataList = _.clone(this.__reactiveVar.get());
-    const idHash = this.idHash;
+    const idHash = this.__idHash;
     const id = data.id;
     if (id) {
       const existData = idHash[id];
@@ -73,12 +75,19 @@ export class BasicCollection {
   }
   reset(dataList = []) {
     this.__reactiveVar.set(dataList);
-    this.buildIdHash();
+    //re build id hash
+    const idHash = {};
+    _.each(dataList, (data) => {
+      idHash[data.id] = data;
+    });
+    this.__idHash = idHash;
 
     return this;
   }
   remove(model) {
     const dataList = _.without(this.__reactiveVar.get(), model);
+    //delete from id hash
+    delete this.__idHash[model.id];
     this.__reactiveVar.set(dataList);
 
     return this;
@@ -114,6 +123,12 @@ export class BasicCollection {
     const dataList = this.__reactiveVar.get();
 
     return _.sortBy(dataList, iteratee, context);
+  }
+  //array methods
+  slice(start, end) {
+    const dataList = this.__reactiveVar.get();
+
+    return dataList.slice(start, end);
   }
 }
 export default BasicCollection;
