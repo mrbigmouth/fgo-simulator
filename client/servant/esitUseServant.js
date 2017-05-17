@@ -107,62 +107,76 @@ Template.editUseServant.helpers({
   },
   getEffectDescription(effect) {
     let result;
-    let numberSuffix = '%';
+    let numberSuffix;
     switch (effect.effectType) {
       case 'decreaseAllDefense': {
         result = '降低全體敵人防禦';
+        numberSuffix = '%';
         break;
       }
       case 'decreaseOneDefense': {
         result = '降低單體敵人防禦';
+        numberSuffix = '%';
         break;
       }
       case 'decreaseSelfAttack': {
         result = '降低自身攻擊';
+        numberSuffix = '%';
         break;
       }
       case 'dispelOneBuff': {
         result = '單體敵人強化解除';
+        numberSuffix = '%';
         break;
       }
       case 'dispelAllBuff': {
         result = '全體敵人強化解除';
+        numberSuffix = '%';
         break;
       }
       case 'addSelfArt': {
         result = '自身的Art卡性能提升';
+        numberSuffix = '%';
         break;
       }
       case 'addSelfBuster': {
         result = '自身的Buster卡性能提升';
+        numberSuffix = '%';
         break;
       }
       case 'addSelfQuick': {
         result = '自身的Quick卡性能提升';
+        numberSuffix = '%';
         break;
       }
       case 'addSelfWeapon': {
         result = '自身寶具威力提升';
+        numberSuffix = '%';
         break;
       }
       case 'addAllAttack': {
         result = '我方全體攻擊提升';
+        numberSuffix = '%';
         break;
       }
       case 'addOtherAttack': {
         result = '其他隊友攻擊提升';
+        numberSuffix = '%';
         break;
       }
       case 'addSelfAttack': {
         result = '自身全體攻擊提升';
+        numberSuffix = '%';
         break;
       }
       case 'addSelfCritical': {
         result = '自身Critical威力提升';
+        numberSuffix = '%';
         break;
       }
       case 'addAllCritical': {
         result = '我方全體Critical威力提升';
+        numberSuffix = '%';
         break;
       }
       case 'addStar': {
@@ -172,14 +186,17 @@ Template.editUseServant.helpers({
       }
       case 'addSelfStarDrop': {
         result = '自身星掉落提升';
+        numberSuffix = '%';
         break;
       }
       case 'addAllStarDrop': {
         result = '我方全體星掉落提升';
+        numberSuffix = '%';
         break;
       }
       case 'addNp': {
         result = '自身NP獲得';
+        numberSuffix = '%';
         break;
       }
       case 'addAllNp': {
@@ -187,19 +204,36 @@ Template.editUseServant.helpers({
         numberSuffix = '';
         break;
       }
+      case 'addOneBeHitDamage': {
+        result = '增加單體敵人被攻擊傷害';
+        numberSuffix = '%';
+        break;
+      }
       case 'attackAll': {
         result = '攻擊敵方全體';
+        numberSuffix = '%';
         break;
       }
       case 'attackOne': {
         result = '攻擊敵方單體';
+        numberSuffix = '%';
+        break;
+      }
+      case 'addOneSpecialAttribute': {
+        result = '附予單體敵人〔' + effect.number + '〕特性';
+        break;
+      }
+      case 'addAllSpecialAttribute': {
+        result = '附予全體敵人〔' + effect.number + '〕特性';
         break;
       }
     }
-    const numberTextList = _.map(effect.number || [], (number) => {
-      return number + numberSuffix;
-    });
-    result += ' ' + numberTextList.join('/');
+    if (_.isString(numberSuffix)) {
+      const numberTextList = _.map(effect.number || [], (number) => {
+        return number + numberSuffix;
+      });
+      result += ' ' + numberTextList.join('/');
+    }
 
     return result;
   }

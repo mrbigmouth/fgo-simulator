@@ -667,5 +667,21 @@ export const enemyConfigList = [
       '神性',
       '超巨大'
     ]
+  },
+  {
+    id: '71',
+    name: '掠食者',
+    alignmentType: 'earth',
+    specialAttributeList: [
+      '無性'
+    ]
+  },
+  {
+    id: '72',
+    name: '變形怪',
+    alignmentType: 'earth',
+    specialAttributeList: [
+      '無性'
+    ]
   }
 ];

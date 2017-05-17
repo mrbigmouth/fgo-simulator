@@ -2264,6 +2264,7 @@ export const servantConfigList = [
         name: '祈りの弓(初期)',
         specialBoost: [
           {
+            limitTarget: '中毒',
             number: [
               200,
               212.5,
@@ -6026,7 +6027,7 @@ export const servantConfigList = [
         specialBoost: [],
         effectList: [
           {
-            effectType: 'addSpecialAttribute',
+            effectType: 'addOneSpecialAttribute',
             number: '龍'
           },
           {
@@ -9889,6 +9890,10 @@ export const servantConfigList = [
         specialBoost: [],
         effectList: [
           {
+            effectType: 'addOneSpecialAttribute',
+            number: '中毒'
+          },
+          {
             effectType: 'attackAll',
             hits: [
               100
@@ -10827,6 +10832,10 @@ export const servantConfigList = [
               712.5,
               750
             ]
+          },
+          {
+            effectType: 'addAllSpecialAttribute',
+            number: '中毒'
           }
         ]
       }
