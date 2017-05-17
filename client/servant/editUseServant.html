@@ -93,19 +93,19 @@
                 <dt class="col-3 text-right text-truncate">功能敘述</dt>
                 <dd class="col-9"></dd>
                 {{#each specialBoost}}
-                  <dd class="offset-3">
+                  <dd class="offset-3 col-9">
                     {{getSpecialBoostDescription this}}
                   </dd>
                 {{/each}}
                 {{#each effectList}}
-                  <dd class="offset-3">
+                  <dd class="offset-3 col-9">
                     {{getEffectDescription this}}
                   </dd>
                   {{#if hits}}
-                    <dd class="offset-3">
+                    <dd class="offset-3 col-9">
                       攻擊次數：{{getHitsLength hits}}
                     </dd>
-                    <dd class="offset-3">
+                    <dd class="offset-3 col-9">
                       傷害分配比例：{{getHitsDescription hits}}
                     </dd>
                   {{/if}}
@@ -193,24 +193,13 @@
                 <dt class="col-3 text-right text-truncate">常駐Buff</dt>
                 {{#if noPassiveBuff passiveBuff}}
                   <dd class="col-9">無</dd>
-                {{/if}}
-                {{#if passiveBuff.arts}}
-                  <dd class="offset-3 col-9 arts">Arts性能提升{{passiveBuff.arts}}％</dd>
-                {{/if}}
-                {{#if passiveBuff.buster}}
-                  <dd class="offset-3 col-9 buster">Buster性能提升{{passiveBuff.buster}}％</dd>
-                {{/if}}
-                {{#if passiveBuff.quick}}
-                  <dd class="offset-3 col-9 quick">Quick性能提升{{passiveBuff.quick}}％</dd>
-                {{/if}}
-                {{#if passiveBuff.critical}}
-                  <dd class="offset-3 col-9">Critical威力提升{{passiveBuff.critical}}％</dd>
-                {{/if}}
-                {{#if passiveBuff.starDrop}}
-                  <dd class="offset-3 col-9">星掉落提升{{passiveBuff.starDrop}}％</dd>
-                {{/if}}
-                {{#if passiveBuff.damage}}
-                  <dd class="offset-3 col-9">傷害加成{{passiveBuff.damage}}</dd>
+                {{else}}
+                  <dd class="col-9"></dd>
+                  {{#each buff in passiveBuff}}
+                    <dd class="offset-3 col-9 {{buff.name}}">
+                      {{getBuffDescription buff}}
+                    </dd>
+                  {{/each}}
                 {{/if}}
               </dl>
             </div>

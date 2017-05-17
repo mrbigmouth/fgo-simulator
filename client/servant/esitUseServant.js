@@ -70,13 +70,6 @@ Template.editUseServant.helpers({
       return hits.join('/');
     }
   },
-  noPassiveBuff(passiveBuff) {
-    const totalBuffNumber = _.reduce(passiveBuff, (totalBuffNumber, buffNumber) => {
-      return totalBuffNumber + buffNumber;
-    }, 0);
-
-    return totalBuffNumber <= 0;
-  },
   getSpecialBoostDescription(specialBoost) {
     if (specialBoost.number === 'ignoreDefense') {
       return '無視防禦力提升效果';
@@ -236,6 +229,31 @@ Template.editUseServant.helpers({
     }
 
     return result;
+  },
+  noPassiveBuff(passiveBuff) {
+    return passiveBuff.length <= 0;
+  },
+  getBuffDescription(buff) {
+    switch (buff.name) {
+      case 'arts': {
+        return `Arts性能提升${buff.number}％`;
+      }
+      case 'buster': {
+        return `Buster性能提升${buff.number}％`;
+      }
+      case 'quick': {
+        return `Quick性能提升${buff.number}％`;
+      }
+      case 'critical': {
+        return `Critical威力提升${buff.number}％`;
+      }
+      case 'starDrop': {
+        return `星掉落提升${buff.number}％`;
+      }
+      case 'damage': {
+        return `傷害加成${buff.number}`;
+      }
+    }
   }
 });
 
