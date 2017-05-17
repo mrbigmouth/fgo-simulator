@@ -2,12 +2,18 @@ import { $ } from 'meteor/jquery';
 import { Template } from 'meteor/templating';
 import { Tracker } from 'meteor/tracker';
 import { ReactiveVar } from 'meteor/reactive-var';
-import { useEnemyCollection } from '../enemy/useEnemyModel';
+import { debuffNameHash, useEnemyCollection } from '../enemy/useEnemyModel';
 
 export const rTargetUseEnemyId = new ReactiveVar('1');
 Template.useEnemyInfo.helpers({
   useEnemyData(id) {
     return useEnemyCollection.get(id);
+  },
+  dontHasAnyDebuff(temporaryDebuff) {
+    return temporaryDebuff.length < 1;
+  },
+  getDebuffDescription(debuffKey) {
+    return debuffNameHash[debuffKey];
   },
   active() {
     return this.id === rTargetUseEnemyId.get() ? 'active' : '';

@@ -42,3 +42,20 @@ FlowRouter.route('/selectUseEnemy/:useEnemyId', {
     rFormContent.set('selectUseEnemy');
   }
 });
+FlowRouter.route('/editTemporaryDebuff/:useEnemyId', {
+  name: 'editTemporaryBuff',
+  action(params) {
+    const useEnemyId = params.useEnemyId;
+    const title = '編輯暫時性Debuff(' + useEnemyId + ')';
+    const formData = rFormData.get();
+    const alreadyCloneUseServantData = formData && formData.model && formData.model.id === useEnemyId;
+    if (! alreadyCloneUseServantData) {
+      const useEnemyData = useEnemyCollection.get(useEnemyId);
+      rFormData.set({
+        title: title,
+        model: useEnemyData.clone()
+      });
+    }
+    rFormContent.set('editTemporaryDebuff');
+  }
+});

@@ -12,23 +12,38 @@
 <template name="useEnemyInfo">
   <div class="card-main">
     {{#with useEnemyData this}}
-      <a class="enemyLink text-muted text-truncate" href="/editUseEnemy/{{id}}">
+      <a class="mainLink text-muted text-truncate" href="/editUseEnemy/{{id}}">
         {{name}}
       </a>
-      <div class="form-group mb-0">
-        <div class="input-group">
-          <span class="input-group-addon">HP</span>
-          <input
-            class="form-control"
-            type="number"
-            name="currentHp"
-            min="0"
-            value="{{currentHp}}"
-          />
-        </div>
+      <div class="input-group">
+        <span class="input-group-addon">HP</span>
+        <input
+          class="form-control"
+          type="number"
+          name="currentHp"
+          min="0"
+          value="{{currentHp}}"
+        />
       </div>
+      <a
+        class="btn btn-outline-secondary btn-sm btn-block text-left"
+        style="overflow-x: hidden;"
+        href="/editTemporaryDebuff/{{id}}"
+      >
+        {{#if dontHasAnyDebuff temporaryDebuff}}
+          無暫時性Debuff
+        {{else}}
+          {{#each debuff in temporaryDebuff}}
+            <img
+              class="buffIcon"
+              src="/{{debuff.name}}.png"
+              title="{{getDebuffDescription debuff.name}}"
+            />
+          {{/each}}
+        {{/if}}
+      </a>
       <button
-        class="btn btn-outline-warning btn-sm btn-block {{active}}"
+        class="btn btn-outline-warning btn-sm btn-block mt-0 {{active}}"
         type="button"
         data-action="setTarget"
       >

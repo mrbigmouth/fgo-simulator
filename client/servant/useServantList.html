@@ -12,7 +12,7 @@
 <template name="useServantInfo">
   <div class="card-main">
     {{#with useServantData this}}
-      <a class="servantLink text-muted text-truncate" href="/editUseServant/{{id}}">
+      <a class="mainLink text-muted text-truncate" href="/editUseServant/{{id}}">
         {{name}}
       </a>
       <div class="input-group">
@@ -27,6 +27,19 @@
         />
         <span class="input-group-addon">％</span>
       </div>
+      <a
+        class="btn btn-outline-secondary btn-sm btn-block text-left"
+        style="overflow-x: hidden;"
+        href="/editTemporaryBuff/{{id}}"
+      >
+        {{#if dontHasAnyBuff temporaryBuff}}
+          無暫時性Buff
+        {{else}}
+          {{#each buff in temporaryBuff}}
+            <img class="buffIcon" src="/{{buff.name}}.png" title="{{getBuffDescription buff.name}}" />
+          {{/each}}
+        {{/if}}
+      </a>
     {{/with}}
   </div>
 </template>

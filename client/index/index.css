@@ -59,7 +59,7 @@
   border-color: #d9534f;
 }
 
-.main-contrainer .card-main a {
+.main-contrainer .card-main a.mainLink {
   display: block;
   padding: 1rem;
   border: 1px solid #cccccc;
@@ -79,4 +79,8 @@
 
 .main-contrainer .card-main .btn {
   border-radius: 0;
+}
+
+img.buffIcon {
+  height: 0.875rem;
 }

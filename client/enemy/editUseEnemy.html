@@ -66,7 +66,15 @@
         </div>
         <!-- specialAttributeList -->
         <div class="form-group">
-          <label for="specialAttributeList">特性列表：</label>
+          <label for="specialAttributeList">
+            特性列表：
+            <button
+              class="btn btn-sm btn-danger"
+              type="button" data-action="removeAllAttribute"
+            >
+              清空
+            </button>
+          </label>
           {{#each specialAttribute in specialAttributeList}}
             <div class="pl-3 mb-1">
               具｛{{specialAttribute}}｝特性。
@@ -80,6 +88,11 @@
             </div>
           {{/each}}
           <div class="input-group">
+            <span class="input-group-btn">
+              <button class="btn btn-info" type="button" data-action="addSpecialAttribute">
+                新增
+              </button>
+            </span>
             <select class="form-control" name="specialAttributeList">
               {{#each specialAttribute in fullSpecialAttributeList}}
                 <option value="{{specialAttribute}}">
@@ -87,11 +100,7 @@
                 </option>
               {{/each}}
             </select>
-            <span class="input-group-btn">
-              <button class="btn btn-info" type="button" data-action="addSpecialAttribute">
-                新增特性
-              </button>
-            </span>
+            <span class="input-group-addon">特性</span>
           </div>
         </div>
       {{/with}}

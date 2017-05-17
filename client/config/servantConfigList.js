@@ -112,14 +112,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 8,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 8
+      }
+    ]
   },
   {
     id: '3',
@@ -203,14 +201,7 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '4',
@@ -292,14 +283,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 6,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 6
+      }
+    ]
   },
   {
     id: '5',
@@ -421,14 +410,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 8,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 8
+      }
+    ]
   },
   {
     id: '90',
@@ -546,14 +533,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 8,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 8
+      }
+    ]
   },
   {
     id: '123',
@@ -631,14 +616,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 8,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 8
+      }
+    ]
   },
   {
     id: '6',
@@ -696,7 +679,7 @@ export const servantConfigList = [
         name: '幻想大剣・天魔失墜(初期)',
         specialBoost: [
           {
-            'limitTarget': '龍',
+            limitTarget: '龍',
             number: [
               150,
               162.5,
@@ -723,14 +706,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 8,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 8
+      }
+    ]
   },
   {
     id: '76',
@@ -790,7 +771,7 @@ export const servantConfigList = [
         name: '我が麗しき父への叛逆(初期)',
         specialBoost: [
           {
-            'limitTarget': '亞瑟',
+            limitTarget: '亞瑟',
             number: [
               180,
               190,
@@ -835,7 +816,7 @@ export const servantConfigList = [
         name: '我が麗しき父への叛逆(キング・オブ・キングス)',
         specialBoost: [
           {
-            'limitTarget': '亞瑟',
+            limitTarget: '亞瑟',
             number: [
               180,
               190,
@@ -876,14 +857,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 8,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 8
+      }
+    ]
   },
   {
     id: '138',
@@ -970,14 +949,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 6,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 6
+      }
+    ]
   },
   {
     id: '126',
@@ -1061,14 +1038,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 10,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 10
+      }
+    ]
   },
   {
     id: '7',
@@ -1160,14 +1135,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 8,
-      damage: 125,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 8
+      },
+      {
+        name: 'damage',
+        number: 125
+      }
+    ]
   },
   {
     id: '72',
@@ -1288,14 +1265,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 8,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 8
+      }
+    ]
   },
   {
     id: '8',
@@ -1406,14 +1381,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 10,
-      damage: 175,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 10
+      },
+      {
+        name: 'damage',
+        number: 175
+      }
+    ]
   },
   {
     id: '101',
@@ -1472,7 +1449,7 @@ export const servantConfigList = [
         name: '羅刹を穿つ不滅(初期)',
         specialBoost: [
           {
-            'limitTarget': '魔性',
+            limitTarget: '魔性',
             number: [
               150,
               162.5,
@@ -1503,14 +1480,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 11,
-      damage: 200,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 11
+      },
+      {
+        name: 'damage',
+        number: 200
+      }
+    ]
   },
   {
     id: '121',
@@ -1595,18 +1574,26 @@ export const servantConfigList = [
               1425,
               1500
             ]
+          },
+          {
+            effectType: 'addOneBeHitDamage',
+            number: [
+              1000,
+              1500,
+              2000,
+              2500,
+              3000
+            ]
           }
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 8,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 8
+      }
+    ]
   },
   {
     id: '9',
@@ -1684,14 +1671,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 12,
-      quick: 8,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 12
+      },
+      {
+        name: 'quick',
+        number: 8
+      }
+    ]
   },
   {
     id: '10',
@@ -1758,14 +1747,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 8,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 8
+      }
+    ]
   },
   {
     id: '68',
@@ -1855,14 +1842,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 2,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 2
+      }
+    ]
   },
   {
     id: '91',
@@ -1938,14 +1923,24 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 6,
-      buster: 6,
-      quick: 6,
-      damage: 0,
-      critical: 6,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 6
+      },
+      {
+        name: 'buster',
+        number: 6
+      },
+      {
+        name: 'quick',
+        number: 6
+      },
+      {
+        name: 'critical',
+        number: 6
+      }
+    ]
   },
   {
     id: '11',
@@ -2063,14 +2058,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 8,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 8
+      }
+    ]
   },
   {
     id: '12',
@@ -2140,7 +2133,7 @@ export const servantConfigList = [
         name: '天地乖離す開闢の星(初期)',
         specialBoost: [
           {
-            'limitTarget': '被「天地乖離開辟之星」所剋',
+            limitTarget: '被「天地乖離開辟之星」所剋',
             number: [
               150,
               162.5,
@@ -2171,7 +2164,7 @@ export const servantConfigList = [
         name: '天地乖離す開闢の星(開闢の理)',
         specialBoost: [
           {
-            'limitTarget': '被「天地乖離開辟之星」所剋',
+            limitTarget: '被「天地乖離開辟之星」所剋',
             number: [
               150,
               162.5,
@@ -2208,14 +2201,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 175,
-      critical: 11,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'damage',
+        number: 175
+      },
+      {
+        name: 'critical',
+        number: 11
+      }
+    ]
   },
   {
     id: '13',
@@ -2295,14 +2290,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 10,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 10
+      }
+    ]
   },
   {
     id: '14',
@@ -2431,14 +2424,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 10,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 10
+      }
+    ]
   },
   {
     id: '63',
@@ -2508,14 +2499,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 10,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 10
+      }
+    ]
   },
   {
     id: '122',
@@ -2601,14 +2590,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 8,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 8
+      }
+    ]
   },
   {
     id: '60',
@@ -2707,14 +2694,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 11,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 11
+      }
+    ]
   },
   {
     id: '105',
@@ -2790,14 +2775,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 7,
-      damage: 0,
-      critical: 10,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 7
+      },
+      {
+        name: 'critical',
+        number: 10
+      }
+    ]
   },
   {
     id: '77',
@@ -2850,7 +2837,7 @@ export const servantConfigList = [
         name: '人類神話・雷電降臨(初期)',
         specialBoost: [
           {
-            'limitTarget': '被「人類神話・雷電降臨」所剋',
+            limitTarget: '被「人類神話・雷電降臨」所剋',
             number: [
               150,
               162.5,
@@ -2883,7 +2870,7 @@ export const servantConfigList = [
         name: '人類神話・雷電降臨(ライトニング)',
         specialBoost: [
           {
-            'limitTarget': '被「人類神話・雷電降臨」所剋',
+            limitTarget: '被「人類神話・雷電降臨」所剋',
             number: [
               150,
               162.5,
@@ -2912,14 +2899,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 8,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 8
+      }
+    ]
   },
   {
     id: '15',
@@ -2975,7 +2960,7 @@ export const servantConfigList = [
         name: '女神の視線(初期)',
         specialBoost: [
           {
-            'limitTarget': '男性',
+            limitTarget: '男性',
             number: [
               150,
               200,
@@ -3002,7 +2987,7 @@ export const servantConfigList = [
         name: '女神の視線(私から姉妹へ)',
         specialBoost: [
           {
-            'limitTarget': '男性',
+            limitTarget: '男性',
             number: [
               150,
               200,
@@ -3025,14 +3010,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 300,
-      critical: 11,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'damage',
+        number: 300
+      },
+      {
+        name: 'critical',
+        number: 11
+      }
+    ]
   },
   {
     id: '16',
@@ -3124,14 +3111,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 6,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 6
+      }
+    ]
   },
   {
     id: '125',
@@ -3187,7 +3172,7 @@ export const servantConfigList = [
         name: '八幡祈願・大妖射貫(初期)',
         specialBoost: [
           {
-            'limitTarget': '魔性',
+            limitTarget: '魔性',
             number: [
               50,
               62.5,
@@ -3216,14 +3201,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 8,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 8
+      }
+    ]
   },
   {
     id: '84',
@@ -3337,14 +3320,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 175,
-      critical: 10,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'damage',
+        number: 175
+      },
+      {
+        name: 'critical',
+        number: 10
+      }
+    ]
   },
   {
     id: '95',
@@ -3457,14 +3442,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 175,
-      critical: 10,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'damage',
+        number: 175
+      },
+      {
+        name: 'critical',
+        number: 10
+      }
+    ]
   },
   {
     id: '69',
@@ -3523,7 +3510,7 @@ export const servantConfigList = [
         name: '三千世界(初期)',
         specialBoost: [
           {
-            'limitTarget': '騎乘',
+            limitTarget: '騎乘',
             number: [
               150,
               162.5,
@@ -3559,14 +3546,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 8,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 8
+      }
+    ]
   },
   {
     id: '131',
@@ -3659,14 +3644,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 10,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 10
+      }
+    ]
   },
   {
     id: '129',
@@ -3765,14 +3748,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 10,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 10,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 10
+      },
+      {
+        name: 'critical',
+        number: 10
+      }
+    ]
   },
   {
     id: '137',
@@ -3854,14 +3839,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 8,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 8
+      }
+    ]
   },
   {
     id: '17',
@@ -3943,14 +3926,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 175,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'damage',
+        number: 175
+      }
+    ]
   },
   {
     id: '71',
@@ -4022,7 +4003,7 @@ export const servantConfigList = [
             ]
           },
           {
-            effectType: 'dispelOneBuff',
+            effectType: 'dispelOneBuff'
           }
         ]
       },
@@ -4046,19 +4027,12 @@ export const servantConfigList = [
             ]
           },
           {
-            effectType: 'dispelOneBuff',
+            effectType: 'dispelOneBuff'
           }
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '140',
@@ -4117,7 +4091,7 @@ export const servantConfigList = [
         name: '串刺城塞(初期)',
         specialBoost: [
           {
-            'limitTarget': '惡',
+            limitTarget: '惡',
             number: [
               150,
               162.5,
@@ -4149,14 +4123,7 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '85',
@@ -4216,7 +4183,7 @@ export const servantConfigList = [
         name: '日輪よ、死に随え(初期)',
         specialBoost: [
           {
-            'limitTarget': '神性',
+            limitTarget: '神性',
             number: [
               150,
               162.5,
@@ -4247,14 +4214,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 10,
-      damage: 200,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 10
+      },
+      {
+        name: 'damage',
+        number: 200
+      }
+    ]
   },
   {
     id: '18',
@@ -4331,14 +4300,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 8,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 8
+      }
+    ]
   },
   {
     id: '19',
@@ -4393,14 +4360,7 @@ export const servantConfigList = [
         effectList: []
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '20',
@@ -4481,14 +4441,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 175,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'damage',
+        number: 175
+      }
+    ]
   },
   {
     id: '21',
@@ -4553,14 +4511,7 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '22',
@@ -4644,14 +4595,7 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '87',
@@ -4747,14 +4691,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 125,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'damage',
+        number: 125
+      }
+    ]
   },
   {
     id: '88',
@@ -4813,7 +4755,7 @@ export const servantConfigList = [
         name: '死がふたりを分断つまで(初期)',
         specialBoost: [
           {
-            'limitTarget': '愛人',
+            limitTarget: '愛人',
             number: [
               150,
               162.5,
@@ -4854,14 +4796,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 10,
-      damage: 100,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 10
+      },
+      {
+        name: 'damage',
+        number: 100
+      }
+    ]
   },
   {
     id: '70',
@@ -4959,14 +4903,7 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '64',
@@ -5083,14 +5020,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 8,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 8
+      }
+    ]
   },
   {
     id: '102',
@@ -5178,14 +5113,7 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '78',
@@ -5295,14 +5223,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 10,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 10
+      }
+    ]
   },
   {
     id: '119',
@@ -5390,14 +5316,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 10,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 10
+      }
+    ]
   },
   {
     id: '128',
@@ -5458,7 +5382,7 @@ export const servantConfigList = [
         name: '常夏日光・日除傘寵愛一神(初期)',
         specialBoost: [
           {
-            'limitTarget': '男性',
+            limitTarget: '男性',
             number: [
               150,
               162.5,
@@ -5488,14 +5412,20 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 10,
-      buster: 0,
-      quick: 10,
-      damage: 230,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 10
+      },
+      {
+        name: 'quick',
+        number: 10
+      },
+      {
+        name: 'damage',
+        number: 230
+      }
+    ]
   },
   {
     id: '134',
@@ -5578,14 +5508,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 12,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 12
+      }
+    ]
   },
   {
     id: '23',
@@ -5668,14 +5596,20 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 11,
-      damage: 95,
-      critical: 6,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 11
+      },
+      {
+        name: 'damage',
+        number: 95
+      },
+      {
+        name: 'critical',
+        number: 6
+      }
+    ]
   },
   {
     id: '108',
@@ -5804,14 +5738,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 11,
-      damage: 150,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 11
+      },
+      {
+        name: 'damage',
+        number: 150
+      }
+    ]
   },
   {
     id: '65',
@@ -5935,14 +5871,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 8,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 8
+      }
+    ]
   },
   {
     id: '94',
@@ -6028,14 +5962,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 11,
-      damage: 0,
-      critical: 8,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 11
+      },
+      {
+        name: 'critical',
+        number: 8
+      }
+    ]
   },
   {
     id: '24',
@@ -6112,14 +6048,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 8,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 8
+      }
+    ]
   },
   {
     id: '25',
@@ -6202,14 +6136,7 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '66',
@@ -6315,14 +6242,7 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '26',
@@ -6377,14 +6297,12 @@ export const servantConfigList = [
         effectList: []
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 10,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 10
+      }
+    ]
   },
   {
     id: '118',
@@ -6477,14 +6395,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 11,
-      damage: 175,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 11
+      },
+      {
+        name: 'damage',
+        number: 175
+      }
+    ]
   },
   {
     id: '99',
@@ -6544,7 +6464,7 @@ export const servantConfigList = [
         name: '愛しき私の鉄戦車(初期)',
         specialBoost: [
           {
-            'limitTarget': '男性',
+            limitTarget: '男性',
             number: [
               150,
               162.5,
@@ -6575,14 +6495,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 10,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 10
+      }
+    ]
   },
   {
     id: '27',
@@ -6692,14 +6610,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 11,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 11
+      }
+    ]
   },
   {
     id: '28',
@@ -6809,14 +6725,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 11,
-      damage: 100,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 11
+      },
+      {
+        name: 'damage',
+        number: 100
+      }
+    ]
   },
   {
     id: '29',
@@ -6888,14 +6806,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 11,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 11
+      }
+    ]
   },
   {
     id: '30',
@@ -6974,14 +6890,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 11.5,
-      damage: 150,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 11.5
+      },
+      {
+        name: 'damage',
+        number: 150
+      }
+    ]
   },
   {
     id: '73',
@@ -7065,14 +6983,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 10,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 10
+      }
+    ]
   },
   {
     id: '115',
@@ -7161,14 +7077,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 150,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'damage',
+        number: 150
+      }
+    ]
   },
   {
     id: '132',
@@ -7246,14 +7160,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 5,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 5
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 5
+      },
+      {
+        name: 'starDrop',
+        number: 5
+      }
+    ]
   },
   {
     id: '31',
@@ -7320,7 +7236,7 @@ export const servantConfigList = [
             ]
           },
           {
-            effectType: 'dispelOneBuff',
+            effectType: 'dispelOneBuff'
           },
           {
             effectType: 'addSelfNp',
@@ -7353,7 +7269,7 @@ export const servantConfigList = [
             ]
           },
           {
-            effectType: 'dispelOneBuff',
+            effectType: 'dispelOneBuff'
           },
           {
             effectType: 'addSelfNp',
@@ -7368,14 +7284,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 10,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 10
+      }
+    ]
   },
   {
     id: '32',
@@ -7444,14 +7358,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 8,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 8
+      }
+    ]
   },
   {
     id: '62',
@@ -7541,14 +7453,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 6,
-      buster: 0,
-      quick: 0,
-      damage: 200,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 6
+      },
+      {
+        name: 'damage',
+        number: 200
+      }
+    ]
   },
   {
     id: '74',
@@ -7662,14 +7576,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 10,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 10
+      }
+    ]
   },
   {
     id: '33',
@@ -7722,7 +7634,7 @@ export const servantConfigList = [
         effectList: [
           {
             effectType: 'addAllAttack',
-            'chance': [
+            chance: [
               60,
               70,
               75,
@@ -7746,7 +7658,7 @@ export const servantConfigList = [
         effectList: [
           {
             effectType: 'addAllAttack',
-            'chance': [
+            chance: [
               60,
               70,
               75,
@@ -7763,7 +7675,7 @@ export const servantConfigList = [
           },
           {
             effectType: 'addAllStarDrop',
-            'chance': [
+            chance: [
               60,
               70,
               75,
@@ -7781,14 +7693,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 4,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 4
+      }
+    ]
   },
   {
     id: '34',
@@ -7858,14 +7768,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 6,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 6
+      }
+    ]
   },
   {
     id: '127',
@@ -7951,14 +7859,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 10,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 10
+      }
+    ]
   },
   {
     id: '79',
@@ -8051,14 +7957,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 10,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 10
+      }
+    ]
   },
   {
     id: '80',
@@ -8172,14 +8076,7 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '120',
@@ -8281,14 +8178,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 10,
-      buster: 0,
-      quick: 0,
-      damage: 175,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 10
+      },
+      {
+        name: 'damage',
+        number: 175
+      }
+    ]
   },
   {
     id: '35',
@@ -8386,14 +8285,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 7,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 7
+      }
+    ]
   },
   {
     id: '36',
@@ -8446,7 +8343,7 @@ export const servantConfigList = [
         effectList: [
           {
             effectType: 'decreaseAllDefense',
-            'chance': [
+            chance: [
               60,
               70,
               75,
@@ -8464,14 +8361,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 8,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 8
+      }
+    ]
   },
   {
     id: '104',
@@ -8541,14 +8436,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 8,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 8
+      }
+    ]
   },
   {
     id: '67',
@@ -8618,14 +8511,12 @@ export const servantConfigList = [
         effectList: []
       }
     ],
-    passiveBuff: {
-      arts: 8,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 8
+      }
+    ]
   },
   {
     id: '37',
@@ -8707,14 +8598,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 10,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 10
+      }
+    ]
   },
   {
     id: '111',
@@ -8776,14 +8665,16 @@ export const servantConfigList = [
         effectList: []
       }
     ],
-    passiveBuff: {
-      arts: 8,
-      buster: 0,
-      quick: 0,
-      damage: 200,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 8
+      },
+      {
+        name: 'damage',
+        number: 200
+      }
+    ]
   },
   {
     id: '38',
@@ -8864,14 +8755,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 8,
-      buster: 0,
-      quick: 0,
-      damage: 175,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 8
+      },
+      {
+        name: 'damage',
+        number: 175
+      }
+    ]
   },
   {
     id: '113',
@@ -8955,14 +8848,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 11,
-      buster: 0,
-      quick: 0,
-      damage: 125,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 11
+      },
+      {
+        name: 'damage',
+        number: 125
+      }
+    ]
   },
   {
     id: '100',
@@ -9047,14 +8942,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 10,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 10
+      }
+    ]
   },
   {
     id: '103',
@@ -9128,14 +9021,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 4,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 4
+      }
+    ]
   },
   {
     id: '61',
@@ -9212,14 +9103,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 8,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 8
+      }
+    ]
   },
   {
     id: '130',
@@ -9304,14 +9193,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 10,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 10
+      }
+    ]
   },
   {
     id: '136',
@@ -9392,14 +9279,7 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '39',
@@ -9479,14 +9359,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 4
-    }
+    passiveBuff: [
+      {
+        name: 'starDrop',
+        number: 4
+      }
+    ]
   },
   {
     id: '40',
@@ -9555,14 +9433,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 10.5
-    }
+    passiveBuff: [
+      {
+        name: 'starDrop',
+        number: 10.5
+      }
+    ]
   },
   {
     id: '110',
@@ -9647,14 +9523,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 10
-    }
+    passiveBuff: [
+      {
+        name: 'starDrop',
+        number: 10
+      }
+    ]
   },
   {
     id: '75',
@@ -9713,7 +9587,7 @@ export const servantConfigList = [
         name: '解体聖母(初期)',
         specialBoost: [
           {
-            'limitTarget': '女性',
+            limitTarget: '女性',
             number: [
               50,
               62.5,
@@ -9750,7 +9624,7 @@ export const servantConfigList = [
         name: '解体聖母(ジャック・キルズ・ジャック)',
         specialBoost: [
           {
-            'limitTarget': '女性',
+            limitTarget: '女性',
             number: [
               50,
               62.5,
@@ -9783,14 +9657,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 10.5
-    }
+    passiveBuff: [
+      {
+        name: 'starDrop',
+        number: 10.5
+      }
+    ]
   },
   {
     id: '81',
@@ -9853,14 +9725,12 @@ export const servantConfigList = [
         effectList: []
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 10
-    }
+    passiveBuff: [
+      {
+        name: 'starDrop',
+        number: 10
+      }
+    ]
   },
   {
     id: '139',
@@ -9950,14 +9820,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 125,
-      critical: 0,
-      starDrop: 8
-    }
+    passiveBuff: [
+      {
+        name: 'damage',
+        number: 125
+      },
+      {
+        name: 'starDrop',
+        number: 8
+      }
+    ]
   },
   {
     id: '124',
@@ -10032,14 +9904,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 10,
-      starDrop: 10.5
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 10
+      },
+      {
+        name: 'starDrop',
+        number: 10.5
+      }
+    ]
   },
   {
     id: '41',
@@ -10106,14 +9980,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 300,
-      critical: 0,
-      starDrop: 10.5
-    }
+    passiveBuff: [
+      {
+        name: 'damage',
+        number: 300
+      },
+      {
+        name: 'starDrop',
+        number: 10.5
+      }
+    ]
   },
   {
     id: '42',
@@ -10178,7 +10054,7 @@ export const servantConfigList = [
               2000
             ]
           },
-                    {
+          {
             effectType: 'addStar',
             number: [
               15,
@@ -10191,14 +10067,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 8
-    }
+    passiveBuff: [
+      {
+        name: 'starDrop',
+        number: 8
+      }
+    ]
   },
   {
     id: '43',
@@ -10276,14 +10150,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 4
-    }
+    passiveBuff: [
+      {
+        name: 'starDrop',
+        number: 4
+      }
+    ]
   },
   {
     id: '44',
@@ -10383,14 +10255,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 10
-    }
+    passiveBuff: [
+      {
+        name: 'starDrop',
+        number: 10
+      }
+    ]
   },
   {
     id: '45',
@@ -10454,14 +10324,7 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '109',
@@ -10556,14 +10419,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 10,
-      starDrop: 10.5
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 10
+      },
+      {
+        name: 'starDrop',
+        number: 10.5
+      }
+    ]
   },
   {
     id: '46',
@@ -10616,7 +10481,7 @@ export const servantConfigList = [
         name: '幻想の鉄処女(初期)',
         specialBoost: [
           {
-            'limitTarget': '女性',
+            limitTarget: '女性',
             number: [
               120,
               132.5,
@@ -10653,14 +10518,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 4
-    }
+    passiveBuff: [
+      {
+        name: 'starDrop',
+        number: 4
+      }
+    ]
   },
   {
     id: '86',
@@ -10718,7 +10581,7 @@ export const servantConfigList = [
         name: '無銘勝利剣(初期)',
         specialBoost: [
           {
-            'limitTarget': '阿爾托莉亞臉',
+            limitTarget: '阿爾托莉亞臉',
             number: [
               150,
               162.5,
@@ -10760,7 +10623,7 @@ export const servantConfigList = [
         name: '無銘勝利剣(セイバースレイヤー　覚醒編)',
         specialBoost: [
           {
-            'limitTarget': '阿爾托莉亞臉',
+            limitTarget: '阿爾托莉亞臉',
             number: [
               150,
               162.5,
@@ -10798,14 +10661,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 12,
-      damage: 0,
-      critical: 0,
-      starDrop: 10
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 12
+      },
+      {
+        name: 'starDrop',
+        number: 10
+      }
+    ]
   },
   {
     id: '117',
@@ -10882,14 +10747,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 10.5
-    }
+    passiveBuff: [
+      {
+        name: 'starDrop',
+        number: 10.5
+      }
+    ]
   },
   {
     id: '112',
@@ -10968,14 +10831,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 150,
-      critical: 0,
-      starDrop: 6
-    }
+    passiveBuff: [
+      {
+        name: 'damage',
+        number: 150
+      },
+      {
+        name: 'starDrop',
+        number: 6
+      }
+    ]
   },
   {
     id: '92',
@@ -11053,14 +10918,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 10,
-      starDrop: 6
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 10
+      },
+      {
+        name: 'starDrop',
+        number: 6
+      }
+    ]
   },
   {
     id: '133',
@@ -11138,14 +11005,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 2
-    }
+    passiveBuff: [
+      {
+        name: 'starDrop',
+        number: 2
+      }
+    ]
   },
   {
     id: '47',
@@ -11240,14 +11105,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 8,
-      quick: 0,
-      damage: 200,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 8
+      },
+      {
+        name: 'damage',
+        number: 200
+      }
+    ]
   },
   {
     id: '48',
@@ -11375,14 +11242,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 6,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 6
+      }
+    ]
   },
   {
     id: '49',
@@ -11454,14 +11319,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 10,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 10
+      }
+    ]
   },
   {
     id: '82',
@@ -11561,14 +11424,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 4,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 4
+      }
+    ]
   },
   {
     id: '50',
@@ -11661,14 +11522,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 12,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 12
+      }
+    ]
   },
   {
     id: '51',
@@ -11742,14 +11601,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 2,
-      quick: 0,
-      damage: 125,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 2
+      },
+      {
+        name: 'damage',
+        number: 125
+      }
+    ]
   },
   {
     id: '52',
@@ -11878,14 +11739,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 12,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 12
+      }
+    ]
   },
   {
     id: '89',
@@ -12001,14 +11860,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 1,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 1
+      }
+    ]
   },
   {
     id: '53',
@@ -12103,14 +11960,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 8,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 8
+      }
+    ]
   },
   {
     id: '54',
@@ -12166,14 +12021,12 @@ export const servantConfigList = [
         effectList: []
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 11,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 11
+      }
+    ]
   },
   {
     id: '55',
@@ -12300,14 +12153,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 8,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 8
+      }
+    ]
   },
   {
     id: '56',
@@ -12379,14 +12230,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 12,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 12
+      }
+    ]
   },
   {
     id: '97',
@@ -12446,14 +12295,12 @@ export const servantConfigList = [
         effectList: []
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 12,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 12
+      }
+    ]
   },
   {
     id: '57',
@@ -12535,14 +12382,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 8,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 8
+      }
+    ]
   },
   {
     id: '58',
@@ -12643,14 +12488,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 6,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 6
+      }
+    ]
   },
   {
     id: '98',
@@ -12750,14 +12593,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 6,
-      quick: 0,
-      damage: 150,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 6
+      },
+      {
+        name: 'damage',
+        number: 150
+      }
+    ]
   },
   {
     id: '116',
@@ -12830,7 +12675,7 @@ export const servantConfigList = [
             ]
           },
           {
-            effectType: 'dispelOneBuff',
+            effectType: 'dispelOneBuff'
           },
           {
             effectType: 'decreaseOneDefense',
@@ -12845,14 +12690,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 8,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 8
+      }
+    ]
   },
   {
     id: '114',
@@ -12945,14 +12788,20 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 12,
-      quick: 11,
-      damage: 150,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 12
+      },
+      {
+        name: 'quick',
+        number: 11
+      },
+      {
+        name: 'damage',
+        number: 150
+      }
+    ]
   },
   {
     id: '1',
@@ -13025,14 +12874,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 6,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 6
+      }
+    ]
   },
   {
     id: '59',
@@ -13087,14 +12934,7 @@ export const servantConfigList = [
         effectList: []
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '93',
@@ -13152,7 +12992,7 @@ export const servantConfigList = [
         specialBoost: [],
         effectList: [
           {
-            effectType: 'dispelAllBuff',
+            effectType: 'dispelAllBuff'
           },
           {
             effectType: 'attackAll',
@@ -13175,7 +13015,7 @@ export const servantConfigList = [
         specialBoost: [],
         effectList: [
           {
-            effectType: 'dispelAllBuff',
+            effectType: 'dispelAllBuff'
           },
           {
             effectType: 'attackAll',
@@ -13193,14 +13033,7 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '135',
@@ -13292,14 +13125,7 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '107',
@@ -13355,14 +13181,12 @@ export const servantConfigList = [
         effectList: []
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 10,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 10
+      }
+    ]
   },
   {
     id: '96',
@@ -13453,14 +13277,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 8,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 8
+      }
+    ]
   },
   {
     id: '106',
@@ -13546,14 +13368,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 10,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 10
+      }
+    ]
   },
   {
     id: '83',
@@ -13607,14 +13427,7 @@ export const servantConfigList = [
         effectList: []
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '142',
@@ -13704,14 +13517,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 225,
-      critical: 10,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'damage',
+        number: 225
+      },
+      {
+        name: 'critical',
+        number: 10
+      }
+    ]
   },
   {
     id: '141',
@@ -13798,14 +13613,7 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '143',
@@ -13897,14 +13705,7 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '144',
@@ -13981,14 +13782,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 12,
-      damage: 300,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 12
+      },
+      {
+        name: 'damage',
+        number: 300
+      }
+    ]
   },
   {
     id: '145',
@@ -14087,14 +13890,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 10,
-      buster: 0,
-      quick: 0,
-      damage: 175,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 10
+      },
+      {
+        name: 'damage',
+        number: 175
+      }
+    ]
   },
   {
     id: '146',
@@ -14177,14 +13982,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 250,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'damage',
+        number: 250
+      }
+    ]
   },
   {
     id: '147',
@@ -14274,14 +14077,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 6,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 6
+      }
+    ]
   },
   {
     id: '148',
@@ -14358,14 +14159,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 2,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 2
+      }
+    ]
   },
   {
     id: '149',
@@ -14428,14 +14227,7 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '150',
@@ -14505,14 +14297,12 @@ export const servantConfigList = [
         effectList: []
       }
     ],
-    passiveBuff: {
-      arts: 6,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 6
+      }
+    ]
   },
   {
     id: '154',
@@ -14588,14 +14378,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 8,
-      starDrop: 10
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 8
+      },
+      {
+        name: 'starDrop',
+        number: 10
+      }
+    ]
   },
   {
     id: '151',
@@ -14692,14 +14484,7 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '152',
@@ -14771,14 +14556,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 10,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 10
+      }
+    ]
   },
   {
     id: '153',
@@ -14865,19 +14648,12 @@ export const servantConfigList = [
             ]
           },
           {
-            effectType: 'dispelOneBuff',
+            effectType: 'dispelOneBuff'
           }
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '155',
@@ -14937,7 +14713,7 @@ export const servantConfigList = [
         name: '黒竜双剋勝利剣(初期)',
         specialBoost: [
           {
-            'limitTarget': 'Saber職階Servant',
+            limitTarget: 'Saber職階Servant',
             number: [
               150,
               162.5,
@@ -14972,14 +14748,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 6,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 6
+      }
+    ]
   },
   {
     id: '157',
@@ -15069,14 +14843,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 10,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 10
+      }
+    ]
   },
   {
     id: '156',
@@ -15175,14 +14947,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 11,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 11
+      }
+    ]
   },
   {
     id: '159',
@@ -15265,14 +15035,20 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 5,
-      damage: 0,
-      critical: 5,
-      starDrop: 6
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 5
+      },
+      {
+        name: 'critical',
+        number: 5
+      },
+      {
+        name: 'starDrop',
+        number: 6
+      }
+    ]
   },
   {
     id: '158',
@@ -15354,14 +15130,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 8,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 8
+      }
+    ]
   },
   {
     id: '160',
@@ -15451,14 +15225,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 8,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 8
+      }
+    ]
   },
   {
     id: '161',
@@ -15536,14 +15308,7 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '162',
@@ -15624,14 +15389,7 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: []
   },
   {
     id: '163',
@@ -15713,7 +15471,7 @@ export const servantConfigList = [
             ]
           },
           {
-            effectType: 'dispelOneBuff',
+            effectType: 'dispelOneBuff'
           },
           {
             effectType: 'addSelfQuick',
@@ -15728,14 +15486,20 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 8,
-      damage: 225,
-      critical: 10,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 8
+      },
+      {
+        name: 'damage',
+        number: 225
+      },
+      {
+        name: 'critical',
+        number: 10
+      }
+    ]
   },
   {
     id: '164',
@@ -15822,14 +15586,20 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 200,
-      critical: 6,
-      starDrop: 10.5
-    }
+    passiveBuff: [
+      {
+        name: 'damage',
+        number: 200
+      },
+      {
+        name: 'critical',
+        number: 6
+      },
+      {
+        name: 'starDrop',
+        number: 10.5
+      }
+    ]
   },
   {
     id: '165',
@@ -15926,14 +15696,16 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 8,
-      damage: 200,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 8
+      },
+      {
+        name: 'damage',
+        number: 200
+      }
+    ]
   },
   {
     id: '166',
@@ -16019,14 +15791,12 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 10,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 0,
-      starDrop: 0
-    }
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 10
+      }
+    ]
   },
   {
     id: '167',
@@ -16103,17 +15873,14 @@ export const servantConfigList = [
         ]
       }
     ],
-    passiveBuff: {
-      arts: 0,
-      buster: 0,
-      quick: 0,
-      damage: 0,
-      critical: 10,
-      starDrop: 0
-    },
-    'passiveSpecialBoost': [
+    passiveBuff: [
       {
-        'limitTarget': 'ruler',
+        name: 'critical',
+        number: 10
+      },
+      {
+        name: 'specialBoost',
+        limitTarget: 'ruler',
         number: 150
       }
     ]

@@ -31,6 +31,18 @@ export const servantAlignmentNameHash = {
   beast: '獸'
 };
 export const allowServantAlignmentKeyList = _.keys(servantAlignmentNameHash);
+export const buffNameHash = {
+  addArts: 'Arts性能提升',
+  addBuster: 'Buster性能提升',
+  addQuick: 'Quick性能提升',
+  addAttack: '攻擊提升',
+  addDamage: '傷害加值',
+  addCritical: 'Critical威力提升',
+  addStarDrop: '星掉落提升',
+  addNpGain: 'NP獲取提升',
+  specialBoost: '針對特攻'
+};
+export const allowBuffKeyList = _.keys(buffNameHash);
 
 export class ServantModel extends BasicModel {
   get collection() {
@@ -88,14 +100,13 @@ export class ServantModel extends BasicModel {
       ],
       useWeaponIndex: Match.Integer,
       weaponLevel: new Match.OneOf(1, 2, 3, 4, 5),
-      passiveBuff: {
-        arts: Number,
-        buster: Number,
-        quick: Number,
-        critical: Number,
-        starDrop: Number,
-        damage: Number
-      },
+      passiveBuff: [
+        {
+          name: new Match.OneOf(...allowBuffKeyList),
+          number: Number,
+          limitTarget: new Match.Optional(String)
+        }
+      ],
       lastUseTime: Number
     };
   }

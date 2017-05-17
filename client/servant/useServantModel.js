@@ -3,7 +3,7 @@ import { Tracker } from 'meteor/tracker';
 import { Match } from 'meteor/check';
 import { BasicCollection } from '../utils/BasicCollection';
 import { BasicModel } from '../utils/BasicModel';
-import { servantCollection } from './servantModel';
+import { allowBuffKeyList, servantCollection } from './servantModel';
 
 export class UseServantModel extends BasicModel {
   get collection() {
@@ -15,16 +15,13 @@ export class UseServantModel extends BasicModel {
       servantId: String,
       hpPercentage: Number,
       currentNp: Match.Integer,
-      temporaryBuff: {
-        arts: Number,
-        buster: Number,
-        quick: Number,
-        attack: Number,
-        critical: Number,
-        starDrop: Number,
-        npGain: Number,
-        damage: Number
-      }
+      temporaryBuff: [
+        {
+          name: new Match.OneOf(...allowBuffKeyList),
+          number: Number,
+          limitTarget: new Match.Optional(String)
+        }
+      ]
     };
   }
   get defaults() {
@@ -33,16 +30,7 @@ export class UseServantModel extends BasicModel {
       servantId: '',
       hpPercentage: 100,
       currentNp: 0,
-      temporaryBuff: {
-        arts: 0,
-        buster: 0,
-        quick: 0,
-        attack: 0,
-        critical: 0,
-        starDrop: 0,
-        npGain: 0,
-        damage: 0
-      }
+      temporaryBuff: []
     };
   }
   //associate with servant data
@@ -133,9 +121,20 @@ export class UseServantModel extends BasicModel {
   }
   get buff() {
     const buff = {};
-    const passiveBuff = this.servantData.passiveBuff;
-    _.each(this.temporaryBuff, (value, key) => {
-      buff[key] = value + (passiveBuff[key] || 0);
+    _.each(allowBuffKeyList, (buffKey) => {
+      buff[buffKey] = 0;
+    });
+    _.each(this.servantData.passiveBuff, (buff) => {
+      const buffKey = buff.name;
+      if (buffKey !== 'specialBoost') {
+        buff[buffKey] += buff.number;
+      }
+    });
+    _.each(this.temporaryBuff, (buff) => {
+      const buffKey = buff.name;
+      if (buffKey !== 'specialBoost') {
+        buff[buffKey] += buff.number;
+      }
     });
 
     return buff;

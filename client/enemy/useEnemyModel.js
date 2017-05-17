@@ -5,6 +5,11 @@ import { BasicCollection } from '../utils/BasicCollection';
 import { BasicModel } from '../utils/BasicModel';
 import { allowServantClassKeyList, allowServantAlignmentKeyList } from '../servant/servantModel';
 
+export const debuffNameHash = {
+  decreaseDefense: '防禦降低',
+  addBeHitDamage: '被傷害增加'
+};
+export const allowDebuffKeyList = _.keys(debuffNameHash);
 export class UseEnemyModel extends BasicModel {
   get collection() {
     return useEnemyCollection;
@@ -17,9 +22,12 @@ export class UseEnemyModel extends BasicModel {
       classType: new Match.OneOf(...allowServantClassKeyList),
       alignmentType: new Match.OneOf(...allowServantAlignmentKeyList),
       specialAttributeList: [String],
-      temporaryBuff: {
-        defense: Number
-      }
+      temporaryDebuff: [
+        {
+          name: new Match.OneOf(...allowDebuffKeyList),
+          number: Number
+        }
+      ]
     };
   }
   get defaults() {
@@ -29,9 +37,7 @@ export class UseEnemyModel extends BasicModel {
       classType: allowServantClassKeyList[0],
       alignmentType: allowServantAlignmentKeyList[0],
       specialAttributeList: [],
-      temporaryBuff: {
-        defense: 0
-      }
+      temporaryDebuff: []
     };
   }
   get index() {
@@ -41,9 +47,17 @@ export class UseEnemyModel extends BasicModel {
   get name() {
     return this.nickname || '空缺';
   }
-  //alias
   get buff() {
-    return this.temporaryBuff;
+    const buff = {};
+    _.each(allowDebuffKeyList, (buffKey) => {
+      buff[buffKey] = 0;
+    });
+    _.each(this.temporaryDebuff, (buff) => {
+      const buffKey = buff.name;
+      buff[buffKey] += buff.number;
+    });
+
+    return buff;
   }
 }
 

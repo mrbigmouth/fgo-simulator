@@ -55,6 +55,7 @@ Template.editUseEnemy.events({
   }
 });
 
+//on input change
 function changeHandler(event, templateInstance) {
   event.stopPropagation();
   if (event.currentTarget.name !== 'specialAttributeList') {

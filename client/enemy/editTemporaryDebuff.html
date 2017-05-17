@@ -1,0 +1,84 @@
+<template name="editTemporaryDebuff">
+  <form class="card fullscreenform">
+    <h2 class="card-header fullscreenform-header">
+      {{title}}
+    </h2>
+    <div class="fullscreenform-body">
+      {{#with model}}
+        <ul class="list-group list-group-flush">     
+          {{#if temporaryDebuffList}}
+            {{#each debuff in temporaryDebuffList}}
+              <li class="list-group-item">
+                {{getDebuffDescription debuff}}
+                <button
+                  class="btn btn-sm btn-danger float-right"
+                  type="button"
+                  data-debuff-index="{{@index}}"
+                >
+                  移除
+                </button>
+              </li>
+            {{/each}}
+          {{else}}
+            <div class="list-group-item">
+              目前沒有任何暫時性的Debuff。
+            </div>
+          {{/if}}
+        </ul>
+        <div class="px-3 py-3">
+          <h3>新增暫時性Debuff</h3>
+          <div class="form-group">
+            <label for="buffKey">Debuff類別：</label>
+            <select class="form-control" name="debuffKey">
+              {{#each debuffKey in allowDebuffKeyList}}
+                <option value="{{debuffKey}}">
+                  {{getDebuffName debuffKey}}
+                </option>
+              {{/each}}
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="debuffNumber">Debuff數值：</label>
+            <div class="input-group">
+              <input
+                class="form-control"
+                name="debuffNumber"
+                type="number"
+                value="0"
+                step="0.1"
+              />
+              {{#if debuffNumberIsPercentage}}
+                <span class="input-group-addon">％</span>
+              {{/if}}
+              <span class="input-group-btn">
+                <button class="btn btn-info" type="button" data-action="addDebuff">
+                  新增
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      {{/with}}
+    </div>
+    <div class="card-footer fullscreenform-footer">
+      <button
+        class="btn btn-primary"
+        type="submit"
+      >
+        確認送出
+      </button>
+      <button
+        class="btn btn-danger"
+        type="reset"
+      >
+        清空全部
+      </button>
+      <a
+        class="btn btn-secondary"
+        href="/"
+      >
+        取消
+      </a>
+    </div>
+  </form>
+</template>

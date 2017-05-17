@@ -42,3 +42,21 @@ FlowRouter.route('/selectUseServant/:useServantId', {
     rFormContent.set('selectUseServant');
   }
 });
+FlowRouter.route('/editTemporaryBuff/:useServantId', {
+  name: 'editTemporaryBuff',
+  action(params) {
+    const useServantId = params.useServantId;
+    const title = '編輯暫時性Buff(' + useServantId + ')';
+    const formData = rFormData.get();
+    const alreadyCloneUseServantData = formData && formData.model && formData.model.id === useServantId;
+    if (! alreadyCloneUseServantData) {
+      const useServantData = useServantCollection.get(useServantId);
+      rFormData.set({
+        title: title,
+        model: useServantData.clone()
+      });
+    }
+    rFormContent.set('editTemporaryBuff');
+  }
+});
+

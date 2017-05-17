@@ -4,7 +4,7 @@ import { FlowRouter } from 'meteor/kadira:flow-router';
 import { Template } from 'meteor/templating';
 import { Tracker } from 'meteor/tracker';
 import { ReactiveVar } from 'meteor/reactive-var';
-import { inheritFullScreenForm } from '../utils/fullScreenForm/inheritFullScreenForm';
+import { changeHandler as inheritChangeHandler, inheritFullScreenForm } from '../utils/fullScreenForm/inheritFullScreenForm';
 import { useServantCollection } from './useServantModel';
 import { servantClassNameHash, servantAlignmentNameHash } from './servantModel';
 
@@ -13,7 +13,6 @@ inheritFullScreenForm(Template.editUseServant);
 //closeable pane open state
 const storageCloseablePanelOpenStateList = localStorage.getItem('closeablePanelOpenState');
 const useServantObjectList = storageCloseablePanelOpenStateList ? JSON.parse(storageCloseablePanelOpenStateList) : [
-  true,
   true,
   true,
   true
@@ -25,13 +24,32 @@ Tracker.autorun(function() {
   localStorage.setItem('closeablePanelOpenState', storageCloseablePanelOpenStateList);
 });
 
+//all closeable panel
 Template.editUseServant.helpers({
   closeablePanelOpenClass(index) {
     return rCloseablePanelOpenState.get()[index] ? 'open' : '';
-  },
+  }
+});
+
+//config panel
+Template.editUseServant.helpers({
   isWeaponSelected(weaponIndex) {
     return Template.instance().data.model.useWeaponIndex === weaponIndex;
-  },
+  }
+});
+Template.editUseServant.events({
+  'click [data-toggle-panel]'(event) {
+    const $emitter = $(event.currentTarget);
+    const panelIndex = parseInt($emitter.attr('data-toggle-panel'), 10);
+    const closeablePanelOpenState = rCloseablePanelOpenState.get().slice();
+    closeablePanelOpenState[panelIndex] = ! closeablePanelOpenState[panelIndex];
+
+    rCloseablePanelOpenState.set(closeablePanelOpenState);
+  }
+});
+
+//servant and weapon info panel
+Template.editUseServant.helpers({
   getServantClassDescription(classKey) {
     return servantClassNameHash[classKey];
   },
@@ -186,26 +204,15 @@ Template.editUseServant.helpers({
     return result;
   }
 });
-Template.editUseServant.events({
-  'click [data-toggle-panel]'(event) {
-    const $emitter = $(event.currentTarget);
-    const panelIndex = parseInt($emitter.attr('data-toggle-panel'), 10);
-    const closeablePanelOpenState = rCloseablePanelOpenState.get().slice();
-    closeablePanelOpenState[panelIndex] = ! closeablePanelOpenState[panelIndex];
 
-    rCloseablePanelOpenState.set(closeablePanelOpenState);
-  },
-  'click [data-action="removeBuff"]'(event, templateInstance) {
-    event.stopPropagation();
-    const model = templateInstance.data.model;
-    const temporaryBuff = _.clone(model.temporaryBuff);
-    _.each(temporaryBuff, (value, key, temporaryBuff) => {
-      temporaryBuff[key] = 0;
-    });
-    model.temporaryBuff = temporaryBuff;
+//on input change
+const exceptionalInputNameList = ['temporaryBuff', 'limitTarget'];
+function changeHandler(event, templateInstance) {
+  event.stopPropagation();
+  if (! _.contains(exceptionalInputNameList, event.currentTarget.name)) {
+    inheritChangeHandler(event, templateInstance);
   }
-});
-
+}
 //on save
 function saveHandler(templateInstance) {
   templateInstance.data.model.save((error) => {
@@ -234,6 +241,7 @@ function resetHandler(templateInstance) {
   FlowRouter.go('/');
 }
 Template.editUseServant.onCreated(function() {
+  this.changeHandler = changeHandler;
   this.saveHandler = saveHandler;
   this.saveDoneHandler = saveDoneHandler;
   this.resetHandler = resetHandler;
