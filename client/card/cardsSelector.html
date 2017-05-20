@@ -67,9 +67,9 @@
     <div class="{{cardType}} clickable">
       <div class="text-truncate px-3 pt-3">{{this.useServantData.name}}</div>
       <div class="pb-3">寶具</div>
-      {{#if cardSelectedNumber this.id}}
+      {{#if this.sequence}}
         <div class="selectNumber">
-          {{cardSelectedNumber this.id}}
+          {{this.sequence}}
         </div>
       {{/if}}
     </div>
@@ -80,11 +80,15 @@
   <div class="useCard">
     <div class="clickable">
       <div class=" px-3 py-3 text-truncate {{cardType}}">
-        {{this.useServantData.name}}
+        {{#if this.useServantData.name}}
+          {{this.useServantData.name}}
+        {{else}}
+          空缺
+        {{/if}}
       </div>
-      {{#if cardSelectedNumber this.id}}
+      {{#if this.sequence}}
         <div class="selectNumber">
-          {{cardSelectedNumber this.id}}
+          {{this.sequence}}
         </div>
       {{/if}}
     </div>

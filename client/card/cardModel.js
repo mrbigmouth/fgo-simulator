@@ -16,13 +16,15 @@ export class CardModel extends BasicModel {
       useServantId: String,
       type: new Match.OneOf('arts', 'buster', 'quick', ''),
       star: Match.Integer,
-      isWeapon: Boolean
+      isWeapon: Boolean,
+      sequence: new Match.OneOf(0, 1, 2, 3)
     };
   }
   get defaults() {
     return {
       star: 0,
-      isWeapon: false
+      isWeapon: false,
+      sequence: 0
     };
   }
   //associate with servant data

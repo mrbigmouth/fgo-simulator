@@ -7,21 +7,20 @@ import { useServantCollection } from '../servant/useServantModel';
 import { rInSortCardMode } from './useCardSetting';
 
 export const rSelectedCardList = new ReactiveVar([]);
-function getCardSelectedNumber(cardDataId) {
-  return rSelectedCardList.get().indexOf(cardDataId) + 1;
-}
 function handleSelectCard(event, templateInstance) {
   const selectedCardList = _.clone(rSelectedCardList.get());
   const cardData = templateInstance.data;
-  const currentCardSelectedNumber = getCardSelectedNumber(cardData.id);
-  if (currentCardSelectedNumber) {
-    selectedCardList[currentCardSelectedNumber - 1] = null;
+  const cardSequence = cardData.sequence;
+  if (cardSequence) {
+    cardData.sequence = 0;
+    selectedCardList[cardSequence - 1] = null;
     rSelectedCardList.set(selectedCardList);
   }
   else {
     for (let i = 0; i <= 2; i += 1) {
-      if (! selectedCardList[i]) {
+      if (! _.isNumber(selectedCardList[i])) {
         selectedCardList[i] = cardData.id;
+        cardData.sequence = (i + 1);
         break;
       }
     }
@@ -95,8 +94,7 @@ Template.weaponCardSelectorList.helpers({
 Template.weaponCardSelector.helpers({
   cardType() {
     return this.servantData.weapon.cardType;
-  },
-  cardSelectedNumber: getCardSelectedNumber
+  }
 });
 Template.weaponCardSelector.events({
   'click .useCard .clickable': handleSelectCard
@@ -105,8 +103,7 @@ Template.weaponCardSelector.events({
 Template.cardSelector.helpers({
   cardType() {
     return this.type;
-  },
-  cardSelectedNumber: getCardSelectedNumber
+  }
 });
 Template.cardSelector.events({
   'click .useCard .clickable': handleSelectCard,
