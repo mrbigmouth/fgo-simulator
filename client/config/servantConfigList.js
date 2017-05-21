@@ -346,7 +346,7 @@ export const servantConfigList = [
         name: '童女謳う華の帝政(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -380,7 +380,7 @@ export const servantConfigList = [
         name: '童女謳う華の帝政(黄金の大事業)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -923,7 +923,7 @@ export const servantConfigList = [
         name: '鮮血竜巻魔嬢(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -1810,7 +1810,7 @@ export const servantConfigList = [
         name: '無明三段突き(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -1903,7 +1903,7 @@ export const servantConfigList = [
         name: '無垢識・空の境界(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -1996,7 +1996,7 @@ export const servantConfigList = [
         name: '無限の剣製(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -2029,7 +2029,7 @@ export const servantConfigList = [
         name: '無限の剣製(無限の剣製)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -3559,104 +3559,6 @@ export const servantConfigList = [
     ]
   },
   {
-    id: '131',
-    fullname: '安妮・伯妮＆瑪莉・瑞德',
-    classType: 'archer',
-    alignmentType: 'human',
-    specialAttributeList: [
-      'Servant',
-      '混沌',
-      '中庸',
-      '女性',
-      '人型',
-      '被「天地乖離開辟之星」所剋'
-    ],
-    starDrop: 8.1,
-    cards: {
-      arts: 2,
-      buster: 2,
-      quick: 1
-    },
-    hits: {
-      arts: [
-        33,
-        67
-      ],
-      buster: [
-        100
-      ],
-      quick: [
-        16,
-        33,
-        51
-      ],
-      extra: [
-        6,
-        13,
-        20,
-        26,
-        35
-      ]
-    },
-    npGain: {
-      arts: 0.85,
-      buster: 0.85,
-      quick: 0.85,
-      extra: 0.85,
-      weapon: 0.85
-    },
-    weaponList: [
-      {
-        cardType: 'buster',
-        name: '比翼にして連理(初期)',
-        specialBoost: [
-          {
-            number: 'hpPercentage'
-          }
-        ],
-        effectList: [
-          {
-            effectType: 'attackOne',
-            hits: [
-              3,
-              16,
-              10,
-              13,
-              6,
-              10,
-              13,
-              6,
-              23
-            ],
-            number: [
-              600,
-              800,
-              900,
-              950,
-              1000
-            ]
-          },
-          {
-            effectType: 'decreaseOneDefense',
-            number: [
-              10,
-              15,
-              20,
-              25,
-              30
-            ]
-          }
-        ]
-      }
-    ],
-    passiveBuff: [
-      {
-        name: 'critical',
-        number: 10
-      }
-    ]
-  },
-  {
     id: '129',
     fullname: '阿爾托莉亞・潘德拉剛',
     classType: 'archer',
@@ -4281,7 +4183,7 @@ export const servantConfigList = [
         name: '鮮血魔嬢(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -4961,7 +4863,7 @@ export const servantConfigList = [
         name: '不毀の極槍(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -4995,7 +4897,7 @@ export const servantConfigList = [
         name: '不毀の極槍(トロージャン・ガーディアン)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -5086,7 +4988,7 @@ export const servantConfigList = [
         name: '神槍无二打(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -5178,7 +5080,7 @@ export const servantConfigList = [
         name: '最果てにて輝ける槍(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -5205,7 +5107,7 @@ export const servantConfigList = [
         name: '最果てにて輝ける槍(醒めぬ夢、終わらぬ戦)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -5937,7 +5839,7 @@ export const servantConfigList = [
         name: 'この世ならざる幻馬(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -6193,7 +6095,14 @@ export const servantConfigList = [
         name: '比翼にして連理(初期)',
         specialBoost: [
           {
-            number: 'hpPercentage'
+            limitTarget: 'hpPercentage',
+            number: [
+              1200,
+              1600,
+              1800,
+              1900,
+              2000
+            ]
           }
         ],
         effectList: [
@@ -6222,7 +6131,14 @@ export const servantConfigList = [
         name: '比翼にして連理(キャプテン・キッドの財宝を奪取せよ)',
         specialBoost: [
           {
-            number: 'hpPercentage'
+            limitTarget: 'hpPercentage',
+            number: [
+              1200,
+              1600,
+              1800,
+              1900,
+              2000
+            ]
           }
         ],
         effectList: [
@@ -7834,7 +7750,7 @@ export const servantConfigList = [
         name: '万能の人(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -8246,7 +8162,7 @@ export const servantConfigList = [
         name: '微睡む爆弾(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -8270,7 +8186,7 @@ export const servantConfigList = [
         name: '微睡む爆弾(チクタク・バン！)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -9084,7 +9000,7 @@ export const servantConfigList = [
         name: '鮮血特上魔嬢(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -9602,7 +9518,7 @@ export const servantConfigList = [
             ]
           },
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -9639,7 +9555,7 @@ export const servantConfigList = [
             ]
           },
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -10220,7 +10136,7 @@ export const servantConfigList = [
         name: '地獄にこそ響け我が愛の唄(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -10244,7 +10160,7 @@ export const servantConfigList = [
         name: '地獄にこそ響け我が愛の唄(クリスティーヌの呼び声)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -10909,7 +10825,7 @@ export const servantConfigList = [
         name: '唯識・直死の魔眼(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -11312,7 +11228,7 @@ export const servantConfigList = [
         name: '軍神五兵(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -11495,7 +11411,7 @@ export const servantConfigList = [
         name: '疵獣の咆吼(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -11519,7 +11435,7 @@ export const servantConfigList = [
         name: '愛は爆発する(NPC限定)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -11594,7 +11510,7 @@ export const servantConfigList = [
         name: '黄金衝撃(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -14547,7 +14463,7 @@ export const servantConfigList = [
         name: '訣別の時きたれり、其は、世界を手放すもの(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -14827,7 +14743,7 @@ export const servantConfigList = [
         name: '無限の剣製(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [
@@ -15297,7 +15213,14 @@ export const servantConfigList = [
         name: '不滅の誠(初期)',
         specialBoost: [
           {
-            number: 'hpPercentage'
+            limitTarget: 'hpPercentage',
+            number: [
+              600,
+              800,
+              900,
+              950,
+              1000
+            ]
           }
         ],
         effectList: [
@@ -15864,7 +15787,7 @@ export const servantConfigList = [
         name: '快楽天・胎蔵曼荼羅(初期)',
         specialBoost: [
           {
-            number: 'ignoreDefense'
+            limitTarget: 'ignoreDefense'
           }
         ],
         effectList: [

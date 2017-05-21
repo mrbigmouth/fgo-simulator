@@ -36,6 +36,7 @@ export const buffNameHash = {
   addBuster: 'Buster性能提升',
   addQuick: 'Quick性能提升',
   addAttack: '攻擊提升',
+  addWeapon: '寶具威力提升',
   addDamage: '傷害加值',
   addCritical: 'Critical威力提升',
   addStarDrop: '星掉落提升',
@@ -83,9 +84,7 @@ export class ServantModel extends BasicModel {
           specialBoost: [
             {
               limitTarget: new Match.Optional(String),
-              number: new Match.Optional(
-                new Match.OneOf(String, [Number])
-              )
+              number: new Match.Optional([Number])
             }
           ],
           effectList: [
