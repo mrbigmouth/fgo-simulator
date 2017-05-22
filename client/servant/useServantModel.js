@@ -122,17 +122,34 @@ export class UseServantModel extends BasicModel {
   get buff() {
     const buff = {};
     _.each(allowBuffKeyList, (buffKey) => {
-      buff[buffKey] = 0;
+      if (buffKey === 'specialBoost') {
+        buff.specialBoost = [];
+      }
+      else {
+        buff[buffKey] = 0;
+      }
     });
     _.each(this.servantData.passiveBuff, (buff) => {
       const buffKey = buff.name;
-      if (buffKey !== 'specialBoost') {
+      if (buffKey === 'specialBoost') {
+        buff.specialBoost.push({
+          limitTarget: buff.limitTarget,
+          number: buff.number
+        });
+      }
+      else {
         buff[buffKey] += buff.number;
       }
     });
     _.each(this.temporaryBuff, (buff) => {
       const buffKey = buff.name;
-      if (buffKey !== 'specialBoost') {
+      if (buffKey === 'specialBoost') {
+        buff.specialBoost.push({
+          limitTarget: buff.limitTarget,
+          number: buff.number
+        });
+      }
+      else {
         buff[buffKey] += buff.number;
       }
     });
