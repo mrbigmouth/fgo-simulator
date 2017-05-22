@@ -1,5 +1,4 @@
 import { _ } from 'meteor/underscore';
-import { Tracker } from 'meteor/tracker';
 import { ReactiveVar } from 'meteor/reactive-var';
 
 export class BasicCollection {
@@ -108,6 +107,16 @@ export class BasicCollection {
     const dataList = this.__reactiveVar.get();
 
     return _.each(dataList, iteratee, context);
+  }
+  some(predicate, context) {
+    const dataList = this.__reactiveVar.get();
+
+    return _.some(dataList, predicate, context);
+  }
+  every(predicate, context) {
+    const dataList = this.__reactiveVar.get();
+
+    return _.every(dataList, predicate, context);
   }
   filter(predicate, context) {
     const dataList = this.__reactiveVar.get();

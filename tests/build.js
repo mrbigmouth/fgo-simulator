@@ -1,3 +1,6 @@
+/* eslint-env node */
+/* eslint-disable no-console */
+
 const exec = require('child_process').exec;
 const ncp = require('ncp');
 
@@ -5,9 +8,9 @@ exec('node ./node_modules/meteor-build-client/main.js ./temp', () => {
   const path = require('path');
   const destination = __dirname;
   const source = path.join(destination, 'temp');
-  ncp(source, destination, function (err) {
+  ncp(source, destination, function(err) {
     if (err) {
-     return console.error(err);
+      return console.error(err);
     }
     const rimraf = require('rimraf');
     rimraf(path.join(destination, 'temp'), () => {

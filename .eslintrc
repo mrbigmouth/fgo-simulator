@@ -127,18 +127,7 @@
     "no-array-constructor": "error",
     "no-bitwise": "error",
     "no-lonely-if": "error",
-    "no-mixed-operators": [
-      "error", {
-        "groups": [
-          ["+", "-", "*", "/", "%", "**"],
-          ["&", "|", "^", "~", "<<", ">>", ">>>"],
-          ["==", "!=", "===", "!==", ">", ">=", "<", "<="],
-          ["&&", "||"],
-          ["in", "instanceof"]
-        ],
-        "allowSamePrecedence": true
-      }
-    ],
+    "no-mixed-operators": "off",
     "no-multiple-empty-lines": "error",
     "no-new-object": "error",
     "no-plusplus": "error",
