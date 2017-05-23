@@ -158,7 +158,7 @@ Template.editUseServant.helpers({
         break;
       }
       case 'addSelfAttack': {
-        result = '自身全體攻擊提升';
+        result = '自身攻擊提升';
         numberSuffix = '%';
         break;
       }

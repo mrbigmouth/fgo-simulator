@@ -82,6 +82,11 @@ export class UseServantModel extends BasicModel {
 
     return servantData ? servantData.weapon : null;
   }
+  get weaponLevel() {
+    const servantData = this.servantData;
+
+    return servantData ? servantData.weaponLevel : null;
+  }
   //allowed set servantData's field, but won't really change data
   set nickname(value) {
     return this;

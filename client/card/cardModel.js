@@ -36,6 +36,24 @@ export class CardModel extends BasicModel {
 
     return useServantData ? useServantData.servantData : null;
   }
+  //compute data
+  get hits() {
+    //依卡牌類別取得攻擊次數
+    if (this.isWeapon) {
+      const weapon = this.useServantData.weapon;
+      let hits = [];
+      _.each(weapon.effectList, (effect) => {
+        if (effect.hits && effect.hits.length) {
+          hits = hits.concat(effect.hits);
+        }
+      });
+
+      return hits;
+    }
+    else {
+      return _.clone(this.useServantData.hits[this.type]);
+    }
+  }
 }
 export const useCardCollection = new BasicCollection();
 export const rSelectableCardOffset = new ReactiveVar(0);

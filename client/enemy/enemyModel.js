@@ -25,11 +25,10 @@ export class EnemyModel extends BasicModel {
       lastUseTime: Date.now()
     };
   }
-  //只儲存id與temporaryDebuff與lastUseTime欄位在瀏覽器中，其他資訊由config提供
+  //只儲存id與lastUseTime欄位在瀏覽器中，其他資訊由config提供
   toJSON() {
     return {
       id: this.id,
-      temporaryDebuff: this.temporaryDebuff,
       lastUseTime: this.lastUseTime
     };
   }

@@ -67,7 +67,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addSelfNp',
@@ -77,7 +78,8 @@ export const servantConfigList = [
               35,
               42.5,
               50
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -97,7 +99,8 @@ export const servantConfigList = [
               550,
               575,
               600
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addSelfNp',
@@ -107,7 +110,8 @@ export const servantConfigList = [
               35,
               42.5,
               50
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -186,7 +190,8 @@ export const servantConfigList = [
               600,
               625,
               650
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addSelfNp',
@@ -196,7 +201,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -278,7 +284,8 @@ export const servantConfigList = [
               525,
               562.5,
               600
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -361,7 +368,8 @@ export const servantConfigList = [
               675,
               712.5,
               750
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -371,7 +379,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -395,7 +404,8 @@ export const servantConfigList = [
               825,
               862.5,
               900
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -405,7 +415,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -487,7 +498,8 @@ export const servantConfigList = [
               1350,
               1425,
               1500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseOneDefense',
@@ -497,7 +509,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -518,7 +531,8 @@ export const servantConfigList = [
               1650,
               1725,
               1800
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseOneDefense',
@@ -528,7 +542,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -611,7 +626,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -701,7 +717,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -797,7 +814,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addSelfNp',
@@ -807,7 +825,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -842,7 +861,8 @@ export const servantConfigList = [
               550,
               575,
               600
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addSelfNp',
@@ -852,7 +872,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -944,7 +965,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -1019,7 +1041,8 @@ export const servantConfigList = [
               50,
               60,
               70
-            ]
+            ],
+            useNumberBy: 'charge'
           },
           {
             effectType: 'attackOne',
@@ -1033,7 +1056,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -1120,7 +1144,8 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addStar',
@@ -1130,7 +1155,8 @@ export const servantConfigList = [
               15,
               20,
               25
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -1216,7 +1242,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -1226,7 +1253,8 @@ export const servantConfigList = [
               40,
               50,
               60
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -1250,7 +1278,8 @@ export const servantConfigList = [
               550,
               575,
               600
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -1260,7 +1289,8 @@ export const servantConfigList = [
               40,
               50,
               60
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -1336,7 +1366,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -1346,7 +1377,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -1366,7 +1398,8 @@ export const servantConfigList = [
               550,
               575,
               600
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -1376,7 +1409,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -1475,7 +1509,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -1554,13 +1589,7 @@ export const servantConfigList = [
         effectList: [
           {
             effectType: 'addSelfArt',
-            number: [
-              30,
-              30,
-              30,
-              30,
-              30
-            ]
+            number: 30
           },
           {
             effectType: 'attackOne',
@@ -1573,7 +1602,8 @@ export const servantConfigList = [
               1350,
               1425,
               1500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addOneBeHitDamage',
@@ -1583,7 +1613,8 @@ export const servantConfigList = [
               2000,
               2500,
               3000
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -1656,7 +1687,8 @@ export const servantConfigList = [
               87.5,
               93.8,
               100
-            ]
+            ],
+            useNumberBy: 'charge'
           },
           {
             effectType: 'addStar',
@@ -1666,7 +1698,8 @@ export const servantConfigList = [
               15,
               20,
               25
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -1742,7 +1775,8 @@ export const servantConfigList = [
               25,
               27.5,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -1827,7 +1861,8 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseOneDefense',
@@ -1837,7 +1872,8 @@ export const servantConfigList = [
               45,
               47.5,
               50
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -1918,7 +1954,8 @@ export const servantConfigList = [
               675,
               712.5,
               750
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -2020,7 +2057,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -2053,7 +2091,8 @@ export const servantConfigList = [
               550,
               575,
               600
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -2155,7 +2194,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -2177,13 +2217,7 @@ export const servantConfigList = [
         effectList: [
           {
             effectType: 'addSelfWeapon',
-            number: [
-              30,
-              30,
-              30,
-              30,
-              30
-            ]
+            number: 30
           },
           {
             effectType: 'attackAll',
@@ -2196,7 +2230,8 @@ export const servantConfigList = [
               550,
               575,
               600
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -2290,7 +2325,8 @@ export const servantConfigList = [
               1350,
               1425,
               1500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -2375,7 +2411,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addStar',
@@ -2385,7 +2422,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -2414,7 +2452,8 @@ export const servantConfigList = [
               1100,
               1150,
               1200
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addStar',
@@ -2424,7 +2463,8 @@ export const servantConfigList = [
               25,
               30,
               35
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -2499,7 +2539,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -2590,7 +2631,8 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -2670,7 +2712,8 @@ export const servantConfigList = [
               1350,
               1425,
               1500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -2694,7 +2737,8 @@ export const servantConfigList = [
               1650,
               1725,
               1800
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -2775,7 +2819,8 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -2866,7 +2911,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -2899,7 +2945,8 @@ export const servantConfigList = [
               550,
               575,
               600
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -2981,9 +3028,7 @@ export const servantConfigList = [
             hits: [
               100
             ],
-            number: [
-              900
-            ]
+            number: 900
           }
         ]
       },
@@ -3008,9 +3053,7 @@ export const servantConfigList = [
             hits: [
               100
             ],
-            number: [
-              1200
-            ]
+            number: 1200
           }
         ]
       }
@@ -3091,7 +3134,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -3111,7 +3155,8 @@ export const servantConfigList = [
               1100,
               1150,
               1200
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -3201,7 +3246,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -3282,7 +3328,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -3292,7 +3339,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -3310,7 +3358,8 @@ export const servantConfigList = [
               550,
               575,
               600
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -3320,7 +3369,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -3413,7 +3463,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -3442,7 +3493,8 @@ export const servantConfigList = [
               550,
               575,
               600
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -3546,7 +3598,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -3640,7 +3693,8 @@ export const servantConfigList = [
               1350,
               1425,
               1500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addSelfNp',
@@ -3650,7 +3704,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -3741,7 +3796,8 @@ export const servantConfigList = [
               1350,
               1425,
               1500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -3818,7 +3874,8 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseOneDefense',
@@ -3828,7 +3885,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -3907,10 +3965,12 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
-            effectType: 'dispelOneBuff'
+            effectType: 'dispelOneBuff',
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -3931,10 +3991,12 @@ export const servantConfigList = [
               2200,
               2300,
               2400
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
-            effectType: 'dispelOneBuff'
+            effectType: 'dispelOneBuff',
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -4025,7 +4087,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -4116,7 +4179,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -4202,7 +4266,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -4333,7 +4398,8 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseOneDefense',
@@ -4343,7 +4409,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -4413,7 +4480,8 @@ export const servantConfigList = [
               15,
               20,
               25
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -4487,7 +4555,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addAllAttack',
@@ -4497,7 +4566,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -4571,7 +4641,8 @@ export const servantConfigList = [
               675,
               712.5,
               750
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -4593,7 +4664,8 @@ export const servantConfigList = [
               825,
               862.5,
               900
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -4688,17 +4760,12 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addAllStarDrop',
-            number: [
-              30,
-              30,
-              30,
-              30,
-              30
-            ]
+            number: 30
           }
         ]
       }
@@ -4785,7 +4852,8 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -4805,7 +4873,8 @@ export const servantConfigList = [
               2200,
               2300,
               2400
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -4878,7 +4947,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -4888,7 +4958,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -4912,7 +4983,8 @@ export const servantConfigList = [
               550,
               575,
               600
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -4922,7 +4994,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -5005,17 +5078,12 @@ export const servantConfigList = [
               1350,
               1425,
               1500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseOneDefense',
-            number: [
-              20,
-              20,
-              20,
-              20,
-              20
-            ]
+            number: 20
           }
         ]
       }
@@ -5098,7 +5166,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -5125,7 +5194,8 @@ export const servantConfigList = [
               550,
               575,
               600
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -5208,7 +5278,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addSelfNp',
@@ -5218,7 +5289,8 @@ export const servantConfigList = [
               40,
               50,
               60
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -5314,7 +5386,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -5410,7 +5483,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -5488,7 +5562,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addAllStarDrop',
@@ -5498,7 +5573,8 @@ export const servantConfigList = [
               40,
               50,
               60
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -5593,7 +5669,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -5603,7 +5680,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -5630,7 +5708,8 @@ export const servantConfigList = [
               550,
               575,
               600
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -5640,7 +5719,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -5729,7 +5809,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addStar',
@@ -5739,7 +5820,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -5763,7 +5845,8 @@ export const servantConfigList = [
               550,
               575,
               600
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addStar',
@@ -5773,7 +5856,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -5854,7 +5938,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addStar',
@@ -5864,7 +5949,8 @@ export const servantConfigList = [
               15,
               20,
               25
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -5950,7 +6036,8 @@ export const servantConfigList = [
               1350,
               1425,
               1500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -6028,17 +6115,12 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addStar',
-            number: [
-              5,
-              5,
-              5,
-              5,
-              5
-            ]
+            number: 5
           }
         ]
       }
@@ -6122,7 +6204,8 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -6158,7 +6241,8 @@ export const servantConfigList = [
               2200,
               2300,
               2400
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -6301,7 +6385,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseOneDefense',
@@ -6311,7 +6396,8 @@ export const servantConfigList = [
               40,
               50,
               60
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -6411,7 +6497,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -6486,7 +6573,8 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addSelfStarDrop',
@@ -6496,7 +6584,8 @@ export const servantConfigList = [
               70,
               80,
               90
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -6516,7 +6605,8 @@ export const servantConfigList = [
               2200,
               2300,
               2400
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addSelfStarDrop',
@@ -6526,7 +6616,8 @@ export const servantConfigList = [
               70,
               80,
               90
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -6601,7 +6692,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addStar',
@@ -6611,7 +6703,8 @@ export const servantConfigList = [
               15,
               20,
               25
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -6631,7 +6724,8 @@ export const servantConfigList = [
               1100,
               1150,
               1200
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addStar',
@@ -6641,7 +6735,8 @@ export const servantConfigList = [
               25,
               30,
               35
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -6722,7 +6817,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -6796,7 +6892,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -6806,7 +6903,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -6889,7 +6987,8 @@ export const servantConfigList = [
               600,
               625,
               650
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addSelfNp',
@@ -6899,7 +6998,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -6977,7 +7077,8 @@ export const servantConfigList = [
               50,
               70,
               90
-            ]
+            ],
+            useNumberBy: 'charge'
           },
           {
             effectType: 'attackOne',
@@ -6993,7 +7094,8 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -7076,7 +7178,8 @@ export const servantConfigList = [
               675,
               712.5,
               750
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -7154,10 +7257,12 @@ export const servantConfigList = [
               675,
               712.5,
               750
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
-            effectType: 'dispelOneBuff'
+            effectType: 'dispelOneBuff',
+            useNumberBy: 'charge'
           },
           {
             effectType: 'addSelfNp',
@@ -7167,7 +7272,8 @@ export const servantConfigList = [
               60,
               80,
               100
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -7187,10 +7293,12 @@ export const servantConfigList = [
               825,
               862.5,
               900
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
-            effectType: 'dispelOneBuff'
+            effectType: 'dispelOneBuff',
+            useNumberBy: 'charge'
           },
           {
             effectType: 'addSelfNp',
@@ -7200,7 +7308,8 @@ export const servantConfigList = [
               60,
               80,
               100
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -7274,7 +7383,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -7352,7 +7462,8 @@ export const servantConfigList = [
               37.5,
               43.75,
               50
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -7369,7 +7480,8 @@ export const servantConfigList = [
               37.5,
               43.75,
               50
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -7450,17 +7562,12 @@ export const servantConfigList = [
               675,
               712.5,
               750
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
-            number: [
-              20,
-              20,
-              20,
-              20,
-              20
-            ]
+            number: 20
           }
         ]
       },
@@ -7482,17 +7589,12 @@ export const servantConfigList = [
               825,
               862.5,
               900
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
-            number: [
-              20,
-              20,
-              20,
-              20,
-              20
-            ]
+            number: 20
           }
         ]
       }
@@ -7555,20 +7657,14 @@ export const servantConfigList = [
         effectList: [
           {
             effectType: 'addAllAttack',
-            chance: [
-              60,
-              70,
-              75,
-              77.5,
-              80
-            ],
             number: [
               20,
               25,
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -7592,7 +7688,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           },
           {
             effectType: 'addAllStarDrop',
@@ -7609,7 +7706,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -7684,7 +7782,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -7762,7 +7861,8 @@ export const servantConfigList = [
               50,
               60,
               70
-            ]
+            ],
+            useNumberBy: 'charge'
           },
           {
             effectType: 'attackAll',
@@ -7775,7 +7875,8 @@ export const servantConfigList = [
               675,
               712.5,
               750
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -7851,7 +7952,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -7873,7 +7975,8 @@ export const servantConfigList = [
               550,
               575,
               600
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -7949,7 +8052,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -7959,7 +8063,8 @@ export const servantConfigList = [
               15,
               17.5,
               20
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -7982,7 +8087,8 @@ export const servantConfigList = [
               550,
               575,
               600
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -7992,7 +8098,8 @@ export const servantConfigList = [
               15,
               17.5,
               20
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -8072,7 +8179,8 @@ export const servantConfigList = [
               675,
               712.5,
               750
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -8094,7 +8202,8 @@ export const servantConfigList = [
               825,
               862.5,
               900
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -8177,7 +8286,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -8201,7 +8311,8 @@ export const servantConfigList = [
               550,
               575,
               600
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -8277,7 +8388,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -8352,7 +8464,8 @@ export const servantConfigList = [
               625,
               662.5,
               700
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -8497,7 +8610,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -8514,7 +8628,8 @@ export const servantConfigList = [
               45,
               47.5,
               50
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -8661,7 +8776,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -8671,7 +8787,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -8764,7 +8881,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -8848,7 +8966,8 @@ export const servantConfigList = [
               675,
               712.5,
               750
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -8858,7 +8977,8 @@ export const servantConfigList = [
               30,
               40,
               50
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -8937,7 +9057,8 @@ export const servantConfigList = [
               675,
               712.5,
               750
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -9019,7 +9140,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -9099,7 +9221,8 @@ export const servantConfigList = [
               675,
               712.5,
               750
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addAllCritical',
@@ -9109,7 +9232,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -9185,17 +9309,12 @@ export const servantConfigList = [
               50,
               65,
               80
-            ]
+            ],
+            useNumberBy: 'charge'
           },
           {
             effectType: 'decreaseSelfAttack',
-            number: [
-              10,
-              10,
-              10,
-              10,
-              10
-            ]
+            number: 10
           }
         ]
       }
@@ -9265,7 +9384,8 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addStar',
@@ -9275,7 +9395,8 @@ export const servantConfigList = [
               25,
               30,
               35
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -9349,7 +9470,8 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -9439,7 +9561,8 @@ export const servantConfigList = [
               1350,
               1425,
               1500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -9536,7 +9659,8 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -9573,7 +9697,8 @@ export const servantConfigList = [
               2000,
               2100,
               2200
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -9719,7 +9844,8 @@ export const servantConfigList = [
               50,
               60,
               70
-            ]
+            ],
+            useNumberBy: 'charge'
           },
           {
             effectType: 'attackAll',
@@ -9736,7 +9862,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -9824,7 +9951,8 @@ export const servantConfigList = [
               1350,
               1425,
               1500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -9894,13 +10022,7 @@ export const servantConfigList = [
         effectList: [
           {
             effectType: 'decreaseAllDefense',
-            number: [
-              20,
-              20,
-              20,
-              20,
-              20
-            ]
+            number: 20
           }
         ]
       }
@@ -9977,7 +10099,8 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addStar',
@@ -9987,7 +10110,8 @@ export const servantConfigList = [
               25,
               30,
               35
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -10060,7 +10184,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseOneDefense',
@@ -10070,7 +10195,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -10151,7 +10277,8 @@ export const servantConfigList = [
               675,
               712.5,
               750
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -10175,7 +10302,8 @@ export const servantConfigList = [
               825,
               862.5,
               900
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -10244,7 +10372,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -10339,7 +10468,8 @@ export const servantConfigList = [
               1350,
               1425,
               1500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -10428,17 +10558,12 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addSelfAttack',
-            number: [
-              20,
-              20,
-              20,
-              20,
-              20
-            ]
+            number: 20
           }
         ]
       }
@@ -10539,7 +10664,8 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -10581,7 +10707,8 @@ export const servantConfigList = [
               2200,
               2300,
               2400
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -10667,7 +10794,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -10751,7 +10879,8 @@ export const servantConfigList = [
               675,
               712.5,
               750
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addAllSpecialAttribute',
@@ -10842,7 +10971,8 @@ export const servantConfigList = [
               1350,
               1425,
               1500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -10929,7 +11059,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -11019,7 +11150,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseOneDefense',
@@ -11029,7 +11161,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -11105,7 +11238,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           },
           {
             effectType: 'attackAll',
@@ -11127,7 +11261,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -11144,7 +11279,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           },
           {
             effectType: 'attackAll',
@@ -11166,7 +11302,8 @@ export const servantConfigList = [
               312.5,
               331.3,
               350
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -11243,7 +11380,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -11323,7 +11461,8 @@ export const servantConfigList = [
               1000,
               1050,
               1100
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -11348,7 +11487,8 @@ export const servantConfigList = [
               1200,
               1250,
               1300
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -11426,7 +11566,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -11444,9 +11585,7 @@ export const servantConfigList = [
             hits: [
               100
             ],
-            number: [
-              10
-            ]
+            number: 10
           }
         ]
       }
@@ -11525,7 +11664,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -11614,7 +11754,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addStar',
@@ -11624,7 +11765,8 @@ export const servantConfigList = [
               25,
               30,
               35
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -11653,7 +11795,8 @@ export const servantConfigList = [
               1350,
               1425,
               1500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addStar',
@@ -11663,7 +11806,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -11753,7 +11897,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -11784,7 +11929,8 @@ export const servantConfigList = [
               1000,
               1050,
               1100
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -11857,7 +12003,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -11874,17 +12021,12 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           },
           {
             effectType: 'decreaseAllDefense',
-            number: [
-              40,
-              40,
-              40,
-              40,
-              40
-            ]
+            number: 40
           }
         ]
       }
@@ -12028,7 +12170,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -12038,7 +12181,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       },
@@ -12067,7 +12211,8 @@ export const servantConfigList = [
               550,
               575,
               600
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -12077,7 +12222,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -12154,7 +12300,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -12289,7 +12436,8 @@ export const servantConfigList = [
               40,
               45,
               50
-            ]
+            ],
+            useNumberBy: 'charge'
           },
           {
             effectType: 'attackAll',
@@ -12306,7 +12454,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -12388,7 +12537,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -12412,7 +12562,8 @@ export const servantConfigList = [
               1100,
               1150,
               1200
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -12493,7 +12644,8 @@ export const servantConfigList = [
               50,
               60,
               70
-            ]
+            ],
+            useNumberBy: 'charge'
           },
           {
             effectType: 'attackOne',
@@ -12517,7 +12669,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -12601,10 +12754,12 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
-            effectType: 'dispelOneBuff'
+            effectType: 'dispelOneBuff',
+            useNumberBy: 'charge'
           },
           {
             effectType: 'decreaseOneDefense',
@@ -12614,7 +12769,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -12693,7 +12849,8 @@ export const servantConfigList = [
               200,
               250,
               300
-            ]
+            ],
+            useNumberBy: 'charge'
           },
           {
             effectType: 'attackAll',
@@ -12712,7 +12869,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -12792,13 +12950,7 @@ export const servantConfigList = [
         effectList: [
           {
             effectType: 'addOtherAttack',
-            number: [
-              30,
-              30,
-              30,
-              30,
-              30
-            ]
+            number: 30
           }
         ]
       }
@@ -12921,7 +13073,8 @@ export const servantConfigList = [
         specialBoost: [],
         effectList: [
           {
-            effectType: 'dispelAllBuff'
+            effectType: 'dispelAllBuff',
+            useNumberBy: 'charge'
           },
           {
             effectType: 'attackAll',
@@ -12934,7 +13087,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       },
@@ -12944,7 +13098,8 @@ export const servantConfigList = [
         specialBoost: [],
         effectList: [
           {
-            effectType: 'dispelAllBuff'
+            effectType: 'dispelAllBuff',
+            useNumberBy: 'charge'
           },
           {
             effectType: 'attackAll',
@@ -12957,7 +13112,8 @@ export const servantConfigList = [
               550,
               575,
               600
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -13027,7 +13183,8 @@ export const servantConfigList = [
               30,
               40,
               50
-            ]
+            ],
+            useNumberBy: 'charge'
           },
           {
             effectType: 'attackOne',
@@ -13049,7 +13206,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -13191,7 +13349,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -13201,7 +13360,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -13292,7 +13452,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -13426,7 +13587,8 @@ export const servantConfigList = [
               40,
               50,
               60
-            ]
+            ],
+            useNumberBy: 'charge'
           },
           {
             effectType: 'attackAll',
@@ -13441,7 +13603,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -13527,7 +13690,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addAllAttack',
@@ -13537,7 +13701,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -13612,7 +13777,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           },
           {
             effectType: 'attackOne',
@@ -13629,7 +13795,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -13706,7 +13873,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -13804,7 +13972,8 @@ export const servantConfigList = [
               675,
               712.5,
               750
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'decreaseAllDefense',
@@ -13814,7 +13983,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -13906,7 +14076,8 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -13991,17 +14162,12 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addAllNp',
-            number: [
-              10,
-              10,
-              10,
-              10,
-              10
-            ]
+            number: 10
           }
         ]
       }
@@ -14083,7 +14249,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -14145,13 +14312,7 @@ export const servantConfigList = [
             hits: [
               100
             ],
-            number: [
-              500,
-              500,
-              500,
-              500,
-              500
-            ]
+            number: 500
           }
         ]
       }
@@ -14302,7 +14463,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -14382,13 +14544,7 @@ export const servantConfigList = [
               33,
               51
             ],
-            number: [
-              400,
-              400,
-              400,
-              400,
-              400
-            ]
+            number: 400
           }
         ]
       },
@@ -14406,9 +14562,7 @@ export const servantConfigList = [
               26,
               35
             ],
-            number: [
-              800
-            ]
+            number: 800
           }
         ]
       }
@@ -14480,7 +14634,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -14555,7 +14710,8 @@ export const servantConfigList = [
               40,
               50,
               60
-            ]
+            ],
+            useNumberBy: 'charge'
           },
           {
             effectType: 'attackOne',
@@ -14574,10 +14730,12 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
-            effectType: 'dispelOneBuff'
+            effectType: 'dispelOneBuff',
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -14672,7 +14830,8 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -14767,7 +14926,8 @@ export const servantConfigList = [
               1350,
               1425,
               1500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -14847,7 +15007,8 @@ export const servantConfigList = [
               30,
               35,
               40
-            ]
+            ],
+            useNumberBy: 'charge'
           },
           {
             effectType: 'attackOne',
@@ -14871,7 +15032,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -14959,7 +15121,8 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -15054,7 +15217,8 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -15134,7 +15298,8 @@ export const servantConfigList = [
               30,
               40,
               50
-            ]
+            ],
+            useNumberBy: 'charge'
           },
           {
             effectType: 'attackAll',
@@ -15149,7 +15314,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -15239,7 +15405,8 @@ export const servantConfigList = [
               900,
               950,
               1000
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -15320,7 +15487,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -15404,10 +15572,12 @@ export const servantConfigList = [
               1800,
               1900,
               2000
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
-            effectType: 'dispelOneBuff'
+            effectType: 'dispelOneBuff',
+            useNumberBy: 'charge'
           },
           {
             effectType: 'addSelfQuick',
@@ -15417,7 +15587,8 @@ export const servantConfigList = [
               20,
               25,
               30
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -15517,7 +15688,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -15617,7 +15789,8 @@ export const servantConfigList = [
               450,
               475,
               500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addSelfCritical',
@@ -15627,7 +15800,8 @@ export const servantConfigList = [
               60,
               70,
               80
-            ]
+            ],
+            useNumberBy: 'charge'
           }
         ]
       }
@@ -15712,17 +15886,12 @@ export const servantConfigList = [
               1350,
               1425,
               1500
-            ]
+            ],
+            useNumberBy: 'level'
           },
           {
             effectType: 'addAllNp',
-            number: [
-              20,
-              20,
-              20,
-              20,
-              20
-            ]
+            number: 20
           }
         ]
       }
@@ -15804,7 +15973,8 @@ export const servantConfigList = [
               675,
               712.5,
               750
-            ]
+            ],
+            useNumberBy: 'level'
           }
         ]
       }
@@ -15822,3 +15992,4 @@ export const servantConfigList = [
     ]
   }
 ];
+

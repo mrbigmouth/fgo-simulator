@@ -91,8 +91,12 @@ export class ServantModel extends BasicModel {
             {
               effectType: String,
               hits: new Match.Optional([Number]),
-              number: new Match.Optional([Number]),
-              chance: new Match.Optional([Number])
+              number: new Match.Optional(
+                new Match.OneOf(String, Number, [Number])
+              ),
+              useNumberBy: new Match.Optional(
+                new Match.OneOf('level', 'charge')
+              )
             }
           ]
         }
