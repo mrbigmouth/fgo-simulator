@@ -48,16 +48,16 @@ export class UseEnemyModel extends BasicModel {
     return this.nickname || '空缺';
   }
   get debuff() {
-    const debuff = {};
+    const debuffHash = {};
     _.each(allowDebuffKeyList, (debuffKey) => {
-      debuff[debuffKey] = 0;
+      debuffHash[debuffKey] = 0;
     });
     _.each(this.temporaryDebuff, (debuff) => {
-      const buffKey = debuff.name;
-      debuff[buffKey] += debuff.number;
+      const debuffKey = debuff.name;
+      debuffHash[debuffKey] += debuff.number;
     });
 
-    return debuff;
+    return debuffHash;
   }
   get buff() {
     return this.debuff;

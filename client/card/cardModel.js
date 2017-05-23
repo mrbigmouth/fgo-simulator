@@ -14,7 +14,7 @@ export class CardModel extends BasicModel {
     return {
       id: Match.Integer,
       useServantId: String,
-      type: new Match.OneOf('arts', 'buster', 'quick', ''),
+      type: new Match.OneOf('', 'arts', 'buster', 'quick', 'extra'),
       star: Match.Integer,
       isWeapon: Boolean,
       sequence: new Match.OneOf(0, 1, 2, 3)

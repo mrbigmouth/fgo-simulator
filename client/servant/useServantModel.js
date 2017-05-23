@@ -125,41 +125,41 @@ export class UseServantModel extends BasicModel {
     return servantData ? (servantData.weaponLevel * 100) : null;
   }
   get buff() {
-    const buff = {};
+    const buffHash = {};
     _.each(allowBuffKeyList, (buffKey) => {
       if (buffKey === 'specialBoost') {
-        buff.specialBoost = [];
+        buffHash.specialBoost = [];
       }
       else {
-        buff[buffKey] = 0;
+        buffHash[buffKey] = 0;
       }
     });
     _.each(this.servantData.passiveBuff, (buff) => {
       const buffKey = buff.name;
       if (buffKey === 'specialBoost') {
-        buff.specialBoost.push({
+        buffHash.specialBoost.push({
           limitTarget: buff.limitTarget,
           number: buff.number
         });
       }
       else {
-        buff[buffKey] += buff.number;
+        buffHash[buffKey] += buff.number;
       }
     });
     _.each(this.temporaryBuff, (buff) => {
       const buffKey = buff.name;
       if (buffKey === 'specialBoost') {
-        buff.specialBoost.push({
+        buffHash.specialBoost.push({
           limitTarget: buff.limitTarget,
           number: buff.number
         });
       }
       else {
-        buff[buffKey] += buff.number;
+        buffHash[buffKey] += buff.number;
       }
     });
 
-    return buff;
+    return buffHash;
   }
 }
 
