@@ -1,10 +1,10 @@
 import { FlowRouter } from 'meteor/kadira:flow-router';
-import { rFormContent } from '../utils/fullScreenForm/fullScreenForm';
+import { rFullscreenTemplate } from '../utils/fullscreen/fullscreen';
 
 //basic route
 FlowRouter.route('/', {
   name: 'mainPage',
   action() {
-    rFormContent.set(false);
+    rFullscreenTemplate.set(false);
   }
 });

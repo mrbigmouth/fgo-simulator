@@ -1,17 +1,19 @@
+import { _ } from 'meteor/underscore';
 import { FlowRouter } from 'meteor/kadira:flow-router';
-import { rFormContent, rFormData } from '../utils/fullScreenForm/fullScreenForm';
+import { rFullscreenTemplate, rFullscreenData } from '../utils/fullscreen/fullscreen';
 import { useServantCollection } from './useServantModel';
+import { servantCollection } from './servantModel';
 
 FlowRouter.route('/editUseServant/:useServantId', {
   name: 'editUseServant',
   action(params) {
     const useServantId = params.useServantId;
     const title = '編輯我方隊列(' + useServantId + ')';
-    const formData = rFormData.get();
+    const formData = rFullscreenData.get();
     const alreadyCloneUseServantData = formData && formData.model && formData.model.id === useServantId;
     if (alreadyCloneUseServantData) {
       const useServantData = formData.model;
-      rFormData.set({
+      rFullscreenData.set({
         title: title,
         model: useServantData
       });
@@ -19,27 +21,28 @@ FlowRouter.route('/editUseServant/:useServantId', {
     else {
       const useServantId = params.useServantId;
       const useServantData = useServantCollection.get(useServantId);
-      rFormData.set({
+      rFullscreenData.set({
         title: title,
         model: useServantData.clone()
       });
     }
-    rFormContent.set('editUseServant');
+    rFullscreenTemplate.set('editUseServant');
   }
 });
 FlowRouter.route('/selectUseServant/:useServantId', {
   name: 'selectUseServant',
   action(params) {
+    const fullscreenData = _.clone(rFullscreenData.get());
+    fullscreenData.optionList = servantCollection.toArray();
+
     const useServantId = params.useServantId;
-    const formData = rFormData.get();
-    const alreadyCloneUseServantData = formData && formData.model && formData.model.id === useServantId;
+    const alreadyCloneUseServantData = fullscreenData && fullscreenData.model && fullscreenData.model.id === useServantId;
     if (! alreadyCloneUseServantData) {
       const useServantData = useServantCollection.get(useServantId);
-      rFormData.set({
-        model: useServantData.clone()
-      });
+      fullscreenData.model = useServantData.clone();
     }
-    rFormContent.set('selectUseServant');
+    rFullscreenData.set(fullscreenData);
+    rFullscreenTemplate.set('selectUseServant');
   }
 });
 FlowRouter.route('/editTemporaryBuff/:useServantId', {
@@ -47,16 +50,16 @@ FlowRouter.route('/editTemporaryBuff/:useServantId', {
   action(params) {
     const useServantId = params.useServantId;
     const title = '編輯暫時性Buff(' + useServantId + ')';
-    const formData = rFormData.get();
+    const formData = rFullscreenData.get();
     const alreadyCloneUseServantData = formData && formData.model && formData.model.id === useServantId;
     if (! alreadyCloneUseServantData) {
       const useServantData = useServantCollection.get(useServantId);
-      rFormData.set({
+      rFullscreenData.set({
         title: title,
         model: useServantData.clone()
       });
     }
-    rFormContent.set('editTemporaryBuff');
+    rFullscreenTemplate.set('editTemporaryBuff');
   }
 });
 

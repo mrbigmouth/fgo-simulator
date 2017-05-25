@@ -105,7 +105,7 @@ export function resetHandler() {
   history.go(-1);
 }
 
-export function inheritFullScreenForm(template) {
+export function inheritFullscreenForm(template) {
   template.onCreated(function() {
     this.errorMessage = new ReactiveVar(null);
     this.errorCleaner = this.errorCleaner || errorCleaner;

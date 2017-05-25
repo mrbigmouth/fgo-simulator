@@ -1,24 +1,28 @@
 <template name="selectUseEnemy">
-  <div class="card fullscreenform">
-    <div class="card-header fullscreenform-header">
+  <div class="card fullscreen">
+    <div class="card-header fullscreen-header">
       可選擇敵方模版
     </div>
-    <div class="fullscreenform-body">
+    <div class="fullscreen-body">
       <ul class="list-group list-group-flush">     
-        {{#each enemyData in enemyList}}
+        {{#each enemyData in displayOptionList}}
           <li class="list-group-item">
             <a
               class="col d-block text-truncate"
               href="#"
-              data-enemy-id="{{enemyData.id}}"
+              data-option-id="{{enemyData.id}}"
             >
               {{enemyData.name}}
             </a>
           </li>
+        {{else}}
+          <div class="list-group-item">
+            沒有任何符合的敵方模版資料！
+          </div>
         {{/each}}
       </ul>
     </div>
-    <div class="card-footer fullscreenform-footer text-right">
+    <div class="card-footer fullscreen-footer text-right">
       <a
         class="btn btn-secondary"
         href="/editUseEnemy/{{model.id}}"

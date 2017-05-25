@@ -2,12 +2,12 @@ import { _ } from 'meteor/underscore';
 import { $ } from 'meteor/jquery';
 import { Template } from 'meteor/templating';
 import { FlowRouter } from 'meteor/kadira:flow-router';
-import { changeHandler as inheritChangeHandler, inheritFullScreenForm } from '../utils/fullScreenForm/inheritFullScreenForm';
+import { changeHandler as inheritChangeHandler, inheritFullscreenForm } from '../utils/fullscreen/inheritFullscreenForm';
 import { servantClassNameHash, allowServantClassKeyList, servantAlignmentNameHash, allowServantAlignmentKeyList } from '../servant/servantModel';
 import { specialAttributeList } from '../config/specialAttributeList';
 import { useEnemyCollection } from './useEnemyModel';
 
-inheritFullScreenForm(Template.editUseEnemy);
+inheritFullscreenForm(Template.editUseEnemy);
 Template.editUseEnemy.helpers({
   classTypeList() {
     return allowServantClassKeyList;

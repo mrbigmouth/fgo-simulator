@@ -1,9 +1,9 @@
 <template name="editUseServant">
-  <form class="card fullscreenform">
-    <h2 class="card-header fullscreenform-header">
+  <form class="card fullscreen">
+    <h2 class="card-header fullscreen-header">
       {{title}}
     </h2>
-    <div class="card-block fullscreenform-body">
+    <div class="card-block fullscreen-body">
       {{#with model}}
         <div class="form-group">
           <label>當前英靈：</label>
@@ -207,7 +207,7 @@
         {{/with}}
       {{/with}}
     </div>
-    <div class="card-footer fullscreenform-footer">
+    <div class="card-footer fullscreen-footer">
       {{#if model.servantData}}
         <button
           class="btn btn-primary"

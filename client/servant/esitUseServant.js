@@ -4,12 +4,11 @@ import { FlowRouter } from 'meteor/kadira:flow-router';
 import { Template } from 'meteor/templating';
 import { Tracker } from 'meteor/tracker';
 import { ReactiveVar } from 'meteor/reactive-var';
-import { changeHandler as inheritChangeHandler, inheritFullScreenForm } from '../utils/fullScreenForm/inheritFullScreenForm';
+import { changeHandler as inheritChangeHandler, inheritFullscreenForm } from '../utils/fullscreen/inheritFullscreenForm';
 import { useServantCollection } from './useServantModel';
 import { servantClassNameHash, servantAlignmentNameHash } from './servantModel';
 
-inheritFullScreenForm(Template.editUseServant);
-
+inheritFullscreenForm(Template.editUseServant);
 //closeable pane open state
 const storageCloseablePanelOpenStateList = localStorage.getItem('closeablePanelOpenState');
 const useServantObjectList = storageCloseablePanelOpenStateList ? JSON.parse(storageCloseablePanelOpenStateList) : [
@@ -71,15 +70,15 @@ Template.editUseServant.helpers({
     }
   },
   getSpecialBoostDescription(specialBoost) {
-    if (specialBoost.number === 'ignoreDefense') {
+    if (specialBoost.limitTarget === 'ignoreDefense') {
       return '無視防禦力提升效果';
-    }
-    else if (specialBoost.number === 'hpPercentage') {
-      return '依自身HP減少給予特攻加成';
     }
     else {
       let result;
-      if (specialBoost.limitTarget) {
+      if (specialBoost.limitTarget === 'hpPercentage') {
+        result = '依自身HP減少給予特攻加成';
+      }
+      else if (specialBoost.limitTarget) {
         result = '對〔' + specialBoost.limitTarget + '〕特攻';
       }
       else {
@@ -95,7 +94,7 @@ Template.editUseServant.helpers({
   },
   hasHpPercentageBoost(weapon) {
     return _.some(weapon.specialBoost, (boost) => {
-      return boost.number === 'hpPercentage';
+      return boost.limitTarget === 'hpPercentage';
     });
   },
   getEffectDescription(effect) {

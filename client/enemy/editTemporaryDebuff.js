@@ -3,10 +3,10 @@ import { _ } from 'meteor/underscore';
 import { FlowRouter } from 'meteor/kadira:flow-router';
 import { ReactiveVar } from 'meteor/reactive-var';
 import { Template } from 'meteor/templating';
-import { inheritFullScreenForm } from '../utils/fullScreenForm/inheritFullScreenForm';
+import { inheritFullscreenForm } from '../utils/fullscreen/inheritFullscreenForm';
 import { debuffNameHash, allowDebuffKeyList, useEnemyCollection } from './useEnemyModel';
 
-inheritFullScreenForm(Template.editTemporaryDebuff);
+inheritFullscreenForm(Template.editTemporaryDebuff);
 Template.editTemporaryDebuff.helpers({
   temporaryDebuffList() {
     const temporaryDebuff = this.temporaryDebuff;

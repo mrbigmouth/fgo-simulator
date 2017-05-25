@@ -1,0 +1,9 @@
+<template name="fullscreenWrapper">
+  {{#if fullscreenTemplate}}
+    <div id="fullscreenWrapper">
+      <div class="container px-0">
+        {{> Template.dynamic template=fullscreenTemplate data=fullscreenData}}
+      </div>
+    </div>
+  {{/if}}
+</template>

@@ -1,17 +1,19 @@
+import { _ } from 'meteor/underscore';
 import { FlowRouter } from 'meteor/kadira:flow-router';
-import { rFormContent, rFormData } from '../utils/fullScreenForm/fullScreenForm';
+import { rFullscreenTemplate, rFullscreenData } from '../utils/fullscreen/fullscreen';
 import { useEnemyCollection } from './useEnemyModel';
+import { enemyCollection } from './enemyModel';
 
 FlowRouter.route('/editUseEnemy/:useEnemyId', {
   name: 'editUseEnemy',
   action(params) {
     const useEnemyId = params.useEnemyId;
     const title = '編輯敵方隊列(' + useEnemyId + ')';
-    const formData = rFormData.get();
+    const formData = rFullscreenData.get();
     const alreadyCloneUseEnemyData = formData && formData.model && formData.model.id === useEnemyId;
     if (alreadyCloneUseEnemyData) {
       const useEnemyData = formData.model;
-      rFormData.set({
+      rFullscreenData.set({
         title: title,
         model: useEnemyData
       });
@@ -19,27 +21,28 @@ FlowRouter.route('/editUseEnemy/:useEnemyId', {
     else {
       const useEnemyId = params.useEnemyId;
       const useEnemyData = useEnemyCollection.get(useEnemyId);
-      rFormData.set({
+      rFullscreenData.set({
         title: title,
         model: useEnemyData.clone()
       });
     }
-    rFormContent.set('editUseEnemy');
+    rFullscreenTemplate.set('editUseEnemy');
   }
 });
 FlowRouter.route('/selectUseEnemy/:useEnemyId', {
   name: 'selectUseEnemy',
   action(params) {
+    const fullscreenData = _.clone(rFullscreenData.get());
+    fullscreenData.optionList = enemyCollection.toArray();
+
     const useEnemyId = params.useEnemyId;
-    const formData = rFormData.get();
-    const alreadyCloneUseServantData = formData && formData.model && formData.model.id === useEnemyId;
+    const alreadyCloneUseServantData = fullscreenData && fullscreenData.model && fullscreenData.model.id === useEnemyId;
     if (! alreadyCloneUseServantData) {
       const useEnemyData = useEnemyCollection.get(useEnemyId);
-      rFormData.set({
-        model: useEnemyData.clone()
-      });
+      fullscreenData.model = useEnemyData.clone();
     }
-    rFormContent.set('selectUseEnemy');
+    rFullscreenData.set(fullscreenData);
+    rFullscreenTemplate.set('selectUseEnemy');
   }
 });
 FlowRouter.route('/editTemporaryDebuff/:useEnemyId', {
@@ -47,15 +50,15 @@ FlowRouter.route('/editTemporaryDebuff/:useEnemyId', {
   action(params) {
     const useEnemyId = params.useEnemyId;
     const title = '編輯暫時性Debuff(' + useEnemyId + ')';
-    const formData = rFormData.get();
+    const formData = rFullscreenData.get();
     const alreadyCloneUseServantData = formData && formData.model && formData.model.id === useEnemyId;
     if (! alreadyCloneUseServantData) {
       const useEnemyData = useEnemyCollection.get(useEnemyId);
-      rFormData.set({
+      rFullscreenData.set({
         title: title,
         model: useEnemyData.clone()
       });
     }
-    rFormContent.set('editTemporaryDebuff');
+    rFullscreenTemplate.set('editTemporaryDebuff');
   }
 });

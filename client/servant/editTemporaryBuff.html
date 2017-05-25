@@ -1,9 +1,9 @@
 <template name="editTemporaryBuff">
-  <form class="card fullscreenform">
-    <h2 class="card-header fullscreenform-header">
+  <form class="card fullscreen">
+    <h2 class="card-header fullscreen-header">
       {{title}}
     </h2>
-    <div class="fullscreenform-body">
+    <div class="fullscreen-body">
       {{#with model}}
         <ul class="list-group list-group-flush">     
           {{#if temporaryBuffList}}
@@ -70,7 +70,7 @@
         </div>
       {{/with}}
     </div>
-    <div class="card-footer fullscreenform-footer">
+    <div class="card-footer fullscreen-footer">
       <button
         class="btn btn-primary"
         type="submit"

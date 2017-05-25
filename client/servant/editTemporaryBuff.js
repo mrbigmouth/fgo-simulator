@@ -3,12 +3,12 @@ import { _ } from 'meteor/underscore';
 import { FlowRouter } from 'meteor/kadira:flow-router';
 import { ReactiveVar } from 'meteor/reactive-var';
 import { Template } from 'meteor/templating';
-import { inheritFullScreenForm } from '../utils/fullScreenForm/inheritFullScreenForm';
+import { inheritFullscreenForm } from '../utils/fullscreen/inheritFullscreenForm';
 import { buffNameHash, allowBuffKeyList } from './servantModel';
 import { useServantCollection } from './useServantModel';
 import { specialAttributeList } from '../config/specialAttributeList';
 
-inheritFullScreenForm(Template.editTemporaryBuff);
+inheritFullscreenForm(Template.editTemporaryBuff);
 Template.editTemporaryBuff.helpers({
   temporaryBuffList() {
     const temporaryBuff = this.temporaryBuff;
