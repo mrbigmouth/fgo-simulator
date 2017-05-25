@@ -721,6 +721,42 @@ export const servantConfigList = [
             useNumberBy: 'level'
           }
         ]
+      },
+      {
+        cardType: 'buster',
+        name: '幻想大剣・天魔失墜(未開放)',
+        specialBoost: [
+          {
+            limitTarget: '龍',
+            number: [
+              150,
+              162.5,
+              175,
+              187.5,
+              200
+            ]
+          }
+        ],
+        effectList: [
+          {
+            effectType: 'attackAll',
+            hits: [
+              100
+            ],
+            number: [
+              400,
+              500,
+              550,
+              575,
+              600
+            ],
+            useNumberBy: 'level'
+          },
+          {
+            effectType: 'addSelfGainNp',
+            number: 20
+          }
+        ]
       }
     ],
     passiveBuff: [
@@ -2823,6 +2859,29 @@ export const servantConfigList = [
             useNumberBy: 'level'
           }
         ]
+      },
+      {
+        cardType: 'quick',
+        name: '壊音の霹靂(強化クエスト ビリー・ザ・キッド)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'attackOne',
+            hits: [
+              16,
+              33,
+              51
+            ],
+            number: [
+              1600,
+              2000,
+              2200,
+              2300,
+              2400
+            ],
+            useNumberBy: 'level'
+          }
+        ]
       }
     ],
     passiveBuff: [
@@ -4768,6 +4827,46 @@ export const servantConfigList = [
             number: 30
           }
         ]
+      },
+      {
+        cardType: 'buster',
+        name: '死がふたりを分断つまで(けれど私は、炎でありたい)',
+        specialBoost: [
+          {
+            limitTarget: '愛人',
+            number: [
+              150,
+              162.5,
+              175,
+              187.5,
+              200
+            ]
+          }
+        ],
+        effectList: [
+          {
+            effectType: 'attackOne',
+            hits: [
+              6,
+              13,
+              20,
+              26,
+              35
+            ],
+            number: [
+              800,
+              1000,
+              1100,
+              1150,
+              1200
+            ],
+            useNumberBy: 'level'
+          },
+          {
+            effectType: 'addAllStarDrop',
+            number: 50
+          }
+        ]
       }
     ],
     passiveBuff: [
@@ -5953,6 +6052,42 @@ export const servantConfigList = [
             useNumberBy: 'charge'
           }
         ]
+      },
+      {
+        cardType: 'quick',
+        name: 'この世ならざる幻馬(未開放)',
+        specialBoost: [
+          {
+            limitTarget: 'ignoreDefense'
+          }
+        ],
+        effectList: [
+          {
+            effectType: 'attackAll',
+            hits: [
+              100
+            ],
+            number: [
+              800,
+              1000,
+              1100,
+              1150,
+              1200
+            ],
+            useNumberBy: 'level'
+          },
+          {
+            effectType: 'addStar',
+            number: [
+              10,
+              15,
+              20,
+              25,
+              30
+            ],
+            useNumberBy: 'charge'
+          }
+        ]
       }
     ],
     passiveBuff: [
@@ -6300,6 +6435,24 @@ export const servantConfigList = [
         name: '約束されざる守護の車輪(初期)',
         specialBoost: [],
         effectList: []
+      },
+      {
+        cardType: 'arts',
+        name: '約束されざる守護の車輪(未開放)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'addAllAttack',
+            number: [
+              20,
+              25,
+              30,
+              35,
+              40
+            ],
+            useNumberBy: 'charge'
+          }
+        ]
       }
     ],
     passiveBuff: [
@@ -6497,6 +6650,42 @@ export const servantConfigList = [
               900,
               950,
               1000
+            ],
+            useNumberBy: 'level'
+          }
+        ]
+      },
+      {
+        cardType: 'buster',
+        name: '愛しき私の鉄戦車(未開放)',
+        specialBoost: [
+          {
+            limitTarget: '男性',
+            number: [
+              150,
+              162.5,
+              175,
+              187.5,
+              200
+            ]
+          }
+        ],
+        effectList: [
+          {
+            effectType: 'attackOne',
+            hits: [
+              6,
+              13,
+              20,
+              26,
+              35
+            ],
+            number: [
+              800,
+              1000,
+              1100,
+              1150,
+              1200
             ],
             useNumberBy: 'level'
           }
@@ -8981,6 +9170,44 @@ export const servantConfigList = [
             useNumberBy: 'charge'
           }
         ]
+      },
+      {
+        cardType: 'arts',
+        name: '金星神・火炎天主(彼女の見る世界)',
+        specialBoost: [
+          {
+            limitTarget: 'ignoreDefense'
+          }
+        ],
+        effectList: [
+          {
+            effectType: 'attackAll',
+            hits: [
+              16,
+              33,
+              51
+            ],
+            number: [
+              600,
+              750,
+              825,
+              862.5,
+              900
+            ],
+            useNumberBy: 'level'
+          },
+          {
+            effectType: 'decreaseAllDefense',
+            number: [
+              10,
+              20,
+              30,
+              40,
+              50
+            ],
+            useNumberBy: 'charge'
+          }
+        ]
       }
     ],
     passiveBuff: [
@@ -9941,7 +10168,7 @@ export const servantConfigList = [
             number: '中毒'
           },
           {
-            effectType: 'attackAll',
+            effectType: 'attackOne',
             hits: [
               100
             ],
@@ -9951,6 +10178,31 @@ export const servantConfigList = [
               1350,
               1425,
               1500
+            ],
+            useNumberBy: 'level'
+          }
+        ]
+      },
+      {
+        cardType: 'arts',
+        name: '妄想毒身(未開放)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'addOneSpecialAttribute',
+            number: '中毒'
+          },
+          {
+            effectType: 'attackOne',
+            hits: [
+              100
+            ],
+            number: [
+              1200,
+              1500,
+              1650,
+              1725,
+              1800
             ],
             useNumberBy: 'level'
           }
@@ -10195,6 +10447,38 @@ export const servantConfigList = [
               30,
               35,
               40
+            ],
+            useNumberBy: 'charge'
+          }
+        ]
+      },
+      {
+        cardType: 'buster',
+        name: '死は明日への希望なり(未開放)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'attackOne',
+            hits: [
+              100
+            ],
+            number: [
+              800,
+              1000,
+              1100,
+              1150,
+              1200
+            ],
+            useNumberBy: 'level'
+          },
+          {
+            effectType: 'decreaseOneDefense',
+            number: [
+              30,
+              35,
+              40,
+              45,
+              50
             ],
             useNumberBy: 'charge'
           }
