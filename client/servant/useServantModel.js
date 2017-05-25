@@ -37,6 +37,11 @@ export class UseServantModel extends BasicModel {
   get servantData() {
     return servantCollection.get(this.servantId) || null;
   }
+  get atk() {
+    const servantData = this.servantData;
+
+    return servantData ? servantData.atk : null;
+  }
   get classType() {
     const servantData = this.servantData;
 
@@ -124,7 +129,7 @@ export class UseServantModel extends BasicModel {
 
     return servantData ? (servantData.weaponLevel * 100) : null;
   }
-  get buff() {
+  get buffHash() {
     const buffHash = {};
     _.each(allowBuffKeyList, (buffKey) => {
       if (buffKey === 'specialBoost') {
