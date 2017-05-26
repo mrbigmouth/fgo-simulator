@@ -16276,4 +16276,4 @@ export const servantConfigList = [
     ]
   }
 ];
-
+servantConfigList.reverse();

@@ -685,3 +685,4 @@ export const enemyConfigList = [
     ]
   }
 ];
+enemyConfigList.reverse();
