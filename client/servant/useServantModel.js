@@ -12,7 +12,11 @@ export class UseServantModel extends BasicModel {
   get schema() {
     return {
       id: String,
+      nickname: String,
       servantId: String,
+      atk: Match.Integer,
+      useWeaponIndex: Match.Integer,
+      weaponLevel: Match.Integer,
       hpPercentage: Number,
       currentNp: Match.Integer,
       temporaryBuff: [
@@ -27,7 +31,11 @@ export class UseServantModel extends BasicModel {
   get defaults() {
     return {
       id: '',
+      nickname: '',
       servantId: '',
+      atk: 0,
+      useWeaponIndex: 0,
+      weaponLevel: 1,
       hpPercentage: 100,
       currentNp: 0,
       temporaryBuff: []
@@ -36,11 +44,6 @@ export class UseServantModel extends BasicModel {
   //associate with servant data
   get servantData() {
     return servantCollection.get(this.servantId) || null;
-  }
-  get atk() {
-    const servantData = this.servantData;
-
-    return servantData ? servantData.atk : null;
   }
   get classType() {
     const servantData = this.servantData;
@@ -77,36 +80,10 @@ export class UseServantModel extends BasicModel {
 
     return servantData ? servantData.weaponList : null;
   }
-  get useWeaponIndex() {
-    const servantData = this.servantData;
-
-    return servantData ? servantData.useWeaponIndex : null;
-  }
   get weapon() {
-    const servantData = this.servantData;
+    const weaponList = this.weaponList;
 
-    return servantData ? servantData.weapon : null;
-  }
-  get weaponLevel() {
-    const servantData = this.servantData;
-
-    return servantData ? servantData.weaponLevel : null;
-  }
-  //allowed set servantData's field, but won't really change data
-  set nickname(value) {
-    return this;
-  }
-  set atk(value) {
-    return this;
-  }
-  set useWeaponIndex(value) {
-    return this;
-  }
-  set weaponLevel(value) {
-    return this;
-  }
-  set lastUseTime(value) {
-    return this;
+    return weaponList ? weaponList[this.useWeaponIndex] : null;
   }
   //compute data
   get name() {
@@ -142,7 +119,6 @@ export class UseServantModel extends BasicModel {
     else {
       return null;
     }
-    return servantData ? Math.min(servantData.weaponLevel * 100, 300) : null;
   }
   get buffHash() {
     const buffHash = {};

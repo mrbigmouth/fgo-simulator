@@ -264,22 +264,6 @@ function changeHandler(event, templateInstance) {
     inheritChangeHandler(event, templateInstance);
   }
 }
-//on save
-function saveHandler(templateInstance) {
-  templateInstance.data.model.save((error) => {
-    if (error) {
-      templateInstance.errorHandler(error, templateInstance);
-    }
-    else {
-      const servantData = templateInstance.data.model.servantData;
-      servantData.nickname = templateInstance.$input.filter('[name="nickname"]').val();
-      servantData.atk = parseFloat(templateInstance.$input.filter('[name="atk"]').val());
-      servantData.useWeaponIndex = parseInt(templateInstance.$input.filter('[name="useWeaponIndex"]').val(), 10);
-      servantData.weaponLevel = parseInt(templateInstance.$input.filter('[name="weaponLevel"]').val(), 10);
-      templateInstance.saveDoneHandler(templateInstance);
-    }
-  });
-}
 //on save done
 function saveDoneHandler() {
   FlowRouter.go('/');
@@ -293,7 +277,6 @@ function resetHandler(templateInstance) {
 }
 Template.editUseServant.onCreated(function() {
   this.changeHandler = changeHandler;
-  this.saveHandler = saveHandler;
   this.saveDoneHandler = saveDoneHandler;
   this.resetHandler = resetHandler;
 });

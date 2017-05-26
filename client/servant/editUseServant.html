@@ -21,60 +21,58 @@
             </span>
           </div>
         </div>
-        {{#with servantData}}
-          <div class="closeablePanel clickable {{closeablePanelOpenClass 0}}">
-            <h4 data-toggle-panel="0">
-              英靈設定
-              <span class="closedIcon">﹢</span>
-              <span class="openedIcon">﹣</span>
-            </h4>
-            <div class="closeableArea">
-              <div class="form-group">
-                <label for="nickname">設定暱稱：</label>
-                <input
-                  class="form-control"
-                  type="text"
-                  name="nickname"
-                  value="{{nickname}}"
-                  placeholder="請輸入英靈暱稱。"
-                />
-              </div>
-              <div class="form-group">
-                <label for="atk">設定ATK總和：</label>
-                <input
-                  class="form-control"
-                  type="number"
-                  name="atk"
-                  value="{{atk}}"
-                  placeholder="請輸入英靈與禮裝的ATK總和。"
-                  min="0"
-                  step="1"
-                />
-              </div>
-              <div class="form-group">
-                <label for="useWeaponIndex">設定使用寶具：</label>
-                <select class="form-control" name="useWeaponIndex">
-                  {{#each weaponList}}
-                    <option value="{{@index}}" selected="{{isWeaponSelected @index}}">{{name}}</option>
-                  {{/each}}
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="weaponLevel">設定寶具等級：</label>
-                <input
-                  class="form-control"
-                  type="number"
-                  name="weaponLevel"
-                  value="{{weaponLevel}}"
-                  placeholder="請輸入寶具等級。"
-                  min="1"
-                  max="5"
-                  step="1"
-                />
-              </div>
+        <div class="closeablePanel clickable {{closeablePanelOpenClass 0}}">
+          <h4 data-toggle-panel="0">
+            英靈設定
+            <span class="closedIcon">﹢</span>
+            <span class="openedIcon">﹣</span>
+          </h4>
+          <div class="closeableArea">
+            <div class="form-group">
+              <label for="nickname">設定暱稱：</label>
+              <input
+                class="form-control"
+                type="text"
+                name="nickname"
+                value="{{nickname}}"
+                placeholder="請輸入英靈暱稱。"
+              />
+            </div>
+            <div class="form-group">
+              <label for="atk">設定ATK總和：</label>
+              <input
+                class="form-control"
+                type="number"
+                name="atk"
+                value="{{atk}}"
+                placeholder="請輸入英靈與禮裝的ATK總和。"
+                min="0"
+                step="1"
+              />
+            </div>
+            <div class="form-group">
+              <label for="useWeaponIndex">設定使用寶具：</label>
+              <select class="form-control" name="useWeaponIndex">
+                {{#each weaponList}}
+                  <option value="{{@index}}" selected="{{isWeaponSelected @index}}">{{name}}</option>
+                {{/each}}
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="weaponLevel">設定寶具等級：</label>
+              <input
+                class="form-control"
+                type="number"
+                name="weaponLevel"
+                value="{{weaponLevel}}"
+                placeholder="請輸入寶具等級。"
+                min="1"
+                max="5"
+                step="1"
+              />
             </div>
           </div>
-        {{/with}}
+        </div>
         {{#with weapon}}
           <div class="closeablePanel clickable {{closeablePanelOpenClass 1}}">
             <h4 data-toggle-panel="1">

@@ -93,13 +93,12 @@ Template.weaponCardSelectorList.helpers({
   selectableWeaponList() {
     const weaponCardList = [];
     useServantCollection.each((useServantData) => {
-      const servantData = useServantData.servantData;
-      if (servantData && useServantData.currentNp >= 100) {
+      if (useServantData.currentNp >= 100) {
         const useServantIndex = parseInt(useServantData.id, 10);
         const weaponCard = new CardModel({
           id: useServantIndex * -1,
           useServantId: useServantData.id,
-          type: servantData.weapon.cardType,
+          type: useServantData.weapon.cardType,
           isWeapon: true
         });
         weaponCardList.push(weaponCard);
@@ -110,11 +109,6 @@ Template.weaponCardSelectorList.helpers({
   }
 });
 
-Template.weaponCardSelector.helpers({
-  cardType() {
-    return this.servantData.weapon.cardType;
-  }
-});
 Template.weaponCardSelector.events({
   'click .useCard .clickable': handleSelectCard
 });

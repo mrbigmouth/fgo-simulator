@@ -57,7 +57,6 @@ export class ServantModel extends BasicModel {
       classType: new Match.OneOf(...allowServantClassKeyList),
       alignmentType: new Match.OneOf(...allowServantAlignmentKeyList),
       specialAttributeList: [String],
-      atk: Match.Integer,
       starDrop: Number,
       cards: {
         arts: Match.Integer,
@@ -101,8 +100,6 @@ export class ServantModel extends BasicModel {
           ]
         }
       ],
-      useWeaponIndex: Match.Integer,
-      weaponLevel: new Match.OneOf(1, 2, 3, 4, 5),
       passiveBuff: [
         {
           name: new Match.OneOf(...allowBuffKeyList),
@@ -116,20 +113,13 @@ export class ServantModel extends BasicModel {
   get defaults() {
     return {
       nickname: '',
-      atk: 0,
-      useWeaponIndex: 0,
-      weaponLevel: 1,
       lastUseTime: Date.now()
     };
   }
-  //只儲存id與使用者能設定的五個欄位在瀏覽器中，其他資訊由config提供
+  //只儲存id與lastUseTime欄位在瀏覽器中，其他資訊由config提供
   toJSON() {
     return {
       id: this.id,
-      nickname: this.nickname,
-      atk: this.atk,
-      useWeaponIndex: this.useWeaponIndex,
-      weaponLevel: this.weaponLevel,
       lastUseTime: this.lastUseTime
     };
   }
