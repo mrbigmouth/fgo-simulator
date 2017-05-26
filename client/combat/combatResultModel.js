@@ -182,9 +182,9 @@ export class CombatResultModel extends BasicModel {
         interimServantBuffHash: interimServantBuffHash,
         canChangeTarget: (
           cardData.isWeapon ||
-          ! previousCard ||
-          ! previousCard.isWeapon ||
-          previousCard.useServantId !== cardData.useServantId
+          (! previousCard) ||
+          previousCard.isWeapon ||
+          (previousCard.useServantId !== cardData.useServantId)
         ),
         targetEnemyId: targetEnemyId,
         enemyHpHash: enemyHpHash,
