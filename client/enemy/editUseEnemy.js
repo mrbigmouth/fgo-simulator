@@ -64,14 +64,14 @@ function changeHandler(event, templateInstance) {
 }
 //on save done
 function saveDoneHandler() {
-  FlowRouter.go('/');
+  FlowRouter.go('/fgo-simulator');
 }
 //on reset
 function resetHandler(templateInstance) {
   const useEnemyData = useEnemyCollection.get(templateInstance.data.model.id);
   useEnemyData.nickname = '';
   useEnemyData.currentHp = 0;
-  FlowRouter.go('/');
+  FlowRouter.go('/fgo-simulator');
 }
 Template.editUseEnemy.onCreated(function() {
   this.changeHandler = changeHandler;

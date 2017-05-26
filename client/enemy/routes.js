@@ -4,7 +4,7 @@ import { rFullscreenTemplate, rFullscreenData } from '../utils/fullscreen/fullsc
 import { useEnemyCollection } from './useEnemyModel';
 import { enemyCollection } from './enemyModel';
 
-FlowRouter.route('/editUseEnemy/:useEnemyId', {
+FlowRouter.route('/fgo-simulator/editUseEnemy/:useEnemyId', {
   name: 'editUseEnemy',
   action(params) {
     const useEnemyId = params.useEnemyId;
@@ -29,7 +29,7 @@ FlowRouter.route('/editUseEnemy/:useEnemyId', {
     rFullscreenTemplate.set('editUseEnemy');
   }
 });
-FlowRouter.route('/selectUseEnemy/:useEnemyId', {
+FlowRouter.route('/fgo-simulator/selectUseEnemy/:useEnemyId', {
   name: 'selectUseEnemy',
   action(params) {
     const fullscreenData = _.clone(rFullscreenData.get());
@@ -45,7 +45,7 @@ FlowRouter.route('/selectUseEnemy/:useEnemyId', {
     rFullscreenTemplate.set('selectUseEnemy');
   }
 });
-FlowRouter.route('/editTemporaryDebuff/:useEnemyId', {
+FlowRouter.route('/fgo-simulator/editTemporaryDebuff/:useEnemyId', {
   name: 'editTemporaryBuff',
   action(params) {
     const useEnemyId = params.useEnemyId;

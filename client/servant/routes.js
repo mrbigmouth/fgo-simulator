@@ -4,7 +4,7 @@ import { rFullscreenTemplate, rFullscreenData } from '../utils/fullscreen/fullsc
 import { useServantCollection } from './useServantModel';
 import { servantCollection } from './servantModel';
 
-FlowRouter.route('/editUseServant/:useServantId', {
+FlowRouter.route('/fgo-simulator/editUseServant/:useServantId', {
   name: 'editUseServant',
   action(params) {
     const useServantId = params.useServantId;
@@ -29,7 +29,7 @@ FlowRouter.route('/editUseServant/:useServantId', {
     rFullscreenTemplate.set('editUseServant');
   }
 });
-FlowRouter.route('/selectUseServant/:useServantId', {
+FlowRouter.route('/fgo-simulator/selectUseServant/:useServantId', {
   name: 'selectUseServant',
   action(params) {
     const fullscreenData = _.clone(rFullscreenData.get());
@@ -45,7 +45,7 @@ FlowRouter.route('/selectUseServant/:useServantId', {
     rFullscreenTemplate.set('selectUseServant');
   }
 });
-FlowRouter.route('/editTemporaryBuff/:useServantId', {
+FlowRouter.route('/fgo-simulator/editTemporaryBuff/:useServantId', {
   name: 'editTemporaryBuff',
   action(params) {
     const useServantId = params.useServantId;

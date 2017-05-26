@@ -266,14 +266,14 @@ function changeHandler(event, templateInstance) {
 }
 //on save done
 function saveDoneHandler() {
-  FlowRouter.go('/');
+  FlowRouter.go('/fgo-simulator');
 }
 //on reset
 function resetHandler(templateInstance) {
   templateInstance.data.model.servantId = '';
   const useServantData = useServantCollection.get(templateInstance.data.model.id);
   useServantData.servantId = '';
-  FlowRouter.go('/');
+  FlowRouter.go('/fgo-simulator');
 }
 Template.editUseServant.onCreated(function() {
   this.changeHandler = changeHandler;

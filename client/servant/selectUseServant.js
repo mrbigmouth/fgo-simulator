@@ -17,7 +17,7 @@ function selectHandler(selectedServantData, templateInstance) {
   selectedServantData.lastUseTime = Date.now();
   const useServantData = templateInstance.data.model;
   useServantData.servantId = selectedServantData.id;
-  FlowRouter.go('/editUseServant/' + useServantData.id);
+  FlowRouter.go('/fgo-simulator/editUseServant/' + useServantData.id);
 }
 Template.selectUseServant.onCreated(function() {
   this.selectHandler = selectHandler;

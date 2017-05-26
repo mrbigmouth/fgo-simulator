@@ -90,7 +90,7 @@ Template.editTemporaryBuff.events({
 
 //on save done
 function saveDoneHandler() {
-  FlowRouter.go('/');
+  FlowRouter.go('/fgo-simulator');
 }
 //on reset
 function resetHandler(templateInstance) {
@@ -98,7 +98,7 @@ function resetHandler(templateInstance) {
   model.temporaryBuff = [];
   const useServantData = useServantCollection.get(model.id);
   useServantData.temporaryBuff = [];
-  FlowRouter.go('/');
+  FlowRouter.go('/fgo-simulator');
 }
 Template.editTemporaryBuff.onCreated(function() {
   this.changeHandler = $.noop;

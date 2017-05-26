@@ -72,7 +72,7 @@ Template.editTemporaryDebuff.events({
 
 //on save done
 function saveDoneHandler() {
-  FlowRouter.go('/');
+  FlowRouter.go('/fgo-simulator');
 }
 //on reset
 function resetHandler(templateInstance) {
@@ -80,7 +80,7 @@ function resetHandler(templateInstance) {
   model.temporaryDebuff = [];
   const useEnemyData = useEnemyCollection.get(model.id);
   useEnemyData.temporaryDebuff = [];
-  FlowRouter.go('/');
+  FlowRouter.go('/fgo-simulator');
 }
 Template.editTemporaryDebuff.onCreated(function() {
   this.changeHandler = $.noop;

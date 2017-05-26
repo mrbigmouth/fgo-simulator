@@ -12,7 +12,7 @@
 <template name="useEnemyInfo">
   <div class="card-main">
     {{#with useEnemyData this}}
-      <a class="mainLink text-muted text-truncate" href="/editUseEnemy/{{id}}">
+      <a class="mainLink text-muted text-truncate" href="/fgo-simulator/editUseEnemy/{{id}}">
         {{name}}
       </a>
       <div class="input-group">
@@ -28,7 +28,7 @@
       <a
         class="btn btn-outline-secondary btn-sm btn-block text-left"
         style="overflow-x: hidden;"
-        href="/editTemporaryDebuff/{{id}}"
+        href="/fgo-simulator/editTemporaryDebuff/{{id}}"
       >
         {{#if dontHasAnyDebuff temporaryDebuff}}
           無暫時性Debuff

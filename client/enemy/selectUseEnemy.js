@@ -10,7 +10,7 @@ function selectHandler(selectedEnemyData, templateInstance) {
   useEnemyData.nickname = selectedEnemyData.name;
   useEnemyData.alignmentType = selectedEnemyData.alignmentType;
   useEnemyData.specialAttributeList = _.clone(selectedEnemyData.specialAttributeList);
-  FlowRouter.go('/editUseEnemy/' + useEnemyData.id);
+  FlowRouter.go('/fgo-simulator/editUseEnemy/' + useEnemyData.id);
 }
 Template.selectUseEnemy.onCreated(function() {
   this.selectHandler = selectHandler;
