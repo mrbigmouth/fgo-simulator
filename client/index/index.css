@@ -84,3 +84,7 @@
 img.buffIcon {
   height: 0.875rem;
 }
+
+table {
+  table-layout: fixed;
+}

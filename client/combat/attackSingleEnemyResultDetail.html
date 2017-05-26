@@ -1,0 +1,377 @@
+<template name="attackSingleEnemyResultDetail">
+  <div class="card fullscreen">
+    <div class="card-header fullscreen-header">
+      攻擊結果詳細剖析
+    </div>
+    <div class="fullscreen-body">
+      <dl class="row">
+        <dt class="col-3 text-right text-truncate">攻擊方</dt>
+        <dd class="col-9">{{this.cardData.useServantData.name}}</dd>
+        <dt class="col-3 text-right text-truncate">攻擊方式</dt>
+        {{#if this.cardData.isWeapon}}
+          <dd class="col-9 {{this.cardData.type}}">
+            {{this.cardData.useServantData.weapon.name}}
+          </dd>
+        {{else}}
+          <dd class="col-9 {{this.cardData.type}} text-capitalize">
+            {{this.cardData.type}}
+          </dd>
+        {{/if}}
+        <dt class="col-3 text-right text-truncate">被攻擊者</dt>
+        <dd class="col-9">{{this.enemyData.name}}</dd>
+        <dt class="col-3 text-right text-truncate">所有影響效果</dt>
+        <dd class="col-9">
+          {{#each buffDescription in buffDescriptionList}}
+            <div>{{buffDescription}}</div>
+          {{else}}
+            無
+          {{/each}}
+        </dd>
+      </dl>
+      <div class="col-12">
+        <div class="d-flex resultNumberList damage">
+          <div class="resultNumber result">
+            <div>傷害總量(溢出)</div>
+            <div>{{addTwoNumber this.result.damage this.result.overflow}}</div>
+          </div>
+          <div class="resultOperator">
+            <div>＝</div>
+          </div>
+          {{#with this.numbers.damage}}
+            <div class="resultNumber atk">
+              <div>ATK</div>
+              <div>{{atk}}</div>
+            </div>
+            <div class="resultOperator">
+              <div>×</div>
+            </div>
+            <div class="resultNumber basic">
+              <div>攻擊補正</div>
+              <div>{{basic}}</div>
+            </div>
+            {{#if isWeapon}}
+              <div class="resultOperator">
+                <div>×</div>
+              </div>
+              <div class="resultNumber weaponMultiper">
+                <div>寶具倍率</div>
+                <div>{{weaponMultiper}}</div>
+              </div>
+            {{/if}}
+            <div class="resultOperator">
+              <div>×</div>
+            </div>
+            <div class="resultOperator">
+              <div>（</div>
+            </div>
+            <div class="resultNumber cardType">
+              <div>卡牌傷害倍率</div>
+              <div>{{cardType}}</div>
+            </div>
+            {{#unless isWeapon}}
+              <div class="resultOperator">
+                <div>×</div>
+              </div>
+              <div class="resultNumber cardSequence">
+                <div>位置加成</div>
+                <div>{{cardSequence}}</div>
+              </div>
+            {{/unless}}
+            <div class="resultOperator">
+              <div>×</div>
+            </div>
+            <div class="resultNumber cardBuff">
+              <div>(1+卡牌BUFF)</div>
+              <div>{{cardBuff}}</div>
+            </div>
+            {{#unless isWeapon}}
+              <div class="resultOperator">
+                <div>＋</div>
+              </div>
+              <div class="resultNumber firstCard">
+                <div>首位加成</div>
+                <div>{{firstCard}}</div>
+              </div>
+            {{/unless}}
+            <div class="resultOperator">
+              <div>）</div>
+            </div>
+            <div class="resultOperator">
+              <div>×</div>
+            </div>
+            <div class="resultNumber classBasic">
+              <div>職階補正</div>
+              <div>{{classBasic}}</div>
+            </div>
+            <div class="resultOperator">
+              <div>×</div>
+            </div>
+            <div class="resultNumber classMatch">
+              <div>職階相性補正</div>
+              <div>{{classMatch}}</div>
+            </div>
+            <div class="resultOperator">
+              <div>×</div>
+            </div>
+            <div class="resultNumber alignmentMatch">
+              <div>職階相性補正</div>
+              <div>{{alignmentMatch}}</div>
+            </div>
+            <div class="resultOperator">
+              <div>×</div>
+            </div>
+            <div class="resultNumber attackBuff">
+              <div>(1+攻擊力BUFF-敵方防禦力BUFF)</div>
+              <div>{{attackBuff}}</div>
+            </div>
+            {{#if isWeapon}}
+              <div class="resultOperator">
+                <div>×</div>
+              </div>
+              <div class="resultNumber specialBoost">
+                <div>(1+特攻威力BUFF-敵方特防威力BUFF+寶具威力BUFF)</div>
+                <div>{{specialBoost}}</div>
+              </div>
+              <div class="resultOperator">
+                <div>×</div>
+              </div>
+              <div class="resultNumber weaponBoost">
+                <div>寶具特攻</div>
+                <div>{{weaponBoost}}</div>
+              </div>
+            {{else}}
+              <div class="resultOperator">
+                <div>×</div>
+              </div>
+              <div class="resultNumber specialBoost">
+                <div>(1+特攻威力BUFF-敵方特防威力BUFF+暴擊威力BUFF)</div>
+                <div>{{specialBoost}}</div>
+              </div>
+            {{/if}}
+            {{#if isExtraAttack}}
+              <div class="resultOperator">
+                <div>×</div>
+              </div>
+              <div class="resultNumber extraReward">
+                <div>EX攻擊獎勵</div>
+                <div>{{extraReward}}</div>
+              </div>
+            {{/if}}
+            {{#unless isWeapon}}
+              <div class="resultOperator">
+                <div>×</div>
+              </div>
+              <div class="resultNumber critical">
+                <div>暴擊補正</div>
+                <div>{{critical}}</div>
+              </div>
+            {{/unless}}
+            <div class="resultOperator">
+              <div>×</div>
+            </div>
+            <div class="resultNumber random">
+              <div>亂數補正</div>
+              <div>{{random}}</div>
+            </div>
+            <div class="resultOperator">
+              <div>＋</div>
+            </div>
+            <div class="resultNumber damageBuff">
+              <div>(固定傷害BUFF+敵方固定被傷害DEBUFF)</div>
+              <div>{{damageBuff}}</div>
+            </div>
+            <div class="resultOperator">
+              <div>＋</div>
+            </div>
+            <div class="resultNumber busterChain">
+              <div>ATK×Buster Chain加成</div>
+              <div>{{busterChain}}</div>
+            </div>
+          {{/with}}
+        </div>
+        {{#if this.result.overflow}}
+          <div>被攻擊者被攻擊前HP為{{this.enemyHp}}，溢出{{this.result.overflow}}點傷害。</div>
+          <div>
+            攻擊次數為{{this.numbers.gainNp.hits}}次，扣除最後一擊後的預估傷害為 {{this.result.damageExceptLastHit}}
+            {{#if this.result.isOverkill}}
+              ，有達成Overkill。
+            {{else}}
+              ，未達成Overkill。
+            {{/if}}
+          </div>
+        {{/if}}
+        <div class="d-flex resultNumberList gainNp">
+          <div class="resultNumber result">
+            <div>獲取NP</div>
+            <div>{{this.result.generateNp}}</div>
+          </div>
+          <div class="resultOperator">
+            <div>＝</div>
+          </div>
+          {{#with this.numbers.gainNp}}
+            <div class="resultNumber basicGainNp">
+              <div>每Hit主動NP獲得量</div>
+              <div>{{basicGainNp}}</div>
+            </div>
+            <div class="resultOperator">
+              <div>×</div>
+            </div>
+            <div class="resultNumber hits">
+              <div>攻擊Hit數</div>
+              <div>{{hits}}</div>
+            </div>
+            <div class="resultOperator">
+              <div>×</div>
+            </div>
+            <div class="resultOperator">
+              <div>（</div>
+            </div>
+            <div class="resultNumber cardType">
+              <div>卡牌NP倍率</div>
+              <div>{{cardType}}</div>
+            </div>
+            {{#unless isWeapon}}
+              <div class="resultOperator">
+                <div>×</div>
+              </div>
+              <div class="resultNumber cardSequence">
+                <div>位置加成</div>
+                <div>{{cardSequence}}</div>
+              </div>
+            {{/unless}}
+            <div class="resultOperator">
+              <div>×</div>
+            </div>
+            <div class="resultNumber cardBuff">
+              <div>(1+卡牌BUFF)</div>
+              <div>{{cardBuff}}</div>
+            </div>
+            {{#unless isWeapon}}
+              <div class="resultOperator">
+                <div>＋</div>
+              </div>
+              <div class="resultNumber firstCard">
+                <div>首位加成</div>
+                <div>{{firstCard}}</div>
+              </div>
+            {{/unless}}
+            <div class="resultOperator">
+              <div>）</div>
+            </div>
+            <div class="resultOperator">
+              <div>×</div>
+            </div>
+            <div class="resultNumber npBuff">
+              <div>(1+NP Buff)</div>
+              <div>{{npBuff}}</div>
+            </div>
+            {{#unless isWeapon}}
+              <div class="resultOperator">
+                <div>×</div>
+              </div>
+              <div class="resultNumber critical">
+                <div>暴擊補正</div>
+                <div>{{critical}}</div>
+              </div>
+            {{/unless}}
+            <div class="resultOperator">
+              <div>×</div>
+            </div>
+            <div class="resultNumber overkill">
+              <div>Overkill補正</div>
+              <div>{{overkill}}</div>
+            </div>
+            <div class="resultOperator">
+              <div>×</div>
+            </div>
+            <div class="resultNumber enemy">
+              <div>敵補正</div>
+              <div>{{enemy}}</div>
+            </div>
+          {{/with}}
+        </div>
+        <div class="d-flex resultNumberList starDrop">
+          <div class="resultNumber result">
+            <div>每擊星掉落</div>
+            <div>{{this.result.starDropPerHit}}</div>
+          </div>
+          <div class="resultOperator">
+            <div>＝</div>
+          </div>
+          {{#with this.numbers.starDrop}}
+            <div class="resultNumber basicStarDrop">
+              <div>英靈星掉落率</div>
+              <div>{{basicStarDrop}}</div>
+            </div>
+            <div class="resultOperator">
+              <div>＋</div>
+            </div>
+            <div class="resultNumber cardTypeSequence">
+              <div>卡牌種類與次序影響</div>
+              <div>{{cardTypeSequence}}</div>
+            </div>
+            <div class="resultOperator">
+              <div>×</div>
+            </div>
+            <div class="resultNumber cardBuff">
+              <div>(1+卡牌Buff)</div>
+              <div>{{cardBuff}}</div>
+            </div>
+            {{#unless isWeapon}}
+              <div class="resultOperator">
+                <div>＋</div>
+              </div>
+              <div class="resultNumber firstCard">
+                <div>首位加成</div>
+                <div>{{firstCard}}</div>
+              </div>
+            {{/unless}}
+            <div class="resultOperator">
+              <div>＋</div>
+            </div>
+            <div class="resultNumber starDropBuff">
+              <div>星掉落Buff</div>
+              <div>{{starDropBuff}}</div>
+            </div>
+            {{#unless isWeapon}}
+              <div class="resultOperator">
+                <div>＋</div>
+              </div>
+              <div class="resultNumber critical">
+                <div>暴擊補正</div>
+                <div>{{critical}}</div>
+              </div>
+            {{/unless}}
+            <div class="resultOperator">
+              <div>﹣</div>
+            </div>
+            <div class="resultNumber enemy">
+              <div>敵補正</div>
+              <div>{{enemy}}</div>
+            </div>
+            <div class="resultOperator">
+              <div>＋</div>
+            </div>
+            <div class="resultNumber overkill">
+              <div>Overkill補正</div>
+              <div>{{overkill}}</div>
+            </div>
+          {{/with}}
+        </div>
+        <div>
+          攻擊次數為 {{this.numbers.starDrop.hits}} 次，
+          {{getResultTypeDescription this.resultType}} 為掉落 {{this.result.starDrop}} 顆星。
+        </div>
+      </div>
+    </div>
+    <div class="card-footer fullscreen-footer text-right">
+      <button
+        class="btn btn-secondary"
+        type="button"
+        data-action="close"
+      >
+        關閉
+      </button>
+    </div>
+  </div>
+</template>

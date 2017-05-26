@@ -5,6 +5,7 @@ import { ReactiveVar } from 'meteor/reactive-var';
 import { BasicModel } from '../utils/BasicModel';
 import { BasicCollection } from '../utils/BasicCollection';
 import { useServantCollection } from '../servant/useServantModel';
+import { combatResultCollection } from '../combat/combatResultModel';
 
 export class CardModel extends BasicModel {
   get collection() {
@@ -91,4 +92,6 @@ window.tauto = Tracker.autorun(function() {
   });
   useCardCollection.reset(useCardList);
   rSelectableCardOffset.set(0);
+  //清除目前顯示的戰鬥結果
+  combatResultCollection.reset([]);
 });
