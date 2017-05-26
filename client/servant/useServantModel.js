@@ -127,7 +127,22 @@ export class UseServantModel extends BasicModel {
   get maximumNp() {
     const servantData = this.servantData;
 
-    return servantData ? (servantData.weaponLevel * 100) : null;
+    if (servantData) {
+      const weaponLevel = servantData.weaponLevel;
+      if (weaponLevel >= 5) {
+        return 300;
+      }
+      else if (weaponLevel >= 2) {
+        return 200;
+      }
+      else {
+        return 100;
+      }
+    }
+    else {
+      return null;
+    }
+    return servantData ? Math.min(servantData.weaponLevel * 100, 300) : null;
   }
   get buffHash() {
     const buffHash = {};
