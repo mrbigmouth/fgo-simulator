@@ -59,7 +59,7 @@ export class CardModel extends BasicModel {
 export const useCardCollection = new BasicCollection();
 export const rSelectableCardOffset = new ReactiveVar(0);
 //auto compute useCardCollection
-window.tauto = Tracker.autorun(function() {
+Tracker.autorun(function() {
   const useCardList = [];
   let useCardCount = 0;
   useServantCollection.each((useServantData) => {
