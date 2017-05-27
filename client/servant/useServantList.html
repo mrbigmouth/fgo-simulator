@@ -12,6 +12,7 @@
 <template name="useServantInfo">
   <div class="card-main">
     {{#with useServantData this}}
+      <img class="icon" src="/{{this.classType}}.png" />
       <a class="mainLink text-muted text-truncate" href="/fgo-simulator/editUseServant/{{id}}">
         {{name}}
       </a>

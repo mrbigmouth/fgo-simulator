@@ -49,6 +49,7 @@
 }
 
 .main-contrainer .card-main {
+  position: relative;
   display: block;
   flex: 0 0 33.333333%;
   text-align: center;
@@ -79,6 +80,13 @@
 
 .main-contrainer .card-main .btn {
   border-radius: 0;
+}
+
+.main-contrainer .card-main img.icon {
+  position: absolute;
+  width: 1.5rem;
+  top: 0.25rem;
+  right: 0.25rem;
 }
 
 img.buffIcon {
