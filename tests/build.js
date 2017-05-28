@@ -12,11 +12,21 @@ exec('node ./node_modules/meteor-build-client/main.js ./temp -p /fgo-simulator/'
     if (err) {
       return console.error(err);
     }
-    const rimraf = require('rimraf');
-    rimraf(path.join(destination, 'temp'), () => {
-      rimraf(path.join(destination, 'public'), () => {
-        rimraf(path.join(destination, 'client'), () => {
-          console.log('done!');
+
+    const imageFolder = path.join(destination, 'fgo-simulator');
+    ncp(imageFolder, destination, function(err) {
+      if (err) {
+        return console.error(err);
+      }
+
+      const rimraf = require('rimraf');
+      rimraf(path.join(destination, 'temp'), () => {
+        rimraf(path.join(destination, 'public'), () => {
+          rimraf(path.join(destination, 'client'), () => {
+            rimraf(path.join(destination, 'fgo-simulator'), () => {
+              console.log('done!');
+            });
+          });
         });
       });
     });
