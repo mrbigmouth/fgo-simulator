@@ -5,8 +5,7 @@ import { ReactiveVar } from 'meteor/reactive-var';
 import { BasicModel } from '../utils/BasicModel';
 import { BasicCollection } from '../utils/BasicCollection';
 import { useServantCollection } from '../servant/useServantModel';
-import { combatResultCollection } from '../combat/combatResultModel';
-import { rSelectedCardList } from './cardsSelector';
+import { combatResultCollection, CombatResultModel } from '../combat/combatResultModel';
 
 export class CardModel extends BasicModel {
   get collection() {
@@ -93,7 +92,41 @@ Tracker.autorun(function() {
   });
   useCardCollection.reset(useCardList);
   rSelectableCardOffset.set(0);
+});
+
+//auto compute shouldDisplayCardList
+export const rShouldDisplayCardList = new ReactiveVar([]);
+Tracker.autorun(function() {
+  const start = rSelectableCardOffset.get();
+  const end = start + 5;
+  const shouldDisplayCardList = useCardCollection.slice(start, end);
+
+  if (rShouldDisplayCardList.get().join(',') !== shouldDisplayCardList.join(',')) {
+    rShouldDisplayCardList.set(shouldDisplayCardList);
+  }
+});
+
+//auto clean selected card list
+export const rSelectedCardList = new ReactiveVar([]);
+Tracker.autorun(function() {
+  rShouldDisplayCardList.get();
   rSelectedCardList.set([]);
-  //清除目前顯示的戰鬥結果
-  combatResultCollection.reset([]);
+});
+
+//auto compute combat result while selected 3 card
+Tracker.autorun(function() {
+  const selectedCardList = rSelectedCardList.get();
+  //若已選滿三張卡片，則顯示當前選擇所產生的戰鬥結果
+  if (_.compact(selectedCardList).length >= 3) {
+    const combatResultData = new CombatResultModel({
+      id: 0,
+      cardList: selectedCardList
+    });
+    combatResultData.computeResult();
+    combatResultCollection.reset([combatResultData]);
+  }
+  //否則清除目前顯示的戰鬥結果
+  else {
+    combatResultCollection.reset([]);
+  }
 });

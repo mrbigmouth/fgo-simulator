@@ -2,12 +2,10 @@ import { $ } from 'meteor/jquery';
 import { _ } from 'meteor/underscore';
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
-import { CardModel, useCardCollection, rSelectableCardOffset } from './cardModel';
+import { CardModel, useCardCollection, rSelectableCardOffset, rShouldDisplayCardList, rSelectedCardList } from './cardModel';
 import { useServantCollection } from '../servant/useServantModel';
 import { rInSortCardMode } from './useCardSetting';
-import { combatResultCollection, CombatResultModel } from '../combat/combatResultModel';
 
-export const rSelectedCardList = new ReactiveVar([]);
 function handleSelectCard(event, templateInstance) {
   const selectedCardList = _.clone(rSelectedCardList.get());
   const cardData = templateInstance.data;
@@ -27,26 +25,10 @@ function handleSelectCard(event, templateInstance) {
     }
     rSelectedCardList.set(selectedCardList);
   }
-  //若已選滿三張卡片，則顯示當前選擇所產生的戰鬥結果
-  if (_.compact(selectedCardList).length >= 3) {
-    const combatResultData = new CombatResultModel({
-      id: 0,
-      cardList: selectedCardList
-    });
-    combatResultData.computeResult();
-    combatResultCollection.reset([combatResultData]);
-  }
-  //否則清除目前顯示的戰鬥結果
-  else {
-    combatResultCollection.reset([]);
-  }
 }
 function washCards() {
   const washedCardList = _.shuffle(useCardCollection.toArray());
   useCardCollection.reset(washedCardList);
-  rSelectedCardList.set([]);
-  //清除目前顯示的戰鬥結果
-  combatResultCollection.reset([]);
   useCardCollection.each((cardData) => {
     cardData.sequence = 0;
   });
@@ -54,10 +36,7 @@ function washCards() {
 
 Template.cardsSelector.helpers({
   shouldDisplayCardSelector() {
-    const start = rSelectableCardOffset.get();
-    const end = start + 5;
-
-    return useCardCollection.slice(start, end);
+    return rShouldDisplayCardList.get();
   },
   getSelectableCardOffsetDescription() {
     const selectableCardOffset = rSelectableCardOffset.get();
