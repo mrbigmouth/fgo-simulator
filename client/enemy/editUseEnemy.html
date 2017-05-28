@@ -5,22 +5,25 @@
     </h2>
     <div class="card-block fullscreen-body">
       {{#with model}}
+        <div class="text-right">
+          <div class="button-group">
+            <a class="btn btn-info" href="/fgo-simulator/selectUseEnemy/{{id}}">
+              套用一般怪物模版
+            </a>
+            <a class="btn btn-info" href="/fgo-simulator/selectServantForUseEnemy/{{id}}">
+              套用英靈模版
+            </a>
+          </div>
+        </div>
         <!-- nickname -->
         <div class="form-group">
           <label for="nickname">敵方名稱：</label>
-          <div class="input-group">
-            <input
-              class="form-control"
-              type="text"
-              name="nickname"
-              value="{{nickname}}"
-            />
-            <span class="input-group-btn">
-              <a class="btn btn-info" href="/fgo-simulator/selectUseEnemy/{{id}}">
-                套用模版
-              </a>
-            </span>
-          </div>
+          <input
+            class="form-control"
+            type="text"
+            name="nickname"
+            value="{{nickname}}"
+          />
         </div>
         <!-- classType -->
         <div class="form-group">

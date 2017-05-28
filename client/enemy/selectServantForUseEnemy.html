@@ -1,0 +1,47 @@
+<template name="selectServantForUseEnemy">
+  <div class="card fullscreen">
+    <h2 class="card-header fullscreen-header">
+      可選擇英靈列表
+    </h2>
+    <div class="fullscreen-body">
+      <div class="card-block px-0 py-0">
+        <div class="form-group mb-0">
+          <div class="input-group">
+            <span class="input-group-addon">篩選職階</span>
+            <select class="form-control" name="classType">
+              <option value="">顯示全部職階英靈</option>
+              {{#each classKey in servantClassKeyList}}
+                <option value="{{classKey}}">{{getServantClassDescription classKey}}</option>
+              {{/each}}
+            </select>
+          </div>
+        </div>
+      </div>
+      <ul class="list-group list-group-flush">     
+        {{#each servantData in displayOptionList}}
+          <li class="list-group-item">
+            <a
+              class="col d-block text-truncate"
+              href="#"
+              data-option-id="{{servantData.id}}"
+            >
+              {{servantData.fullname}}
+            </a>
+          </li>
+        {{else}}
+          <div class="list-group-item">
+            沒有任何符合的英靈資料！
+          </div>
+        {{/each}}
+      </ul>
+    </div>
+    <div class="card-footer fullscreen-footer text-right">
+      <a
+        class="btn btn-secondary"
+        href="/fgo-simulator/editUseServant/{{model.id}}"
+      >
+        取消
+      </a>
+    </div>
+  </div>
+</template>

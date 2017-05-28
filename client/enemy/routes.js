@@ -3,6 +3,7 @@ import { FlowRouter } from 'meteor/kadira:flow-router';
 import { rFullscreenTemplate, rFullscreenData } from '../utils/fullscreen/fullscreen';
 import { useEnemyCollection } from './useEnemyModel';
 import { enemyCollection } from './enemyModel';
+import { servantConfigList } from '../config/servantConfigList';
 
 FlowRouter.route('/fgo-simulator/editUseEnemy/:useEnemyId', {
   name: 'editUseEnemy',
@@ -43,6 +44,22 @@ FlowRouter.route('/fgo-simulator/selectUseEnemy/:useEnemyId', {
     }
     rFullscreenData.set(fullscreenData);
     rFullscreenTemplate.set('selectUseEnemy');
+  }
+});
+FlowRouter.route('/fgo-simulator/selectServantForUseEnemy/:useEnemyId', {
+  name: 'selectServantForUseEnemy',
+  action(params) {
+    const fullscreenData = _.clone(rFullscreenData.get());
+    fullscreenData.optionList = servantConfigList;
+
+    const useEnemyId = params.useEnemyId;
+    const alreadyCloneUseServantData = fullscreenData && fullscreenData.model && fullscreenData.model.id === useEnemyId;
+    if (! alreadyCloneUseServantData) {
+      const useEnemyData = useEnemyCollection.get(useEnemyId);
+      fullscreenData.model = useEnemyData.clone();
+    }
+    rFullscreenData.set(fullscreenData);
+    rFullscreenTemplate.set('selectServantForUseEnemy');
   }
 });
 FlowRouter.route('/fgo-simulator/editTemporaryDebuff/:useEnemyId', {
