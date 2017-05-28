@@ -103,6 +103,11 @@ export class BasicCollection {
     return this.__reactiveVar.get();
   }
   //underscore methods
+  map(iteratee, context) {
+    const dataList = this.__reactiveVar.get();
+
+    return _.map(dataList, iteratee, context);
+  }
   each(iteratee, context) {
     const dataList = this.__reactiveVar.get();
 
