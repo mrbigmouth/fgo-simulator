@@ -15,7 +15,8 @@ const events = {
   'click [data-option-id]'(event, templateInstance) {
     event.preventDefault();
     const id = $(event.currentTarget).attr('data-option-id');
-    const selectedData = _.findWhere(templateInstance.data.optionList, {id});
+    const displayOptionList = templateInstance.rDisplayOptionList.get();
+    const selectedData = _.findWhere(displayOptionList, {id});
     templateInstance.selectHandler(selectedData, templateInstance);
   }
 };
