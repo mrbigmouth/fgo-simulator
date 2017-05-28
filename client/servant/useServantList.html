@@ -1,6 +1,11 @@
 <template name="useServantList">
   <div class="mt-2 pr-1" style="min-width: 50%;">
-    <h5 class="mb-0">我方隊列：</h5>
+    <h5 class="mb-0">
+      我方隊列：
+      <a class="float-right" href="/fgo-simulator/manageParty">
+        <small>儲存管理</small>
+      </a>
+    </h5>
     <div class="cardList">
       {{> useServantInfo '1'}}
       {{> useServantInfo '2'}}
@@ -12,7 +17,9 @@
 <template name="useServantInfo">
   <div class="card-main">
     {{#with useServantData this}}
-      <img class="icon" src="/{{this.classType}}.png" />
+      {{#if this.classType}}
+        <img class="icon" src="/{{this.classType}}.png" />
+      {{/if}}
       <a class="mainLink text-muted text-truncate" href="/fgo-simulator/editUseServant/{{id}}">
         {{name}}
       </a>
