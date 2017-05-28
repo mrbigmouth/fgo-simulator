@@ -18,7 +18,7 @@
   <div class="card-main">
     {{#with useServantData this}}
       {{#if this.classType}}
-        <img class="icon" src="/{{this.classType}}.png" />
+        <img class="icon" src="{{this.classType}}.png" />
       {{/if}}
       <a class="mainLink text-muted text-truncate" href="/fgo-simulator/editUseServant/{{id}}">
         {{name}}
@@ -44,7 +44,7 @@
           無暫時性Buff
         {{else}}
           {{#each buff in temporaryBuff}}
-            <img class="buffIcon" src="/{{buff.name}}.png" title="{{getBuffDescription buff.name}}" />
+            <img class="buffIcon" src="{{buff.name}}.png" title="{{getBuffDescription buff.name}}" />
           {{/each}}
         {{/if}}
       </a>
