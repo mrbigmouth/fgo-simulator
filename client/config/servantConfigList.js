@@ -6055,7 +6055,7 @@ export const servantConfigList = [
       },
       {
         cardType: 'quick',
-        name: 'この世ならざる幻馬(未開放)',
+        name: 'この世ならざる幻馬(強化クエスト アストルフォ)',
         specialBoost: [
           {
             limitTarget: 'ignoreDefense'
@@ -6657,7 +6657,7 @@ export const servantConfigList = [
       },
       {
         cardType: 'buster',
-        name: '愛しき私の鉄戦車(未開放)',
+        name: '愛しき私の鉄戦車(強化クエスト メイヴ)',
         specialBoost: [
           {
             limitTarget: '男性',
@@ -10454,7 +10454,7 @@ export const servantConfigList = [
       },
       {
         cardType: 'buster',
-        name: '死は明日への希望なり(未開放)',
+        name: '死は明日への希望なり(強化クエスト サンソン 2)',
         specialBoost: [],
         effectList: [
           {
