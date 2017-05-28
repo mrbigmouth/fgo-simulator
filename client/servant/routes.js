@@ -3,6 +3,7 @@ import { FlowRouter } from 'meteor/kadira:flow-router';
 import { rFullscreenTemplate, rFullscreenData } from '../utils/fullscreen/fullscreen';
 import { useServantCollection } from './useServantModel';
 import { servantCollection } from './servantModel';
+import { partyCollection } from './partyModel';
 
 FlowRouter.route('/fgo-simulator/editUseServant/:useServantId', {
   name: 'editUseServant',
@@ -60,6 +61,12 @@ FlowRouter.route('/fgo-simulator/editTemporaryBuff/:useServantId', {
       });
     }
     rFullscreenTemplate.set('editTemporaryBuff');
+  }
+});
+FlowRouter.route('/fgo-simulator/manageParty', {
+  name: 'manageParty',
+  action(params) {
+    rFullscreenTemplate.set('manageParty');
   }
 });
 
