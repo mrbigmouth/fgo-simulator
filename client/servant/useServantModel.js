@@ -102,22 +102,15 @@ export class UseServantModel extends BasicModel {
     return servantData ? servantData.fullname : '空缺';
   }
   get maximumNp() {
-    const servantData = this.servantData;
-
-    if (servantData) {
-      const weaponLevel = servantData.weaponLevel;
-      if (weaponLevel >= 5) {
-        return 300;
-      }
-      else if (weaponLevel >= 2) {
-        return 200;
-      }
-      else {
-        return 100;
-      }
+    const weaponLevel = this.weaponLevel;
+    if (weaponLevel >= 5) {
+      return 300;
+    }
+    else if (weaponLevel >= 2) {
+      return 200;
     }
     else {
-      return null;
+      return 100;
     }
   }
   get buffHash() {
