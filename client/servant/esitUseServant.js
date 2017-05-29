@@ -257,10 +257,14 @@ Template.editUseServant.helpers({
 });
 
 //on input change
-const exceptionalInputNameList = ['temporaryBuff', 'limitTarget'];
 function changeHandler(event, templateInstance) {
   event.stopPropagation();
-  if (! _.contains(exceptionalInputNameList, event.currentTarget.name)) {
+  const emitter = event.currentTarget;
+  if (emitter.name === 'useWeaponIndex') {
+    const value = parseFloat($(emitter).val());
+    templateInstance.data.model.useWeaponIndex = value;
+  }
+  else {    
     inheritChangeHandler(event, templateInstance);
   }
 }
