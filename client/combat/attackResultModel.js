@@ -487,7 +487,7 @@ class PossibleResult extends BasicModel {
                 cardData: cardData,
                 enemyData: enemyData,
                 servantNp: servantNpHash[servantId],
-                enemyHp: enemyHpHash[enemyData.id],
+                enemyHp: enemyHpHash[enemyId],
                 buffHash: buffHash,
                 weaponBoost: weaponBoost,
                 numbers: {
@@ -515,6 +515,7 @@ class PossibleResult extends BasicModel {
             numbers.gainNp.cardBuff = cardBuffNumber;
             numbers.starDrop.cardBuff = cardBuffNumber;
             const possibleAttackSingleResultData = new AttackSingleEnemyResultModel({
+              id: enemyId,
               resultType: resultType,
               chainBoost: '',
               cardData: cardData,
@@ -570,6 +571,7 @@ class PossibleResult extends BasicModel {
       numbers.starDrop.firstCard = this.getFirstCardStarDropNumber(firstCardType);
       numbers.starDrop.cardBuff = cardBuffNumber;
       const possibleAttackSingleResultData = new AttackSingleEnemyResultModel({
+        id: enemyId,
         resultType: resultType,
         chainBoost: this.chainBoost,
         cardData: cardData,

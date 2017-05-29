@@ -7,6 +7,7 @@ import { UseEnemyModel } from '../enemy/useEnemyModel';
 export class AttackSingleEnemyResultModel extends BasicModel {
   get schema() {
     return {
+      id: String,
       resultType: new Match.OneOf('expect', 'best', 'worst'),
       chainBoost: new Match.OneOf('', 'arts', 'buster', 'quick'),
       cardData: CardModel,
@@ -135,6 +136,7 @@ export class AttackSingleEnemyResultModel extends BasicModel {
   }
   get defaults() {
     return {
+      id: '',
       result: {}
     };
   }
