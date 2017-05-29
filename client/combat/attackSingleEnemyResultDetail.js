@@ -128,11 +128,11 @@ Template.attackSingleEnemyResultDetail.helpers({
             _.each(buffNumber, (specialBoost) => {
               if (specialBoost.limitTarget) {
                 if (_.contains(enemySpecialAttributeList, specialBoost.limitTarget)) {
-                  buffDescriptionList.push('被攻擊者額外得到「' + specialAttribute + '」特性');
+                  buffDescriptionList.push('攻擊者得到' + specialBoost.number + '%特攻加成');
                 }
               }
               else {
-                buffDescriptionList.push('攻擊者得到' + buffNumber + '%特攻加成');
+                buffDescriptionList.push('攻擊者得到' + specialBoost.number + '%特攻加成');
               }
             });
             break;

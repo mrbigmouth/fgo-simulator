@@ -207,11 +207,15 @@ export class CombatResultModel extends BasicModel {
         _.each(possibleResult.enemyHpHash, (enemyHp, enemyId) => {
           enemyHpHash[resultType][enemyId] = enemyHp;
         });
-        _.each(possibleResult.interimServantBuffHash, (buffNumber, buffKey) => {
-          interimServantBuffHash[resultType][buffKey] = buffNumber;
+        _.each(possibleResult.interimServantBuffHash, (buffHash, servantId) => {
+          _.each(buffHash, (buffNumber, buffKey) => {
+            interimServantBuffHash[resultType][servantId][buffKey] = buffNumber;
+          });
         });
-        _.each(possibleResult.interimEnemyDebuffHash, (debuffNumber, debuffKey) => {
-          interimEnemyDebuffHash[resultType][debuffKey] = debuffNumber;
+        _.each(possibleResult.interimEnemyDebuffHash, (debuffHash, enemyId) => {
+          _.each(debuffHash, (debuffNumber, debuffKey) => {
+            interimEnemyDebuffHash[resultType][enemyId][debuffKey] = debuffNumber;
+          });
         });
 
         result.damage[resultType] += possibleResult.damage;

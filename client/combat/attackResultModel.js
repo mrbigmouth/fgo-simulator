@@ -466,14 +466,23 @@ class PossibleResult extends BasicModel {
             result.interimEnemyDebuffHash[enemyId].addSpecialAttribute += effectNumber;
             break;
           }
+          case 'attackSelfSpecialBoost': {
+            const specialBoost = _.clone(result.interimServantBuffHash[servantId].specialBoost);
+            specialBoost.push({
+              limitTarget: effect.limitTarget,
+              number: effectNumber
+            });
+            result.interimServantBuffHash[servantId].specialBoost = specialBoost;
+            break;
+          }
           case 'attackAll': {
             useEnemyCollection.each((enemyData) => {
               const enemyId = enemyData.id;
               const buffHash = this.computeBuffHash({
                 servantBuffHash: useServantData.buffHash,
                 enemyDebuffHash: enemyData.debuffHash,
-                interimServantBuffHash: interimServantBuffHash[servantId],
-                interimEnemyDebuffHash: interimEnemyDebuffHash[enemyId]
+                interimServantBuffHash: result.interimServantBuffHash[servantId],
+                interimEnemyDebuffHash: result.interimEnemyDebuffHash[enemyId]
               });
               numbers.damage.weaponMultiper = effectNumber / 100;
               const cardBuffNumber = this.getCardBuffNumber(cardType, buffHash);
@@ -506,8 +515,8 @@ class PossibleResult extends BasicModel {
             const buffHash = this.computeBuffHash({
               servantBuffHash: useServantData.buffHash,
               enemyDebuffHash: enemyData.debuffHash,
-              interimServantBuffHash: interimServantBuffHash[servantId],
-              interimEnemyDebuffHash: interimEnemyDebuffHash[enemyId]
+              interimServantBuffHash: result.interimServantBuffHash[servantId],
+              interimEnemyDebuffHash: result.interimEnemyDebuffHash[enemyId]
             });
             numbers.damage.weaponMultiper = effectNumber / 100;
             const cardBuffNumber = this.getCardBuffNumber(cardType, buffHash);

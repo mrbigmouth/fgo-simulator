@@ -713,7 +713,7 @@ export class AttackSingleEnemyResultModel extends BasicModel {
       return 1 + (specialBoostNumber / 100) + (criticalBuffNumber / 100);
     }
     else {
-      return 1;
+      return 1 + (specialBoostNumber / 100);
     }
   }
   // 寶具特攻
