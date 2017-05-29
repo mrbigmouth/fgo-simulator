@@ -100,8 +100,14 @@ Tracker.autorun(function() {
   const start = rSelectableCardOffset.get();
   const end = start + 5;
   const shouldDisplayCardList = useCardCollection.slice(start, end);
+  const newCompareString = _.reduce(shouldDisplayCardList, (newCompareString, cardData) => {
+    return newCompareString + cardData.useServantId + cardData.type;
+  }, '');
+  const oldCompareString = _.reduce(rShouldDisplayCardList.get(), (oldCompareString, cardData) => {
+    return oldCompareString + cardData.useServantId + cardData.type;
+  }, '')
 
-  if (rShouldDisplayCardList.get().join(',') !== shouldDisplayCardList.join(',')) {
+  if (newCompareString !== oldCompareString) {
     rShouldDisplayCardList.set(shouldDisplayCardList);
   }
 });
