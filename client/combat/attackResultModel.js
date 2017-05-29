@@ -264,6 +264,8 @@ class PossibleResult extends BasicModel {
       numbers.gainNp.firstCard = 0;
       numbers.gainNp.cardSequence = 1;
       numbers.starDrop.firstCard = 0;
+      //寶具資料
+      const weapon = useServantData.weapon;
       //計算寶具level等級
       const weaponLevel = useServantData.weaponLevel;
       //計算寶具charge等級
@@ -271,10 +273,22 @@ class PossibleResult extends BasicModel {
       //使用寶具會令攻擊者np歸0
       result.gainNpHash[servantId] = servantNpHash[servantId] * -1;
       servantNpHash[servantId] = 0;
-      //取得寶具特攻列表
-      const weaponBoost = useServantData.weapon.specialBoost;
+      //轉換寶具特攻數值
+      const weaponBoost = _.map(weapon.specialBoost, (boost) => {
+        boost = _.clone(boost);
+        if (_.isArray(boost.number)) {
+          if (boost.useNumberBy === 'level') {
+            boost.number = boost.number[weaponLevel];
+          }
+          else {
+            boost.number = boost.number[weaponChargeLevel];
+          }
+        }
+
+        return boost;
+      });
       //計算寶具效應
-      _.each(useServantData.weapon.effectList, (effect) => {
+      _.each(weapon.effectList, (effect) => {
         //取得效應數值
         let effectNumber;
         if (_.isArray(effect.number)) {
