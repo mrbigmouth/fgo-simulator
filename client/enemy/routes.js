@@ -1,7 +1,7 @@
 import { _ } from 'meteor/underscore';
 import { FlowRouter } from 'meteor/kadira:flow-router';
 import { rFullscreenTemplate, rFullscreenData } from '../utils/fullscreen/fullscreen';
-import { useEnemyCollection } from './useEnemyModel';
+import { UseEnemyModel, useEnemyCollection } from './useEnemyModel';
 import { enemyCollection } from './enemyModel';
 import { servantConfigList } from '../config/servantConfigList';
 
@@ -10,10 +10,11 @@ FlowRouter.route('/fgo-simulator/editUseEnemy/:useEnemyId', {
   action(params) {
     const useEnemyId = params.useEnemyId;
     const title = '編輯敵方隊列(' + useEnemyId + ')';
-    const formData = rFullscreenData.get();
-    const alreadyCloneUseEnemyData = formData && formData.model && formData.model.id === useEnemyId;
+    const fullscreenData = rFullscreenData.get();
+    const model = fullscreenData.model;
+    const alreadyCloneUseEnemyData = fullscreenData && model && model instanceof UseEnemyModel && model.id === useEnemyId;
     if (alreadyCloneUseEnemyData) {
-      const useEnemyData = formData.model;
+      const useEnemyData = fullscreenData.model;
       rFullscreenData.set({
         title: title,
         model: useEnemyData
@@ -37,7 +38,8 @@ FlowRouter.route('/fgo-simulator/selectUseEnemy/:useEnemyId', {
     fullscreenData.optionList = enemyCollection.toArray();
 
     const useEnemyId = params.useEnemyId;
-    const alreadyCloneUseServantData = fullscreenData && fullscreenData.model && fullscreenData.model.id === useEnemyId;
+    const model = fullscreenData.model;
+    const alreadyCloneUseServantData = fullscreenData && model && model instanceof UseEnemyModel && model.id === useEnemyId;
     if (! alreadyCloneUseServantData) {
       const useEnemyData = useEnemyCollection.get(useEnemyId);
       fullscreenData.model = useEnemyData.clone();
@@ -53,7 +55,8 @@ FlowRouter.route('/fgo-simulator/selectServantForUseEnemy/:useEnemyId', {
     fullscreenData.optionList = servantConfigList;
 
     const useEnemyId = params.useEnemyId;
-    const alreadyCloneUseServantData = fullscreenData && fullscreenData.model && fullscreenData.model.id === useEnemyId;
+    const model = fullscreenData.model;
+    const alreadyCloneUseServantData = fullscreenData && model && model instanceof UseEnemyModel && model.id === useEnemyId;
     if (! alreadyCloneUseServantData) {
       const useEnemyData = useEnemyCollection.get(useEnemyId);
       fullscreenData.model = useEnemyData.clone();
@@ -67,8 +70,9 @@ FlowRouter.route('/fgo-simulator/editTemporaryDebuff/:useEnemyId', {
   action(params) {
     const useEnemyId = params.useEnemyId;
     const title = '編輯暫時性Debuff(' + useEnemyId + ')';
-    const formData = rFullscreenData.get();
-    const alreadyCloneUseServantData = formData && formData.model && formData.model.id === useEnemyId;
+    const fullscreenData = rFullscreenData.get();
+    const model = fullscreenData.model;
+    const alreadyCloneUseServantData = fullscreenData && model && model instanceof UseEnemyModel && model.id === useEnemyId;
     if (! alreadyCloneUseServantData) {
       const useEnemyData = useEnemyCollection.get(useEnemyId);
       rFullscreenData.set({

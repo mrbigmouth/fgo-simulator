@@ -1,7 +1,7 @@
 import { _ } from 'meteor/underscore';
 import { FlowRouter } from 'meteor/kadira:flow-router';
 import { rFullscreenTemplate, rFullscreenData } from '../utils/fullscreen/fullscreen';
-import { useServantCollection } from './useServantModel';
+import { UseServantModel, useServantCollection } from './useServantModel';
 import { servantCollection } from './servantModel';
 import { partyCollection } from './partyModel';
 
@@ -10,10 +10,11 @@ FlowRouter.route('/fgo-simulator/editUseServant/:useServantId', {
   action(params) {
     const useServantId = params.useServantId;
     const title = '編輯我方隊列(' + useServantId + ')';
-    const formData = rFullscreenData.get();
-    const alreadyCloneUseServantData = formData && formData.model && formData.model.id === useServantId;
+    const fullscreenData = rFullscreenData.get();
+    const model = fullscreenData.model;
+    const alreadyCloneUseServantData = fullscreenData && model && model instanceof UseServantModel && model.id === useServantId;
     if (alreadyCloneUseServantData) {
-      const useServantData = formData.model;
+      const useServantData = fullscreenData.model;
       rFullscreenData.set({
         title: title,
         model: useServantData
@@ -37,7 +38,8 @@ FlowRouter.route('/fgo-simulator/selectUseServant/:useServantId', {
     fullscreenData.optionList = servantCollection.toArray();
 
     const useServantId = params.useServantId;
-    const alreadyCloneUseServantData = fullscreenData && fullscreenData.model && fullscreenData.model.id === useServantId;
+    const model = fullscreenData.model;
+    const alreadyCloneUseServantData = fullscreenData && model && model instanceof UseServantModel && model.id === useServantId;
     if (! alreadyCloneUseServantData) {
       const useServantData = useServantCollection.get(useServantId);
       fullscreenData.model = useServantData.clone();
@@ -51,8 +53,9 @@ FlowRouter.route('/fgo-simulator/editTemporaryBuff/:useServantId', {
   action(params) {
     const useServantId = params.useServantId;
     const title = '編輯暫時性Buff(' + useServantId + ')';
-    const formData = rFullscreenData.get();
-    const alreadyCloneUseServantData = formData && formData.model && formData.model.id === useServantId;
+    const fullscreenData = rFullscreenData.get();
+    const model = fullscreenData.model;
+    const alreadyCloneUseServantData = fullscreenData && model && model instanceof UseServantModel && model.id === useServantId;
     if (! alreadyCloneUseServantData) {
       const useServantData = useServantCollection.get(useServantId);
       rFullscreenData.set({
