@@ -33,7 +33,7 @@ export class UseEnemyModel extends BasicModel {
   get defaults() {
     return {
       nickname: '',
-      currentHp: 0,
+      currentHp: 1000000,
       classType: allowServantClassKeyList[0],
       alignmentType: allowServantAlignmentKeyList[0],
       specialAttributeList: [],
