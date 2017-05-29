@@ -834,12 +834,12 @@ export class AttackSingleEnemyResultModel extends BasicModel {
       }
     }
   }
-  // (1+星掉落率 Buff)
+  // 星掉落率 Buff
   getStarDropBuffNumber(buffHash) {
     const starDropBuff = buffHash.addStarDrop;
     const result = starDropBuff / 100;
 
-    return 1 + result;
+    return result;
   }
   // 暴擊補正
   getCriticalStarDropNumber(star, resultType) {
