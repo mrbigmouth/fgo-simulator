@@ -87,13 +87,13 @@ export class UseServantModel extends BasicModel {
   }
   //compute data
   get name() {
-    const servantData = this.servantData;
-
-    if (servantData) {
-      return servantData.nickname || servantData.fullname;
+    if (this.nickname) {
+      return this.nickname;
     }
     else {
-      return '空缺';
+      const servantData = this.servantData;
+
+      return servantData ? servantData.fullname : '空缺';
     }
   }
   get fullname() {
