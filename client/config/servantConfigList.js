@@ -7301,6 +7301,12 @@ export const servantConfigList = [
         name: '解体聖母(ジャック・キルズ・ジャック)',
         specialBoost: [
           {
+            limitTarget: 'ignoreDefense'
+          }
+        ],
+        effectList: [
+          {
+            effectType: 'attackSelfSpecialBoost',
             limitTarget: '女性',
             number: [
               50,
@@ -7308,13 +7314,9 @@ export const servantConfigList = [
               75,
               87.5,
               100
-            ]
+            ],
+            useNumberBy: 'charge'
           },
-          {
-            limitTarget: 'ignoreDefense'
-          }
-        ],
-        effectList: [
           {
             effectType: 'attackOne',
             hits: [
