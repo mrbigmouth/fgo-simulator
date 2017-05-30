@@ -12470,8 +12470,10 @@ export const servantConfigList = [
       {
         cardType: 'buster',
         name: '八幡祈願・大妖射貫(初期)',
-        specialBoost: [
+        specialBoost: [],
+        effectList: [
           {
+            effectType: 'attackSelfSpecialBoost',
             limitTarget: '魔性',
             number: [
               50,
@@ -12479,10 +12481,9 @@ export const servantConfigList = [
               75,
               87.5,
               100
-            ]
-          }
-        ],
-        effectList: [
+            ],
+            useNumberBy: 'charge'
+          },
           {
             effectType: 'attackAll',
             hits: [

@@ -269,7 +269,7 @@ class PossibleResult extends BasicModel {
       //計算寶具level等級
       const weaponLevel = useServantData.weaponLevel;
       //計算寶具charge等級
-      const weaponChargeLevel = Math.floor(servantNpHash[servantId] / 100) + this.weaponChainChargeBoost * 100;
+      const weaponChargeLevel = Math.floor(servantNpHash[servantId] / 100) + this.weaponChainChargeBoost;
       //使用寶具會令攻擊者np歸0
       result.gainNpHash[servantId] = servantNpHash[servantId] * -1;
       servantNpHash[servantId] = 0;
