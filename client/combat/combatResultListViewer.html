@@ -19,7 +19,7 @@
           <tr>
             <th>結果類型</th>
             <th>傷害</th>
-            <th>獲取NP</th>
+            <th>攻擊後NP值</th>
             <th>星掉落</th>
           </tr>
         </thead>
@@ -28,9 +28,9 @@
             <th>期望結果</th>
             <td>{{this.damage.expect}}</td>
             <td>
-              {{this.gainNpHash.expect.servant1}} /
-              {{this.gainNpHash.expect.servant2}} /
-              {{this.gainNpHash.expect.servant3}}
+              {{this.servantNpHash.expect.servant1}} /
+              {{this.servantNpHash.expect.servant2}} /
+              {{this.servantNpHash.expect.servant3}}
             </td>
             <td>{{this.starDrop.expect}}</td>
           </tr>
@@ -38,9 +38,9 @@
             <th>最佳結果</th>
             <td>{{this.damage.best}}</td>
             <td>
-              {{this.gainNpHash.best.servant1}} /
-              {{this.gainNpHash.best.servant2}} /
-              {{this.gainNpHash.best.servant3}}
+              {{this.servantNpHash.best.servant1}} /
+              {{this.servantNpHash.best.servant2}} /
+              {{this.servantNpHash.best.servant3}}
             </td>
             <td>{{this.starDrop.best}}</td>
           </tr>
@@ -48,9 +48,9 @@
             <th>最差結果</th>
             <td>{{this.damage.worst}}</td>
             <td>
-              {{this.gainNpHash.worst.servant1}} /
-              {{this.gainNpHash.worst.servant2}} /
-              {{this.gainNpHash.worst.servant3}}
+              {{this.servantNpHash.worst.servant1}} /
+              {{this.servantNpHash.worst.servant2}} /
+              {{this.servantNpHash.worst.servant3}}
             </td>
             <td>{{this.starDrop.worst}}</td>
           </tr>

@@ -40,6 +40,23 @@ export class CombatResultModel extends BasicModel {
             'servant3': Match.Integer
           }
         },
+        servantNpHash: {
+          expect: {
+            'servant1': Match.Integer,
+            'servant2': Match.Integer,
+            'servant3': Match.Integer
+          },
+          best: {
+            'servant1': Match.Integer,
+            'servant2': Match.Integer,
+            'servant3': Match.Integer
+          },
+          worst: {
+            'servant1': Match.Integer,
+            'servant2': Match.Integer,
+            'servant3': Match.Integer
+          }
+        },
         starDrop: {
           expect: Match.Integer,
           best: Match.Integer,
@@ -58,6 +75,23 @@ export class CombatResultModel extends BasicModel {
           worst: 0
         },
         gainNpHash: {
+          expect: {
+            'servant1': 0,
+            'servant2': 0,
+            'servant3': 0
+          },
+          best: {
+            'servant1': 0,
+            'servant2': 0,
+            'servant3': 0
+          },
+          worst: {
+            'servant1': 0,
+            'servant2': 0,
+            'servant3': 0
+          }
+        },
+        servantNpHash: {
           expect: {
             'servant1': 0,
             'servant2': 0,
@@ -223,6 +257,13 @@ export class CombatResultModel extends BasicModel {
           result.gainNpHash[resultType]['servant' + servantId] += gainNp;
         });
         result.starDrop[resultType] += possibleResult.starDrop;
+      });
+    });
+    result.servantNpHash = {};
+    _.each(servantNpHash, (npHash, resultType) => {
+      result.servantNpHash[resultType] = {};
+      _.each(npHash, (np, servantId) => {
+        result.servantNpHash[resultType]['servant' + servantId] = np;
       });
     });
 
