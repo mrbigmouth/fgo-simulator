@@ -670,10 +670,10 @@ class PossibleResult extends BasicModel {
         return 1;
       }
       case 2: {
-        return 1.5;
+        return 1.2;
       }
       case 3: {
-        return 0.8;
+        return 1.4;
       }
       case 4: {
         return 1;
