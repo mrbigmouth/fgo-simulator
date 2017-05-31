@@ -1,9 +1,8 @@
 import { _ } from 'meteor/underscore';
 import { Tracker } from 'meteor/tracker';
-import { Match } from 'meteor/check';
 import { BasicCollection } from '../utils/BasicCollection';
 import { BasicModel } from '../utils/BasicModel';
-import { UseServantModel } from './useServantModel';
+import { UseServantModel, useServantCollection } from './useServantModel';
 
 export class PartyModel extends BasicModel {
   get collection() {

@@ -1,7 +1,6 @@
 import { $ } from 'meteor/jquery';
 import { _ } from 'meteor/underscore';
 import { Template } from 'meteor/templating';
-import { ReactiveVar } from 'meteor/reactive-var';
 import { CardModel, useCardCollection, rSelectableCardOffset, rShouldDisplayCardList, rSelectedCardList } from './cardModel';
 import { useServantCollection } from '../servant/useServantModel';
 import { rInSortCardMode } from './useCardSetting';

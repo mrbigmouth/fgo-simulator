@@ -105,7 +105,7 @@ Tracker.autorun(function() {
   }, '');
   const oldCompareString = _.reduce(rShouldDisplayCardList.get(), (oldCompareString, cardData) => {
     return oldCompareString + cardData.useServantId + cardData.type;
-  }, '')
+  }, '');
 
   if (newCompareString !== oldCompareString) {
     rShouldDisplayCardList.set(shouldDisplayCardList);

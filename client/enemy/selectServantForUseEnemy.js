@@ -1,3 +1,4 @@
+import { _ } from 'meteor/underscore';
 import { FlowRouter } from 'meteor/kadira:flow-router';
 import { Template } from 'meteor/templating';
 import { servantClassNameHash, allowServantClassKeyList } from '../servant/servantModel';

@@ -264,7 +264,7 @@ function changeHandler(event, templateInstance) {
     const value = parseFloat($(emitter).val());
     templateInstance.data.model.useWeaponIndex = value;
   }
-  else {    
+  else {
     inheritChangeHandler(event, templateInstance);
   }
 }

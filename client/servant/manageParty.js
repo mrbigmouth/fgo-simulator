@@ -1,3 +1,4 @@
+import { $ } from 'meteor/jquery';
 import { FlowRouter } from 'meteor/kadira:flow-router';
 import { Template } from 'meteor/templating';
 import { PartyModel, partyCollection } from './partyModel';
@@ -34,7 +35,7 @@ Template.manageParty.events({
     event.preventDefault();
     handleAddNewParty(templateInstance);
   },
-  'click [data-destroy]'(event, templateInstance) {
+  'click [data-destroy]'(event) {
     event.preventDefault();
     const partyId = $(event.currentTarget).attr('data-destroy');
     const partyData = partyCollection.get(partyId);
@@ -47,7 +48,7 @@ Template.manageParty.events({
   }
 });
 
-function selectHandler(selectedPartyData, templateInstance) {
+function selectHandler(selectedPartyData) {
   if (selectedPartyData) {
     selectedPartyData.lastUseTime = Date.now();
     useServantCollection.reset(selectedPartyData.useServantList);
