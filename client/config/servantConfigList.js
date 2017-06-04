@@ -3568,7 +3568,7 @@ export const servantConfigList = [
               25,
               30
             ],
-            useNumberBy: 'charge'
+            useNumberBy: 'level'
           }
         ]
       },
@@ -3586,7 +3586,7 @@ export const servantConfigList = [
               47.5,
               50
             ],
-            useNumberBy: 'charge'
+            useNumberBy: 'level'
           }
         ]
       }
