@@ -321,6 +321,9 @@ export class AttackSingleEnemyResultModel extends BasicModel {
       gainNpNumbers.overkill *
       gainNpNumbers.enemy
     );
+    //若結果小於0則等於0
+    result.generateNp = Math.max(result.generateNp, 0);
+    //若超出上限則扣除超出部份
     if (result.generateNp + servantNp > maximumNp) {
       result.gainNp = maximumNp - servantNp;
     }
@@ -379,6 +382,8 @@ export class AttackSingleEnemyResultModel extends BasicModel {
       ) *
       1000
     ) / 1000;
+    //若結果小於0則等於0
+    result.starDropPerHit = Math.max(result.starDropPerHit, 0);
     result.starDrop = this.getTotalStarDrop(resultType, result.starDropPerHit, starDropNumbers.hits);
 
     return this;
