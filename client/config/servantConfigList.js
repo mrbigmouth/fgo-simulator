@@ -2097,7 +2097,7 @@ export const servantConfigList = [
               20,
               25
             ],
-            useNumberBy: 'charge'
+            useNumberBy: 'level'
           }
         ]
       }
