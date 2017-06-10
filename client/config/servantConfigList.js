@@ -2503,7 +2503,7 @@ export const servantConfigList = [
       },
       {
         cardType: 'arts',
-        name: '無以誓約的守護車輪(未開放)',
+        name: '無以誓約的守護車輪(強化クエスト ブーディカ 2)',
         specialBoost: [],
         effectList: [
           {
@@ -12385,7 +12385,7 @@ export const servantConfigList = [
       },
       {
         cardType: 'arts',
-        name: '妄想毒身(未開放)',
+        name: '妄想毒身(強化クエスト 静謐のハサン)',
         specialBoost: [],
         effectList: [
           {
