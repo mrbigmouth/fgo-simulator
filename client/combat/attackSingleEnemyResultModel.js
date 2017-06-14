@@ -747,7 +747,7 @@ export class AttackSingleEnemyResultModel extends BasicModel {
         }
       }, 0);
 
-      return 1 + (weaponBoostNumber / 100);
+      return (weaponBoostNumber / 100);
     }
     else {
       return 1;
