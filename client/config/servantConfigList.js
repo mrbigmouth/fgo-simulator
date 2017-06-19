@@ -13426,6 +13426,23 @@ export const servantConfigList = [
             useNumberBy: 'charge'
           },
           {
+            effectType: 'attackOne',
+            hits: [
+              10,
+              20,
+              30,
+              40
+            ],
+            number: [
+              600,
+              800,
+              900,
+              950,
+              1000
+            ],
+            useNumberBy: 'level'
+          },
+          {
             effectType: 'decreaseSelfAttack',
             number: 10
           }
