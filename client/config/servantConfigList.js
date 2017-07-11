@@ -89,7 +89,8 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋',
-      '亞瑟'
+      '亞瑟',
+      '王'
     ],
     starDrop: 10,
     cards: {
@@ -210,7 +211,8 @@ export const servantConfigList = [
       '龍',
       '阿爾托莉亞臉',
       '被「天地乖離開辟之星」所剋',
-      '亞瑟'
+      '亞瑟',
+      '王'
     ],
     starDrop: 9.9,
     cards: {
@@ -299,7 +301,8 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋',
-      '亞瑟'
+      '亞瑟',
+      '王'
     ],
     starDrop: 10,
     cards: {
@@ -384,7 +387,8 @@ export const servantConfigList = [
       '人型',
       '羅馬',
       '阿爾托莉亞臉',
-      '被「天地乖離開辟之星」所剋'
+      '被「天地乖離開辟之星」所剋',
+      '王'
     ],
     starDrop: 10.1,
     cards: {
@@ -517,7 +521,8 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋',
-      '愛人'
+      '愛人',
+      '王'
     ],
     starDrop: 10,
     cards: {
@@ -643,7 +648,8 @@ export const servantConfigList = [
       '神性',
       '羅馬',
       '被「天地乖離開辟之星」所剋',
-      '愛人'
+      '愛人',
+      '王'
     ],
     starDrop: 10,
     cards: {
@@ -744,7 +750,8 @@ export const servantConfigList = [
       '騎乘',
       '人型',
       '神性',
-      '被「天地乖離開辟之星」所剋'
+      '被「天地乖離開辟之星」所剋',
+      '王'
     ],
     starDrop: 10.1,
     cards: {
@@ -1155,7 +1162,8 @@ export const servantConfigList = [
       '神性',
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
-      '被「神秘殺し」所剋'
+      '被「神秘殺し」所剋',
+      '王'
     ],
     starDrop: 7.9,
     cards: {
@@ -2049,7 +2057,8 @@ export const servantConfigList = [
       '中庸',
       '男性',
       '人型',
-      '被「天地乖離開辟之星」所剋'
+      '被「天地乖離開辟之星」所剋',
+      '王'
     ],
     starDrop: 11.8,
     cards: {
@@ -2115,7 +2124,8 @@ export const servantConfigList = [
       '中庸',
       '男性',
       '人型',
-      '羅馬'
+      '羅馬',
+      '王'
     ],
     starDrop: 12.1,
     cards: {
@@ -2461,7 +2471,8 @@ export const servantConfigList = [
       '女性',
       '騎乘',
       '人型',
-      '被「天地乖離開辟之星」所剋'
+      '被「天地乖離開辟之星」所剋',
+      '王'
     ],
     starDrop: 8.9,
     cards: {
@@ -2659,7 +2670,9 @@ export const servantConfigList = [
       '騎乘',
       '人型',
       '神性',
-      '被「天地乖離開辟之星」所剋'
+      '被「天地乖離開辟之星」所剋',
+      '王',
+      '希臘神話系男性'
     ],
     starDrop: 9,
     cards: {
@@ -4400,7 +4413,8 @@ export const servantConfigList = [
       '神性',
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
-      '被「神秘殺し」所剋'
+      '被「神秘殺し」所剋',
+      '希臘神話系男性'
     ],
     starDrop: 5,
     cards: {
@@ -4902,7 +4916,8 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋',
-      '愛人'
+      '愛人',
+      '王'
     ],
     starDrop: 4.9,
     cards: {
@@ -5039,7 +5054,8 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
-      '被「神秘殺し」所剋'
+      '被「神秘殺し」所剋',
+      '希臘神話系男性'
     ],
     starDrop: 4.9,
     cards: {
@@ -5134,7 +5150,8 @@ export const servantConfigList = [
       '男性',
       '人型',
       '羅馬',
-      '被「天地乖離開辟之星」所剋'
+      '被「天地乖離開辟之星」所剋',
+      '王'
     ],
     starDrop: 5,
     cards: {
@@ -5194,7 +5211,8 @@ export const servantConfigList = [
       '中庸',
       '男性',
       '人型',
-      '被「天地乖離開辟之星」所剋'
+      '被「天地乖離開辟之星」所剋',
+      '王'
     ],
     starDrop: 5,
     cards: {
@@ -5662,7 +5680,8 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
-      '被「神秘殺し」所剋'
+      '被「神秘殺し」所剋',
+      '希臘神話系男性'
     ],
     starDrop: 8,
     cards: {
@@ -5952,7 +5971,8 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
-      '被「神秘殺し」所剋'
+      '被「神秘殺し」所剋',
+      '王'
     ],
     starDrop: 8,
     cards: {
@@ -6027,7 +6047,8 @@ export const servantConfigList = [
       '男性',
       '騎乘',
       '人型',
-      '被「天地乖離開辟之星」所剋'
+      '被「天地乖離開辟之星」所剋',
+      '希臘神話系男性'
     ],
     starDrop: 12.2,
     cards: {
@@ -6579,7 +6600,8 @@ export const servantConfigList = [
       '中庸',
       '女性',
       '人型',
-      '被「天地乖離開辟之星」所剋'
+      '被「天地乖離開辟之星」所剋',
+      '王'
     ],
     starDrop: 7.9,
     cards: {
@@ -6680,7 +6702,8 @@ export const servantConfigList = [
       '善',
       '女性',
       '人型',
-      '被「天地乖離開辟之星」所剋'
+      '被「天地乖離開辟之星」所剋',
+      '王'
     ],
     starDrop: 12.2,
     cards: {
@@ -6890,7 +6913,8 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋',
-      '愛人'
+      '愛人',
+      '王'
     ],
     starDrop: 10,
     cards: {
@@ -7019,7 +7043,8 @@ export const servantConfigList = [
       '龍',
       '阿爾托莉亞臉',
       '被「天地乖離開辟之星」所剋',
-      '亞瑟'
+      '亞瑟',
+      '王'
     ],
     starDrop: 8.9,
     cards: {
@@ -7638,7 +7663,8 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋',
-      '亞瑟'
+      '亞瑟',
+      '王'
     ],
     starDrop: 11.8,
     cards: {
@@ -8427,7 +8453,8 @@ export const servantConfigList = [
       '人型',
       '龍',
       '阿爾托莉亞臉',
-      '亞瑟'
+      '亞瑟',
+      '王'
     ],
     starDrop: 25.6,
     cards: {
@@ -8823,7 +8850,8 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋',
-      '愛人'
+      '愛人',
+      '王'
     ],
     starDrop: 4.9,
     cards: {
@@ -8947,7 +8975,8 @@ export const servantConfigList = [
       '人型',
       '羅馬',
       '阿爾托莉亞臉',
-      '被「天地乖離開辟之星」所剋'
+      '被「天地乖離開辟之星」所剋',
+      '王'
     ],
     starDrop: 10.1,
     cards: {
@@ -9491,7 +9520,8 @@ export const servantConfigList = [
       '神性',
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
-      '被「神秘殺し」所剋'
+      '被「神秘殺し」所剋',
+      '王'
     ],
     starDrop: 7.9,
     cards: {
@@ -9889,7 +9919,8 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
-      '被「神秘殺し」所剋'
+      '被「神秘殺し」所剋',
+      '王'
     ],
     starDrop: 9,
     cards: {
@@ -10155,7 +10186,8 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋',
-      '愛人'
+      '愛人',
+      '王'
     ],
     starDrop: 10.2,
     cards: {
@@ -10468,6 +10500,27 @@ export const servantConfigList = [
             useNumberBy: 'level'
           }
         ]
+      },
+      {
+        cardType: 'arts',
+        name: '大地を創りし者(ジェロニモ・イン・ロンドン)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'attackAll',
+            hits: [
+              100
+            ],
+            number: [
+              600,
+              750,
+              825,
+              862.5,
+              900
+            ],
+            useNumberBy: 'level'
+          }
+        ]
       }
     ],
     passiveBuff: [
@@ -10753,7 +10806,9 @@ export const servantConfigList = [
       '人型',
       '神性',
       '被「天地乖離開辟之星」所剋',
-      '愛人'
+      '愛人',
+      '王',
+      '希臘神話系男性'
     ],
     starDrop: 8.8,
     cards: {
@@ -11734,7 +11789,8 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋',
-      '愛人'
+      '愛人',
+      '王'
     ],
     starDrop: 9,
     cards: {
@@ -11839,7 +11895,8 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋',
-      '亞瑟'
+      '亞瑟',
+      '王'
     ],
     starDrop: 12.2,
     cards: {
@@ -11931,7 +11988,8 @@ export const servantConfigList = [
       '神性',
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
-      '被「神秘殺し」所剋'
+      '被「神秘殺し」所剋',
+      '王'
     ],
     starDrop: 10.8,
     cards: {
@@ -12817,7 +12875,8 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋',
-      '亞瑟'
+      '亞瑟',
+      '王'
     ],
     starDrop: 8,
     cards: {
@@ -13102,7 +13161,8 @@ export const servantConfigList = [
       '善',
       '女性',
       '人型',
-      '被「天地乖離開辟之星」所剋'
+      '被「天地乖離開辟之星」所剋',
+      '王'
     ],
     starDrop: 25.6,
     cards: {
@@ -13644,7 +13704,8 @@ export const servantConfigList = [
       '女性',
       '人型',
       '神性',
-      '被「天地乖離開辟之星」所剋'
+      '被「天地乖離開辟之星」所剋',
+      '王'
     ],
     starDrop: 25.5,
     cards: {
@@ -13746,7 +13807,8 @@ export const servantConfigList = [
       '人型',
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
-      '被「神秘殺し」所剋'
+      '被「神秘殺し」所剋',
+      '王'
     ],
     starDrop: 11.6,
     cards: {
@@ -14124,7 +14186,8 @@ export const servantConfigList = [
       '神性',
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋',
-      '被「神秘殺し」所剋'
+      '被「神秘殺し」所剋',
+      '王'
     ],
     starDrop: 9,
     cards: {
@@ -14209,7 +14272,8 @@ export const servantConfigList = [
       '人型',
       '神性',
       '被「天地乖離開辟之星」所剋',
-      '愛人'
+      '愛人',
+      '王'
     ],
     starDrop: 10.9,
     cards: {
@@ -14710,7 +14774,8 @@ export const servantConfigList = [
       '混沌',
       '惡',
       '無性',
-      '人型'
+      '人型',
+      '王'
     ],
     starDrop: 0,
     cards: {
@@ -15061,7 +15126,8 @@ export const servantConfigList = [
       '人型',
       '龍',
       '阿爾托莉亞臉',
-      '亞瑟'
+      '亞瑟',
+      '王'
     ],
     starDrop: 5,
     cards: {
@@ -15554,7 +15620,8 @@ export const servantConfigList = [
       '被「人類神話・雷電降臨」所剋',
       '被「神秘殺し」所剋',
       '亞瑟',
-      '愛人'
+      '愛人',
+      '王'
     ],
     starDrop: 10,
     cards: {
@@ -16229,7 +16296,7 @@ export const servantConfigList = [
     },
     hits: {
       arts: [
-        6,
+        16,
         33,
         51
       ],
@@ -16294,6 +16361,382 @@ export const servantConfigList = [
         name: 'specialBoost',
         limitTarget: 'ruler',
         number: 150
+      }
+    ]
+  },
+  {
+    id: '169',
+    fullname: '山魯佐德',
+    classType: 'caster',
+    alignmentType: 'human',
+    specialAttributeList: [
+      'Servant',
+      '秩序',
+      '中庸',
+      '女性',
+      '人型',
+      '被「天地乖離開辟之星」所剋'
+    ],
+    starDrop: 10.8,
+    cards: {
+      arts: 3,
+      buster: 1,
+      quick: 1
+    },
+    hits: {
+      arts: [
+        16,
+        33,
+        51
+      ],
+      buster: [
+        10,
+        20,
+        30,
+        40
+      ],
+      quick: [
+        10,
+        20,
+        30,
+        40
+      ],
+      extra: [
+        10,
+        20,
+        30,
+        40
+      ]
+    },
+    npGain: {
+      arts: 0.51,
+      buster: 0.51,
+      quick: 0.51,
+      extra: 0.51,
+      weapon: 0.51
+    },
+    weaponList: [
+      {
+        cardType: 'arts',
+        name: '千夜一夜物語(初期)',
+        specialBoost: [
+          {
+            limitTarget: '王',
+            number: [
+              200,
+              250,
+              275,
+              287.5,
+              300
+            ]
+          }
+        ],
+        effectList: [
+          {
+            effectType: 'addSelfWeapon',
+            number: 20
+          },
+          {
+            effectType: 'attackAll',
+            hits: [
+              6,
+              13,
+              20,
+              26,
+              35
+            ],
+            number: [
+              450,
+              600,
+              675,
+              712.5,
+              750
+            ],
+            useNumberBy: 'level'
+          }
+        ]
+      }
+    ],
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 11.5
+      }
+    ]
+  },
+  {
+    id: '170',
+    fullname: '武則天',
+    classType: 'assassin',
+    alignmentType: 'human',
+    specialAttributeList: [
+      'Servant',
+      '秩序',
+      '惡',
+      '女性',
+      '人型',
+      '被「天地乖離開辟之星」所剋',
+      '王'
+    ],
+    starDrop: 25.5,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
+    },
+    hits: {
+      arts: [
+        16,
+        33,
+        51
+      ],
+      buster: [
+        16,
+        33,
+        51
+      ],
+      quick: [
+        16,
+        33,
+        51
+      ],
+      extra: [
+        16,
+        33,
+        51
+      ]
+    },
+    npGain: {
+      arts: 0.87,
+      buster: 0.87,
+      quick: 0.87,
+      extra: 0.87,
+      weapon: 0.87
+    },
+    weaponList: [
+      {
+        cardType: 'quick',
+        name: '告密羅織経(初期)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'attackOne',
+            hits: [
+              10,
+              20,
+              30,
+              40
+            ],
+            number: [
+              1200,
+              1600,
+              1800,
+              1900,
+              2000
+            ],
+            useNumberBy: 'level'
+          },
+          {
+            effectType: 'addOneSpecialAttribute',
+            number: '中毒'
+          },
+          {
+            effectType: 'addSelfCritical',
+            number: [
+              50,
+              62.5,
+              75,
+              87.5,
+              100
+            ],
+            useNumberBy: 'charge'
+          }
+        ]
+      }
+    ],
+    passiveBuff: [
+      {
+        name: 'starDrop',
+        number: 4
+      }
+    ]
+  },
+  {
+    id: '171',
+    fullname: '彭忒西勒亞',
+    classType: 'berserker',
+    alignmentType: 'earth',
+    specialAttributeList: [
+      'Servant',
+      '秩序',
+      '善',
+      '女性',
+      '人型',
+      '神性',
+      '被「天地乖離開辟之星」所剋',
+      '被「人類神話・雷電降臨」所剋',
+      '被「神秘殺し」所剋',
+      '王'
+    ],
+    starDrop: 4.9,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
+    },
+    hits: {
+      arts: [
+        33,
+        67
+      ],
+      buster: [
+        33,
+        67
+      ],
+      quick: [
+        16,
+        33,
+        51
+      ],
+      extra: [
+        6,
+        13,
+        20,
+        26,
+        35
+      ]
+    },
+    npGain: {
+      arts: 1.07,
+      buster: 1.07,
+      quick: 1.07,
+      extra: 1.07,
+      weapon: 1.07
+    },
+    weaponList: [
+      {
+        cardType: 'buster',
+        name: '我が瞋恚にて果てよ英雄(初期)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'attackOne',
+            hits: [
+              10,
+              14,
+              17,
+              3,
+              10,
+              14,
+              7,
+              25
+            ],
+            number: [
+              600,
+              800,
+              900,
+              950,
+              1000
+            ],
+            useNumberBy: 'level'
+          }
+        ]
+      }
+    ],
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 12
+      },
+      {
+        name: 'damage',
+        number: 175
+      }
+    ]
+  },
+  {
+    id: '172',
+    fullname: '克里斯多福・哥倫布',
+    classType: 'rider',
+    alignmentType: 'human',
+    specialAttributeList: [
+      'Servant',
+      '秩序',
+      '惡',
+      '男性',
+      '人型',
+      '騎乘',
+      '被「天地乖離開辟之星」所剋'
+    ],
+    starDrop: 8.9,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
+    },
+    hits: {
+      arts: [
+        16,
+        33,
+        51
+      ],
+      buster: [
+        10,
+        20,
+        30,
+        40
+      ],
+      quick: [
+        16,
+        33,
+        51
+      ],
+      extra: [
+        6,
+        13,
+        20,
+        26,
+        35
+      ]
+    },
+    npGain: {
+      arts: 0.55,
+      buster: 0.55,
+      quick: 0.55,
+      extra: 0.55,
+      weapon: 0.55
+    },
+    weaponList: [
+      {
+        cardType: 'buster',
+        name: '新天地探索航(初期)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'attackAll',
+            hits: [
+              6,
+              13,
+              20,
+              26,
+              35
+            ],
+            number: [
+              300,
+              400,
+              450,
+              475,
+              500
+            ],
+            useNumberBy: 'level'
+          }
+        ]
+      }
+    ],
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 8
       }
     ]
   }

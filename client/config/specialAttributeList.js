@@ -26,5 +26,7 @@ export const specialAttributeList = [
   '亞瑟',
   '愛人',
   '魔性',
-  '超巨大'
+  '超巨大',
+  '王',
+  '希臘神話系男性'
 ];

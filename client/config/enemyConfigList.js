@@ -401,7 +401,8 @@ export const enemyConfigList = [
     alignmentType: 'earth',
     specialAttributeList: [
       '男性',
-      '人型'
+      '人型',
+      '希臘神話系男性'
     ]
   },
   {
