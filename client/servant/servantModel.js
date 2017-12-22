@@ -20,7 +20,8 @@ export const servantClassNameHash = {
   alterEgo: 'Alterego',
   beastI: 'Beast I',
   beastII: 'Beast II',
-  beastIII: 'Beast III'
+  beastIII: 'Beast III',
+  foreigner: 'Foreigner'
 };
 export const allowServantClassKeyList = _.keys(servantClassNameHash);
 export const servantAlignmentNameHash = {

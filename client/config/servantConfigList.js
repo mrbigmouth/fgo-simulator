@@ -1,9 +1,14 @@
 export const servantConfigList = [
   {
+    //英靈編號
     id: '1',
+    //英靈名稱
     fullname: '瑪修・基利艾拉特',
+    //英靈職階
     classType: 'shielder',
+    //英靈類別(天地人星)
     alignmentType: 'earth',
+    //英靈類別(天地人星)
     specialAttributeList: [
       'Servant',
       '秩序',
@@ -14,13 +19,17 @@ export const servantConfigList = [
       '被「天地乖離開辟之星」所剋',
       '被「人類神話・雷電降臨」所剋'
     ],
+    //星掉落率
     starDrop: 9.9,
+    //卡組配置
     cards: {
       arts: 2,
       buster: 2,
       quick: 1
     },
+    //攻擊次數以及每下攻擊的傷害比例
     hits: {
+      //arts牌打兩下，傷害比例分別為33/(33+67)與67/(33+67)
       arts: [
         33,
         67
@@ -38,6 +47,7 @@ export const servantConfigList = [
         63
       ]
     },
+    //NP獲得率
     npGain: {
       arts: 0.84,
       buster: 0.84,
@@ -45,6 +55,7 @@ export const servantConfigList = [
       extra: 0.84,
       weapon: 0.84
     },
+    //寶具及效果
     weaponList: [
       {
         cardType: 'arts',
@@ -64,6 +75,7 @@ export const servantConfigList = [
         ]
       }
     ],
+    //被動技能
     passiveBuff: [
       {
         name: 'quick',

@@ -513,6 +513,9 @@ export class AttackSingleEnemyResultModel extends BasicModel {
           case 'beastIII': {
             return 1;
           }
+          case 'foreigner': {
+            return 0.5;
+          }
           default: {
             return 1.5;
           }
@@ -605,6 +608,17 @@ export class AttackSingleEnemyResultModel extends BasicModel {
           }
           case 'avenger': {
             return 0.5;
+          }
+        }
+        break;
+      }
+      case 'foreigner': {
+        switch (defenderClassType) {
+          case 'berserker': {
+            return 2;
+          }
+          case 'foreigner': {
+            return 2;
           }
         }
         break;
