@@ -8,7 +8,7 @@ export const servantConfigList = [
     classType: 'shielder',
     //英靈類別(天地人星)
     alignmentType: 'earth',
-    //英靈類別(天地人星)
+    //英靈特殊屬性
     specialAttributeList: [
       'Servant',
       '秩序',
@@ -21,7 +21,7 @@ export const servantConfigList = [
     ],
     //星掉落率
     starDrop: 9.9,
-    //卡組配置
+    //卡組配置(2張arts卡,2張buster卡,1張quick卡)
     cards: {
       arts: 2,
       buster: 2,
@@ -67,6 +67,36 @@ export const servantConfigList = [
         cardType: 'arts',
         name: 'いまは遙か理想の城(レプリカ(4/5))',
         specialBoost: [],
+        /**
+          目前的寶具效果列表：
+          decreaseAllDefense:降低敵方全體的防禦
+          decreaseOneDefense:降低敵方單體的防禦
+          decreaseSelfAttack:降低自己的攻擊
+          dispelOneBuff:移除敵方單體強化效果
+          dispelAllBuff:移除敵方全體強化效果
+          addSelfArt:增強自己的arts性能
+          addSelfBuster:增強自己的buster性能
+          addSelfQuick:增強自己的quick性能
+          addSelfWeapon:增強自己的寶具威力
+          addAllAttack:增強己方全體的寶具威力
+          addOtherAttack:增強己方除自己以外的全體攻擊
+          addSelfAttack:增強自己的攻擊
+          addSelfCritical:增強自己的爆擊威力
+          addAllCritical:增強己方全體的爆擊威力
+          addStar:增加星星
+          addSelfStarDrop:增強自己的星掉落率
+          addAllStarDrop:增強己方全體的星掉落率
+          addNp:寶具施放後增加自己的np
+          addAllNp:寶具施放後增加己方全體的np
+          addSelfGainNp:增加自己的np獲得率
+          addAllGainNp:增加己方全體的np獲得率
+          addOneBeHitDamage:增加敵方單體的被攻增傷
+          addOneSpecialAttribute:附予敵方單體特殊屬性
+          addAllSpecialAttribute:附予敵方全體體特殊屬性
+          attackSelfSpecialBoost:自己獲得對XX特攻能力
+          attackAll:對敵方全體攻擊
+          attackOne:對敵方單體攻擊
+        **/
         effectList: [
           {
             effectType: 'addOtherAttack',
