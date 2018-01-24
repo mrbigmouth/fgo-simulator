@@ -7,6 +7,7 @@ import { inheritFullscreenForm } from '../utils/fullscreen/inheritFullscreenForm
 import { buffNameHash, allowBuffKeyList } from './servantModel';
 import { useServantCollection } from './useServantModel';
 import { specialAttributeList } from '../config/specialAttributeList';
+import { rSelectedCardList } from './cardModel';
 
 inheritFullscreenForm(Template.editTemporaryBuff);
 Template.editTemporaryBuff.helpers({
@@ -90,6 +91,7 @@ Template.editTemporaryBuff.events({
 
 //on save done
 function saveDoneHandler() {
+  rSelectedCardList.set([]);
   FlowRouter.go('/fgo-simulator');
 }
 //on reset
