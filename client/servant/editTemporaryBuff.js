@@ -7,7 +7,7 @@ import { inheritFullscreenForm } from '../utils/fullscreen/inheritFullscreenForm
 import { buffNameHash, allowBuffKeyList } from './servantModel';
 import { useServantCollection } from './useServantModel';
 import { specialAttributeList } from '../config/specialAttributeList';
-import { rSelectedCardList } from './cardModel';
+import { rSelectedCardList } from '../card/cardModel';
 
 inheritFullscreenForm(Template.editTemporaryBuff);
 Template.editTemporaryBuff.helpers({
