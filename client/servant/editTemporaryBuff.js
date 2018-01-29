@@ -10,6 +10,9 @@ import { specialAttributeList } from '../config/specialAttributeList';
 import { rSelectedCardList } from '../card/cardModel';
 
 inheritFullscreenForm(Template.editTemporaryBuff);
+Template.editTemporaryBuff.onCreated(() => {
+  rSelectedCardList.set([]);
+});
 Template.editTemporaryBuff.helpers({
   temporaryBuffList() {
     const temporaryBuff = this.temporaryBuff;
@@ -91,7 +94,6 @@ Template.editTemporaryBuff.events({
 
 //on save done
 function saveDoneHandler() {
-  rSelectedCardList.set([]);
   FlowRouter.go('/fgo-simulator');
 }
 //on reset
