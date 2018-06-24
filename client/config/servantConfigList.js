@@ -86,7 +86,7 @@ export const servantConfigList = [
           addStar:增加星星
           addSelfStarDrop:增強自己的星掉落率
           addAllStarDrop:增強己方全體的星掉落率
-          addNp:寶具施放後增加自己的np
+          addSelfNp:寶具施放後增加自己的np
           addAllNp:寶具施放後增加己方全體的np
           addSelfGainNp:增加自己的np獲得率
           addAllGainNp:增加己方全體的np獲得率
@@ -16664,14 +16664,14 @@ export const servantConfigList = [
           {
             effectType: 'attackOne',
             hits: [
-              10,
-              14,
-              17,
-              3,
-              10,
-              14,
-              7,
-              25
+              2,
+              5,
+              8,
+              11,
+              13,
+              16,
+              19,
+              26
             ],
             number: [
               600,
@@ -16779,6 +16779,1005 @@ export const servantConfigList = [
       {
         name: 'quick',
         number: 8
+      }
+    ]
+  },
+  {
+    id: '173',
+    fullname: '夏洛克・福爾摩斯',
+    classType: 'ruler',
+    alignmentType: 'star',
+    specialAttributeList: [
+      'Servant',
+      '中立',
+      '善',
+      '男性',
+      '人型'
+    ],
+    starDrop: 10.0,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
+    },
+    hits: {
+      arts: [
+        16,
+        33,
+        51
+      ],
+      buster: [
+        10,
+        20,
+        30,
+        40
+      ],
+      quick: [
+        16,
+        33,
+        51
+      ],
+      extra: [
+        6,
+        13,
+        20,
+        26,
+        35
+      ]
+    },
+    npGain: {
+      arts: 0.76,
+      buster: 0.76,
+      quick: 0.76,
+      extra: 0.76,
+      weapon: 0.76
+    },
+    weaponList: [
+      {
+        cardType: 'arts',
+        name: '初歩的なことだ、友よ(初期)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'decreaseAllDefense',
+            number: [
+              30,
+              40,
+              45,
+              47.5,
+              50
+            ],
+            useNumberBy: 'level'
+          },
+          {
+            effectType: 'addAllCritical',
+            number: [
+              50,
+              62.5,
+              75,
+              87.5,
+              100
+            ],
+            useNumberBy: 'charge'
+          },
+          {
+            effectType: 'dispelAllBuff',
+            useNumberBy: 'charge'
+          }
+        ]
+      }
+    ],
+    passiveBuff: [
+      {
+        name: 'arts',
+        number: 12
+      }
+    ]
+  },
+  {
+    id: '174',
+    fullname: '保羅・班揚',
+    classType: 'berserker',
+    alignmentType: 'earth',
+    specialAttributeList: [
+      'Servant',
+      '中立',
+      '中庸',
+      '女性',
+      '人型',
+      '被「天地乖離開辟之星」所剋',
+      '被「人類神話・雷電降臨」所剋',
+      '被「神秘殺し」所剋'
+    ],
+    starDrop: 4.9,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
+    },
+    hits: {
+      arts: [
+        16,
+        33,
+        51
+      ],
+      buster: [
+        16,
+        33,
+        51
+      ],
+      quick: [
+        16,
+        33,
+        51
+      ],
+      extra: [
+        10,
+        20,
+        30,
+        40
+      ]
+    },
+    npGain: {
+      arts: 0.67,
+      buster: 0.67,
+      quick: 0.67,
+      extra: 0.67,
+      weapon: 0.67
+    },
+    weaponList: [
+      {
+        cardType: 'buster',
+        name: '驚くべき偉業(初期)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'attackAll',
+            hits: [
+              33,
+              67
+            ],
+            number: [
+              300,
+              400,
+              450,
+              475,
+              500
+            ],
+            useNumberBy: 'level'
+          },
+          {
+            effectType: 'decreaseAllDefense',
+            number: [
+              10,
+              15,
+              20,
+              25,
+              30
+            ],
+            useNumberBy: 'charge'
+          }
+        ]
+      }
+    ],
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 4
+      }
+    ]
+  },
+  {
+    id: '175',
+    fullname: '尼祿・克勞狄烏斯',
+    classType: 'caster',
+    alignmentType: 'human',
+    specialAttributeList: [
+      'Servant',
+      '混沌',
+      '夏',
+      '女性',
+      '騎乘',
+      '人型',
+      '羅馬',
+      '阿爾托莉亞臉',
+      '被「天地乖離開辟之星」所剋',
+      '王'
+    ],
+    starDrop: 11.1,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
+    },
+    hits: {
+      arts: [
+        4,
+        9,
+        14,
+        19,
+        23,
+        31
+      ],
+      buster: [
+        33,
+        67
+      ],
+      quick: [
+        10,
+        20,
+        30,
+        40
+      ],
+      extra: [
+        4,
+        9,
+        14,
+        19,
+        23,
+        31
+      ]
+    },
+    npGain: {
+      arts: 0.4,
+      buster: 0.4,
+      quick: 0.4,
+      extra: 0.4,
+      weapon: 0.4
+    },
+    weaponList: [
+      {
+        cardType: 'buster',
+        name: '誉れ歌う黄金劇場(初期)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'addSelfWeapon',
+            number: [
+              20,
+              30,
+              40,
+              50,
+              60
+            ],
+            useNumberBy: 'charge'
+          },
+          {
+            effectType: 'attackAll',
+            hits: [
+              6,
+              13,
+              20,
+              26,
+              35
+            ],
+            number: [
+              300,
+              400,
+              450,
+              475,
+              500
+            ],
+            useNumberBy: 'level'
+          }
+        ]
+      }
+    ],
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 8
+      },
+      {
+        name: 'arts',
+        number: 11
+      }
+    ]
+  },
+  {
+    id: '176',
+    fullname: '弗蘭肯斯坦',
+    classType: 'saber',
+    alignmentType: 'earth',
+    specialAttributeList: [
+      'Servant',
+      '中立',
+      '夏',
+      '女性',
+      '騎乘',
+      '人型',
+      '被「天地乖離開辟之星」所剋',
+      '被「人類神話・雷電降臨」所剋',
+      '被「神秘殺し」所剋'
+    ],
+    starDrop: 9.9,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
+    },
+    hits: {
+      arts: [
+        10,
+        20,
+        30,
+        40
+      ],
+      buster: [
+        6,
+        13,
+        20,
+        26,
+        35
+      ],
+      quick: [
+        16,
+        33,
+        51
+      ],
+      extra: [
+        6,
+        13,
+        20,
+        26,
+        35
+      ]
+    },
+    npGain: {
+      arts: 0.7,
+      buster: 0.7,
+      quick: 0.7,
+      extra: 0.7,
+      weapon: 0.7
+    },
+    weaponList: [
+      {
+        cardType: 'quick',
+        name: '串刺の雷刃(初期)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'attackOne',
+            hits: [
+              6,
+              13,
+              20,
+              26,
+              35
+            ],
+            number: [
+              1200,
+              1600,
+              1800,
+              1900,
+              2000
+            ],
+            useNumberBy: 'level'
+          }
+        ]
+      }
+    ],
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 12
+      },
+      {
+        name: 'buster',
+        number: 2
+      }
+    ]
+  },
+  {
+    id: '177',
+    fullname: '尼托克里絲',
+    classType: 'assassin',
+    alignmentType: 'sky',
+    specialAttributeList: [
+      'Servant',
+      '秩序',
+      '善',
+      '女性',
+      '人型',
+      '神性',
+      '被「天地乖離開辟之星」所剋',
+      '被「人類神話・雷電降臨」所剋',
+      '被「神秘殺し」所剋',
+      '王'
+    ],
+    starDrop: 25,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
+    },
+    hits: {
+      arts: [
+        33,
+        67
+      ],
+      buster: [
+        100
+      ],
+      quick: [
+        16,
+        33,
+        51
+      ],
+      extra: [
+        10,
+        20,
+        30,
+        40
+      ]
+    },
+    npGain: {
+      arts: 0.78,
+      buster: 0.78,
+      quick: 0.78,
+      extra: 0.78,
+      weapon: 0.78
+    },
+    weaponList: [
+      {
+        cardType: 'arts',
+        name: '穢れを漱げ、青く美しきナイル(初期)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'attackAll',
+            hits: [
+              16,
+              33,
+              51
+            ],
+            number: [
+              450,
+              600,
+              675,
+              712.5,
+              750
+            ],
+            useNumberBy: 'level'
+          },
+          {
+            effectType: 'decreaseAllDefense',
+            number: [
+              20,
+              20,
+              20,
+              20,
+              20
+            ],
+            useNumberBy: 'charge'
+          }
+        ]
+      }
+    ],
+    passiveBuff: [
+      {
+        name: 'starDrop',
+        number: 10
+      },
+      {
+        name: 'damage',
+        number: 185
+      }
+    ]
+  },
+  {
+    id: '178',
+    fullname: '織田信長',
+    classType: 'berserker',
+    alignmentType: 'human',
+    specialAttributeList: [
+      'Servant',
+      '混沌',
+      '夏',
+      '女性',
+      '人型',
+      '被「天地乖離開辟之星」所剋',
+      '王'
+    ],
+    starDrop: 5,
+    cards: {
+      arts: 1,
+      buster: 3,
+      quick: 1
+    },
+    hits: {
+      arts: [
+        33,
+        67
+      ],
+      buster: [
+        4,
+        9,
+        14,
+        19,
+        23,
+        31
+      ],
+      quick: [
+        16,
+        33,
+        51
+      ],
+      extra: [
+        6,
+        13,
+        20,
+        26,
+        35
+      ]
+    },
+    npGain: {
+      arts: 0.93,
+      buster: 0.93,
+      quick: 0.93,
+      extra: 0.93,
+      weapon: 0.93
+    },
+    weaponList: [
+      {
+        cardType: 'buster',
+        name: '第六天魔王波旬～夏盛～(初期)',
+        specialBoost: [
+          {
+            limitTarget: '神性',
+            number: [
+              150,
+              162.5,
+              175,
+              187.5,
+              200
+            ]
+          }
+        ],
+        effectList: [
+          {
+            effectType: 'attackOne',
+            hits: [
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              10,
+              11,
+              12,
+              14,
+              21
+            ],
+            number: [
+              600,
+              800,
+              900,
+              950,
+              1000
+            ],
+            useNumberBy: 'level'
+          }
+        ]
+      }
+    ],
+    passiveBuff: [
+      {
+        name: 'buster',
+        number: 6
+      }
+    ]
+  },
+  {
+    id: '179',
+    fullname: '阿爾托莉亞・潘德拉剛〔Alter〕',
+    classType: 'rider',
+    alignmentType: 'human',
+    specialAttributeList: [
+      'Servant',
+      '秩序',
+      '惡',
+      '女性',
+      '騎乘',
+      '人型',
+      '龍',
+      '阿爾托莉亞臉',
+      '被「天地乖離開辟之星」所剋',
+      '亞瑟',
+      '王'
+    ],
+    starDrop: 9,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
+    },
+    hits: {
+      arts: [
+        16,
+        33,
+        51
+      ],
+      buster: [
+        33,
+        67
+      ],
+      quick: [
+        16,
+        33,
+        51
+      ],
+      extra: [
+        6,
+        13,
+        20,
+        26,
+        35
+      ]
+    },
+    npGain: {
+      arts: 0.59,
+      buster: 0.59,
+      quick: 0.59,
+      extra: 0.59,
+      weapon: 0.59
+    },
+    weaponList: [
+      {
+        cardType: 'quick',
+        name: '不撓燃えたつ勝利の剣(初期)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'attackOne',
+            hits: [
+              4,
+              9,
+              14,
+              19,
+              23,
+              31
+            ],
+            number: [
+              1200,
+              1600,
+              1800,
+              1900,
+              2000
+            ],
+            useNumberBy: 'level'
+          },
+          {
+            effectType: 'addSelfNp',
+            number: [
+              10,
+              10,
+              10,
+              10,
+              10
+            ],
+            useNumberBy: 'charge'
+          }
+        ]
+      }
+    ],
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 8
+      },
+      {
+        name: 'critical',
+        number: 12
+      }
+    ]
+  },
+  {
+    id: '180',
+    fullname: '海倫娜・布拉瓦茨基',
+    classType: 'archer',
+    alignmentType: 'human',
+    specialAttributeList: [
+      'Servant',
+      '混沌',
+      '善',
+      '女性',
+      '人型',
+      '被「天地乖離開辟之星」所剋'
+    ],
+    starDrop: 8,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
+    },
+    hits: {
+      arts: [
+        6,
+        13,
+        20,
+        26,
+        35
+      ],
+      buster: [
+        100
+      ],
+      quick: [
+        16,
+        33,
+        51
+      ],
+      extra: [
+        16,
+        33,
+        51
+      ]
+    },
+    npGain: {
+      arts: 0.38,
+      buster: 0.38,
+      quick: 0.38,
+      extra: 0.38,
+      weapon: 0.38
+    },
+    weaponList: [
+      {
+        cardType: 'arts',
+        name: '金星神・白銀円環(初期)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'attackAll',
+            hits: [
+              10,
+              20,
+              30,
+              40
+            ],
+            number: [
+              450,
+              600,
+              675,
+              712.5,
+              750
+            ],
+            useNumberBy: 'level'
+          },
+          {
+            effectType: 'decreaseAllDefense',
+            number: [
+              10,
+              15,
+              20,
+              25,
+              30
+            ],
+            useNumberBy: 'charge'
+          }
+        ]
+      }
+    ],
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 6
+      }
+    ]
+  },
+  {
+    id: '181',
+    fullname: '源賴光',
+    classType: 'lancer',
+    alignmentType: 'sky',
+    specialAttributeList: [
+      'Servant',
+      '秩序',
+      '善',
+      '女性',
+      '騎乘',
+      '人型',
+      '神性',
+      '被「天地乖離開辟之星」所剋',
+      '被「人類神話・雷電降臨」所剋',
+      '被「神秘殺し」所剋'
+    ],
+    starDrop: 11.8,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
+    },
+    hits: {
+      arts: [
+        10,
+        20,
+        30,
+        40
+      ],
+      buster: [
+        100
+      ],
+      quick: [
+        16,
+        33,
+        51
+      ],
+      extra: [
+        6,
+        13,
+        20,
+        26,
+        35
+      ]
+    },
+    npGain: {
+      arts: 0.75,
+      buster: 0.75,
+      quick: 0.75,
+      extra: 0.75,
+      weapon: 0.75
+    },
+    weaponList: [
+      {
+        cardType: 'buster',
+        name: '釈提桓因・金剛杵(初期)',
+        specialBoost: [
+          {
+            limitTarget: 'ignoreDefense'
+          }
+        ],
+        effectList: [
+          {
+            effectType: 'attackOne',
+            hits: [
+              6,
+              9,
+              14,
+              19,
+              23,
+              31
+            ],
+            number: [
+              600,
+              800,
+              900,
+              950,
+              1000
+            ],
+            useNumberBy: 'level'
+          },
+          {
+            effectType: 'addStar',
+            number: [
+              20,
+              25,
+              30,
+              35,
+              40
+            ],
+            useNumberBy: 'charge'
+          }
+        ]
+      }
+    ],
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 11
+      },
+      {
+        name: 'buster',
+        number: 6
+      },
+      {
+        name: 'damage',
+        number: 150
+      }
+    ]
+  },
+  {
+    id: '182',
+    fullname: '伊絲塔',
+    classType: 'rider',
+    alignmentType: 'sky',
+    specialAttributeList: [
+      'Servant',
+      '秩序',
+      '善',
+      '女性',
+      '騎乘',
+      '人型',
+      '神性',
+      '被「天地乖離開辟之星」所剋',
+      '被「人類神話・雷電降臨」所剋'
+    ],
+    starDrop: 9,
+    cards: {
+      arts: 2,
+      buster: 1,
+      quick: 2
+    },
+    hits: {
+      arts: [
+        16,
+        33,
+        51
+      ],
+      buster: [
+        6,
+        13,
+        20,
+        26,
+        35
+      ],
+      quick: [
+        33,
+        67
+      ],
+      extra: [
+        16,
+        33,
+        51
+      ]
+    },
+    npGain: {
+      arts: 0.68,
+      buster: 0.68,
+      quick: 0.68,
+      extra: 0.68,
+      weapon: 0.68
+    },
+    weaponList: [
+      {
+        cardType: 'quick',
+        name: '神峰天廻る明星の虹(初期)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'addSelfQuick',
+            number: [
+              20,
+              30,
+              40,
+              50,
+              60
+            ],
+            useNumberBy: 'charge'
+          },
+          {
+            effectType: 'attackAll',
+            hits: [
+              10,
+              20,
+              30,
+              40
+            ],
+            number: [
+              600,
+              800,
+              900,
+              950,
+              1000
+            ],
+            useNumberBy: 'level'
+          }
+        ]
+      }
+    ],
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 12
+      },
+      {
+        name: 'critical',
+        number: 10
+      },
+      {
+        name: 'damage',
+        number: 225
       }
     ]
   }
