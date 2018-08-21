@@ -17780,5 +17780,543 @@ export const servantConfigList = [
         number: 225
       }
     ]
+  },
+  {
+    id: '183',
+    fullname: '帕爾瓦蒂',
+    classType: 'lancer',
+    alignmentType: 'sky',
+    specialAttributeList: [
+      'Servant',
+      '秩序',
+      '善',
+      '女性',
+      '人型',
+      '神性',
+      '被「天地乖離開辟之星」所剋',
+      '被「人類神話・雷電降臨」所剋'
+    ],
+    starDrop: 11.8,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
+    },
+    hits: {
+      arts: [
+        33,
+        67
+      ],
+      buster: [
+        16,
+        33,
+        51
+      ],
+      quick: [
+        16,
+        33,
+        51
+      ],
+      extra: [
+        6,
+        13,
+        20,
+        26,
+        35
+      ]
+    },
+    npGain: {
+      arts: 1.08,
+      buster: 1.08,
+      quick: 1.08,
+      extra: 1.08,
+      weapon: 1.08
+    },
+    weaponList: [
+      {
+        cardType: 'quick',
+        name: '恋見てせざるは愛無きなり(初期)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'attackAll',
+            hits: [
+              10,
+              20,
+              30,
+              40
+            ],
+            number: [
+              600,
+              800,
+              900,
+              950,
+              1000
+            ],
+            useNumberBy: 'level'
+          },
+          {
+            effectType: 'addAllNp',
+            number: [
+              10,
+              15,
+              20,
+              25,
+              30
+            ],
+            useNumberBy: 'charge'
+          }
+        ]
+      }
+    ],
+    passiveBuff: [
+      {
+        name: 'damage',
+        number: 225
+      }
+    ]
+  },
+  {
+    id: '184',
+    fullname: '巴御前',
+    classType: 'archer',
+    alignmentType: 'earth',
+    specialAttributeList: [
+      'Servant',
+      '中立',
+      '中庸',
+      '女性',
+      '人型',
+      '魔性',
+      '被「天地乖離開辟之星」所剋',
+      '被「人類神話・雷電降臨」所剋',
+      '被「神秘殺し」所剋'
+    ],
+    starDrop: 7.9,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
+    },
+    hits: {
+      arts: [
+        33,
+        67
+      ],
+      buster: [
+        33,
+        67
+      ],
+      quick: [
+        16,
+        33,
+        51
+      ],
+      extra: [
+        6,
+        13,
+        20,
+        26,
+        35
+      ]
+    },
+    npGain: {
+      arts: 0.87,
+      buster: 0.87,
+      quick: 0.87,
+      extra: 0.87,
+      weapon: 0.87
+    },
+    weaponList: [
+      {
+        cardType: 'buster',
+        name: '真言・聖観世音菩薩(初期)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'attackOne',
+            hits: [
+              100
+            ],
+            number: [
+              600,
+              800,
+              900,
+              950,
+              1000
+            ],
+            useNumberBy: 'level'
+          }
+        ]
+      }
+    ],
+    passiveBuff: [
+      {
+        name: 'critical',
+        number: 10
+      },
+      {
+        name: 'buster',
+        number: 2
+      }
+    ]
+  },
+  {
+    id: '185',
+    fullname: '望月千代女',
+    classType: 'assassin',
+    alignmentType: 'earth',
+    specialAttributeList: [
+      'Servant',
+      '混沌',
+      '惡',
+      '女性',
+      '人型',
+      '被「天地乖離開辟之星」所剋',
+      '被「人類神話・雷電降臨」所剋',
+      '被「神秘殺し」所剋'
+    ],
+    starDrop: 25.5,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
+    },
+    hits: {
+      arts: [
+        33,
+        67
+      ],
+      buster: [
+        16,
+        33,
+        51
+      ],
+      quick: [
+        16,
+        33,
+        51
+      ],
+      extra: [
+        10,
+        20,
+        30,
+        40
+      ]
+    },
+    npGain: {
+      arts: 0.8,
+      buster: 0.8,
+      quick: 0.8,
+      extra: 0.8,
+      weapon: 0.8
+    },
+    weaponList: [
+      {
+        cardType: 'arts',
+        name: '口寄せ・伊吹大明神縁起(初期)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'attackOne',
+            hits: [
+              6,
+              13,
+              20,
+              26,
+              35
+            ],
+            number: [
+              900,
+              1200,
+              1350,
+              1425,
+              1500
+            ],
+            useNumberBy: 'level'
+          }
+        ]
+      }
+    ],
+    passiveBuff: [
+      {
+        name: 'starDrop',
+        number: 10.5
+      }
+    ]
+  },
+  {
+    id: '186',
+    fullname: '寶藏院胤舜',
+    classType: 'lancer',
+    alignmentType: 'human',
+    specialAttributeList: [
+      'Servant',
+      '中立',
+      '中庸',
+      '男性',
+      '人型',
+      '被「天地乖離開辟之星」所剋',
+      '愛人'
+    ],
+    starDrop: 12.2,
+    cards: {
+      arts: 1,
+      buster: 1,
+      quick: 3
+    },
+    hits: {
+      arts: [
+        33,
+        67
+      ],
+      buster: [
+        33,
+        67
+      ],
+      quick: [
+        16,
+        33,
+        51
+      ],
+      extra: [
+        10,
+        20,
+        30,
+        40
+      ]
+    },
+    npGain: {
+      arts: 1.06,
+      buster: 1.06,
+      quick: 1.06,
+      extra: 1.06,
+      weapon: 1.06
+    },
+    weaponList: [
+      {
+        cardType: 'arts',
+        name: '朧裏月十一式(初期)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'addSelfAttack',
+            number: [
+              30,
+              40,
+              45,
+              47.5,
+              50
+            ],
+            useNumberBy: 'level'
+          },
+          {
+            effectType: 'addSelfStarDrop',
+            number: [
+              100,
+              125,
+              150,
+              175,
+              200
+            ],
+            useNumberBy: 'charge'
+          },
+          {
+            effectType: 'addSelfCritical',
+            number: [
+              100,
+              100,
+              100,
+              100,
+              100
+            ],
+            useNumberBy: 'charge'
+          }
+        ]
+      }
+    ],
+    passiveBuff: [
+      {
+        name: 'starDrop',
+        number: 10.5
+      }
+    ]
+  },
+  {
+    id: '187',
+    fullname: '柳生但馬守宗矩',
+    classType: 'saber',
+    alignmentType: 'human',
+    specialAttributeList: [
+      'Servant',
+      '秩序',
+      '中庸',
+      '男性',
+      '人型',
+      '騎乘',
+      '被「天地乖離開辟之星」所剋',
+      '愛人'
+    ],
+    starDrop: 10.3,
+    cards: {
+      arts: 2,
+      buster: 2,
+      quick: 1
+    },
+    hits: {
+      arts: [
+        33,
+        67
+      ],
+      buster: [
+        100
+      ],
+      quick: [
+        10,
+        20,
+        30,
+        40
+      ],
+      extra: [
+        10,
+        20,
+        30,
+        40
+      ]
+    },
+    npGain: {
+      arts: 0.81,
+      buster: 0.81,
+      quick: 0.81,
+      extra: 0.81,
+      weapon: 0.81
+    },
+    weaponList: [
+      {
+        cardType: 'arts',
+        name: '剣術無双・剣禅一如(初期)',
+        specialBoost: [],
+        effectList: [
+          {
+            effectType: 'attackOne',
+            hits: [
+              10,
+              20,
+              30,
+              40
+            ],
+            number: [
+              900,
+              1200,
+              1350,
+              1425,
+              1500
+            ],
+            useNumberBy: 'level'
+          }
+        ]
+      }
+    ],
+    passiveBuff: [
+      {
+        name: 'quick',
+        number: 8
+      }
+    ]
+  },
+  {
+    id: '188',
+    fullname: '加藤段藏',
+    classType: 'assassin',
+    alignmentType: 'earth',
+    specialAttributeList: [
+      'Servant',
+      '中立',
+      '中庸',
+      '女性',
+      '人型',
+      '被「天地乖離開辟之星」所剋',
+      '被「人類神話・雷電降臨」所剋',
+      '被「神秘殺し」所剋'
+    ],
+    starDrop: 25.5,
+    cards: {
+      arts: 1,
+      buster: 2,
+      quick: 2
+    },
+    hits: {
+      arts: [
+        16,
+        33,
+        51
+      ],
+      buster: [
+        33,
+        67
+      ],
+      quick: [
+        10,
+        20,
+        30,
+        40
+      ],
+      extra: [
+        6,
+        13,
+        20,
+        26,
+        35
+      ]
+    },
+    npGain: {
+      arts: 0.71,
+      buster: 0.71,
+      quick: 0.71,
+      extra: 0.71,
+      weapon: 0.71
+    },
+    weaponList: [
+      {
+        cardType: 'buster',
+        name: '絡繰幻法・呑牛(初期)',
+        specialBoost: [
+          {
+            limitTarget: '魔性',
+            number: [
+              150,
+              162.5,
+              175,
+              187.5,
+              200
+            ]
+          }
+        ],
+        effectList: [
+          {
+            effectType: 'attackAll',
+            hits: [
+              16,
+              33,
+              51
+            ],
+            number: [
+              300,
+              400,
+              450,
+              475,
+              500
+            ],
+            useNumberBy: 'level'
+          }
+        ]
+      }
+    ],
+    passiveBuff: [
+      {
+        name: 'starDrop',
+        number: 10
+      }
+    ]
   }
 ];
